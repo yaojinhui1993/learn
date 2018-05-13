@@ -1,0 +1,4 @@
+* Advanced Vue Component Design
+** Building Controlled Components
+   Learn the fundamentals of component communication best practices, and how you can use that knowledge to create you own components that work with Vue's v-model dricetive
+   [[~/Documents/tutorials/advanced-vue/1. Building Controlled Components.mp4][File]], [[https://codesandbox.io/s/oxxlx055xy?from-embed][Code]]
