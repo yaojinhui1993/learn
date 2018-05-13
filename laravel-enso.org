@@ -1,6 +1,240 @@
 * 学习 Laravel-Enso
 ** Core
-
+   -
 ** Packages
+** Route
+*** url: =/=
+    - /
+    - [-] load =vendor.laravel-enso.index=
+      加载该页面。 奇怪的是，为什么不能够使用 =laravel-enso/core::index= 方式来进行加载？
+      - [X] loading =js/enso.js=
+      - [-] loaded =js/enso.js=
+        - [X] import =vue=
+        - [X] import =sync= from =vuex-ruter-sync=
+          ~the vuex-router-sync library integrates vue-router with vuex by managing the application's route state in a dynamically attached module.~
+        - [-] import  =./bootstrap=
+          - [X] import =Vue= from =vue=
+          - [X] import =VTooltip= from =vue-directive-tooltip=
+          - [ ] import =vClickOutside= from =v-click-outside=
+          - [X] new Vue =Bus=
+          - [X] require =jQuery=
+          - [ ] require =datatables.net.*=
+          - [X] require =at.js=
+          - [X] require =jquery.caret=
+          - [X] require =at.js/dist/css/jquery.atwho.min.css=
+          - [X] require =lodash=
+          - [X] require =moment=
+          - [X] require =toastr=
+            ~toastr is a Javascript library for non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.~
+          - [X] require =toastr/build/toastr.min.css=
+          - [X] require =axios=
+          - [-] require =./modules/enso/plugins/route=
+            - [-] import =store= from =../../../store=
+              - [X] import =Vue= from =vue=
+              - [X] import =Vuex= from =vuex=
+                ~Vuex is a state management pattern + library for Vue.js applications.~
+              - [-] import =router= from =./router=
+                - [X] import =Router= from =vue-router=
+                  [[https://www.npmjs.com/package/vue-router]]
+                - [X] import =store= from =./store=
+                - [X] import =Auth= from =./routes/enso/auth=
+                  - [X] import =store= from =../../store=
+                  - [X] import =router= from =../../router=
+                  - [X] import =Login= from =../../pages/enso/auth/Login.vue=
+                  - [X] import =Email= from =../../pages/enso/auth/password/Email.vue=
+                  - [X] import =Reset= from =../../pages/enso/auth/password/Reset.vue=
+                - [X] import =Dashboard= from =./routes/enso/dashboard=
+                  - [X] import =DashboardIndex= from =../../pages/enso/dashboard/Index.vue=
+                    - [X] import =../layout/PageHeader.vue=
+                      - [X] import =mapGetters= from =vuex=
+                      - [X] import =Breadcrumbs= from =./Breadcrumbs.vue=
+                    - [X] import =ChartCard= from =../../../components/enso/charts/ChartCard.vue=
+                      - [X] import =Card= from =../bulma/Card.vue=
+                        - [X] import =Overlay= from =./Overlay.vue=
+                      - [X] import =Chart= from =./Chart.vue=
+                    - [X] import =mapGetters= from ='vuex=
+                - [-] import =Adminstration= from =./routes/enso/administration=
+                  - [-] import =Owners= from =./administration/owners=
+                    - [-] import =Index= from =./owners/index=
+                      - [-] import =OwnersIndex= from =../../../../pages/enso/administration/owners/Index.vue=
+                        - [X] import =mapGetters= from =vuex=
+                        - [-] import =VueTable= from =../../../../components/enso/vuedatatable/VueTable.vue=
+                          - [X] import =toastr= from= =toastr=
+                          - [X] import ={ debounce }= from =lodash=
+                          - [ ] import =TopControls= from =TopControls.vue=
+                            - [ ] import =vClickOutside= from =v-click-outside=
+                            - [ ] import =LengthMenu= from =./topControls/LengthMenu.vue=
+                              setting?
+                              - [ ] import =vClickOutside= from =v-click-outside=
+                            - [ ] import =ColumnVisibility= from =./topControls/ColumnVisibility.vue=
+                              - [ ] import =vClickOutside= from =v-click-outside=
+                            - [ ] import =Alignment= from =./topContros/Alignment.vue=
+                              - [ ] import =vClickOutside= from =v-click-outside=
+                            - [ ] import =StyleSelector= from =./topControls/StyleSelector.vue=
+                              - [ ] import =vClickOutside= from =v-click-outside=
+                          - [ ] import =TableHeader= from =TableHeader.vue=
+                          - [ ] import =TableBody= from =TableBody.vue=
+                          - [ ] import =TableFooter= from =TableFooter.vue=
+                          - [ ] import =RecordsInfo= from =RecordsInfo.vue=
+                          - [ ] import =Pagination= from =Pagination.vue=
+                          - [X] import =Overlay= from =../bulma/Overlay.vue=
+                          - [-] import =vResponsive= from =./responsive/vResponsive=
+                            - [X] import =resizeDetector= from =element-resize-detector=
+                              - [[https://www.npmjs.com/package/element-resize-detector]]
+                            - [ ] import =ResponsiveTable= from =./ResponsiveTable=
+                    - [-] import =Create= from =./owners/create=
+                      - [-] import =OwnerCreate= from =../../../../pages/enso/administration/owners/Create.vue=
+                        - [-] import =VueForm= from =../../../../components/enso/vueforms/VueForm.vue=
+                          - [X] import ={ mapGetters }= from =vuex=
+                          - [X] import =Errors= from =../../../classes/enso/Errors.js=
+                          - [X] import =Modal= from =../bulma/Modal.vue=
+                            - [X] import ={ mapGetters }= from =vuex=
+                          - [X] import =VueSelect= from =../select/VueSelect.vue=
+                            - [X] import ={ debounce }= from =lodash=
+                            - [X] import ={ mapGetters}= from =vuex=
+                            - [X] import =Multiselect= from =vue-multiselect=
+                          - [X] import =Datepicker= from =../bulma/Datepicker.vue=
+                            - [X] import =Flatpicker= from =flatpicker=
+                          - [ ] import =VueFormInput= from =./VueFormInput.vue=
+                          - [X] import =Overlay= from =../bulma/Overlay.vue=
+                    - [-] import =Edit= from =./owners/edit=
+                      - [-] import =OwnerEdit= from =../../../../pages/enso/administration/owners/Edit.vue=
+                        - [X] import =Documents= from =../../../../components/enso/documents/Documents.vue=
+                          - [X] import ={ mapGetters }= from =vuex=
+                          - [X] import =Card= from =../bulma/Card.vue=
+                          - [X] import =Document= from =./Document.vue=
+                            - [X] import =Modal= from =../bulma/Modal.vue=
+                          - [X] import =FileUploader= from =../flieuploader/FileUploader.vue=
+                          - [X] import =Modal= from =../bulma/Modal.vue=
+                        - [X] import =Comments= from =../../../../components/enso/comments/Comments.vue=
+                          - [X] import ={ mapGetters }= from =vuex=
+                          - [X] import =Card= from =../bulma/Card.vue=
+                          - [X] improt =Comment= from =../Comment.vue=
+                            - [X] import ={ mapGetters }= from =vuex=
+                            - [X] import =Inputor= from =./Inputer.vue=
+                              - [X] import ={ debounce }= from =lodash=
+                            - [X] import =Modal= from =../bulma/Modal.vue=
+                        - [-] import =Contacts= from =../../../../components/enso/contacts/Contacts.vue=
+                          - [X] import =mapGetters= from =vuex=
+                          - [X] import =Card= from =../bulma/Card.vue=
+                          - [X] import =Contact= from =./Contact.vue=
+                            - [X] import ={ mapGetters }= from =vuex=
+                            - [X] import =ContactForm= from =./ContactForm.vue=
+                              - [X] import ={ mapGetters }= from =vuex=
+                              - [X] import =Modal= from =../bulma/Modal.vue=
+                            - [X] import =Card= from =../bulma/Card.vue=
+                            - [X] import =Modal= from =../bulma/Modal.vue=
+                          - [ ] import =ContactForm= from =./ContactForm.vue=
+                    - [X] import =RouterView= from =../../../pages/enso/layout/Router.vue=
+                  - [-] import =Users= from =./administration/users=
+                    - [X] import =Index= from =./users/index=
+                      - [X] ...
+                    - [X] import =Create= from =./users/create=
+                      - [X] ...
+                    - [X] import =Edit= from =./users/edit=
+                      - [X] ...
+                    - [X] import =Show= from =./users/show=
+                      - [X] ...
+                    - [ ] import =RouterView= from =../../../pages/enso/layout/Router.vue=
+                  - [X] import =Contacts= from =./administration/contacts=
+                    - [X] import =ContactsIndex= from =../../../pages/enso/administration/contacts/Index.vue=
+                      - [X] import ={ mapGetters }= from =vuex=
+                      - [X] import =PageHeader= from =../../layout/PageHeader.vue=
+                      - [X] import =VueTable= from =../../../../components/enso/vuedatatable/VueTable.ve=
+                      - [X] import =ContactForm= from =../../../../components/enso/contacts/ContactForm.vue=
+                  - [X] import =RouterView= from =../../pages/enso/layout/Router.vue=
+                - [X] import =System= from =./routes/enso/system=
+                  - [X] ...
+                - [X] import =DataImport= from =./routes/enso/dataImport=
+                  - [X] ...
+                - [X] import =notFound= from =./routes/enso/notFound=
+                  - [X] import =notFound= from =../../pages/enso/NotFound.vue=
+              - [X] import =locale= from =./store/enso/locale=
+              - [ ] import =menus= from =./store/enso/menus=
+              - [ ] import =layout= from =./store/enso/layout=
+                - [ ] import =navbar= from =./layout/navbar=
+                - [ ] import =settingBar= from =./layout/settingBar=
+              - [ ] import =auth= from =./store/enso/auth=
+                - [ ] ...
+          - [X] require =./modules/enso/mixins=
+            - [X] require =./mixins/errorHandler=
+          - [X] require =./modules/enso/filters=
+            - [X] require =./filters/numberFormat=
+            - [X] require =./filters/timeFromNow=
+          - [X] require =./modules/enso/directives=
+            - [X] require =./directives/focus=
+              - [X] import =Vue= from =vue=
+            - [X] require =./directives/selectOnFocus=
+              - [X] import =Vue= from =vue=
+            - [X] require =./directives/hljs=
+              - [X] import =Vue= from =vue=
+              - [X] import =hljs= from =highlight.js=
+          - [X] require =./modules/enso/prototypes=
+            - [X] require =./prototypes/stringCapitalizeFirst=
+            - [X] require =./prototypes/arrayPluck=
+            - [X] require =./prototypes/arrayUnique=
+        - [ ] import =./app=
+        - [X] import =router= from =./router=
+          - [X] ...
+        - [-] import =store= from =./store=
+          - [X] import =router= from =./router=
+            - [X] ...
+          - [X] import =locale= from =./store/enso/locale=
+          - [ ] import =menus= from =./store/enso/menus=
+          - [ ] import =layout= from =./store/enso/layout=
+          - [ ] import =auth= from =./store/enso/auth=
+        - [X] import =App= from =./pages/enso/App.vue=
+          - [X] import ={ mapState, mapGetters, mapActions }= from =vuex=
+          - [X] import =Auth= from =./layout/Auth.vue=
+          - [X] import =Home= from =./layout/Home.vue=
+            - [X] import ={ mapState, mapGetters }= from =vuex=
+            - [X] import =Overlay= from =../../../components/enso/bulma/Overlay.vue=
+          - [X] import =AppMain= from =./layout/AppMain.vue=
+            - [X] import ={ mapState, mapGetters, mapMinutes, mapActions }= from =vuex=
+            - [X] import =Nprogress= from =../../../components/enso/nprogress/Nprogress.vue=
+              - [X] import nprogress from =nprogress=
+            - [X] import =Navbar= from =Navbar.vue=
+              - [X] import =mapState= from =vuex=
+              - [X] import =Notifications= from =./navbar/Notifications.vue=
+                - [X] import ={debounce}= from =lodash=
+                - [X] import ={ mapGetters, mapState }= from =vuex=
+                - [X] import =Pusher= from =pusher-js=
+                - [X] import =Echo= from =laravel-echo=
+                - [X] import =Overlay= from =../../../../components/enso/bulma/Overlay.vue=
+            - [X] import =Sidebar= from =./sidebar/Sidebar.vue=
+              - [X] import =VueAside= from =../VueAside.vue=
+              - [X] import =Menu= from =./Menus.vue=
+                - [X] import ={ mapGetters, mapMutations }= from =vuex=
+            - [X] import =Settings= from =./settings/Settings.vue=
+              - [X] import ={ mapState, mapGetters}= from =vuex=
+              - [X] import =VueAside= from =../VueAside.vue=
+              - [X] import =LanguageSelector= from =./LanguageSelector.vue=
+                - [X] import ={ mapState, mapGetters }= from =vuex=
+                - [X] require =flag-icon-css/css/flag-icon.min.css=
+              - [X] import =ThemeSelector= from =./ThemeSelector.vue=
+                - [X] import ={ mapState, mapGetters, mapActions }= from =vuex=
+              - [X] import =Tutorial= from =./Tutorial.vue=
+                - [X] import ={ introJs}= from =intro.js=
+            - [X] import =AppFooter= from =./AppFooter.vue=
+              - [X] import ={ mapState }= from =vuex=
+            - [X] import =Router= from =./Router.vue=
+            - [X] import =PageHeader= from =./PageHeader.vue=
+        - [ ] =sync(store, router)=
+        - [ ] new =Vue=
+          What's means about =...App= ?
+
+*** Dashboard
 
 ** Question
+   1. 为什么不能使用 =Route::view('/{any}', 'laravel-enso/core::index')= 来加载已经 publish 出来的文档？
+      我 publish 该目录下的文件之后，修改了该生成的文件，但是没有加载成功！
+** Log
+   1. 仔细的计下每一个文件执行的步骤。如果遇到不懂得地方，就记录下来，了解下大致的功能，稍后统一学习。
+** Should Learn
+   1. =Vuex=
+   2. =Vue-router=
+   3. =ChartJs=
+   4. =import mapGetters from vuex=
+   5. 使用思维导图来记录每个 js 文节导入的关系
+** Tips
+   1. Breadcrumbs 用来显示当前的链接及文字提示。
