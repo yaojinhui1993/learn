@@ -15,3 +15,23 @@
 ** Encapsulating External Behavior: Closing on Escape
    In this lesson you'll learn and how it can sometimes be useful to break outside of Vue's built-in event handling system to write more portable components.
    [[~/Documents/tutorials/advanced-vue/4. Encapsulating External Behavior: Closing on Escape.mp4][File]], [[https://codesandbox.io/s/1v1o4lvp9j?from-embed][Code]]
+
+** Encapsulating External Behavior: Background Scrolling
+   Like event handling, sometimes you need to bypass Vue's activity system and do old-scholl DOM manipulation to keep a component's logic encapsulated. This lesson will teach you how and when to do it.
+   [[~/Documents/tutorials/advanced-vue/5. Encapsulating External Behavior: Background Scrolling.mp4][File]], [[https://codesandbox.io/s/z0mx3w9km?from-embed][Code]]
+
+** Encapsulating External Behavior: Portals
+   When a single interaction involves multiple disconnected parts of the DOM(think a button that opens a modal that lives at the end of the body), a component's implementation details can quickly leak to other parts of your application and cause unnecessary coupling. Learn how you can use the portal pattern to avoid this.
+   [[~/Documents/tutorials/advanced-vue/6. Encapsulating External Behavior: Portals.mp4][File]], [[https://codesandbox.io/s/vy0k8283o5?from-embed][Code]]
+
+** Encapsulating External Behavior: Reusing Portals
+   Learn how to reuse generic portal targets to avoid leaking knowledge to the root component about what's actually being rendered.
+   [[~/Documents/tutorials/advanced-vue/7. Encapsulating External Behavior: Reusing Portals.mp4][File]], [[https://codesandbox.io/s/xv1ooy9v1p?from-embed][Code]]
+
+** Injecting Content Using Slots
+   Learn the fundamentals of using slots to customize a component's content.
+   [[~/Documents/tutorials/advanced-vue/8. Injecting Content Using Slots.mp4][File]], [[https://codesandbox.io/s/8x54ow4vl9?from-embed][Code]]
+
+** Native-Style Buttons Using Slots and Class Merging
+   In this lesson, you'll learn how to apply our knowledge of slots to build a custom button component that behaves just like a native HTML element.
+   [[~/Documents/tutorials/advanced-vue/9. Native-Style Buttons Using Slots and Class Merging.mp4][File]], [[https://codesandbox.io/s/j4m180n11v?from-embed][Code]]
