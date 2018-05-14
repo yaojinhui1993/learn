@@ -1,4 +1,17 @@
 * Advanced Vue Component Design
+
 ** Building Controlled Component
    Learn the fundamentals of component communication best practices, and how you can use that knowledge to create you own components that work with Vue's v-model dricetive.
   [[/Users/yjh/Documents/tutorials/advanced-vue/1. Building Controlled Components.mp4][File]], [[https://codesandbox.io/s/oxxlx055xy?from-embed][Code]]
+
+** Customizing Controlled Component Bindings
+   Learn how to customize v-model so you can use more expressive names in your controlled components.
+   [[~/Documents/tutorials/advanced-vue/2. Customizing Controlled Component Bindings.mp4][File]], [[https://codesandbox.io/s/mqnzm84plx?from-embed][Code]]
+
+** Wrapping External Libraries as Vue Components
+   There's a lot of high quality libraries out there designed to be used as just vanilla JS or as jQuery plugins. In this lesson your'll learn how to turn those libraries into Vue components so you can maintain a single JS paradigm within your own applications
+   [[~/Documents/tutorials/advanced-vue/3. Wrapping External Libraries as Vue Components.mp4][File]], [[https://codesandbox.io/s/n4qolyr42m?from-embed][Code]]
+
+** Encapsulating External Behavior: Closing on Escape
+   In this lesson you'll learn and how it can sometimes be useful to break outside of Vue's built-in event handling system to write more portable components.
+   [[~/Documents/tutorials/advanced-vue/4. Encapsulating External Behavior: Closing on Escape.mp4][File]], [[https://codesandbox.io/s/1v1o4lvp9j?from-embed][Code]]
