@@ -35,3 +35,47 @@
 ** Native-Style Buttons Using Slots and Class Merging
    In this lesson, you'll learn how to apply our knowledge of slots to build a custom button component that behaves just like a native HTML element.
    [[~/Documents/tutorials/advanced-vue/9. Native-Style Buttons Using Slots and Class Merging.mp4][File]], [[https://codesandbox.io/s/j4m180n11v?from-embed][Code]]
+
+** Extending Components Using Composition
+   You'll often have situations in an application where two cmoponents share quite a bit of logic but alse have a few notable differences. In these lession, you'll learn how slots can be used to "extend" a common base component using compositions, instead of resorting to mixins or inheritance.
+   [[~/Documents/tutorials/advanced-vue/10. Extending Components Using Composition.mp4][File]], [[https://codesandbox.io/s/jj8vjjxlk9?from-embed][Code]]
+
+** Passing Data Up Using Scoped Slots
+   Scoped slots are easily one of Vue's powerful features, but can be a bit tricky to wrap your head around. In this lesson, you'll learn how to see scoped slots as callback props, making them a lot easier to understand.
+   [[~/Documents/tutorials/advanced-vue/11. Passing Data Up Using Scoped Slots.mp4][File]], [[https://codesandbox.io/s/nwz1xpkyl0?from-embed][Code]]
+
+** Render Functions 101
+   For most components you will use templates to contruct your html, but Vue also supports building a components's HTML using /reder/ functions. In this mini-series, you'll learn how reander functions work and why there are still useful even if you aren't using JSX.
+   [[~/Documents/tutorials/advanced-vue/12. Render Functions 101.mp4][File]], [[https://codesandbox.io/s/5vxlz052px?from-embed][Code]]
+
+** Render Functions and Components
+   In this lesson you'll learn how to render other components from inside of a render function.
+   [[~/Documents/tutorials/advanced-vue/13. Render Functions and Components.mp4][File]], [[https://codesandbox.io/s/k05o3npx25?from-embed][Code]]
+
+** Render Functions and Children
+   In this lesson you'll learn how to write render functions that contain multiple children, and how to replace directives like v-for using array transformations.
+   [[~/Documents/tutorials/advanced-vue/14. Render Functions and Children.mp4][File]], [[https://codesandbox.io/s/7w1pr58p6x?from-embed][Code]]
+
+** Render Functions and Slots
+   Learn how to interact with slots inside of render functions, and how a special property of render functions that template doesn't support can open up a lot of new component design possibilites.
+   [[~/Documents/tutorials/advanced-vue/15. Render Functions and Slots.mp4][File]], [[https://codesandbox.io/s/z2k1j94o8m?from-embed][Code]]
+
+** Data Provider Components
+   Using render functions and scoped slots, components don't have to generate any of their own HTML. Learn how to leverage this concept to build a component FetchJson component that can be used to make AJAX calls directly in your markup.
+   [[~/Documents/tutorials/advanced-vue/16. Data Provider Components.mp4][File]], [[https://codesandbox.io/s/nk9qr8yz0p?from-embed][Code]]
+
+** Getting Started with Renderless UI Components
+   One of the biggest headaches with traditional JS UI libraries is that they are a pain to customize. In this mini-series, you'll learn how to use render functions and scoped slots to separate presentation and behavior into separate components; making it easy to cmopletely customize a component's appearance without reimplementing any logic.
+   [[~/Documents/tutorials/advanced-vue/17. Getting Started with Renderless UI Components.mp4][Code]], [[https://codesandbox.io/s/x1z0myl0p?from-embed][File]]
+
+** Passing Data Props from Renderless Components
+   Slot props come in three general flavors. In this lesson you'll learn about "data props" and how use them.
+   [[~/Documents/tutorials/advanced-vue/18. Passing Data Props from Renderless Components.mp4][Code]], [[https://codesandbox.io/s/k96ljlz7yv?from-embed][File]]
+
+** Passing Actions Props from Renderless Components
+   In this lesson you'll learn about "action props", and how they can be used to provide behavior to a parent component.
+   [[~/Documents/tutorials/advanced-vue/19. Passing Action Props from Renderless Components.mp4][Code]], [[https://codesandbox.io/s/9l2jwy14mp?from-embed][File]]
+
+** Passing Binding Props from Renderless Components
+   In this lesson you'll learn about "binding props", which let you attach prop and event bindings to a parent element, while keeping all of the implementation details encapsulated inside the child component.
+   [[~/Documents/tutorials/advanced-vue/20. Passing Binding Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/l5yoxyv02q?from-embed][Code]]
