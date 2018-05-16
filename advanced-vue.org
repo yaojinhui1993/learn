@@ -79,3 +79,39 @@
 ** Passing Binding Props from Renderless Components
    In this lesson you'll learn about "binding props", which let you attach prop and event bindings to a parent element, while keeping all of the implementation details encapsulated inside the child component.
    [[~/Documents/tutorials/advanced-vue/20. Passing Binding Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/l5yoxyv02q?from-embed][Code]]
+
+** Renderless UI Components: Functions as Binding Props
+   Sometimes bindings props need context to work correctly. Learn how to use functions as "lazy" binding props that can accept parameters from the parent.
+   [[~/Documents/tutorials/advanced-vue/21. Renderless UI Components: Functions as Binding Props.mp4][File]], [[https://codesandbox.io/s/kn1nv6ypv?from-embed][Code]]
+
+** Implementing Alternate Layouts with Renderless Components
+   In this lesson we'll take the renderless component we've built throughout the previous five lessons and use it to implement a drastically different layout, without write any of the component logic.
+   [[~/Documents/tutorials/advanced-vue/22. Implementing Alternate Layouts with Renderless Components.mp4][File]], [[https://codesandbox.io/s/1r789z3nnl?from-embed][Code]]
+
+** Configuring Renderless Components
+   Scoped slots are ideal for customizing how a component look, but it still make sense to use configuration to customize a component's behavior. In this lesson we'll add a configuration prop to our renderless component to change it functionality.
+   [[~/Documents/tutorials/advanced-vue/23. Configuring Renderless Components.mp4][File]], [[https://codesandbox.io/s/l9v91jn0zq?from-embed][Code]]
+
+** Wrapping Renderless Components
+   Renderless components create a lot of work for the consumer compared to a traditional component that combines presentation and behavior in one unit. Learn how to create opinionated wrapper components that ease the burden on the consumer while still providing the flexibility of renderless components when needed.
+   [[~/Documents/tutorials/advanced-vue/24. Wrapping Renderless Components.mp4][File]], [[https://codesandbox.io/s/5z5056yoq4?from-embed][Code]]
+
+** Element Queries as a Data Provider Component
+   In this lesson, we'll use the data provider component pattern to write a transparent wrapper component that can be used to give a component access to its current dimessions, which we can then use to customize how that component looks based on the space available to it.
+   [[~/Documents/tutorials/advanced-vue/25. Element Queries as a Data Provider Component.mp4][File]], [[https://codesandbox.io/s/20r8wnx44r?from-embed][Code]]
+
+** Building Compound Components with Provide/Inject
+   There are certain types of components that have multiple related pieces, like tabs and tab panels, or items in an accordion list. Learn how to use Vue's provide and inject features to make it possible for these related components to communicate without forcing the consumer to wire everything up mannually.
+  [[~/Documents/tutorials/advanced-vue/26. Building Compound Components with Provide and Inject.mp4][File]], [[https://codesandbox.io/s/jl6pz69ox3?from-embed][Code]]
+
+** Building a Compound Sortable List Component
+   In this lesson, we'll combine a lot of the pattern's we've used so far to build a compound, renderless, controlled sortable list component that also wrap up an external library. It's the kitchen of component design!
+   [[~/Documents/tutorials/advanced-vue/27. Building a Compound Sortable List Component.mp4][File]], [[https://codesandbox.io/s/o98y1l735y?from-embed][Code]]
+
+** Building a Search Select: Data Bindings
+   In this mini-series, we'll build a robust search select component by applying the principles covered through the reset of the coures.
+   [[~/Documents/tutorials/advanced-vue/28. Building a Search Select: Data Bindings.mp4][File]], [[https://codesandbox.io/s/ykypmk03xj?from-embed][Code]]
+
+** Building a Search Select: Filtering
+   In this lesson we'll add filtering support to the search select, working through all of the edge cases to make sure it behaves intuitively.
+   [[~/Documents/tutorials/advanced-vue/29. Building a Search Select: Filtering.mp4][File]], [[https://codesandbox.io/s/oozwlvk36?from-embed][Code]]
