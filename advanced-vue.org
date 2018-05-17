@@ -115,3 +115,22 @@
 ** Building a Search Select: Filtering
    In this lesson we'll add filtering support to the search select, working through all of the edge cases to make sure it behaves intuitively.
    [[~/Documents/tutorials/advanced-vue/29. Building a Search Select: Filtering.mp4][File]], [[https://codesandbox.io/s/oozwlvk36?from-embed][Code]]
+** Building a Search Select: Focus Management
+   In this lesson we'll tackle focus management, making sure that the search is focus when the component is opened and the trigger is re-focused when the component closes.
+   [[~/Documents/tutorials/advanced-vue/30. Building a Search Select: Focus Management.mp4][File]], [[https://codesandbox.io/s/o95oq681l6?from-embed][Code]]
+
+** Building a Search Select: Making It Controlled
+   In this lesson we'll convert the search select into a controlled component, pushing the state into the parent. We'll also make the filtering logic controllable from the outside.
+   [[~/Documents/tutorials/advanced-vue/31. Building a Search Select: Making It Controlled.mp4][File]], [[https://codesandbox.io/s/8n0mnm2v70?from-embed][Code]]
+
+** Building a Search Select: Keyboard Navigation
+   In this lesson we'll add comprehensive keyboard navigation to the search select, including handling things like scrolling highlighted items into view.
+   [[~/Documents/tutorials/advanced-vue/32. Building a Search Select: Keyboard Navigation.mp4][File]], [[https://codesandbox.io/s/n7mw5871v0?from-embed][Code]]
+
+** Building a Search Select: Click Outside Component
+   In this lesson we'll make it possible to close the search select by clicking outside of it, but with a catch: we implement this behavior from scratch as its own renderless component, not using an existing directive-based library.
+   [[~/Documents/tutorials/advanced-vue/33. Building a Search Select: Click Outside Component.mp4][File]], [[https://codesandbox.io/s/w66mzknr27?from-embed][Code]]
+
+** Building a Search Select: Intergrating Propper.js
+   In this lesson, we'll intergrate Propper.js with our search selelct component so that dropdown position reacts inteligently to the size and scroll position of the viewport.
+   [[~/Documents/tutorials/advanced-vue/34. Building a Search Select: Integrating Popper.js.mp4][File]], [[https://codesandbox.io/s/vyxl1z5pp5?from-embed][Code]]
