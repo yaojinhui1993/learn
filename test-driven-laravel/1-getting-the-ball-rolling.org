@@ -3,3 +3,23 @@
    First of all, welcome to Test-Driven Laravel!
    To get things started, let's talk a bit about the app we are going to build, and figure out where we should start.
    [[~/Documents/tutorials/test-driven-laravel/1-getting-the-ball-rolling/1-what-do-we-build-first.mp4][1-what-do-we-build-first.mp4]]
+** Sketching out Our First Test
+   In this lesson, we scaffold out a new application and start sketching out the first test.
+
+** Getting to Green
+   In this lesson, we use TDD to scaffold out a lot of the boiler plate in the application and get our first test passing.
+
+** Unit Testing Presentation Logic
+   In this lesson, we drive out some presentation helpers via unit tests to extract some logic from our view.
+
+** Refactoring For Speed
+   In this lesson, we finish extracting some presentation helpers, then refactor our tests to run without using the database to keep thing fast.
+
+** Hiding Unpublished Concerts
+   In this lesson, we introduce the idea of "published" and "unpublished" concerts, and hide unpblished concerts from visitors to the site.
+
+** Testing Query Scopes
+   In this lesson, we extract some query logic to a custom scope and ensure that it's covered by our tests.
+
+** Factory States
+   In this lesson, we abstract some details about makes a concert "published" from our tests by encapsulating them in a factory state.
