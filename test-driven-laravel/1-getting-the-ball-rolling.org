@@ -23,3 +23,34 @@
 
 ** Factory States
    In this lesson, we abstract some details about makes a concert "published" from our tests by encapsulating them in a factory state.
+
+* Purchasing Concert Tickets
+** Intro
+   In this lesson, we talk about getting started with the "Purchasing Concert Tickets" feature that we're going to implement next.
+
+** Browser Testing vs Endpoint Testing
+   In this lesson, we talk about the trade-offs involved in testing through the browser vs. testing endpoint directly, and why you might choose one option over the other.
+
+** Outlining the First Purchasing Test
+   In this lesson, we design our initial "customer can purchase concert tickets" test.
+
+** Faking the Payment Gateway
+   In this lesson, we create a fake implementation of our payment gateway to avoid hitting Stripe during our intergration tests.
+
+** Adding Tickets to Orders
+   In this lesson, we work on creating tickets and attaching them to orders when a customer make a purchase.
+
+** Encapsulating Relactionship Logic in the Model
+   In this lesson, we work on refactoring some of our controller code and pushing some logic into the model.
+
+** Getting Started with Validation Testing
+   In this lesson, we work on testing and implementing some request validation rules.
+
+** Reducing Duplication with Custom Assertion
+   In this lesson, we abstract some commonly paired assertions behind a custom assertion with a more expressive name.
+
+** Handling Failed Charges
+   In this lesson, we drive out what should happen when a customer's payment fails.
+
+** Preventing Tickets Sales to Unpublished Concerts
+   In this lesson, we add a new feature test to cover the situation when someone tries to view a concert that hasn't been published yet.
