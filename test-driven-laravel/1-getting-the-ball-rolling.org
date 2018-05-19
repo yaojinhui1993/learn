@@ -78,3 +78,14 @@
 ** Cleaning Up Our Tests
    Much like production code, test code needs to be refactored and kept healthy and maintainable.
    In this lesson, we go over our existing test suite and look for opportunities to clean it up.
+
+* Returning Order Details
+** Asserting Against JSON Response
+  In this lesson, we add tests to ensure that we are getting back meaniningfully order information after purchasing tickets, and discuss different strategies for testing JSON response.
+
+** Returning Order Details
+   In this lesson, we work on getting our existing feature test passing by driving out an order's JSON representation at the unit level.
+
+** This Design Sucks
+   You don't awlays write beautiful code on the first try.
+   In this lesson, we talks about three issues with our existing design and why they are worth addressing.
