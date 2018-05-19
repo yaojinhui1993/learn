@@ -89,3 +89,26 @@
 ** This Design Sucks
    You don't awlays write beautiful code on the first try.
    In this lesson, we talks about three issues with our existing design and why they are worth addressing.
+
+* A Surgical Refactoring
+** Persisting the Order Amount
+  In this lesson, we work on persisting the order amount to the database, instead of calculating it on the fly based on tickets price and tickets quantitly.
+
+** Removing the Need to Cancel Orders
+   In this lesson, we work getting rid of the need to cancel orders when a payment fails by separating the idea of finding tickets from confirming an order.
+
+** Preparing for Extraction
+   In this lesson, we work on removing the need to create orders through a concert by removing a redundant relationship.
+
+** Extracting a Named Constructor
+   In this lesson, we introduced a named constructor for creating orders from customer details and tickets.
+
+** Precomputing the Order Amount
+   In this lesson, we work on removing the need for an order to know how to calculate it's own price so we can eliminlate some duplication in our code.
+
+** Uncovering a New Domain Object
+   In this lesson, we walk through a strategy I use to discover new objects in my code, and start driving out a new domain object with tests.
+
+** You Might Not Need a Mocking Framework
+   In this lesson, we work on removing the need to migrate the database when testing our simple Reservation class.
+   We also talk about different approaches to isolating the Reservation from it's collaborators, and why you might not need a special library to do it.
