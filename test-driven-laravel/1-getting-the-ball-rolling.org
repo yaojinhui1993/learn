@@ -54,3 +54,27 @@
 
 ** Preventing Tickets Sales to Unpublished Concerts
    In this lesson, we add a new feature test to cover the situation when someone tries to view a concert that hasn't been published yet.
+
+* Limiting Tickets Sales
+
+** Outlining the First Test Case
+   In this lesson, we work on writing a test to ensure that customers can't purchase more tickets than are still available
+
+** Adding Tickets to Concerts
+   In this lesson, we implement the ability to add tickets to concerts so there are tickets available when a customer tries to purchase.
+
+** Refusing Orders When There Are No More Tickets
+   In this lesson, we work on making sure orders are not created when someone tries to purchase more tickets than remain, and ensuring that a customer can't purchase tickets already purchased by another customer.
+
+** Finish the Feature Test
+   In this lesson, we get our "cannot purchase more tickets than remain" feature test passing by finishing our controller implementation.
+
+** Cancelling Failed Orders
+   In this lesson, we make sure that if a customer's payment fails, we cancel their order.
+
+** Refactoring and Redundant Test Coverage
+   In this lesson, we  extract some logic from our Order class to Tickets class, and discuss whether or not it's important to add new test coverage.
+
+** Cleaning Up Our Tests
+   Much like production code, test code needs to be refactored and kept healthy and maintainable.
+   In this lesson, we go over our existing test suite and look for opportunities to clean it up.
