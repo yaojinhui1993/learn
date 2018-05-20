@@ -112,3 +112,28 @@
 ** You Might Not Need a Mocking Framework
    In this lesson, we work on removing the need to migrate the database when testing our simple Reservation class.
    We also talk about different approaches to isolating the Reservation from it's collaborators, and why you might not need a special library to do it.
+
+* Off to the Races
+**  Uh Oh, a Race Condition!
+   Over the last few lessons we've improved the design of our code significantly, but we've also introduced a race condition.
+
+** Requestception
+   In this lesson, we discuss how subrequests work, and how we can use them to help test this race condition.
+
+** Hooking into Charges
+   In this lesson, we add a hook to our fake payment gateway to allow us to trigger a nested request.
+
+** Uh Oh, a Segfault!
+   In this lesson, we finish wrting our feature test to cover the race condition. But when we run it, we hit a segfault! Let's see if we can diagnose the issue.
+
+** Replicating the Failure at the Unit Level
+   In order to get a better understanding of our segfault issue, we try and replicate it at the unit level so we can fix it more easily.
+
+** Reserving Individual Tickets
+   To make sure nobody can purchase someone else's tickets while they are still trying to pay, we work on introducing the idea of a ticket being "reserved".
+
+** Reserved Means Reserved
+   In this lesson, we work on making sure the rest of the application respects our newly introduced "reserved" status on tickets.
+
+** That Guy Stole My Tickets
+   For some reason, person B is getting their name added to tickets that person A paid for! Let's figure out what's going on.
