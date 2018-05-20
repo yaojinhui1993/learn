@@ -171,3 +171,30 @@
 ** Avoiding Service Classes with Method Injection
    In this lesson, we notice that we're lacking a single source of truth for the amount we charge the customer and the amount used to create the new order.
    We walk through what it might look like to solve this problem with a service class, and then how we can avoid the service class entirely using method injection.
+
+* Testing-Driving the Real Stripe Adapter
+
+** Generating a Valid Payment Token
+   In this lesson we scaffold out an initial test for our StripePaymentGateway and figure out how to generate a valid payment token using Stripe's API.
+
+** Retriving the Last Charge
+   In this lesson we use Stripe's API to fetch the most recent charge so we can make assertions about it in our test.
+
+** Making a Successful Charge
+   In this lesson we work through the first set of test failures and successfully make a charge to Stripe.
+
+** Dealing with Lingering State
+   In this lesson we diagnose why are test is passing after commenting out our implementation, and come up with a new strategy to run our tests with isolated data.
+
+** Don't Mock What You Don't Own
+   A commpon miscoception about testing is that you should mock calls to external APIs to avoid the newwork.
+   In this lesson, we compare the pros and cons of intergrating with Stripe vs. mocking our calls to Stripe to better understand why shouldn't mock third-party code.
+
+** Using Groups to Skip Intergration Tests
+   In this lesson, we use PHPUnit's "group" feature to make it easy to skip our intergration tests when we don't have an internet connection.
+
+** Handling Invalid Payment Tokens
+   In this lesson, we add a new test to make sure our StripePaymentGateway behaves as expected when attempting to charge with an invalid payment token.
+
+** The Moment of Truth
+   In this lesson, we finally fire up the browser to find out if all of this TDD stuff has really given us a working system.
