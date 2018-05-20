@@ -218,3 +218,13 @@
 
 ** Extracting the Failure Case
    In this lesson, we refactor the =charges_with_an_invalid_payment_token_fail= tests to make them identical, and then extract it to our contract tests.
+
+
+
+* Upgrading Our Suit to Laravel 5.4
+
+** Upgrading to Laravel 5.4
+   In this lesson, we upgrade TicketBeast to Laravel 5.4, and get our tests back to green using =browser-kit-testing= package.
+
+** Removing the BrowserKit Dependency
+   In this lesson, we refactor our BrowserKit tests to use Laravel 5.4's testing features, so we can remove our dependency on the compabitility package.
