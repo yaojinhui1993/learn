@@ -228,3 +228,25 @@
 
 ** Removing the BrowserKit Dependency
    In this lesson, we refactor our BrowserKit tests to use Laravel 5.4's testing features, so we can remove our dependency on the compabitility package.
+
+* Viewing Order Confirmations
+
+** Sketching out Order Confirmations
+  In this lesson, we begin driving out our test for viewing order confirmations based on a static mockup.
+
+** Driving out the Endpoint
+   In this lesson, we figure out th URL structure we want to use to keep order confirmation pages private, and drive out the ability to successfully hit out new endpoint.
+
+** Asserting Against View Data
+   In this lesson, we flesh out an initial implementation of our controller, and walk through how to test the data that is bound to a view without asserting against the rendered HTML.
+
+** Extracting a Finder Method
+   In this lesson, we refactor some Eloquent calls in our controller to a dedicated finder method, and discuss when it's important to add new tests while refactoring and when it's not.
+
+** Making Static Data Real
+   In this lesson, we work through using tests to replace some of the hard coded data in our mockup with real data that's attached to our order.
+
+** Deciding What to Test in a View
+   In this lesson, we spend some time discussing what you need to take into consideraction when deciding what data is important to test in a renderd view.
+
+** Decoupling Data from Presentation
