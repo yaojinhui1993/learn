@@ -137,3 +137,37 @@
 
 ** That Guy Stole My Tickets
    For some reason, person B is getting their name added to tickets that person A paid for! Let's figure out what's going on.
+
+* Hunting for Stale Code
+
+** Cancelling Reservation
+   In this lesson, we find a sneaky bug and work towards solving it through an isolated unit test.
+
+** Refactoring Mockes to Spies
+   In this lesson, we talk about 3 different ways to create mock objects, as well as how using spies instead of mocks can help keep your tests more organized.
+
+** A Change in Behavior
+   Our feature test is still failing because some of our order code has a different understanding of what it means to "releases" tickets.
+   In this lesson, we diagnose the issue and update our specification to help us drive out the change in behavior.
+
+** Deleting Stale Tests
+   In this lesson, we discuss the importance of high level feature tests, and how they help give use the confidence to delete stale code when confronted with a failing unit test.
+
+
+* Something Smells in Our Controllers
+** Cleaning Up a Loose Variable
+   In this lesson, we look to eliminate a loose variable in our controller by adding some additional behavior to our Reservation class, and then spend some time pushing the responsibility for creating reservations inside our Concert class and our of our controller.
+
+** Moving the Email to Reservation
+   In this lesson, we notice a long parameter list we'd like to refactor, but in order to do that, we need to tweak how reservations are created so that reservation has knowledge of the customer who is reserving the tickets.
+
+** Refactoring "Long Parameters List" Using "Preserve Whole Object"
+   In this lesson, we attempt to refactor the "long parameter list" code smell we noticed in our Order class using the "preserve whole object" refactoring.
+
+** Green with Feature Envy
+   Our "preserve whole object" refactoring didn't turn out as nicely as we hoped.
+   In this lesson, we look to treat the original problem as a "feature envy" issue instead of a "long parameter list" issue, and see if that leads us to a better solution.
+
+** Avoiding Service Classes with Method Injection
+   In this lesson, we notice that we're lacking a single source of truth for the amount we charge the customer and the amount used to create the new order.
+   We walk through what it might look like to solve this problem with a service class, and then how we can avoid the service class entirely using method injection.
