@@ -198,3 +198,23 @@
 
 ** The Moment of Truth
    In this lesson, we finally fire up the browser to find out if all of this TDD stuff has really given us a working system.
+
+* Keeping Things Synchronized with Contract Tests
+
+** When Interfaces Aren't Enough
+   In this lesson, we identify some of the risks of using fakes, and why it takes more than an interface to make sure multiple implementations stay in sync.
+
+** Refactoring Forward Duplication
+   In this lesson, we begin refactoring the tests for our two PaymentGateway implementations towards being identical so we can extract them to a contract test.
+
+** Capturing Charges with Callbacks
+   In this lesson, we come up with a strategies for being able to keep track of the total charges made during a test that will work for both implementations for our PaymentGateway interface.
+
+** Making the Tests Identical
+   In this lesson, we port the newChargesDuring method over to the FakePaymentGateways, finally leaving us with two identical tests that are ready for extraction.
+
+** Extracting a Contract Test
+   In this lesson, we extract the identical PaymentGateway tests into a contract test, shared through a trait.
+
+** Extracting the Failure Case
+   In this lesson, we refactor the =charges_with_an_invalid_payment_token_fail= tests to make them identical, and then extract it to our contract tests.
