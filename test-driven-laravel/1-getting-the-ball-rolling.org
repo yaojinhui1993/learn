@@ -328,3 +328,22 @@
 
 ** Cleanup and Demo
    In this lesson, we configure Mailtrap so we can test our order confirmation email flow in the browser.
+
+* Logging in with Dusk
+
+** Testing the Login Endpoint
+   The next thing we'd like to build is the ability for promoters to add new concerts, but before we can do that, we need to give them a way to log in to the application.
+   In this lesson, we drive out our initial =/login= endpoint.
+
+** Should You TDD Simple Templates?
+   In the last lesson we drove out the login endpoint, but we still don't have an actual login form.
+   Is this something we should try to build with TDD, or is there a better approach?
+
+** Namespacing Our Test Suite
+   Before we get started with Laravel Dusk, let's update our test folder structure to match which ships with Laravel 5.4 to make it a little easier to integrate.
+
+** Getting Started with Laravel Dusk
+   In this lesson, we install and configure =Laravel Dusk=, talk about some gotchas you might run into if you're not approaching it with the right mindset, and get a basic example browser test running.
+
+** QA Testing the Login Flow
+   In this lesson, we use Dusk to drive out a browser test for our login form to make sure we have regression coverage.
