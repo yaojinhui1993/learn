@@ -287,3 +287,33 @@
 
 ** Deleting More Stale Code
    In this lesson, we notice that changing how =orders= created reveals some lingering old design decisions that are triggering test failures. We work through removing the stale code, and updating any tests we need to keep to no longer rely on the code we want to remove.
+
+
+* Assigining Ticket Codes
+
+** Feature Test and JSON Updates
+   In this lesson, we come up with approach for driving out the generation of ticket codes from the outside in, and make some tweaks to the JSON representation of a completed order.
+
+** Claiming Tickets When Creating Orders
+   In this lesson, we decide when ticket codes should be generated, and rework and existing test to use mock expectations to prepare for our implementation.
+
+** Assigining Codes When Claiming Tickets
+   In this lesson, we add a new test for the new =claimFor= method in our =Ticket= class, and drive out them implementation.
+
+** The Birthday Problem
+   In this lesson, we talk about the birthday problem and the implications it has own how we generate ticket codes.
+   We also play with the Hashids library to get an understanding of how we could use it to encode ticket IDs.
+
+** Intergrating Hashids
+   In this lesson, we drive out our =HashidsTicketCodeGenerator=, making sure that ticket codes are generated in the format we expect.
+
+** Dealing with Out of Sync Mock
+   Uh oh! One of our expectations is no longer in sync with the real implementation.
+   In this lesson, we use an underappreciated Mockery feature to detect broken mockes, and get things working properly again.
+
+** Writing It Together
+   In this lesson, we bubble back up to our initial feature test and try to get it passing.
+   We cover how to return multiple values from a Mockery stub, and wire up our real =HashidsTicketCodeGenerator= in the IOC container to get the test suit back to green.
+
+** Ready to Demo
+   In this short lesson, we make a small tweak to our =TicketCheckout= Vue component and finally walk through the entire purchasing flow from start to finish.
