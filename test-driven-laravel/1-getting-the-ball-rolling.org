@@ -317,3 +317,14 @@
 
 ** Ready to Demo
    In this short lesson, we make a small tweak to our =TicketCheckout= Vue component and finally walk through the entire purchasing flow from start to finish.
+
+* Emailing Order Confirmations
+
+**  Using a Fake to Intercept Email
+  In this lesson, we use Laravel's =Mail Fake= to test sending an order confirmation email whenever someone purchases tickets.
+
+** Testing Mailable Contents
+   In this lesson, we come up with a way to render mailables as HTML so we can assert against their content.
+
+** Cleanup and Demo
+   In this lesson, we configure Mailtrap so we can test our order confirmation email flow in the browser.
