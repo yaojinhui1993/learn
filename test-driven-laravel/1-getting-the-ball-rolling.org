@@ -273,3 +273,17 @@
 
 ** Recatoring to a Facade
    In this lesson, we wire up our =RandomOrderConfirmationNumberGenernator= to be the default implementation we use in our application, and make use of Laravel's =Facade= to replace our explict use of Laravel's container in our =order= class with something more expressive.
+
+* Storing the Last Four Card Digists
+
+** Prompting Charges to Objects
+   In this lesson, we introduce a new =Charge= object to carry meta data about purchases, such as the last four digits of the card used. We drive out this charge in our =FakePaymentGateway= first through changes to our =PaymentGatewayContractTests=.
+
+** Leveraging Our Contract Tests
+   In this lesson, we use our updated contract tests to update the behavior of our StripePaymentGateway to keep it synchronized with our fake.
+
+** Storing Charge Details with Orders
+   In this lesson, we update our =OrderTest= to account for creating orders using =Charges= instead of plain amounts, and use that test to drive out the implementation in =order=.
+
+** Deleting More Stale Code
+   In this lesson, we notice that changing how =orders= created reveals some lingering old design decisions that are triggering test failures. We work through removing the stale code, and updating any tests we need to keep to no longer rely on the code we want to remove.
