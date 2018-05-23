@@ -381,3 +381,17 @@
 
 ** Refactoring Assertions with Macros
    In this lesson we work through using Laravel's macro feature to create more expressive custome assertions.
+
+* Upaditng Basic Concert Info
+
+** Viewing the Update Form
+   In this lesson, I walk through some simple tests I put together behind-the-scenes to give us a head start on updating concerts.
+
+** The First Update Test
+   In this lesson, we drive out the first test we need for editing concert details, and talk through a useful naming strategy to use when testing for attribute changes.
+
+** Driving Out Basic Concept Updates
+   In this lesson we implement the ability perform concert updates, and start working through some of the permissions checks we need to be concerned with.
+
+** Restricting Updates to Unpublished Concerts
+   In this lesson we make sure only unpublished concerts can be edited, prevent guest from editing concerts, and drive out an example validation rule.
