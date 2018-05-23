@@ -371,3 +371,13 @@
 ** Autopublishing New Concerts
    In one of the earlist lessons in the course, we added some functionality to make sure that only published concerts were visible in the browser.
    Since we don't have ability to publish new concerts from the UI yet, let's at least make sure that new concerts are published by default until we get to that feature.
+
+* Listing a Promoter's Concerts
+** Asserting Against View Objects
+   In this lesson we start driving out tests for a concert index page. We also talk about an incredibly useful strategy for making assertions about views without dealting with HTML.
+
+** Avoiding Sort-Sensitive Tests
+   In this lesson I outline a small sort-order related trap you can fall into fi you're not careful when asserting against lists of items, and talk about a stratey for avoiding it.
+
+** Refactoring Assertions with Macros
+   In this lesson we work through using Laravel's macro feature to create more expressive custome assertions.
