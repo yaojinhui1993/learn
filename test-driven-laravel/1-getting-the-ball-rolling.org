@@ -429,3 +429,14 @@
 
 ** More Custom Assertion Fun
    Some of our assertions are looking a little bit overwhelming. Let's create a new custom assertion to make our test a bit more expressive.
+
+* Building the Sales Dashboard
+
+** Calculating Tickets Sold
+   In this lesson walk through a few behind-the-scenes changes, then drive out a method for calculating tickets sold.
+
+** Making the Progress Bar Work
+   In this lesson we add some methods for calculating the percentage of ticket sold, and touch a neat tip for making assertions about float point numbers.
+
+** Total Revenue and a Relationship Bug
+   In this lesson we work on calculating the total revenue for a concert, but run into an intersting bug we need to tackle with our =$concert->order= relationship.
