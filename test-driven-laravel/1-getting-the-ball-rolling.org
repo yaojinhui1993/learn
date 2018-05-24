@@ -452,3 +452,20 @@
 
 ** Splitting Large Tests
    In this lesson we talk about when, why, and how to split up a large test into many.
+
+* Queuing Mass Attendee Emails
+
+** Storing Messages for Attendees
+   In this lesson we add the ability to create a new message to be sent to all concert attendees.
+
+** Confirming That a Job Was Dispatched
+   In this lesson, we update our "store attendee message" implementation to actually dispatch a background job for sending the message.
+
+** Unit Testting the Job
+   In this lesson we drive out the implementation of the actual background job via a dedicated unit test.
+
+** Refactoring for Robustness
+   In this lesson we refactor the implementation of our background job to better handle large numbers of recipients.
+
+** Mailable Testing Refresher and Demo
+   In this lesson we walk through a unit test for our new mailable and demo our new mass email feature.
