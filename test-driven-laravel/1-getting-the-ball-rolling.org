@@ -469,3 +469,8 @@
 
 ** Mailable Testing Refresher and Demo
    In this lesson we walk through a unit test for our new mailable and demo our new mass email feature.
+
+* Upgrading to Laravel 5.5
+
+** Upgrading to Laravel 5.5
+   In this lesson we use our test suit to guide us as we upgrade to Laravel 5.5.
