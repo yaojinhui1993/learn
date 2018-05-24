@@ -440,3 +440,15 @@
 
 ** Total Revenue and a Relationship Bug
    In this lesson we work on calculating the total revenue for a concert, but run into an intersting bug we need to tackle with our =$concert->order= relationship.
+
+
+* Listing Recent Orders
+
+** Creating a Custom OrderFactory
+   In this lesson we start working on making it possible for promoters to view a list of recent orders. When we hit a snag with some complex factory setup, we work on extracting a custom factory class to simplify our code.
+
+** Asserting Against Sort Order
+   In this lesson we add the assertions we need to verify that our recent orders are getting passed to the view in the right order, and discuss why asserting against view data makes this so much easier that in would be if we were asserting against HTML.
+
+** Splitting Large Tests
+   In this lesson we talk about when, why, and how to split up a large test into many.
