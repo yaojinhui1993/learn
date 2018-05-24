@@ -412,3 +412,20 @@
 
 ** Custom Factory Classes
    In this lesson we extract some repetitive complex factory setup into a custom =ConcertFactory= class.
+
+* Publish Concert Drafts
+
+** Discoving a New Resource
+   In this lesson we talk about three different approaches for exposing the ability to publish concerts through our applications endpoints.
+
+** Creating Published Concerts
+   In this lesson we drive out the ability to publish concerts through our new =/published-concerts= resource.
+
+** Adding Concerts without Publishing
+   In this lesson we update our existing "add concert" flow to not publish concerts immediately.
+
+** Pushing Logic Out of the View
+   Our template is doing a little bit too much work. Let's figure out a way to extract some of that logic into a place that's easier to test.
+
+** More Custom Assertion Fun
+   Some of our assertions are looking a little bit overwhelming. Let's create a new custom assertion to make our test a bit more expressive.
