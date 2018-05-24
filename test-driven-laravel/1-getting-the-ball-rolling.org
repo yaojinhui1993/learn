@@ -474,3 +474,17 @@
 
 ** Upgrading to Laravel 5.5
    In this lesson we use our test suit to guide us as we upgrade to Laravel 5.5.
+
+* Uploading Concert Posters
+
+** Faking Uploadings and File Systems.
+   In this lesson we write our first test for uploading concert images, and walk through how to attach files to requests in feature tests, as well as how to use Laravel's built-in file system fake to make assertions about file uploads.
+
+** Storing Files and Comparing Contents
+   In this lesson we get our initial file upload test passing, and also talk about how to verify that the stored file contents match the uploaded file contents.
+
+** Validating Poster Images
+   In this lesson we add additional tests for validating the file type, dimensions, and aspect ratio of uploaded concert posters.
+
+** Optional Files and the Null Object Pattern
+   In this lesson we add a test to make sure that concert posters are optional, and come up with a clean implementation using the Null Object pattern.
