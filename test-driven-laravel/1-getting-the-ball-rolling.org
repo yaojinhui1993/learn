@@ -488,3 +488,17 @@
 
 ** Optional Files and the Null Object Pattern
    In this lesson we add a test to make sure that concert posters are optional, and come up with a clean implementation using the Null Object pattern.
+
+* Optimizing Poster Images
+
+** Testing Events
+   In this lesson we decide on a design for our poster image processing feature and start by test-driving an event.
+
+** Testing the Event Listener
+   In this lesson we drive out our SchedulePosterImageProcessing event listener with TDD.
+
+** Resizing the Posted Image
+   In this lesson we walk through how to test resizing images using the =Intervention Image= image processing library.
+
+** Optimizing the Image Size
+   In this lesson we add an additional processing step to reduce the image size, and talk about how to test that the optimized image still looks like the original image.
