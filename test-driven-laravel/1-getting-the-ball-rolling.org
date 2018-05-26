@@ -502,3 +502,32 @@
 
 ** Optimizing the Image Size
    In this lesson we add an additional processing step to reduce the image size, and talk about how to test that the optimized image still looks like the original image.
+
+* Inviting Promoters and Accepting Inivitations
+
+** Upgrading Laravel and Deleting Some Code
+   Before we get started with the next feature, let's quickly upgrade to the latest Laravel patch release and take advantage of some new features that let us delete some of our custom helpers.
+
+** Viewing an Unused Inivation
+   In this lesson, we drive out the ability for a promoter to view their inivitation to join TicketBeast.
+
+** Viewing Used or Invalid Invitations
+   In this lesson, we drive out what should happen when someone tries to view an invitation that has already been used, as well as inivation that doesn't exists.
+
+** Registering with a Valid Invitation
+   In this lesson we drive out the form endpoint for registering with a valid invitation code.
+
+** Registering with an Invalid Invitation
+   In this lesson we make sure that users can't register with invalid invitation codes.
+
+** Validating Promoter Registation
+   In this lesson we add some validation rules to our registeration flow.
+
+** Testing a Console Command
+   In this lesson we TDD a custom Artisan command for creating new invitations.
+
+** Sending Promoters an Inivitation Email
+   In this lesson we enhance our custom command to also send an invitation email to the promoter being invited.
+
+** Test-Driving the Email Contents
+   In this lesson we make sure that the inivitation email cotains the correct invitation linke, and run through a quick demo of our finished feature.
