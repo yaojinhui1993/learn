@@ -531,3 +531,37 @@
 
 ** Test-Driving the Email Contents
    In this lesson we make sure that the inivitation email cotains the correct invitation linke, and run through a quick demo of our finished feature.
+
+* Automating Payouts With Stripe Connect
+** Getting Cozy with Stripe Connect
+  In this lesson, we learn about how Stripe Connect works and drive out an initial test for the OAuth redirect flow using Laravel Dusk.
+
+** Authorizing with Stripe
+   In this lesson we implement the first half of the Stripe Connect redirect flow, where we send promoters to Stripe to connect their account.
+
+** Exchanging Tokens
+   In this lesson we handle the second half of the redirect flow; exchanging the temporary code Stripe gives us for a valid access token that we can use to make requests on behalf of a promoter.
+
+** Unit Testing Middleware
+   In this lesson we work on driving out a middleware that will force promoters to connect a Stripe account.
+
+** Testing Callbacks with Invokables
+   In this lesson we make sure our middleware doesn't block promoters who have already connected their Stripe accounts, covering an approach for testing their interfaces that accepts callbacks using invokables classes.
+
+** Testing That Middleware is Applied
+   In this lesson we discuss and implement a strategy for making sure that our new middleware is applied to the correct routes.
+
+** Updating Factories and a Speed Trick
+   In this lesson we check if our middleware has had any impact on the rest of our test suit, and walk through a quick trick that can dramatically speed up your test suit.
+
+** Total Charges for a Specific Account
+   In this lesson we start working on sending payments directly to promoters by making sure we can verify which accounts received which payments.
+
+** Paying Promoters Directly
+   In this lesson we make the necessary changes to our application code to make sure that when a payment is processed it's sent to the promoter's account instead of the application account.
+
+** Splitting Payments with Stripe
+   In this lesson we update our =StripePaymentGateway= to match our new payment gateway contract, and add an additional test to make sure that pyaments processed by Strip are split as expected between the application account and the promoter's account.
+
+** It's Alive
+   In the final lesson of Test-Driven Laravel, we do one last demo of the ticket purchasing process from inviting a promoter to receiving an order confirmation, and double check that everything is really working as expected via the Stripe dashboard.
