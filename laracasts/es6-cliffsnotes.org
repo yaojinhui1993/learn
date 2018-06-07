@@ -6,3 +6,13 @@
 
 ** ES6 Compilation With Laravel Elixir
    If you happen to use Laravel as you framework of choice, then you'll be happy to know that, with Laravel Elixir, you don't even have to think about Babel. Everything will just work.
+
+** To Var, Let, or Const
+   ES6 introduces two new keywords for declaring variables: =let= and =const=. The only question is: how do you know which of the three to choose for any given situation? Well, let's talk about it.
+   - =var= hoisting
+   - =let= block
+   - =const= Not 100% unmutable
+   - How to use?
+     - Default to using =const=
+     - If need change the variable, change to =let= reassignment.
+     - Never use =var= again
