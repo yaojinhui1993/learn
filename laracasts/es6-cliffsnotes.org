@@ -38,3 +38,6 @@
 
 ** Classes
    ES6 are particularly appealing to those of us who predominantly work in traditional server-side languages. With ES5, you'd need to leverage the confusing prototype object to attach methods. But, now, all of that awkward code is pushed behind the scenes. In its place is a more familiar structure that you'll love.
+
+** ES6 Modules
+   Organizing JavaScript for large projects in 2005 was a bit of nightmare. It wasn't abnormal to find twenty different script imports in an HTML file. And, worse, it was up to you, the developer, to understand and remember the order to which each of your scripts must be imported. To say it was all dependancy nightmare is an understatement. Luckily, in recent years, modules have come the the rescue!
