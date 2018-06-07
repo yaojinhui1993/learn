@@ -32,3 +32,6 @@
 
 ** Template Strings
    Template literials allow us to remove all that funky trickery we resorted to for creating elegant multi-line strings. Instead, simpley replace those single quotes with backticks, and you're done. Even better, they also support variables subsituations. No more awkward concatenation.
+
+** Awesome Object Enhancements
+   ES6 includes a wide range of =Object= additions. In this episode, we'll review three of my favorites: property shorthand, short methods, and object destruturing.
