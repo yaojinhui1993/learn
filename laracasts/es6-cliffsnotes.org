@@ -16,3 +16,10 @@
      - Default to using =const=
      - If need change the variable, change to =let= reassignment.
      - Never use =var= again
+     -
+** Arrows
+   Arrows in ES2015 provide a friendly function shorthand for performing common tasks. While not a complete replacement for the =function= keyword, you'll still get an enormous amount of usage out of this new syntax.
+   - zero argument =this.tasks.each(()=> console.log('task'))=
+   - one argument =this.tasks.each((task) => console.log(task))=
+   - more than one argument =this.tasks.each((task, index) => console.log(task, index))=
+   - Use arrow shorthand, =this= keyword will change to parent.
