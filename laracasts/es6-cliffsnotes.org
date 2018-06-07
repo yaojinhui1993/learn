@@ -26,3 +26,6 @@
 
 ** Default Parameters
    ES5 doesn't offer support for default parameters. So, as a result, we all ended up resorting less-than-ideal alternatives. Luckily, with ES6, it'll all just work the way you'd expect. Even better, you're not limited to primitives alone; you can event set the default value equal to the result of a function call!
+
+** Rest and Spread
+   ES6 finally introduces support for both the "rest" and "spread" operators. In this lesson, I'll demonstrate what they are, and how you'll use them in your codebases.
