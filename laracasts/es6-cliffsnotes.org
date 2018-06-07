@@ -29,3 +29,6 @@
 
 ** Rest and Spread
    ES6 finally introduces support for both the "rest" and "spread" operators. In this lesson, I'll demonstrate what they are, and how you'll use them in your codebases.
+
+** Template Strings
+   Template literials allow us to remove all that funky trickery we resorted to for creating elegant multi-line strings. Instead, simpley replace those single quotes with backticks, and you're done. Even better, they also support variables subsituations. No more awkward concatenation.
