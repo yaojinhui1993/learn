@@ -1,0 +1,5 @@
+* ES2015 Crash Course
+  If you feel overwhelmed by the lightning-fast pace of the JavaScript Community, you're not alone. The JavaScript(likely using JQuery) you might have writen in 2009 doesn't event remotely resemble the scripts of today. In this series, I'll give you a crash course on the latest and greatest that the language has to offer.
+
+** Babel Setup
+   Before we begin toying around with the new features in ES6, we must first review basic compilation, using Babel. This way, all browsers will understand the cutting edge ES6 code you'll soon be writing.
