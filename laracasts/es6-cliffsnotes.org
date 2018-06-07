@@ -41,3 +41,6 @@
 
 ** ES6 Modules
    Organizing JavaScript for large projects in 2005 was a bit of nightmare. It wasn't abnormal to find twenty different script imports in an HTML file. And, worse, it was up to you, the developer, to understand and remember the order to which each of your scripts must be imported. To say it was all dependancy nightmare is an understatement. Luckily, in recent years, modules have come the the rescue!
+
+** Module bundling with Rollup
+   As we've begun to learn, while modern browsers are implementing much of the ES2015 spec, none of them support modules natively. This means we require module bundler, like Browserify, Webpack, or Rollup. Let's begin with the latter. In this lesson, we'll compile ES2015 code using modules, down to vanilla ES5 code that all relevant browsers understand.
