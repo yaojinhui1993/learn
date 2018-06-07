@@ -23,3 +23,6 @@
    - one argument =this.tasks.each((task) => console.log(task))=
    - more than one argument =this.tasks.each((task, index) => console.log(task, index))=
    - Use arrow shorthand, =this= keyword will change to parent.
+
+** Default Parameters
+   ES5 doesn't offer support for default parameters. So, as a result, we all ended up resorting less-than-ideal alternatives. Luckily, with ES6, it'll all just work the way you'd expect. Even better, you're not limited to primitives alone; you can event set the default value equal to the result of a function call!
