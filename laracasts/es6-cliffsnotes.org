@@ -3,3 +3,6 @@
 
 ** Babel Setup
    Before we begin toying around with the new features in ES6, we must first review basic compilation, using Babel. This way, all browsers will understand the cutting edge ES6 code you'll soon be writing.
+
+** ES6 Compilation With Laravel Elixir
+   If you happen to use Laravel as you framework of choice, then you'll be happy to know that, with Laravel Elixir, you don't even have to think about Babel. Everything will just work.
