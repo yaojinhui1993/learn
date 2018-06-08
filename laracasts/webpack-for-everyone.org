@@ -10,3 +10,6 @@
 
 ** A Dedicated Configuration File
    While it's neat that we can compile Webpack with a single command, in reality, in reality, you'll almost always want to use a dedicated =webpack.config.js= file to configure your Webpack build. Let's transition over in this episode.
+
+** Modules are Simply Files
+   The term "module" used to scare me. What exactly are they? Well, as it turns out, the answer is very simple: they're just files. Let's experiment with importing and exporting modules, while taking a few moments to discuss CommonJS and ES2015 modules.
