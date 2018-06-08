@@ -64,3 +64,6 @@
    - Generators: =function *range(start, end) { yield start; }=
    - Get generators 1: =for(i of iterators) {}=
    - Get generators 2: =[...range(1, 5)]=
+
+** Sets
+   In ES2015, a =Set= is an object that contains a collections of unique values of any type. Whether you simply want a cleaner API for working with this sort of structure, or need to enforce an unique constraint on all items within your collection, =Set= are the way to go.
