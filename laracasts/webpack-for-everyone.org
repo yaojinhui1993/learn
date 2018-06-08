@@ -1,0 +1,9 @@
+* Webpack For Everyone
+  Webpack is a wonderful tool for bundling front-end assets. Having said that, it can sometimes be a bit confusing to newcomers who switch over from a more tranditional "concatenate this scripts and libiraries in this exact order" setup. However, considering the recent release of Webpack 2, there has never been a better time to dive in.
+  In this series, I'll show you how simple it bundle and optimize your assets for production.
+
+** Zero Configuration Compilation
+   Let's dive in and begin bundling our Javascript with Webpack. As it turns out, we don't even need a =webpack.config.js= file yet. We can handle the entire process the command line.
+   - =webpack ./src/main.js ./dist/bundle.js=
+   - =webpack ./src/main.js ./dist/bundle.js --watch=
+   - Add another arguments =npm run build -- --watch=
