@@ -44,3 +44,6 @@
 
 ** Module bundling with Rollup
    As we've begun to learn, while modern browsers are implementing much of the ES2015 spec, none of them support modules natively. This means we require module bundler, like Browserify, Webpack, or Rollup. Let's begin with the latter. In this lesson, we'll compile ES2015 code using modules, down to vanilla ES5 code that all relevant browsers understand.
+
+** Module Bundling with Webpack
+   In the previous lesson, we learned about Rollup. But, now, let's switch over to Webpack, which has a much larger community and plugin encosystem. We'll set a Webpack config file, transpile ES2015, and even peek at Laravel Elixir 6.0's seamless Webpack intergration.
