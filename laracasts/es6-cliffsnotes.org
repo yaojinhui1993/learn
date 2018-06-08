@@ -52,3 +52,6 @@
    Promises can be a bit trickey to understand at first, but maybe this lesson will help! At its core, a promise is nothing more than a stand-in or placeholder for an action that hasn't yet taken place.
    - =new Promise((resolve, reject) => {})=
    - =promiseObject.then()= and =promiseObject.catch()=
+
+** Useful String Additions
+   Nothing here will knock you socks off, but, nonetheless, it's still important that you're aware of the following new additions to string API's: =startsWith()=, =endsWith()=, =includes()=, and =repeat()=
