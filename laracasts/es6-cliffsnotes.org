@@ -58,3 +58,9 @@
 
 ** Array#find and Array#includes
    ES2015 brings a number of new additions to arrays, however, you'll likely make use of a few of them. In this episode, we'll review the new =find=, =findIndex=, and =includes= methods - with the latter actually being part of ES2017, not ES2015.
+
+** ES2015 Generators
+   Generators will take some time to wrap you head around. So don't worry if it doesn't immediately click. In this episode, we'll lightly review the basic structure, and what it actually means for a function to be an "generator".
+   - Generators: =function *range(start, end) { yield start; }=
+   - Get generators 1: =for(i of iterators) {}=
+   - Get generators 2: =[...range(1, 5)]=
