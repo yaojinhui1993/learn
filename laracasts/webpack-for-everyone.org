@@ -7,3 +7,6 @@
    - =webpack ./src/main.js ./dist/bundle.js=
    - =webpack ./src/main.js ./dist/bundle.js --watch=
    - Add another arguments =npm run build -- --watch=
+
+** A Dedicated Configuration File
+   While it's neat that we can compile Webpack with a single command, in reality, in reality, you'll almost always want to use a dedicated =webpack.config.js= file to configure your Webpack build. Let's transition over in this episode.
