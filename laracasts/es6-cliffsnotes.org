@@ -55,3 +55,6 @@
 
 ** Useful String Additions
    Nothing here will knock you socks off, but, nonetheless, it's still important that you're aware of the following new additions to string API's: =startsWith()=, =endsWith()=, =includes()=, and =repeat()=
+
+** Array#find and Array#includes
+   ES2015 brings a number of new additions to arrays, however, you'll likely make use of a few of them. In this episode, we'll review the new =find=, =findIndex=, and =includes= methods - with the latter actually being part of ES2017, not ES2015.
