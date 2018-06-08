@@ -47,3 +47,8 @@
 
 ** Module Bundling with Webpack
    In the previous lesson, we learned about Rollup. But, now, let's switch over to Webpack, which has a much larger community and plugin encosystem. We'll set a Webpack config file, transpile ES2015, and even peek at Laravel Elixir 6.0's seamless Webpack intergration.
+
+** Promises 101
+   Promises can be a bit trickey to understand at first, but maybe this lesson will help! At its core, a promise is nothing more than a stand-in or placeholder for an action that hasn't yet taken place.
+   - =new Promise((resolve, reject) => {})=
+   - =promiseObject.then()= and =promiseObject.catch()=
