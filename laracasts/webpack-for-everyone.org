@@ -18,3 +18,8 @@
    Let's move on and review Webpack loaders. Loaders allow us to transform and preprocess any number of file types. Maybe you'd like to require Sass files, or compile ES2015 with Babel, or event inject CSS into the browser's =head= tag. Let's review the process of requiring CSS in this episode.
    - The =loader= config in place =module > rules=, and use =test= key to load file extensions type, use =use= to load loader
    - =use= keyworld follow the right to left conversation to load loader when the loader is array.
+
+** ES2015 Compilation with Babel
+   Now that you are a bit more confortable with the concept of loaders, let's figure out how to write our JavaScript in ES2015, and then apply a =babel-loader= to compile everything down to vanilla JavaScript that any browser can understand.
+   - install =babel-core= and =babel-loader=
+   - add =.babelrc= file
