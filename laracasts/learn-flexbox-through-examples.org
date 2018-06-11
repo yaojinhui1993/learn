@@ -16,3 +16,7 @@
    Consider the most typical of website layouts: a head at the top, a main section - possible consists of a sidebar and primary content - in the middle, and then a footer stuck to the bottom. Traditionally, we've used the float to accomplished this layout. But the truth is that floats were never truly meant for this sort of thing. Luckily, again, there's a better way. In this episode, we'll discuss the =justify-content= property more, while reviewing the =margining-top:auto= trick.
    - =flex-drection: column=
    - =space-between= in =flex-drection: column= to define a layout.
+   - =margin-bottom= and =margin-top= trick in the flex layout
+
+** An Episode List
+   Let's use flexbox to design the layout for a very simple component that displays a list of episode in a series. The key lesson for this viedo is to understand that flexbox is not exclusively for grid and layout. It's useful for even small adjustments.
