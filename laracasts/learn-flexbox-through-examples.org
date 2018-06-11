@@ -31,4 +31,8 @@
    Traditional CSS grids are painful to write. In fact, they're so painful to the point that most developers simply reach for a dedicated CSS framework that has all the kinks and bugs worked out. However, with flexbox, it's laughbly simple. Seriously - you'll laugh when you see how easy it is to dynamically create any arrangment of columns.
    - =flex-wrap= wrap multiple line
    - =.column.not(:last-child){}=
-   -  =width: 40%= after =flex:none=
+   - =width: 40%= after =flex:none=
+
+** Section Navigation
+   Let's build a navigation menu that requires main links on the left, social network link on the middle, and login/logout link on the far right side. Again, in the last, we would need to defer to awkward floats to accomplish this. But not anymore.
+   - =justify-content: space-between=
