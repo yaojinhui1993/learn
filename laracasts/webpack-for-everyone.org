@@ -29,3 +29,7 @@
    - =new webpack.optimize.UglifyJsPlugin()=
    - =process.env.NODE_ENV=
    - =NODE_ENV=production npm run build=
+
+** Sass Compilation
+   You'll likely want to use some form of CSS processor in your workflow. In this lesson, I'll demonstrate how to compile Sass, as part of your webpack build. It's easy!
+   - =npm install sass-loader node-sass --save-dev=
