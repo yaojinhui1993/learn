@@ -56,3 +56,6 @@
    - =hash=
    - =chunkhash=
    - =clean-webpack-plugin=
+
+** Webpack Manifests
+   We're able to successfully version(hash) our bundled chunks, but now we have a new problem: if the file hash keeps changing, how do we references it in our HTML? We can no longer hard code the path. Instead, let's have webpack generate a =manifest.json= file. This way, using Ruby, PHP, or fill-in-the-blank, we can read this file and dynamically determine and fetch the proper hash.
