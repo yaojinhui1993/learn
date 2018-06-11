@@ -59,3 +59,11 @@
 
 ** Webpack Manifests
    We're able to successfully version(hash) our bundled chunks, but now we have a new problem: if the file hash keeps changing, how do we references it in our HTML? We can no longer hard code the path. Instead, let's have webpack generate a =manifest.json= file. This way, using Ruby, PHP, or fill-in-the-blank, we can read this file and dynamically determine and fetch the proper hash.
+   - in plugin, add an anonymous
+
+** Automatic Image Optimization
+   We can pull in the =image-loader= loader to apply automatic image optimization to any relevant assets. In this episode, we'll review how to install the loader and then reduce an example image's size in our project by half.
+   - =image-loader=
+
+** Develop Webpack Plugins
+   At this stage in your learning, most of your webpack plugin interaction will consist of installing and instatiating whatever you need. For most common tasks, a plugin has already been created and is up on npm. However, a plugin can do anything and everything. As such, you'll likely encounter situtaions where it's useful to construct your own custom plugins, even if they're only intended for your personal use. In this episode, we'll review how easy it is to do so.
