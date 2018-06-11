@@ -6,3 +6,8 @@
    - =display:flex=
    - =align-items:center=
    - =justify-content:center=
+
+** A Navigation Menu
+   For step two of your flexbox crash-course,we'll create a typically navigation menu, and then use flexbox to evenly distrubte each item with perfect precision.
+   - =space-around=
+   - =space-between=
