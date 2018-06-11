@@ -49,3 +49,10 @@
 
 ** How to Strip Unused CSS
    In this episode, we'll apply the =PurifyCSS webpack plugin= to automatically strip our generated stylesheets of any selectors that aren't being used within your HTML files.
+   - =npm i -D purifycss-webpack purify-css=
+
+** Long-Term Caching
+   In this episode, we'll review file hashing in Webpack. This allows you to apply automatic unique hashes to each generated file. This way, we can instruct our server and browser to cache the file as long as possible. Let's start reviwing everything you need to know.
+   - =hash=
+   - =chunkhash=
+   - =clean-webpack-plugin=
