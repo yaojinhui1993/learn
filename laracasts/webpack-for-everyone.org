@@ -33,3 +33,9 @@
 ** Sass Compilation
    You'll likely want to use some form of CSS processor in your workflow. In this lesson, I'll demonstrate how to compile Sass, as part of your webpack build. It's easy!
    - =npm install sass-loader node-sass --save-dev=
+
+** Extracted CSS to a Dedicated File
+   It's very possible that you don't want to inline all of you CSS into the page, using =style-loader=. Instead, let's review the =ExtractTextWebpackPlugin=, which allows Webpack to extract your CSS to a dedicated, traditional stylesheet.
+   - =ExtractTextWebpackPlugin=
+   - entry *name*
+   - minimize css: =webpack.LoaderOptionsPlugin({ minimize: true })=
