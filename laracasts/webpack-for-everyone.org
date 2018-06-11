@@ -46,3 +46,6 @@
    - Set =css-loader= options =url= to false
    - Use =raw-loader=
    - Use =file-loader=
+
+** How to Strip Unused CSS
+   In this episode, we'll apply the =PurifyCSS webpack plugin= to automatically strip our generated stylesheets of any selectors that aren't being used within your HTML files.
