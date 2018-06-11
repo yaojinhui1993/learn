@@ -20,3 +20,9 @@
 
 ** An Episode List
    Let's use flexbox to design the layout for a very simple component that displays a list of episode in a series. The key lesson for this viedo is to understand that flexbox is not exclusively for grid and layout. It's useful for even small adjustments.
+   - =margin: auto= in =flex= tricky
+   - =space-between=
+
+** Media Objects with Flexbox
+   A media object is an incredibly simple component that you'll find uses for in countless spots in a typical website. The most obvious example is a Facebook status: a user's thumbnail on the left, and possibly a name and message on the right. In this video, we'll build two examples of this very thing, while leveraging flexbox.
+   - =flex: 1=
