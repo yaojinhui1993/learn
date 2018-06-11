@@ -39,3 +39,10 @@
    - =ExtractTextWebpackPlugin=
    - entry *name*
    - minimize css: =webpack.LoaderOptionsPlugin({ minimize: true })=
+
+** The Relative URL Conundrum
+   Easily, one of the most common points of confusion for developers switching to Webpack from a tool like Gulp stems from how Webpack(and =css-loader=) processes relative URLs withion your stylesheets. It's essential that your understand the concepts in this lesson, so don't skip it!
+   - Use full file path
+   - Set =css-loader= options =url= to false
+   - Use =raw-loader=
+   - Use =file-loader=
