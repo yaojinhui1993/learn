@@ -23,3 +23,9 @@
    Now that you are a bit more confortable with the concept of loaders, let's figure out how to write our JavaScript in ES2015, and then apply a =babel-loader= to compile everything down to vanilla JavaScript that any browser can understand.
    - install =babel-core= and =babel-loader=
    - add =.babelrc= file
+
+** Minification and Environments
+   In this episode, we'll learn how to minify our JavaScript with Webpack and Uglify. However, in this process, we'll also need to review environments. Often, you'll want to use on set of configuration for development, and another set for production. I'll show you how.
+   - =new webpack.optimize.UglifyJsPlugin()=
+   - =process.env.NODE_ENV=
+   - =NODE_ENV=production npm run build=
