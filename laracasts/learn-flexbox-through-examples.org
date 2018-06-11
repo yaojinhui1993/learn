@@ -11,3 +11,8 @@
    For step two of your flexbox crash-course,we'll create a typically navigation menu, and then use flexbox to evenly distrubte each item with perfect precision.
    - =space-around=
    - =space-between=
+
+** The Bread and Butter Layout
+   Consider the most typical of website layouts: a head at the top, a main section - possible consists of a sidebar and primary content - in the middle, and then a footer stuck to the bottom. Traditionally, we've used the float to accomplished this layout. But the truth is that floats were never truly meant for this sort of thing. Luckily, again, there's a better way. In this episode, we'll discuss the =justify-content= property more, while reviewing the =margining-top:auto= trick.
+   - =flex-drection: column=
+   - =space-between= in =flex-drection: column= to define a layout.
