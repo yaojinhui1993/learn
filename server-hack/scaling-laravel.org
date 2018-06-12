@@ -24,3 +24,7 @@
     The caveat to this is that you cannot use the =env()= helper to read from the =.env= file with the config cache. Instead, you should define any values in =.env= as a config item. Then the values from =.env= will be cached along with the rest of config.
     The =env()= helper should only be called from your config PHP files.
     =php artisan config:cache=
+
+*** Eager Loading
+    Eager loadings helps solve the N + 1 query problem.
+    When looping over query results, especially when using Eloquent with relationships, you may end up making many quries if you call a relationship on each return result from query.
