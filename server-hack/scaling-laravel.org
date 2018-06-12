@@ -17,3 +17,10 @@
     Registering and matching requests to a route is a slow process. Caching the route registration and their class/dependency mappings/middleware (and so on) saves time on every request!
     The only caveat is that we cannot save routes that user Clousers. All routes must point to a Controller class to use the route cache.
     =php artisan route:cache=
+
+*** The Config Cache
+    The config cache will cache the compiled config files from the =config= directory or as defined within thired party packages.
+    This includes configurations saved to the =.env= file.
+    The caveat to this is that you cannot use the =env()= helper to read from the =.env= file with the config cache. Instead, you should define any values in =.env= as a config item. Then the values from =.env= will be cached along with the rest of config.
+    The =env()= helper should only be called from your config PHP files.
+    =php artisan config:cache=
