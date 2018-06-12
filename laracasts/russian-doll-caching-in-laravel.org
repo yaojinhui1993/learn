@@ -1,0 +1,6 @@
+* Russian-Doll Caching in Laravel
+  Popularized in the Rails world, Russian Doll caching is an interesting approach, where you create nested fragment caches for your view logic. If you then link the keys for each of the cached items to the model's "updated_at" timestamp, what you get is easy caching for your view logic, and automatic cachebusting whenever the model is updated.
+  In this series, we'll build a *custom package from scratch* to offer this very functionality.
+
+** Overview and Homestead Setup
+   Let's begin by learning what Russian Doll caching actully is, and then moving on to the initial project setup, where we install both Laravel and Homestead for the project.
