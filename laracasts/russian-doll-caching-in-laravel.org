@@ -13,3 +13,7 @@
    - if =$expression = '($argu)'= =App\RussianCaching::setUp{$expression}= = =App\RussianCaching::setUp($argu)=, just paste the string to the expression.
    - =$touches = [relation]= update relation model.
    - Class =static= properties, and =array_pop()= method combo;
+
+** Creat a Package
+   At this point, our experiement is working. However, for any new project, we'd have to copy all these files over. Gross. Let's instead begin creating a resuable package, which we can then pull through Composer.
+   - =composer init=
