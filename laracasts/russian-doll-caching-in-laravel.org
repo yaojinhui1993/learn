@@ -25,3 +25,7 @@
 ** How to Use Local Packages in Laravel
    So far, we've been building our package in isolation. But, of course, we need to try this out within the context of an actual Laravel project. How exactly do we do that? Well, as it turns out, we can install local repositeries with Composer quite easily. In this lesson, we'll do the final tweaks in preparation for Packagist.org.
    - composer config.
+
+** Registering with Packagist
+   The inital version of our package is ready to release. Naturally, there ary a number of improvements we can make, but what we have so far is good enough for a 0.1.0 release. So let's register our package with Packagist.org.
+   View the source code for this package on GitHub. Please note that further commits will have been made to the repo, since the release of the video. Have a look at the commit history to review any specifics that interest you.
