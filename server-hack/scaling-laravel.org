@@ -7,3 +7,13 @@
     We run this a lot (in laravel 5.5 and under) because it's defined in the =post-install-cmd= and =post-update-cmd= areas defined in the =composer.json= file.
 
     This command caches Laravel's service (Service Providers and their dependency/load order) definitions.
+
+
+    - =composer dump-autoload --optimize=
+
+
+*** The Route Cache
+    We cover the route cache.
+    Registering and matching requests to a route is a slow process. Caching the route registration and their class/dependency mappings/middleware (and so on) saves time on every request!
+    The only caveat is that we cannot save routes that user Clousers. All routes must point to a Controller class to use the route cache.
+    =php artisan route:cache=
