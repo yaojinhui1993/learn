@@ -4,3 +4,12 @@
 
 ** Overview and Homestead Setup
    Let's begin by learning what Russian Doll caching actully is, and then moving on to the initial project setup, where we install both Laravel and Homestead for the project.
+
+** We Need Something to Cache
+   Before we can starting building our caching system, we first need some sample data to cache. So let's use the idea of an index card and notes. In this lesson, we'll build up the necessary route, models, and migrations.
+
+** Russian Doll Caching
+   Now that we have all the set up out of the way, let's write a custom Blade directive so that we may begin implementing our Russian Doll caching machinisam.
+   - if =$expression = '($argu)'= =App\RussianCaching::setUp{$expression}= = =App\RussianCaching::setUp($argu)=, just paste the string to the expression.
+   - =$touches = [relation]= update relation model.
+   - Class =static= properties, and =array_pop()= method combo;
