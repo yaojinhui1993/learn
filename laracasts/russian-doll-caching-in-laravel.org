@@ -21,3 +21,7 @@
 ** Refactoring and Testing
    Before we make this package avaliable on Packagist.org, let's do some refacotring and write some tests. As you'll find, these tests might drive us out toward a slightly different design. Let's see!
    - =normalizedCacheKey()=
+
+** How to Use Local Packages in Laravel
+   So far, we've been building our package in isolation. But, of course, we need to try this out within the context of an actual Laravel project. How exactly do we do that? Well, as it turns out, we can install local repositeries with Composer quite easily. In this lesson, we'll do the final tweaks in preparation for Packagist.org.
+   - composer config.
