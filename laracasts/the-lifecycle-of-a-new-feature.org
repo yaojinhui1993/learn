@@ -6,3 +6,6 @@
 
 ** Purchasing a Lesson
    In this lesson, we'll take some time to describe how a user might go about purchasing a lesson. What shape might that process take?
+
+** Scenarios and Refacotring
+   In this final episode, we'll refactor the FeatureContext class, while adding two more scenarios to describe the expected behavior of our "single purchases" feature.
