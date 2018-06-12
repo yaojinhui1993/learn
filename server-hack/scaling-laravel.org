@@ -1,0 +1,9 @@
+* Scaling Laravel
+** Laravel Performance
+
+*** Optimize Command
+    We cover the =php artisan optimize= command.
+
+    We run this a lot (in laravel 5.5 and under) because it's defined in the =post-install-cmd= and =post-update-cmd= areas defined in the =composer.json= file.
+
+    This command caches Laravel's service (Service Providers and their dependency/load order) definitions.
