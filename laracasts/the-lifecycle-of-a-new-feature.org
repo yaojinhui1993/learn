@@ -1,0 +1,5 @@
+* The Lifecycle of a New Feature
+   Want to join me, as I implement a new feature for Laracasts from scratch? Yes? Great! What exactly will we be tackling? Well, I'd like offer visitors, who don't desire a subscription, the option of buying single videos on a one-off basis. We'll use Behat to help with this.
+
+** The Needs of the Business
+   In this opening lesson of "The Lifecycle of a Feature", we'll take some time to dicuss the needs of the business. What feature are we implementing? Who is it for? What benefit does it have? How do we expect it to work? To get this information on paper, so to speak, we'll leverage Behat.
