@@ -162,3 +162,5 @@
 *** SQS Queue
 
 *** SQS and Wait Time
+
+*** Queue Priority and Segmenting.
