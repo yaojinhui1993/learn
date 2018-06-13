@@ -95,3 +95,9 @@
     - SSH
     - Auto Updates
     - Firewalls
+
+** Server Optimization
+
+*** Newwork Configuration
+    Most servers are likely limited in the number of connections they can accept. This issn't necessarily a hard limit, but rather due to some conservative defaults.
+    Let's see how we can allow more networking connections in and out of the server, and test our app with =ab=.
