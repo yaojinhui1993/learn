@@ -52,3 +52,17 @@
     We add indexes on various database tables to help reduce our total time spent querying the database.
 
     - Debugger add explain =config.debugger.explain=
+
+*** Object Caching I
+    We get our application ready to cache objects in Redis
+    This just requires two things:
+    1. In =.env=, change the =CACHE_DRIVER= (and optionally =SESSION_DRIVER=) to =redis=
+    2. Run =composer require predis/predis= to get the labirary Laravel uses to talk to Redis
+
+*** Object Caching II
+    We cover a naive solution to object caching!
+    Basically, we can just throw caching in where ever we want to save time on quries that don't necessarily need to always be absolutely up to date.
+
+*** Object Caching III
+    We can use the Decorator Pattern to make our use of caching a little more maintainable.
+    - =decotartor pattern=
