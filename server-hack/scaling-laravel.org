@@ -76,3 +76,12 @@
     1. Consider saving database IDs to cache so you can retrieve items by ID in the database (instead of doing more expensive =WHERE= logic).
     2. Consider saving basic (scalar) data to cache (such as an array instead of a Collection object) to save on bytes saved to cache.
     3. Be care of creating a situtation where every user may end up with many variations of cached data, thus greatly expanding the amount of data held in cache with each new user.
+
+** Server Setup
+*** Installing The Basics
+    We need a server to start with.
+    We'll quickly cover building a server very simillar to what you'll find on Laravel Forge. This includes use the same server type - Ubuntu 16.04. It won't contain all the same software as Forge. In particular we'll install the following:
+    1. Nginx
+    2. PHP/PHP-FPM
+    3. MySQL
+    4. Redis
