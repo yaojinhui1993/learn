@@ -160,3 +160,5 @@
 *** Laravel Horizon
 
 *** SQS Queue
+
+*** SQS and Wait Time
