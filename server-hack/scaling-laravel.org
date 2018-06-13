@@ -176,3 +176,9 @@
     1. Database replication
     2. Cache clustering
     3. Worker servers.
+
+*** MySQL Install & Setup
+    - Install MySQL Server
+    - Listen on NetWork
+    - Security
+    - User Setup
