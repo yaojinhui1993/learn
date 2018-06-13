@@ -120,3 +120,8 @@
     Here we disable xDebug and see how it makes our application a bit faster!
     It's pretty simple, there's a built in tool for it on Ubuntu/Debian servers.
     =sudo phpdismod xdebug=
+
+*** Opcache
+    Opcache is good(great)! CPU-usage saver. It does, however, come with a caveat:
+    We're used to being able to change PHP files on the fly, and seeing the changes take effect immediately. However, when we enable opcache, we need to reload php-fpm every time we make code changes. Reloading or restarting php-fpm tells Opcache to refresh its cache.
+    So, this is good to use when you're not changing code in production, and when you have a process set for deployment that can reload PHP-FPM after code is updated.
