@@ -101,3 +101,16 @@
 *** Newwork Configuration
     Most servers are likely limited in the number of connections they can accept. This issn't necessarily a hard limit, but rather due to some conservative defaults.
     Let's see how we can allow more networking connections in and out of the server, and test our app with =ab=.
+
+*** FPM Process Management
+    PHP-FPM uses a process per connection sent to it to fulfill a web request. Processes can accept multiple connections in serial, however. They're kept up and running and accepting new connections (fastcgi web requests from nginx) for as long as we configure them.
+    To allow the server to handle more simultaneous request, and more fully use available RAM/CPU that it might otherwise "leave on the table", we can tell PHP-FPM to create more processes to handle more requests.
+    However, there is a balance between CPU and RAM usage to take into consideration. Our goal is to increases the maximum number of processes (and thus number of simlutaneous web requestes) as high as server can handle without choking other services.
+    If there are too many FPM processes, we'll see either:
+    - The server running out of RAM issues (and then using swap, or completing failing if no swap).
+    - Generally users see errors here, and other services such as MySQL might die.
+    - The server running out of the CPU, where you'll see requests complete or start to time out.
+    - Generally users have slow response times, eventually leading to time outs.
+
+
+    If you don't have enough processes, users will get Gateway errors in Nginx, because PHP-FPM could not spin up enough processes to handle the traffic and eventually fails when it cannot queues up requests to fulfill.
