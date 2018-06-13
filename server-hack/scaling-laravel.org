@@ -28,3 +28,9 @@
 *** Eager Loading
     Eager loadings helps solve the N + 1 query problem.
     When looping over query results, especially when using Eloquent with relationships, you may end up making many quries if you call a relationship on each return result from query.
+
+*** Database Chunking
+    Database chunking is great when you are returning a large number of results from the database.
+    We can get all the results, but "chunk" them up - we split them across multiple quries.
+    ~To use chunking, you MUST use a orderBy clause in your query. That being said, Laravel may be intelligent enough to order by a model key if you don't provide an orderBy yourself. That will only work for Eloquent models, however.~
+    =xdebug_peak_memory_usage()=
