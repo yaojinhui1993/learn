@@ -34,3 +34,9 @@
     We can get all the results, but "chunk" them up - we split them across multiple quries.
     ~To use chunking, you MUST use a orderBy clause in your query. That being said, Laravel may be intelligent enough to order by a model key if you don't provide an orderBy yourself. That will only work for Eloquent models, however.~
     =xdebug_peak_memory_usage()=
+
+*** MySQL Indexing I
+    We need to properly index our database tables and columns to take advantage of our databases speed features!
+    This video just covers the appliation setup we use to start testing large(ish) data sets.
+    The main point is that we add =EXPLAIN= into our MySQL quries to get MySQL to show us information about each query, such as what indexes a query is or should be using.
+    - =provider=
