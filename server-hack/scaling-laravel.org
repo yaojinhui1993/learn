@@ -66,3 +66,13 @@
 *** Object Caching III
     We can use the Decorator Pattern to make our use of caching a little more maintainable.
     - =decotartor pattern=
+
+*** Object Caching IV
+    Lastly with object caching we explore how much memory we might be using in Redis. We want to be careful that we don't save too much to our cache system and overload it.
+    In our example, we save an array to Redis instead of entire serialized objects.
+
+
+    In general:
+    1. Consider saving database IDs to cache so you can retrieve items by ID in the database (instead of doing more expensive =WHERE= logic).
+    2. Consider saving basic (scalar) data to cache (such as an array instead of a Collection object) to save on bytes saved to cache.
+    3. Be care of creating a situtation where every user may end up with many variations of cached data, thus greatly expanding the amount of data held in cache with each new user.
