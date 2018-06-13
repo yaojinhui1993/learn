@@ -47,3 +47,8 @@
     ~Indexes are typically added to fields that you use in the =WHERE= section of a query~
 
     - =show indexes from table_name=
+
+*** MySQL Indexing III
+    We add indexes on various database tables to help reduce our total time spent querying the database.
+
+    - Debugger add explain =config.debugger.explain=
