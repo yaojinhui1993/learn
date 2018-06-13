@@ -40,3 +40,10 @@
     This video just covers the appliation setup we use to start testing large(ish) data sets.
     The main point is that we add =EXPLAIN= into our MySQL quries to get MySQL to show us information about each query, such as what indexes a query is or should be using.
     - =provider=
+
+*** MySQL Indexing II
+    We show what the =EXPLAIN= statement does in MySQL and what it's tell us.
+    In particular we can see what =key= may or may not used how many =rows= need to be scanned/processed.
+    ~Indexes are typically added to fields that you use in the =WHERE= section of a query~
+
+    - =show indexes from table_name=
