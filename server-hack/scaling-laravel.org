@@ -150,3 +150,5 @@
    So, we can set a button to show when a queue job is fired and is in-process. However, we don't have a way to update the user when a job is complete. To do this, we need 2-way communication. That's something we can get using websockets. Pusher is great for this.
 
 ** Tracking Tasks
+
+** Database Queue Limitations
