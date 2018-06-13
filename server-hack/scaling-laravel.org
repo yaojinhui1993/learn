@@ -114,3 +114,9 @@
 
 
     If you don't have enough processes, users will get Gateway errors in Nginx, because PHP-FPM could not spin up enough processes to handle the traffic and eventually fails when it cannot queues up requests to fulfill.
+
+
+*** xDebug
+    Here we disable xDebug and see how it makes our application a bit faster!
+    It's pretty simple, there's a built in tool for it on Ubuntu/Debian servers.
+    =sudo phpdismod xdebug=
