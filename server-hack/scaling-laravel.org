@@ -133,8 +133,8 @@
 
 *** Sending Mail
 
-
-** Database Queue Driver
+** Queues
+*** Database Queue Driver
    Queues
    All queue systems have three components.
    1. Code pushing job into a queue system (via a queue driver).
@@ -142,19 +142,21 @@
    3. Queue workers consuming jobs and doing work on them.
 
 
-** UX and VueJS
+*** UX and VueJS
    Queues are great, but there ary many times where we may leave users wondering "did that things I just clicked work?". We often need a way to let users know that there's a job in-queue and waiting to happen. To properly do this, we need a way to make it obvious they are waiting for something, and hopefully device a way to let them know when an action is finished.
    We'll see how we can do this with some VueJS and Pusher to update users in real-time.
 
-** Integrating Pusher
+*** Integrating Pusher
    So, we can set a button to show when a queue job is fired and is in-process. However, we don't have a way to update the user when a job is complete. To do this, we need 2-way communication. That's something we can get using websockets. Pusher is great for this.
 
-** Tracking Tasks
+*** Tracking Tasks
 
-** Database Queue Limitations
+*** Database Queue Limitations
 
 ** Redis Queue
    Redis is the easiest queue driver in Laravel to use. Changes to Redis's job state are atomic and shouldn't create race conditions or deadlocks like you could potentially get with the database driver.
    Redis-based queues are basically just limited to the available memory of Redis itself (how much RAM is avaiable to use).
 
-** Laravel Horizon
+*** Laravel Horizon
+
+*** SQS Queue
