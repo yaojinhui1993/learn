@@ -153,7 +153,7 @@
 
 *** Database Queue Limitations
 
-** Redis Queue
+*** Redis Queue
    Redis is the easiest queue driver in Laravel to use. Changes to Redis's job state are atomic and shouldn't create race conditions or deadlocks like you could potentially get with the database driver.
    Redis-based queues are basically just limited to the available memory of Redis itself (how much RAM is avaiable to use).
 
@@ -166,3 +166,13 @@
 *** Queue Priority and Segmenting.
 
 *** Queue in Production.
+
+** Spliting Services
+
+*** What We're Doing
+    Spliting up services lets us devote resources to each specific resource.
+    This is very important for resource-intensive parts of your infrasture (e.g. your database).
+    This then lets you expand and scale those services separately, for example, you may scale the following services independently of each other:
+    1. Database replication
+    2. Cache clustering
+    3. Worker servers.
