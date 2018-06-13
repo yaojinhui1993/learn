@@ -152,3 +152,7 @@
 ** Tracking Tasks
 
 ** Database Queue Limitations
+
+** Redis Queue
+   Redis is the easiest queue driver in Laravel to use. Changes to Redis's job state are atomic and shouldn't create race conditions or deadlocks like you could potentially get with the database driver.
+   Redis-based queues are basically just limited to the available memory of Redis itself (how much RAM is avaiable to use).
