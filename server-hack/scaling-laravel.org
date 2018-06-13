@@ -85,3 +85,6 @@
     2. PHP/PHP-FPM
     3. MySQL
     4. Redis
+
+*** Forge Like Configuration
+    Let's do some server configuration! We'll change some configuration to make the server more performat, and set the server up to be a little closer to Forge's setup.
