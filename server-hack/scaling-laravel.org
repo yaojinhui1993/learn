@@ -125,3 +125,8 @@
     Opcache is good(great)! CPU-usage saver. It does, however, come with a caveat:
     We're used to being able to change PHP files on the fly, and seeing the changes take effect immediately. However, when we enable opcache, we need to reload php-fpm every time we make code changes. Reloading or restarting php-fpm tells Opcache to refresh its cache.
     So, this is good to use when you're not changing code in production, and when you have a process set for deployment that can reload PHP-FPM after code is updated.
+
+** Making an App
+
+*** A New App
+    All we do here is start a new Laravel application, which we'll use for the rest of the series to show how to scale out our infrastrure.
