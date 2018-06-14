@@ -253,3 +253,13 @@
 *** Pessimistic vs Optimistic Overview
 *** Pessimistic Locking
 *** Optimistic Locking
+
+** Advanced MySQL
+*** Intro to Advanced MySQL
+   We go over what kinds of topics we'll cover in the Advanced MySQL module:
+   1. UTF8
+   2. Backing up with MySQL and Xtrabackup
+   3. Restoring databases
+   4. Off-site backups
+   5. The Slowlog
+   6. GTID Replication
