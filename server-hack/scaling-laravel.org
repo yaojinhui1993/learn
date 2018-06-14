@@ -252,3 +252,4 @@
 *** Laravel Transactions with SELECTS
 *** Pessimistic vs Optimistic Overview
 *** Pessimistic Locking
+*** Optimistic Locking
