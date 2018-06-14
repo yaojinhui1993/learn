@@ -272,3 +272,4 @@
 
 *** Offsite Backups
 *** Streaming mysqldump output to S3
+*** Streaming xtrabackup Output to S3
