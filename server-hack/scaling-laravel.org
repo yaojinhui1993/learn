@@ -271,3 +271,4 @@
 *** Restoring From Xtrabackup Backups
 
 *** Offsite Backups
+*** Streaming mysqldump output to S3
