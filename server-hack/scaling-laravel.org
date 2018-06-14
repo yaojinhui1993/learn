@@ -268,3 +268,4 @@
 *** Restoring From mysqldump
 
 *** Backing Up with Xtrabackup
+*** Restoring From Xtrabackup Backups
