@@ -275,3 +275,4 @@
 *** Streaming xtrabackup Output to S3
 *** The Slowlog
 *** MySQL Replication - The Master Server
+*** MySQL Replication - The Replica Server
