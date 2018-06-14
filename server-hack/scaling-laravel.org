@@ -266,3 +266,5 @@
 *** MySQL and utf8mb4
 *** Backing Up With mysqldump
 *** Restoring From mysqldump
+
+*** Backing Up with Xtrabackup
