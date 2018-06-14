@@ -247,3 +247,5 @@
     2. Aid in controlling concurrency issues.
 
 *** Repeatable Read Isolation
+
+*** Isolation Level Caveat
