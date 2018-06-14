@@ -251,3 +251,4 @@
 *** Isolation Level Caveat
 *** Laravel Transactions with SELECTS
 *** Pessimistic vs Optimistic Overview
+*** Pessimistic Locking
