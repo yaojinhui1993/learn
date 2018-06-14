@@ -182,3 +182,5 @@
     - Listen on NetWork
     - Security
     - User Setup
+
+*** MySQL Optimization
