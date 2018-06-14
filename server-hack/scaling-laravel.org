@@ -194,3 +194,5 @@
 *** HAProxy Part I
 
 *** HAProxy Basic Load Balancing
+
+*** Header Detection with Trusted Proxies
