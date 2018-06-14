@@ -245,3 +245,5 @@
     Transaction's Purpose:
     1. Atomic units of work. If an issue come up, a rollback happens and none of the changes to the database that happened within the transactions are saved. ("All or noting")
     2. Aid in controlling concurrency issues.
+
+*** Repeatable Read Isolation
