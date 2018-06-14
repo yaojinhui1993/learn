@@ -234,3 +234,5 @@
 *** Queue Workers
 
 *** Cron Server
+
+*** Cron & Laravel 5.6
