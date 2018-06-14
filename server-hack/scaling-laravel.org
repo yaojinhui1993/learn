@@ -202,3 +202,5 @@
 *** Session Management
     - Session Affinity
     - Central Session Storage
+
+*** User Uploaded Files with VueJS
