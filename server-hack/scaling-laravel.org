@@ -277,3 +277,4 @@
 *** MySQL Replication - The Master Server
 *** MySQL Replication - The Replica Server
 *** MySQL Replication with Laravel
+*** MySQL GTIDs
