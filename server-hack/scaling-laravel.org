@@ -263,3 +263,4 @@
    4. Off-site backups
    5. The Slowlog
    6. GTID Replication
+*** MySQL and utf8mb4
