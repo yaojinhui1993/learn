@@ -190,3 +190,5 @@
 ** Load Balancing
 
 *** Additional Network Security
+
+*** HAProxy Part I
