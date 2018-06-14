@@ -184,3 +184,5 @@
     - User Setup
 
 *** MySQL Optimization
+
+*** Redis Server
