@@ -198,3 +198,7 @@
 *** Header Detection with Trusted Proxies
 
 *** Let's Encrypt with HAProxy
+
+*** Session Management
+    - Session Affinity
+    - Central Session Storage
