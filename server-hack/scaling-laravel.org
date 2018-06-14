@@ -264,3 +264,4 @@
    5. The Slowlog
    6. GTID Replication
 *** MySQL and utf8mb4
+*** Backing Up With mysqldump
