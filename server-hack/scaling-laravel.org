@@ -265,3 +265,4 @@
    6. GTID Replication
 *** MySQL and utf8mb4
 *** Backing Up With mysqldump
+*** Restoring From mysqldump
