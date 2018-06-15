@@ -7,3 +7,8 @@
    1. =docker= - the main command, manage the life cycle of docker containers
    2. =docker-compose= - coordinate the use of multiple containers (services) using a yaml file.
    3. =docker-machine= - spin up servers, install Docker, and let us control them remotely.
+
+** You First Container
+   - =docker ps=
+   - =docker ps -a=
+   - =docker images=
