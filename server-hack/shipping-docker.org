@@ -79,3 +79,6 @@
 
 ** Indroducing Docker Compose
    - =docker-compose -h=
+** Docker Compose Basic
+   - =docker-compose up -d=
+   - =docker-compose ps=
