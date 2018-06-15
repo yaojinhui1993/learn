@@ -70,7 +70,7 @@
    - =docker volume ls=
 ** Review
 
-* Addenum 1
+* Addendum 1
 ** Official Images on Docker Hub
 
 ** Advanced Dockerfiles: MySQL
@@ -92,3 +92,5 @@
 
 
    =docker-compose -f docker-compose.base.yml -f docker-compose.dev.yml up -d=
+* Addendum 2
+** Using Mysqldump with Docker
