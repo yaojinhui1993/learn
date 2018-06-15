@@ -25,3 +25,9 @@
      - =docker images= list images
      - =docker rmi image_id_or_name:tag_combo= remove a specific image by ID or Name
      - =docker rmi $(docker images -q)= Remove all images
+
+** Interacting with Container
+   - =docker run ubuntu:16.04 bash=
+   - =docker run ubuntu:16.04 -i -t ubuntu:16.04 bash=
+   - =docker stop container_name_or_id=
+   - =docker start container_name_or_id=
