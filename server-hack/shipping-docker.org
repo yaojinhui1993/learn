@@ -101,3 +101,5 @@
 ** Dockerizing Your Applications Intro
 
 ** Getting Started with an App
+
+** Creating Our Project Images
