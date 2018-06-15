@@ -51,3 +51,6 @@
    - =docker build=
 
 ** Building a PHP Image
+
+** Linking Nginx & PHP Containers
+   - =docker exec -it zen_einstein bash=
