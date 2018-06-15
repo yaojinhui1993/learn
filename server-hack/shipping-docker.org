@@ -49,3 +49,5 @@
 
 ** The Dockerfile
    - =docker build=
+
+** Building a PHP Image
