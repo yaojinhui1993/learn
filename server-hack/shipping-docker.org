@@ -94,3 +94,4 @@
    =docker-compose -f docker-compose.base.yml -f docker-compose.dev.yml up -d=
 * Addendum 2
 ** Using Mysqldump with Docker
+** Using SequelPro with Docker
