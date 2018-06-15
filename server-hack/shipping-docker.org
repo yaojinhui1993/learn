@@ -34,3 +34,6 @@
 
 ** Nginx & Sharing Ports
    - =docker run -it -p 80:80 ubuntu:16.04 bash=
+
+** Sharing Volumes
+   - =docker run -it -p 80:80 -v ~/dockertest:/var/www/html ubuntu:16.04 bash=
