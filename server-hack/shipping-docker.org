@@ -14,4 +14,14 @@
    - =docker images=
 
 ** Inspecting Containers
-   = =docker inspect=
+   - =docker inspect=
+
+** Cleaning Up
+   - Container
+     - =docker rm container_name_or_id=
+     - =docker rm $(docker ps -aq)= remove all containers
+     - =docker run -rm unbutu:16.04 ls -lah= remove the container when done running
+   - Images
+     - =docker images= list images
+     - =docker rmi image_id_or_name:tag_combo= remove a specific image by ID or Name
+     - =docker rmi $(docker images -q)= Remove all images
