@@ -1,3 +1,9 @@
 * Docker Basic
 
 ** Installing Docker for Mac/Windows
+
+** The Docker Commands
+   We explore the three commands available to us after installing Docker on our computer
+   1. =docker= - the main command, manage the life cycle of docker containers
+   2. =docker-compose= - coordinate the use of multiple containers (services) using a yaml file.
+   3. =docker-machine= - spin up servers, install Docker, and let us control them remotely.
