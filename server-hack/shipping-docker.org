@@ -72,3 +72,5 @@
 
 * Addenum 1
 ** Official Images on Docker Hub
+
+** Advanced Dockerfiles: MySQL
