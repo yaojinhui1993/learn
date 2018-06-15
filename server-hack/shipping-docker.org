@@ -95,3 +95,7 @@
 * Addendum 2
 ** Using Mysqldump with Docker
 ** Using SequelPro with Docker
+
+* Dockerizing Your Applications
+
+** Dockerizing Your Applications Intro
