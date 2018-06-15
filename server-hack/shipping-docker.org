@@ -83,3 +83,4 @@
    - =docker-compose up -d=
    - =docker-compose ps=
 ** Serving a Real Application
+** Bulding Images with Docker Compose
