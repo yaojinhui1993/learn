@@ -12,3 +12,6 @@
    - =docker ps=
    - =docker ps -a=
    - =docker images=
+
+** Inspecting Containers
+   = =docker inspect=
