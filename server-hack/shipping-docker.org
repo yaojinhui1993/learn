@@ -86,3 +86,9 @@
 ** Bulding Images with Docker Compose
 ** Explaining the =docker-compose up= Command
 ** Variables with Docker Compose
+** Extending Docker Compose Files
+   1. Use a 2nd docker-compose file to add to a base file
+   2. Use a 2nd docker-compose file that explicitly extends parts of a base file
+
+
+   =docker-compose -f docker-compose.base.yml -f docker-compose.dev.yml up -d=
