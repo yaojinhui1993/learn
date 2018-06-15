@@ -54,3 +54,8 @@
 
 ** Linking Nginx & PHP Containers
    - =docker exec -it zen_einstein bash=
+
+** Pushing to Docker Hub
+   - =docker login=
+   - =docker push=
+   - =docker pull=
