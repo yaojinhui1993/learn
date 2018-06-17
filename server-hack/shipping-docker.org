@@ -123,3 +123,5 @@
 ** Introducing Docker Machine
 
 ** Docker Machine with AWS
+
+** Docker Compose with Docker Machine
