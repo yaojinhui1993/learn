@@ -127,3 +127,5 @@
 ** Docker Compose with Docker Machine
 
 ** File Permissions with Docker
+
+** Installing Docker Manually
