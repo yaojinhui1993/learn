@@ -125,3 +125,5 @@
 ** Docker Machine with AWS
 
 ** Docker Compose with Docker Machine
+
+** File Permissions with Docker
