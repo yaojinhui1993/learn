@@ -137,3 +137,5 @@
 * CI with Jenkins
 
 ** Installing Jenkins
+
+** Configuring Jenkins and GitHub
