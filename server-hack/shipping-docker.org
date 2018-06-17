@@ -133,3 +133,7 @@
 * Addendm 3
 
 ** Reviewing Docker Volumes, Permissions, and Network
+
+* CI with Jenkins
+
+** Installing Jenkins
