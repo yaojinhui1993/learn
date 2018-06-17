@@ -113,3 +113,5 @@
 ** The Workflow, You Always Wanted
 
 ** Extending Docker Compose for Dev and CI
+
+** Docker Compose Detail for CI(and faster test!)
