@@ -141,3 +141,5 @@
 ** Configuring Jenkins and GitHub
 
 ** Automating Tests
+
+** Dealing with Secrets
