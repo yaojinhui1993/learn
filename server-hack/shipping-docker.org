@@ -111,3 +111,5 @@
 ** This Is Rediculous, We Need Help
 
 ** The Workflow, You Always Wanted
+
+** Extending Docker Compose for Dev and CI
