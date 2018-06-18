@@ -172,3 +172,5 @@
 ** Server Cluster Setup
 
 ** Registry with Swarm
+
+** Running Applications
