@@ -143,3 +143,8 @@
 ** Automating Tests
 
 ** Dealing with Secrets
+
+** Cleaning Up
+
+* Preparing Continuous Delivery
+** Building Production Images
