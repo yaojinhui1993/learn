@@ -6,6 +6,8 @@
 
 **** Connecting via SSH
 
+**** User Setup
+
 *** Basic Deployments (Copying Files)
 
 ** Scripting Deployments
