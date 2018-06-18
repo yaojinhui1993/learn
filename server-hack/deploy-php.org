@@ -1,0 +1,19 @@
+* Deploy PHP
+
+** Ground Work
+
+*** Building a Web Server
+
+**** Connecting via SSH
+
+*** Basic Deployments (Copying Files)
+
+** Scripting Deployments
+
+*** Advanced Deployments
+
+** Automating Deployments
+
+*** Building a Deploy Service
+
+*** Packaging Your Application
