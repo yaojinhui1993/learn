@@ -12,6 +12,8 @@
 
 **** Configuring Firewalls
 
+**** Fail2Ban to Monitor Access Attempts
+
 *** Basic Deployments (Copying Files)
 
 ** Scripting Deployments
