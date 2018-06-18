@@ -178,3 +178,5 @@
 ** Load Balancer as Entry Point
 
 ** Rolling Updates
+
+** Docker Secrets
