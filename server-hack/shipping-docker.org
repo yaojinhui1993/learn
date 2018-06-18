@@ -174,3 +174,5 @@
 ** Registry with Swarm
 
 ** Running Applications
+
+** Load Balancer as Entry Point
