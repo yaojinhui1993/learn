@@ -150,3 +150,5 @@
 ** Building Production Images
 
 ** A Local Private Registry
+
+** An S3-Backed Private Registry
