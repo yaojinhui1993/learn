@@ -148,3 +148,5 @@
 
 * Preparing Continuous Delivery
 ** Building Production Images
+
+** A Local Private Registry
