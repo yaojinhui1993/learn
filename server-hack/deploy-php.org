@@ -10,6 +10,8 @@
 
 **** User Access/Security
 
+**** Configuring Firewalls
+
 *** Basic Deployments (Copying Files)
 
 ** Scripting Deployments
