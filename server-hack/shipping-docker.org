@@ -156,3 +156,5 @@
 * Single Host Docker Production Setup
 
 ** Server Setup and Running the App
+
+** Application State
