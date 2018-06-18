@@ -16,6 +16,8 @@
 
 *** Basic Deployments (Copying Files)
 
+**** Application Server Setup
+
 ** Scripting Deployments
 
 *** Advanced Deployments
