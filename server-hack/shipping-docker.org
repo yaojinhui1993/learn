@@ -180,3 +180,5 @@
 ** Rolling Updates
 
 ** Docker Secrets
+
+** DNS and Service Discovery
