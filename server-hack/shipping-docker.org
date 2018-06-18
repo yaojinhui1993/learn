@@ -158,3 +158,5 @@
 ** Server Setup and Running the App
 
 ** Application State
+
+** Naive Deployment
