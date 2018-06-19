@@ -4,6 +4,7 @@
 **** What We'll Cover
 **** Linux Server Family
 **** Logging Into Your Server
+**** Creating Users and SSH Security
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
