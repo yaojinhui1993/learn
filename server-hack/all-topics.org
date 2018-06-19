@@ -6,6 +6,7 @@
 **** Logging Into Your Server
 **** Creating Users and SSH Security
 **** Configuring SSH Locally
+**** Getting Around Your Server
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
