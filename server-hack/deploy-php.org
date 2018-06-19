@@ -24,6 +24,8 @@
 
 **** Improving Our Process with Rsync
 
+**** Deploying with Git Securely
+
 ** Scripting Deployments
 
 *** Advanced Deployments
