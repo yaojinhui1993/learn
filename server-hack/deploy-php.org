@@ -41,5 +41,6 @@
 
 *** Building a Deploy Service
 **** Automating Fabric
+**** Creating a Build Server
 
 *** Packaging Your Application
