@@ -37,11 +37,9 @@
 **** Handling Migrations
 **** Other Services We Can Use
 
-
-
-
 ** Automating Deployments
 
 *** Building a Deploy Service
+**** Automating Fabric
 
 *** Packaging Your Application
