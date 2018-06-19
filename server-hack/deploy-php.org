@@ -29,6 +29,7 @@
 ** Scripting Deployments
 
 *** Advanced Deployments
+**** Using Fabric to Script Deployment
 
 ** Automating Deployments
 
