@@ -22,6 +22,8 @@
 
 **** Copying Files with SCP
 
+**** Improving Our Process with Rsync
+
 ** Scripting Deployments
 
 *** Advanced Deployments
