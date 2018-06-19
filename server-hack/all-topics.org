@@ -5,6 +5,7 @@
 **** Linux Server Family
 **** Logging Into Your Server
 **** Creating Users and SSH Security
+**** Configuring SSH Locally
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
