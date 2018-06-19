@@ -42,5 +42,6 @@
 *** Building a Deploy Service
 **** Automating Fabric
 **** Creating a Build Server
+**** Using a Web Listener to Trigger Deployments
 
 *** Packaging Your Application
