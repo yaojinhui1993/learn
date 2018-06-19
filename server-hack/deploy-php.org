@@ -31,6 +31,8 @@
 *** Advanced Deployments
 **** Using Fabric to Script Deployment
 **** Sudoers for Sudo Commands
+**** Symlinks to Reduce Downtime
+
 
 ** Automating Deployments
 
