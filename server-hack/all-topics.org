@@ -2,6 +2,8 @@
 ** Beginners
 *** Start Here
 **** What We'll Cover
+**** Linux Server Family
+
 *** SSH Usage, Tips, and Tricks
 *** Package Management
 *** Security
