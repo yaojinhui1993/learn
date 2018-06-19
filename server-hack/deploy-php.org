@@ -44,5 +44,6 @@
 **** Creating a Build Server
 **** Using a Web Listener to Trigger Deployments
 **** Setting Up GitHub Webhooks
+**** Set Up a Deployment Queue with SQS
 
 *** Packaging Your Application
