@@ -46,5 +46,6 @@
 **** Setting Up GitHub Webhooks
 **** Set Up a Deployment Queue with SQS
 **** Taking Jobs from the SQS Queue to Trigger Deployments
+**** Adding Slack Notifications
 
 *** Packaging Your Application
