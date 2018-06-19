@@ -30,6 +30,7 @@
 
 *** Advanced Deployments
 **** Using Fabric to Script Deployment
+**** Sudoers for Sudo Commands
 
 ** Automating Deployments
 
