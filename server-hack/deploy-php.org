@@ -45,5 +45,6 @@
 **** Using a Web Listener to Trigger Deployments
 **** Setting Up GitHub Webhooks
 **** Set Up a Deployment Queue with SQS
+**** Taking Jobs from the SQS Queue to Trigger Deployments
 
 *** Packaging Your Application
