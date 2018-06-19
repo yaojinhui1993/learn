@@ -47,5 +47,6 @@
 **** Set Up a Deployment Queue with SQS
 **** Taking Jobs from the SQS Queue to Trigger Deployments
 **** Adding Slack Notifications
+**** Staying Up & Running (Process Monitoring)
 
 *** Packaging Your Application
