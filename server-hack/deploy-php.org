@@ -51,3 +51,4 @@
 
 *** Packaging Your Application
 **** What Is a Packaged Application
+**** Application Packaging Process
