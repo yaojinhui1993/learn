@@ -20,6 +20,8 @@
 
 **** Our SSH Setup
 
+**** Copying Files with SCP
+
 ** Scripting Deployments
 
 *** Advanced Deployments
