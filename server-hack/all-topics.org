@@ -3,6 +3,7 @@
 *** Start Here
 **** What We'll Cover
 **** Linux Server Family
+**** Logging Into Your Server
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
