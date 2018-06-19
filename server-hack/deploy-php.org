@@ -34,6 +34,7 @@
 **** Symlinks to Reduce Downtime
 **** Scripting the Symlink Process
 **** Handling Rollbacks
+**** Handling Migrations
 
 
 
