@@ -7,6 +7,7 @@
 **** Creating Users and SSH Security
 **** Configuring SSH Locally
 **** Getting Around Your Server
+**** Linux Permissions
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
