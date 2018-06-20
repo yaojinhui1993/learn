@@ -10,6 +10,7 @@
 **** Linux Permissions
 **** Hosting Web Apps
 **** PHP, FPM, and Nginx
+**** PHP App Setup & Permissions
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
