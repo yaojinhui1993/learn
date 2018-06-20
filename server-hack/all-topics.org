@@ -53,6 +53,7 @@
 **** Disabling XDebug in Production.
 *** Docker in Development Part 1
 **** Course Intro
+**** Images vs Containers
 ** PHP
 ** Security
 ** Proxies
