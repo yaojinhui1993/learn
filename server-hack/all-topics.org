@@ -63,6 +63,7 @@
 **** Entrypoint vs CMD
 **** Docker Network Intro
 **** Connecting Containers
+**** Docker Volumes
 ** PHP
 ** Security
 ** Proxies
