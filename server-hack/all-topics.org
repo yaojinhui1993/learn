@@ -28,6 +28,7 @@
 ** Development
 *** Vagrant
 **** Up and Running with Vagrant
+**** Web Server & File Permissions in Vagrant
 ** Containers
 ** PHP
 ** Security
