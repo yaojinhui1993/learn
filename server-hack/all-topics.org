@@ -20,6 +20,8 @@
 *** Package Managers
 **** Using apt-get
 *** Security
+**** MySQL User Security
+
 ** Development
 ** Containers
 ** PHP
