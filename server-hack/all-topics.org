@@ -55,6 +55,7 @@
 **** Course Intro
 **** Images vs Containers
 **** Docker Images
+**** Using Dockerfiles
 ** PHP
 ** Security
 ** Proxies
