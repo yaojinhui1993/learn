@@ -45,6 +45,10 @@
 **** Building a PHP Image
 **** Development Workflow with Docker
 **** When The Localhost Is Not The Localhost
+
+*** X Debug in Docker
+    We see how to run and connect xDebug from within a container to PHPStorm.
+**** Getting xDebug to Work
 ** PHP
 ** Security
 ** Proxies
