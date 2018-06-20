@@ -26,6 +26,8 @@
 **** Automatic Security Updates: CentOS
 
 ** Development
+*** Vagrant
+**** Up and Running with Vagrant
 ** Containers
 ** PHP
 ** Security
