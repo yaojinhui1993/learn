@@ -62,6 +62,7 @@
 **** Docker Logs
 **** Entrypoint vs CMD
 **** Docker Network Intro
+**** Connecting Containers
 ** PHP
 ** Security
 ** Proxies
