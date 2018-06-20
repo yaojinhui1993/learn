@@ -39,6 +39,7 @@
 **** The Docker Volumes
 **** Docker Networks
 **** Using Docker Networks and Volumes Manually
+**** Docker & File Permissions
 ** PHP
 ** Security
 ** Proxies
