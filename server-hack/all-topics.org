@@ -56,6 +56,7 @@
 **** Images vs Containers
 **** Docker Images
 **** Using Dockerfiles
+**** Serving Web Files
 ** PHP
 ** Security
 ** Proxies
