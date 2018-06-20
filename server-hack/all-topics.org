@@ -8,6 +8,7 @@
 **** Configuring SSH Locally
 **** Getting Around Your Server
 **** Linux Permissions
+**** Hosting Web Apps
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
