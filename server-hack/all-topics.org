@@ -43,6 +43,7 @@
 **** Docker Hub and Images
 **** Building an Nginx Image
 **** Building a PHP Image
+**** Development Workflow with Docker
 ** PHP
 ** Security
 ** Proxies
