@@ -51,6 +51,8 @@
 **** Getting xDebug to Work
 **** Automating XDebug Configuration
 **** Disabling XDebug in Production.
+*** Docker in Development Part 1
+**** Course Intro
 ** PHP
 ** Security
 ** Proxies
