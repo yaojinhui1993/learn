@@ -23,6 +23,7 @@
 **** MySQL User Security
 **** Sudo and Sudoers Configuration
 **** Automatic Security Updates
+**** Automatic Security Updates: CentOS
 
 ** Development
 ** Containers
