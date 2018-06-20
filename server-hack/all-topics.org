@@ -67,6 +67,7 @@
 
 *** Docker in Development Part 2
 **** Docker Compose Intro
+**** Docker Compose Services.
 ** PHP
 ** Security
 ** Proxies
