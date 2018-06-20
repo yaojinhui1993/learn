@@ -41,6 +41,7 @@
 **** Using Docker Networks and Volumes Manually
 **** Docker & File Permissions
 **** Docker Hub and Images
+**** Building an Nginx Image
 ** PHP
 ** Security
 ** Proxies
