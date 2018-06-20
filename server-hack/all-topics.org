@@ -49,6 +49,7 @@
 *** X Debug in Docker
     We see how to run and connect xDebug from within a container to PHPStorm.
 **** Getting xDebug to Work
+**** Automating XDebug Configuration
 ** PHP
 ** Security
 ** Proxies
