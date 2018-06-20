@@ -70,6 +70,7 @@
 **** Docker Compose Services.
 **** Compose and Volumes
 **** Our App Service
+**** The Working Directory
 
 ** PHP
 ** Security
