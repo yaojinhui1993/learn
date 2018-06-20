@@ -17,7 +17,8 @@
 **** Logging In with SSH
 **** Using the SSH Config File
 **** Configuring SSHD on the Server
-*** Package Management
+*** Package Managers
+**** Using apt-get
 *** Security
 ** Development
 ** Containers
