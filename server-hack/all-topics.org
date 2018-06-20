@@ -32,6 +32,9 @@
 **** Xip.io and Wildcard Subdomains for Development
 *** Beyond Permissions: Linux ACLs
 ** Containers
+*** Docker in Development
+    A small course on using Docker compose to get started using Docker now. We'll cover docker-compose, volumes, networks and more!
+**** Up & Running Quickstart
 ** PHP
 ** Security
 ** Proxies
