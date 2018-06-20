@@ -13,6 +13,7 @@
 **** PHP App Setup & Permissions
 
 *** SSH Usage, Tips, and Tricks
+**** Creating and Using SSH Keys
 *** Package Management
 *** Security
 ** Development
