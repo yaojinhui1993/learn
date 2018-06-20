@@ -9,6 +9,7 @@
 **** Getting Around Your Server
 **** Linux Permissions
 **** Hosting Web Apps
+**** PHP, FPM, and Nginx
 
 *** SSH Usage, Tips, and Tricks
 *** Package Management
