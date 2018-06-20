@@ -15,6 +15,7 @@
 *** SSH Usage, Tips, and Tricks
 **** Creating and Using SSH Keys
 **** Logging In with SSH
+**** Using the SSH Config File
 *** Package Management
 *** Security
 ** Development
