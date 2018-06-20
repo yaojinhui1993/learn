@@ -21,6 +21,7 @@
 **** Using apt-get
 *** Security
 **** MySQL User Security
+**** Sudo and Sudoers Configuration
 
 ** Development
 ** Containers
