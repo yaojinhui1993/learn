@@ -22,6 +22,7 @@
 *** Security
 **** MySQL User Security
 **** Sudo and Sudoers Configuration
+**** Automatic Security Updates
 
 ** Development
 ** Containers
