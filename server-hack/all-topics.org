@@ -58,6 +58,7 @@
 **** Using Dockerfiles
 **** Serving Web Files
 **** Running Multiple Process
+**** Configuring PHP-FPM
 ** PHP
 ** Security
 ** Proxies
