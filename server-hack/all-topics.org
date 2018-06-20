@@ -36,6 +36,7 @@
     A small course on using Docker compose to get started using Docker now. We'll cover docker-compose, volumes, networks and more!
 **** Up & Running Quickstart
 **** The Docker Compose File
+**** The Docker Volumes
 ** PHP
 ** Security
 ** Proxies
