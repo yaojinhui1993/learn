@@ -64,6 +64,9 @@
 **** Docker Network Intro
 **** Connecting Containers
 **** Docker Volumes
+
+*** Docker in Development Part 2
+**** Docker Compose Intro
 ** PHP
 ** Security
 ** Proxies
