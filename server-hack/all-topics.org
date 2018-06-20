@@ -54,6 +54,7 @@
 *** Docker in Development Part 1
 **** Course Intro
 **** Images vs Containers
+**** Docker Images
 ** PHP
 ** Security
 ** Proxies
