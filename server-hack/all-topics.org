@@ -91,6 +91,10 @@
 **** A Forge-Like Setup
 **** Setting Up MySQL
 **** Using Redis
+
+*** Managing PHP-FPM
+**** PHP-FPM: Configuration the Listen Directive
+
 ** Security
 ** Proxies
 ** Continuous Intergration
