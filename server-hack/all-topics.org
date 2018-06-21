@@ -95,6 +95,7 @@
 *** Managing PHP-FPM
 **** PHP-FPM: Configuration the Listen Directive
 **** PHP-FPM: Process Management
+**** PHP-FPM: Multiple Recource Pools
 
 ** Security
 ** Proxies
