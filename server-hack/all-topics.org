@@ -84,5 +84,12 @@
 *** Docker for Any PHP Version
 
 ** PHP
+*** LEMP Stack with PHP-7.1
+**** Setting up Nginx, PHP and Laravel
 ** Security
 ** Proxies
+** Continuous Intergration
+
+** Configuration Management
+
+** Databases
