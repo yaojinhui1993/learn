@@ -89,6 +89,7 @@
 **** Managing PHP Modules
 **** PHP-FPM Configuration
 **** A Forge-Like Setup
+**** Setting Up MySQL
 ** Security
 ** Proxies
 ** Continuous Intergration
