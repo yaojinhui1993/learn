@@ -87,6 +87,7 @@
 *** LEMP Stack with PHP-7.1
 **** Setting up Nginx, PHP and Laravel
 **** Managing PHP Modules
+**** PHP-FPM Configuration
 ** Security
 ** Proxies
 ** Continuous Intergration
