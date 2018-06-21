@@ -99,6 +99,7 @@
 
 *** LEMP All the Things
 **** LEMP on Ubuntu
+**** LEMP on Debian
 
 ** Security
 ** Proxies
