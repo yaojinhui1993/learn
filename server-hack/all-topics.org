@@ -88,6 +88,7 @@
 **** Setting up Nginx, PHP and Laravel
 **** Managing PHP Modules
 **** PHP-FPM Configuration
+**** A Forge-Like Setup
 ** Security
 ** Proxies
 ** Continuous Intergration
