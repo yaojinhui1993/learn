@@ -102,6 +102,8 @@
 **** LEMP on Debian
 **** LEMP on RedHat/CentOS
 
+*** Deployment
+**** Deploying with SCP
 ** Security
 ** Proxies
 ** Continuous Intergration
