@@ -106,6 +106,7 @@
 **** Deploying with SCP
 **** SSH for Easier Deployment
 **** Deploying with Rsync
+**** Deploying with Fabric
 ** Security
 ** Proxies
 ** Continuous Intergration
