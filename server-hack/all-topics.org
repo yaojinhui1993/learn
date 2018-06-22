@@ -115,6 +115,7 @@
 **** You First LAMP Server on RedHat/CentOS
 **** Apache and PHP-FPM
 *** Mapping Headers in Nginx
+*** PHP Apps in a Subdirectory in Nginx
 ** Security
 ** Proxies
 ** Continuous Intergration
