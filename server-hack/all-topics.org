@@ -108,6 +108,7 @@
 **** Deploying with Rsync
 **** Deploying with Fabric
 **** Deploying with Envoy (Cast)
+**** Enhancing Envoy Deployment
 ** Security
 ** Proxies
 ** Continuous Intergration
