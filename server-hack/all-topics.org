@@ -109,6 +109,7 @@
 **** Deploying with Fabric
 **** Deploying with Envoy (Cast)
 **** Enhancing Envoy Deployment
+**** Automating Deployment from GitHub
 ** Security
 ** Proxies
 ** Continuous Intergration
