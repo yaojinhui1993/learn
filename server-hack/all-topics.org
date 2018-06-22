@@ -110,6 +110,8 @@
 **** Deploying with Envoy (Cast)
 **** Enhancing Envoy Deployment
 **** Automating Deployment from GitHub
+*** LAMP All the Things
+**** You First LAMP Server on Debian/Ubuntu
 ** Security
 ** Proxies
 ** Continuous Intergration
