@@ -129,6 +129,7 @@
 **** Purchase and Install an SSL Certificate
 **** Testing and Debugging SSL Certificates
 **** Self Signed SSL Certificates for Development
+**** Purchase & Install a Wildcard SSL Certificate
 ** Proxies
 ** Continuous Intergration
 
