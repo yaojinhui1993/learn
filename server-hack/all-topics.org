@@ -107,6 +107,7 @@
 **** SSH for Easier Deployment
 **** Deploying with Rsync
 **** Deploying with Fabric
+**** Deploying with Envoy (Cast)
 ** Security
 ** Proxies
 ** Continuous Intergration
