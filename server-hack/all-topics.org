@@ -121,6 +121,7 @@
 *** The Iptables Firewall
 **** Firewalls: Basics of Iptables
 **** Firewalls: Persisting Iptables Rules
+**** Firewalls: Iptables Chains, New Defaults & Fail2Ban
 ** Proxies
 ** Continuous Intergration
 
