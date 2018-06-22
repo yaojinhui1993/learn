@@ -105,6 +105,7 @@
 *** Deployment
 **** Deploying with SCP
 **** SSH for Easier Deployment
+**** Deploying with Rsync
 ** Security
 ** Proxies
 ** Continuous Intergration
