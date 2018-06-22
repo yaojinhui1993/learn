@@ -114,6 +114,7 @@
 **** You First LAMP Server on Debian/Ubuntu
 **** You First LAMP Server on RedHat/CentOS
 **** Apache and PHP-FPM
+*** Mapping Headers in Nginx
 ** Security
 ** Proxies
 ** Continuous Intergration
