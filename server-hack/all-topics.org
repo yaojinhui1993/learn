@@ -127,6 +127,7 @@
 **** Battling SELinux (Cast)
 *** Intergrating SSL Certificates
 **** Purchase and Install an SSL Certificate
+**** Testing and Debugging SSL Certificates
 ** Proxies
 ** Continuous Intergration
 
