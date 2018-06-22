@@ -112,6 +112,7 @@
 **** Automating Deployment from GitHub
 *** LAMP All the Things
 **** You First LAMP Server on Debian/Ubuntu
+**** You First LAMP Server on RedHat/CentOS
 ** Security
 ** Proxies
 ** Continuous Intergration
