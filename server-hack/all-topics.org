@@ -158,5 +158,6 @@
 *** Process Monitoring
     Making sure your programs stay up and running is extremely important. See how to ensure yours stay up and running on various operating systems!
 **** Process Monitoring with Supervisord
+**** Process Monitoring with Upstart
 
 ** Databases
