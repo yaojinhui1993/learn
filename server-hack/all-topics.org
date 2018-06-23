@@ -165,4 +165,5 @@
     Ansible is the simplest and best tool to get started with configuration management. See how to start using now!
 **** Ansible: Installation and Basics
 **** Ansible: Playbooks
+**** Ansible: Roles
 ** Databases
