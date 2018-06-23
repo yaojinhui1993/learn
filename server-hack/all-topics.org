@@ -146,6 +146,7 @@
 **** Install Jenkins
 **** GitHub Authentication & Authorization
 **** Set Up a Blue Ocean Pipeline with GitHub
+**** Finish Getting CI Working In Jenkins
 
 ** Configuration Management
 
