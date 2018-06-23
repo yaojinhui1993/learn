@@ -132,6 +132,8 @@
 **** Purchase & Install a Wildcard SSL Certificate
 **** Letsencript for Free & Easy SSL Certificates
 ** Proxies
+*** Load Balancing with Nginx
+**** Server Setup
 ** Continuous Intergration
 
 ** Configuration Management
