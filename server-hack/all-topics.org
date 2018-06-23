@@ -138,6 +138,7 @@
 **** SSL Termination
 **** Application Prep
 **** Managing Persistence
+**** Network Security
 ** Continuous Intergration
 
 ** Configuration Management
