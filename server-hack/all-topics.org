@@ -136,6 +136,7 @@
 **** Server Setup
 **** Load Balancer Setup
 **** SSL Termination
+**** Application Prep
 ** Continuous Intergration
 
 ** Configuration Management
