@@ -137,6 +137,7 @@
 **** Load Balancer Setup
 **** SSL Termination
 **** Application Prep
+**** Managing Persistence
 ** Continuous Intergration
 
 ** Configuration Management
