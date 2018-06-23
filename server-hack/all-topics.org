@@ -145,6 +145,7 @@
 **** What We'll Cover with Jenkins
 **** Install Jenkins
 **** GitHub Authentication & Authorization
+**** Set Up a Blue Ocean Pipeline with GitHub
 
 ** Configuration Management
 
