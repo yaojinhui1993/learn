@@ -134,6 +134,7 @@
 ** Proxies
 *** Load Balancing with Nginx
 **** Server Setup
+**** Load Balancer Setup
 ** Continuous Intergration
 
 ** Configuration Management
