@@ -144,6 +144,7 @@
 *** Jenkins & Blue Ocean
 **** What We'll Cover with Jenkins
 **** Install Jenkins
+**** GitHub Authentication & Authorization
 
 ** Configuration Management
 
