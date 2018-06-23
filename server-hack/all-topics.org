@@ -153,5 +153,6 @@
 *** HTTP2
     HTTP2 is the future of http web performance! See how to set your server up to be able to use it.
 **** HTTP 2.0 with Nginx
+**** Curl With HTTP2 Support
 
 ** Databases
