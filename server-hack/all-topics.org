@@ -166,4 +166,5 @@
 **** Ansible: Installation and Basics
 **** Ansible: Playbooks
 **** Ansible: Roles
+**** Ansible: Using Vault
 ** Databases
