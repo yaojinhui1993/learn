@@ -161,4 +161,7 @@
 **** Process Monitoring with Upstart
 **** Process Monitoring with Systemd
 
+*** Ansible
+    Ansible is the simplest and best tool to get started with configuration management. See how to start using now!
+**** Ansible: Installation and Basics
 ** Databases
