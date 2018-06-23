@@ -139,6 +139,7 @@
 **** Application Prep
 **** Managing Persistence
 **** Network Security
+*** LetsEncrypt with HAProxy
 ** Continuous Intergration
 
 ** Configuration Management
