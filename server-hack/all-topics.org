@@ -141,6 +141,8 @@
 **** Network Security
 *** LetsEncrypt with HAProxy
 ** Continuous Intergration
+*** Jenkins & Blue Ocean
+**** What We'll Cover with Jenkins
 
 ** Configuration Management
 
