@@ -135,6 +135,7 @@
 *** Load Balancing with Nginx
 **** Server Setup
 **** Load Balancer Setup
+**** SSL Termination
 ** Continuous Intergration
 
 ** Configuration Management
