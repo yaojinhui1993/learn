@@ -72,6 +72,8 @@
 
 ** Permissions and User Management
 *** Permissions
+**** Checking Permissions
+
 *** User Management
 
 ** Webservers    
