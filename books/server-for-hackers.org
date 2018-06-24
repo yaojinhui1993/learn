@@ -33,6 +33,22 @@
 ***** Turn Off Passowrd Access
 
 *** Setting Up the Firewall: Iptables
+**** Adding These Rules
+**** Inserting Rules
+**** Deleting Rules
+**** Output Rules as Commands
+**** Saving Firewall Rules
+**** Defaulting to DROP Over Accept
+**** Logging Dropped Packets
+**** Firewalls with UFW
+***** Enable UFW
+***** Setting Rules
+****** Setting Defaults
+****** Allow Traffic
+****** Deny Traffic
+****** Delete Rules
+****** List Rules, Rest Rules, Disable UFW
+
 *** Fail2Ban
 *** Automatic Security Updates
 
