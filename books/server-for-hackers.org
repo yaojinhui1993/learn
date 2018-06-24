@@ -76,6 +76,7 @@
 **** Changing Permissions
 
 *** User Management
+**** Creating Users
 
 ** Webservers    
 *** HTTP, Web Servers and Web Sites
