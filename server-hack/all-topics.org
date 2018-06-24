@@ -177,3 +177,4 @@
 *** Backup and Recovery
 **** Backup to S3
 **** Configuring MySQL Replication
+**** Backup and Restore MySQL with mysqldump
