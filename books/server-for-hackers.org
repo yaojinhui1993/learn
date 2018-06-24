@@ -86,6 +86,7 @@
 
 ** Webservers    
 *** HTTP, Web Servers and Web Sites
+**** A Quick Note DNS
 *** DNS & Hosts File
 *** Hosting Web Applications
 *** Apache
