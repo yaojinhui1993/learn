@@ -62,6 +62,13 @@
 
 ** Package Managers
 *** Apt
+**** New (as of 16.04 Xenial, continuing into 18.04 Bionic)
+**** Installing
+**** Repositories
+**** Examples
+***** Redis
+***** ElasticSearch
+**** Searching Packages
 
 ** Permissions and User Management
 *** Permissions
