@@ -1,6 +1,7 @@
 * Contents
 *** Servers
 **** Video Site
+**** Book Issues
 
 ** Introduction
 *** Accidental Sysadmin Syndrome
