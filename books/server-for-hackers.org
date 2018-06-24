@@ -7,6 +7,20 @@
 *** Accidental Sysadmin Syndrome
 **** Assumptions
 **** Linux Distribution
+**** The Sandbox
+***** Install Virtualbox and Vagrant
+***** Configure Vagrant
+****** Networking
+***** Vagrant Up
+****** File Sharing
+****** Server Network
+
+***** Basic Commands
+***** Basic Softwares
+****** Install The Basics
+***** Review
+
+
 *** Linux Distribute
 *** The Sandbox
 
