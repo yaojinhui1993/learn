@@ -73,6 +73,7 @@
 ** Permissions and User Management
 *** Permissions
 **** Checking Permissions
+**** Changing Permissions
 
 *** User Management
 
