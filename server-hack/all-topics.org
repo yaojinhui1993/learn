@@ -176,3 +176,4 @@
 **** Application Servers and MySQL
 *** Backup and Recovery
 **** Backup to S3
+**** Configuring MySQL Replication
