@@ -6,26 +6,32 @@
 ** Introduction
 *** Accidental Sysadmin Syndrome
 **** Assumptions
-**** Linux Distribution
-**** The Sandbox
-***** Install Virtualbox and Vagrant
-***** Configure Vagrant
-****** Networking
-***** Vagrant Up
-****** File Sharing
-****** Server Network
-
-***** Basic Commands
-***** Basic Softwares
-****** Install The Basics
-***** Review
-
-
 *** Linux Distribute
 *** The Sandbox
+**** Install Virtualbox and Vagrant
+**** Configure Vagrant
+***** Networking
+**** Vagrant Up
+***** File Sharing
+***** Server Network
+
+**** Basic Commands
+**** Basic Softwares
+***** Install The Basics
+**** Review
+
 
 ** Security
 *** Users and Access
+**** IP Addresses
+**** Creating a New User
+**** Making Our User a Super User
+***** More Visudo
+***** Root User Access
+***** Configure SSH
+***** Creating a Local SSH Key
+***** Turn Off Passowrd Access
+
 *** Setting Up the Firewall: Iptables
 *** Fail2Ban
 *** Automatic Security Updates
