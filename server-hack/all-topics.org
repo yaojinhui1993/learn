@@ -173,3 +173,4 @@
     See how to install and configure MySQL, including remote access, and accessing from your web application.
 **** Installing MySQL (with Debconf)
 **** Connecting to MySQL via SSH
+**** Application Servers and MySQL
