@@ -6,6 +6,7 @@
 ** Introduction
 *** Accidental Sysadmin Syndrome
 **** Assumptions
+**** Linux Distribution
 *** Linux Distribute
 *** The Sandbox
 
