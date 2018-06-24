@@ -50,6 +50,13 @@
 ****** List Rules, Rest Rules, Disable UFW
 
 *** Fail2Ban
+**** Iptables Intergration
+**** Installion
+**** Configuration
+***** Action Shortcut
+***** Jails
+***** Nginx
+
 *** Automatic Security Updates
 
 ** Package Managers
