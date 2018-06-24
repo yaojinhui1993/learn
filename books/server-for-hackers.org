@@ -77,6 +77,9 @@
 
 *** User Management
 **** Creating Users
+**** Umask & GroupID Bit
+***** Umask
+***** GroupID Bit
 
 ** Webservers    
 *** HTTP, Web Servers and Web Sites
