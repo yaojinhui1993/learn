@@ -1,0 +1,73 @@
+* Contents
+*** Servers
+
+** Introduction
+*** Accidental Sysadmin Syndrome
+*** Linux Distribute
+*** The Sandbox
+
+** Security
+*** Users and Access
+*** Setting Up the Firewall: Iptables
+*** Fail2Ban
+*** Automatic Security Updates
+
+** Package Managers
+*** Apt
+
+** Permissions and User Management
+*** Permissions
+*** User Management
+
+** Webservers    
+*** HTTP, Web Servers and Web Sites
+*** DNS & Hosts File
+*** Hosting Web Applications
+*** Apache
+*** Nginx
+*** PHP
+*** Server Setup for Multi-Tenancy Apps
+
+** SSL Certificates
+*** SSL Overview
+*** Creating Self-Signed Certifactes
+*** Extra SSL Tricks
+*** LetsEncrypt
+    
+** Multi-Server Environment
+*** Implications of Multi-Server Environment
+*** Load Balancing with Nginx
+*** SSL with Nginx
+*** Load Balancing with HAProxy
+*** SSL with HAProxy
+
+** Web Cache
+*** Nuts and Bolts of HTTP Caching
+*** An Origin Server
+*** Nginx Web Caching
+*** Varnish
+    
+**  Logs
+*** Logroate
+*** Rsyslog
+
+** File Management, Deployment & Configuration Management
+*** Managing Files
+*** Auto-deploying with GitHub
+*** Configuration Management with Ansible
+
+** SSH
+*** Logging in
+*** SSH Config
+*** SSH Tunneling
+*** One-Off Commands & Multiple Servers
+
+** Monitoring Processes
+*** A Sample Script
+*** System Services
+*** Supervisord
+*** Forever
+*** Circus
+
+** Development and Servers
+*** Serving Static Content
