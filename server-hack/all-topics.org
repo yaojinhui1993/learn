@@ -174,3 +174,5 @@
 **** Installing MySQL (with Debconf)
 **** Connecting to MySQL via SSH
 **** Application Servers and MySQL
+*** Backup and Recovery
+**** Backup to S3
