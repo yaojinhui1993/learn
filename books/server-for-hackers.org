@@ -126,6 +126,8 @@
 ***** Server Signature
 ***** Other
 
+**** Envvars
+
 *** Nginx
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
