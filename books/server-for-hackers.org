@@ -133,6 +133,16 @@
 **** Installation
 **** Web Server Configuration
 **** Servers (virtual hosts)
+***** Location Block
+***** "Boring" files
+***** Blocking Access to Files
+***** Handling Files by Extension
+***** Pretty URL's (Hiding 'index.php')
+***** Redirect and Other Tricks
+****** Redirect www to non-www
+****** Redirect non-www to www
+***** Forcing SSL
+***** Wildcard Subdomains and Document Root
 
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
