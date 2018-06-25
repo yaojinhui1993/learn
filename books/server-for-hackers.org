@@ -98,6 +98,23 @@
 ***** The Web Server
 
 *** Apache
+**** Installing
+**** Configuration
+**** Virtual Hosts
+***** IP-Based Virtual Hosts
+***** Named-Based Virtual Hosts
+***** Other Virtual Host Directives
+***** Apache and Web Applications
+****** Apache mod_php
+****** Apache with HTTP
+****** Multiple back-ends
+****** Apache with FastCGI
+******* ProxyPassMatch
+****** Localtion
+****** Multiple back-ends
+****** Apache with uWSGI
+****** Multiple back-ends
+
 *** Nginx
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
