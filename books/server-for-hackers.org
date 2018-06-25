@@ -129,6 +129,8 @@
 **** Envvars
 
 *** Nginx
+**** Features
+
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
 
