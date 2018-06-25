@@ -88,6 +88,8 @@
 *** HTTP, Web Servers and Web Sites
 **** A Quick Note DNS
 *** DNS & Hosts File
+**** Xip.io
+**** Virtual Hosts
 *** Hosting Web Applications
 *** Apache
 *** Nginx
