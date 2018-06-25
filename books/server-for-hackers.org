@@ -144,6 +144,16 @@
 ***** Forcing SSL
 ***** Wildcard Subdomains and Document Root
 
+**** Intergration with Web Application
+***** Sockets
+***** HTTP Proxy
+***** Multiple Backends
+***** FastCGI
+***** Not PHP
+****** Multiple Backends
+***** uWSGI
+****** Multiple Backends
+
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
 
