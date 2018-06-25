@@ -120,6 +120,12 @@
 ***** MPM Worker
 ***** MPM Event
 ***** Apache + PHP-FPM Revisited
+
+**** Security Configuration
+***** Server Tokens
+***** Server Signature
+***** Other
+
 *** Nginx
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
