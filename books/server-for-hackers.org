@@ -132,6 +132,7 @@
 **** Features
 **** Installation
 **** Web Server Configuration
+**** Servers (virtual hosts)
 
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
