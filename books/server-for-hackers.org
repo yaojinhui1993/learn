@@ -91,6 +91,12 @@
 **** Xip.io
 **** Virtual Hosts
 *** Hosting Web Applications
+**** Three Actors
+***** Applications & HTTP Interfaces
+***** The Gateway
+****** Skipping Gateways
+***** The Web Server
+
 *** Apache
 *** Nginx
 *** PHP
