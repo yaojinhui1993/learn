@@ -130,6 +130,7 @@
 
 *** Nginx
 **** Features
+**** Installation
 
 *** PHP
 *** Server Setup for Multi-Tenancy Apps
