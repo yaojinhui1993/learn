@@ -325,6 +325,10 @@
 ***** Validation Caching
 ***** Expiration Caching
 *** An Origin Server
+**** Testing Caching Mechanisms
+***** Validation Caching
+***** Expiration Caching
+
 *** Nginx Web Caching
 *** Varnish
     
