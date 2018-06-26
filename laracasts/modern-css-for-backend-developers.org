@@ -1,0 +1,4 @@
+* Modern CSS for Backend Developers
+** Episode 12: Piece By Piece Mobile Tweaking
+   The dream is that, as you construct a page, you follow a mobile-first cycle: make it look nices on mobile devices, and then build out from there. The truth, sadly, is that this isn't always so easy. What happens when you have a Photoshop design that only illustrates the desktop view for a particular page? How do you follow mobile-first design when you don't yet know how it should appear on those devices? This is the reality for countless business.
+   In this lesson, we'll review a section of the new Laracasts design that hasn't yet been optimized for mobiles users. We'll review where things went wrong, while making mental notes for how to proctect against this in the future.
