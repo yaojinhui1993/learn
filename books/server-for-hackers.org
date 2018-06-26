@@ -276,6 +276,10 @@
       - passing the header
       - FastCGI & PHP
 *** SSL with Nginx
+    - SSL Termination
+    - SSL Pass-Thru
+**** SSL Termination
+
 
 *** Load Balancing with HAProxy
 *** SSL with HAProxy
