@@ -238,6 +238,10 @@
 **** Sessions
 ***** Sticky Sessions
 ***** Shared Storage
+**** Lost Client Information
+***** IP Addresses & Ports
+***** Protocol/Schema and Port
+***** Trusted Proxies
 
 *** Load Balancing with Nginx
 *** SSL with Nginx
