@@ -280,6 +280,7 @@
     - SSL Pass-Thru
 **** SSL Termination
 
+**** SSL Pass Thru Support
 
 *** Load Balancing with HAProxy
 *** SSL with HAProxy
