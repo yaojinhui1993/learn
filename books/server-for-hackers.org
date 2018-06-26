@@ -230,10 +230,11 @@
 ***** Post Hook
 ***** Force Renewal
 
-*** Nginx Configuration
-    
 ** Multi-Server Environment
 *** Implications of Multi-Server Environment
+**** Asset Management
+***** Central File Store
+***** Environment-Based URL
 *** Load Balancing with Nginx
 *** SSL with Nginx
 *** Load Balancing with HAProxy
