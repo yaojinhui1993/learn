@@ -203,6 +203,7 @@
 *** Server Setup for Multi-Tenancy Apps
 **** DNS
 **** Multi-Tenancy in Apache
+**** Multi-Tenancy in Nginx
 
 ** SSL Certificates
 *** SSL Overview
