@@ -259,6 +259,17 @@
      - Generic Hash
 ***** Weights
 
+**** Configuration
+***** Upstream
+      - Passive Health Checks
+        max_fails, fail_timeout
+      - Active Health Checks
+      - Session Affinity
+***** Server
+      - Proxy Params
+      - Proxy Pass
+
+***** The NodeJS Application
 *** SSL with Nginx
 
 *** Load Balancing with HAProxy
