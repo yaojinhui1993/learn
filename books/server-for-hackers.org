@@ -310,6 +310,7 @@
 ***** SSL Only
 
 **** HAProxy with SSL Pass-Through
+**** Sample NodeJS Web Server
 
 ** Web Cache
 *** Nuts and Bolts of HTTP Caching
