@@ -270,6 +270,11 @@
       - Proxy Pass
 
 ***** The NodeJS Application
+**** Mapping Headers
+***** The Problem
+***** The Solution
+      - passing the header
+      - FastCGI & PHP
 *** SSL with Nginx
 
 *** Load Balancing with HAProxy
