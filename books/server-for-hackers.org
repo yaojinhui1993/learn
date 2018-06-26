@@ -218,8 +218,9 @@
 ***** Nginx & Xip.io
 **** One Server Block
 
-    
 *** Extra SSL Tricks
+
+
 *** LetsEncrypt
     
 ** Multi-Server Environment
