@@ -202,6 +202,7 @@
 
 *** Server Setup for Multi-Tenancy Apps
 **** DNS
+**** Multi-Tenancy in Apache
 
 ** SSL Certificates
 *** SSL Overview
