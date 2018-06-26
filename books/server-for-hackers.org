@@ -332,6 +332,7 @@
 *** Nginx Web Caching
 **** Use Cases
 **** How It Will Work
+**** Origin Server
 
 *** Varnish
     
