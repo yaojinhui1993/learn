@@ -192,6 +192,13 @@
        - security.limit_extensions
        - Additional INI directive
 
+**** PHP in Nginx: Subdirectories
+***** TL;DR
+***** How This Works
+****** Project Locations
+****** The Basic Setup
+****** Adding an App in a Subdirectory
+****** Testing
 
 *** Server Setup for Multi-Tenancy Apps
 
