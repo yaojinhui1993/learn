@@ -291,6 +291,7 @@
 
 *** Load Balancing with HAProxy
 **** Common Setups
+**** Installation
 
 *** SSL with HAProxy
 
