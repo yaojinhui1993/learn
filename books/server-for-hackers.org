@@ -201,6 +201,7 @@
 ****** Testing
 
 *** Server Setup for Multi-Tenancy Apps
+**** DNS
 
 ** SSL Certificates
 *** SSL Overview
