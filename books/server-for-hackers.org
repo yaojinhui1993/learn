@@ -314,6 +314,16 @@
 
 ** Web Cache
 *** Nuts and Bolts of HTTP Caching
+    - Object (in-memory) Cache
+    - Web (Http) Cache
+**** Object Caches
+**** Web Caches
+     - Proxiy
+     - Gateway
+     - Private
+**** Types of HTTP Caches
+***** Validation Caching
+***** Expiration Caching
 *** An Origin Server
 *** Nginx Web Caching
 *** Varnish
