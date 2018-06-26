@@ -285,9 +285,13 @@
 **** When to Use Pass Thru
 
 **** Load Balancer
+
+
 **** Web Server
 
 *** Load Balancing with HAProxy
+**** Common Setups
+
 *** SSL with HAProxy
 
 ** Web Cache
