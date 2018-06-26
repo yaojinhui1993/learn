@@ -331,6 +331,7 @@
 
 *** Nginx Web Caching
 **** Use Cases
+**** How It Will Work
 
 *** Varnish
     
