@@ -226,6 +226,9 @@
 **** Install a Certificate
 ***** Standalone
 ***** Webroot
+**** Renewal
+***** Post Hook
+***** Force Renewal
 
 *** Nginx Configuration
     
