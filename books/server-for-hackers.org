@@ -223,6 +223,9 @@
 *** LetsEncrypt
 **** Web Server Security
 **** Install Letsencript
+**** Install a Certificate
+***** Standalone
+***** Webroot
     
 ** Multi-Server Environment
 *** Implications of Multi-Server Environment
