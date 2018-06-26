@@ -309,6 +309,8 @@
 **** HAProxy with SSL Termination
 ***** SSL Only
 
+**** HAProxy with SSL Pass-Through
+
 ** Web Cache
 *** Nuts and Bolts of HTTP Caching
 *** An Origin Server
