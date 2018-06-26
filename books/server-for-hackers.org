@@ -340,6 +340,12 @@
 ***** Testing the Configuration
 ***** Cache Control
 
+*** Proxy Caching
+**** fastcgi_cache_valid
+**** fastcgi_cache_methods
+**** fastcgi_cache_bypass and & no_cache
+**** fastcgi_no_cache
+
 *** Varnish
     
 **  Logs
