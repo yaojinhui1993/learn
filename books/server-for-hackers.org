@@ -303,6 +303,8 @@
       - ...
 ***** Test the Load Balancer
 
+**** Monitoring HAProxy
+
 *** SSL with HAProxy
 
 ** Web Cache
