@@ -226,6 +226,8 @@
 **** Install a Certificate
 ***** Standalone
 ***** Webroot
+
+*** Nginx Configuration
     
 ** Multi-Server Environment
 *** Implications of Multi-Server Environment
