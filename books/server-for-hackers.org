@@ -211,6 +211,8 @@
 **** Using SSL in Your Application
 
 *** Creating Self-Signed Certifactes
+**** Creating a Wildcard Self-Signed Certificates
+    
 *** Extra SSL Tricks
 *** LetsEncrypt
     
