@@ -333,6 +333,12 @@
 **** Use Cases
 **** How It Will Work
 **** Origin Server
+**** Cache Server
+     - =proxy_cache_path=
+     - =proxy_cache_key=
+     - =proxy_cache=
+***** Testing the Configuration
+***** Cache Control
 
 *** Varnish
     
