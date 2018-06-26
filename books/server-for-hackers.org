@@ -330,6 +330,8 @@
 ***** Expiration Caching
 
 *** Nginx Web Caching
+**** Use Cases
+
 *** Varnish
     
 **  Logs
