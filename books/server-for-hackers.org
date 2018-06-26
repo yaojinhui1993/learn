@@ -306,6 +306,8 @@
 **** Monitoring HAProxy
 
 *** SSL with HAProxy
+**** HAProxy with SSL Termination
+***** SSL Only
 
 ** Web Cache
 *** Nuts and Bolts of HTTP Caching
