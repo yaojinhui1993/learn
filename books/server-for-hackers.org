@@ -157,6 +157,41 @@
 *** PHP
 **** Installation
 ***** PHP 7
+**** Configuration
+**** Helper Commands
+**** PHP-FPM
+***** Apache
+***** Nginx
+***** Process Management
+***** Install PHP-FPM
+***** Configuration PHP-FPM
+****** Global Configuration
+       - error_log
+       - log_level
+       - emergency_restart_threshold
+       - emergency_restart_interval
+       - daemonize
+       - include
+****** Resource Pools
+       - Pool Name:
+       - user & group
+       - listen
+       - listen.owner & listen.group & listen.mode
+       - listen.allowed_clients
+       - pm
+       - pm.max_children
+       - pm.start_servers
+       - pm.max_spare_servers
+       - pm.process_idle_timeout
+       - pm.max_requests
+       - pm.status_path
+       - ping.path
+       - ping.response
+       - access.log
+       - chroot
+       - security.limit_extensions
+       - Additional INI directive
+
 
 *** Server Setup for Multi-Tenancy Apps
 
