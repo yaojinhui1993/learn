@@ -248,6 +248,8 @@
 ***** SSL Pass-Through
 ***** Both
 
+**** Logs
+
 *** Load Balancing with Nginx
 *** SSL with Nginx
 *** Load Balancing with HAProxy
