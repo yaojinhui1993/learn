@@ -235,6 +235,10 @@
 **** Asset Management
 ***** Central File Store
 ***** Environment-Based URL
+**** Sessions
+***** Sticky Sessions
+***** Shared Storage
+
 *** Load Balancing with Nginx
 *** SSL with Nginx
 *** Load Balancing with HAProxy
