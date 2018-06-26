@@ -243,6 +243,11 @@
 ***** Protocol/Schema and Port
 ***** Trusted Proxies
 
+**** SSL Traffic
+***** SSL Termination
+***** SSL Pass-Through
+***** Both
+
 *** Load Balancing with Nginx
 *** SSL with Nginx
 *** Load Balancing with HAProxy
