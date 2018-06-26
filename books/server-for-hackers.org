@@ -292,6 +292,16 @@
 *** Load Balancing with HAProxy
 **** Common Setups
 **** Installation
+**** HAProxy Configuration
+***** Logging Configuration
+***** Load Balancing Configuration
+***** Load Balancing Algorithms
+      - Roundrobin
+      - static-rr
+      - leastconn
+      - uri
+      - ...
+***** Test the Load Balancer
 
 *** SSL with HAProxy
 
