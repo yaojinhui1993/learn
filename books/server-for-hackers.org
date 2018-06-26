@@ -249,9 +249,18 @@
 ***** Both
 
 **** Logs
+*****
 
 *** Load Balancing with Nginx
+**** Balancing Algorithms
+     - Round Robin
+     - Least Connections
+     - Ip-Hash
+     - Generic Hash
+***** Weights
+
 *** SSL with Nginx
+
 *** Load Balancing with HAProxy
 *** SSL with HAProxy
 
