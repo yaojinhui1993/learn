@@ -282,6 +282,7 @@
 
 **** SSL Pass Thru Support
 
+**** When to Use Pass Thru
 *** Load Balancing with HAProxy
 *** SSL with HAProxy
 
