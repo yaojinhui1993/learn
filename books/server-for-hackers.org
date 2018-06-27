@@ -352,6 +352,11 @@
 *** Varnish
 **** Origin Server
 **** Install Varnish
+**** Basic Configuration
+***** Varnish Configuration: VCL
+***** Varnish Headers and Caching
+***** Some Debugging Utilities
+***** X-Forwarded
     
 **  Logs
 *** Logroate
