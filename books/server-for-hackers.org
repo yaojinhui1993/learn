@@ -370,6 +370,9 @@
     
 **  Logs
 *** Logroate
+    - Rotating Log Files
+    - Backing Up Log Files
+    - Aggregating Logs in Multi-Servers Environment
 *** Rsyslog
 
 ** File Management, Deployment & Configuration Management
