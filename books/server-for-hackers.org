@@ -387,6 +387,8 @@
       - sharedscripts
       - prerotate
 ***** For Example: Application Logs
+**** Going Further
+
 *** Rsyslog
 
 ** File Management, Deployment & Configuration Management
