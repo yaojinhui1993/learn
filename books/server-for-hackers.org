@@ -357,6 +357,10 @@
 ***** Varnish Headers and Caching
 ***** Some Debugging Utilities
 ***** X-Forwarded
+
+**** Increasing Cache Hit Rate
+***** Cookies
+***** Force Caching
     
 **  Logs
 *** Logroate
