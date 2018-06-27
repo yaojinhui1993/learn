@@ -373,6 +373,20 @@
     - Rotating Log Files
     - Backing Up Log Files
     - Aggregating Logs in Multi-Servers Environment
+**** What Does Logroate Do ?
+**** Configurating Logrotate
+***** For Example: Apache
+      - weekly
+      - missingok
+      - compress
+      - compresscmd
+      - uncompresscmd
+      - notifempty
+      - create 640 root adm
+      - postrotate
+      - sharedscripts
+      - prerotate
+***** For Example: Application Logs
 *** Rsyslog
 
 ** File Management, Deployment & Configuration Management
