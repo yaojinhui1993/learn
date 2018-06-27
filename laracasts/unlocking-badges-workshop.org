@@ -1,0 +1,4 @@
+* Unlocking Badges Workshop
+
+** Episode 1: Begin With an Example
+   Like so mang things is life, starting a new feature is the hardest part. We're creating something out of nothing. It's not an easy task to define how that "something" should appear. But we'll try. Let's begin with one example of how the system should behave, using TDD.
