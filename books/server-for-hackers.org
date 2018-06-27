@@ -351,6 +351,7 @@
 
 *** Varnish
 **** Origin Server
+**** Install Varnish
     
 **  Logs
 *** Logroate
