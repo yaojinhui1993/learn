@@ -390,6 +390,19 @@
 **** Going Further
 
 *** Rsyslog
+**** Configuration
+     - $ModLoad imuxsock
+     - $ModLoad imklog
+     - $ModLoad imudp
+     - $ModLoad imtcp
+     - $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+     - $RepeatedMsgReduction on
+     - User/Group
+     - $WorkDirectory /var/spool/rsyslog
+     - $IncludeConfig /etc/rsyslog.d/*.conf
+     - Facilities and Priorities (Log Levels)
+     - Priorities
+***** Default Configuration
 
 ** File Management, Deployment & Configuration Management
 *** Managing Files
