@@ -361,6 +361,11 @@
 **** Increasing Cache Hit Rate
 ***** Cookies
 ***** Force Caching
+
+**** Varnish Tools
+***** Purge
+***** Grace Periods
+***** "Security"
     
 **  Logs
 *** Logroate
