@@ -415,7 +415,36 @@
 *** Managing Files
 **** Copying Files Locally
 **** SCP: Secure Copy
-
+**** Rsync: Sync Files Across Hosts
+***** Other common options for rsync:
+      - =-v=
+      - =-z=
+      - =-c=
+      - =-r=
+      - =-S=
+      - =-l=
+      - =-L=
+      - =-p=
+      - =-h=
+      - =--exclude=
+***** Doing a Dry-Run
+***** Resuming a Stalled Transfer
+***** The Archive Option
+      - =-r=
+      - =-l=
+      - =-p=
+      - =-t=
+      - =-g=
+      - =-o=
+      - =-D=
+***** Smartly Merge Between Directories
+      - =-i=
+      - =-b=
+      - =-u=
+      - =-z=
+      - =-P=
+      - =--partial=
+      - =--progress=
 *** Auto-deploying with GitHub
 *** Configuration Management with Ansible
 
