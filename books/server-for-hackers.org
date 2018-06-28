@@ -410,10 +410,10 @@
 
 **** Should I Use Rsyslog
 **** Sending To Rsyslog From An Application
-*****
 
 ** File Management, Deployment & Configuration Management
 *** Managing Files
+**** Copying Files Locally
 *** Auto-deploying with GitHub
 *** Configuration Management with Ansible
 
