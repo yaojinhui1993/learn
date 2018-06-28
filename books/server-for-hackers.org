@@ -449,6 +449,8 @@
 **** Deployment
 
 *** Auto-deploying with GitHub
+**** How it Works
+
 *** Configuration Management with Ansible
 
 ** SSH
