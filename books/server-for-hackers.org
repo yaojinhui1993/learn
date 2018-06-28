@@ -445,6 +445,9 @@
       - =-P=
       - =--partial=
       - =--progress=
+
+**** Deployment
+
 *** Auto-deploying with GitHub
 *** Configuration Management with Ansible
 
