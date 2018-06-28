@@ -498,6 +498,13 @@
 *** Logging in
 
 *** SSH Config
+    - HostName
+    - Port
+    - User
+    - IdentityFile
+    - IdentitiesOnly
+    - PubkeyAuthentication
+
 *** SSH Tunneling
 *** One-Off Commands & Multiple Servers
 
