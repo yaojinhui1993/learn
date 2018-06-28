@@ -506,6 +506,9 @@
     - PubkeyAuthentication
 
 *** SSH Tunneling
+**** Local Port Forwarding
+**** Remote Port Forwarding
+
 *** One-Off Commands & Multiple Servers
 
 ** Monitoring Processes
