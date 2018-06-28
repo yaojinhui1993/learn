@@ -473,6 +473,20 @@
 ***** Basic Playbook
 ****** Handlers
 ****** More Tasks
+**** Roles
+     - files
+     - handlers
+     - meta
+     - templates
+     - tasks
+     - vars
+***** Files
+***** Handlers
+***** Meta
+***** Template
+***** Variables
+***** Tasks
+***** Running The Role
 
 ** SSH
 *** Logging in
