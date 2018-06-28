@@ -1,0 +1,3 @@
+* Whatcha Working on
+** Episode 32: Vue Convenience Components
+   In this lesson, come along as I refactor my "slide up" modal Vue components. The goal will be to ensure that future modals will be as simple and intuitive as possible to construct and configure.
