@@ -488,6 +488,10 @@
 ***** Tasks
 ***** Running The Role
 
+**** Facts
+***** Example NodeJS
+
+
 ** SSH
 *** Logging in
 *** SSH Config
