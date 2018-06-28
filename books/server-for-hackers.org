@@ -470,6 +470,9 @@
       - =-s=
       - =-m apt=
       - =-a 'pkg=nginx state=installed update_cache=true'=
+***** Basic Playbook
+****** Handlers
+****** More Tasks
 
 ** SSH
 *** Logging in
