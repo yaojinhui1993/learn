@@ -490,6 +490,8 @@
 
 **** Facts
 ***** Example NodeJS
+**** Vault
+***** Example: Users
 
 
 ** SSH
