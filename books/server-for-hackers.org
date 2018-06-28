@@ -459,6 +459,17 @@
 *** Configuration Management with Ansible
 **** Install
 **** Managing Servers
+**** Basic: Running Commands
+     - =all=
+     - =-m ping=
+     - =-s=
+     - =-k=
+     - =-u=
+***** Modules
+      - =all=
+      - =-s=
+      - =-m apt=
+      - =-a 'pkg=nginx state=installed update_cache=true'=
 
 ** SSH
 *** Logging in
