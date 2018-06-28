@@ -414,6 +414,8 @@
 ** File Management, Deployment & Configuration Management
 *** Managing Files
 **** Copying Files Locally
+**** SCP: Secure Copy
+
 *** Auto-deploying with GitHub
 *** Configuration Management with Ansible
 
