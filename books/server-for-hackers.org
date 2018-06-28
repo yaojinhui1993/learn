@@ -403,6 +403,10 @@
      - Facilities and Priorities (Log Levels)
      - Priorities
 ***** Default Configuration
+**** Usage
+***** Logging Messages From the Command Line
+***** Setting Up Custom Loggers
+***** Sending Logs to Remote Servers
 
 ** File Management, Deployment & Configuration Management
 *** Managing Files
