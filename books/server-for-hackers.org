@@ -457,6 +457,7 @@
 **** Firewall
 
 *** Configuration Management with Ansible
+**** Install
 
 ** SSH
 *** Logging in
