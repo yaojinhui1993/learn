@@ -451,6 +451,7 @@
 *** Auto-deploying with GitHub
 **** How it Works
 **** Node Listner
+**** Buffer Size
 
 *** Configuration Management with Ansible
 
