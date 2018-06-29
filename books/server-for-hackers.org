@@ -550,6 +550,7 @@
 
 *** Circus
 **** Installation
+**** Configuration
 
 ** Development and Servers
 *** Serving Static Content
