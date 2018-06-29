@@ -525,6 +525,18 @@
 *** Supervisord
 **** A Chain of Process Monitors
 **** Installation
+**** Configuration
+***** Option
+     - program
+     - command
+     - directory
+     - autostart
+     - autorestart
+     - startentries
+     - stdout_logfile
+     - stderr_logfile
+     - user
+     - environment
 
 *** Forever
 *** Circus
