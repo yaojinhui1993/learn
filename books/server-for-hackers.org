@@ -524,6 +524,7 @@
 
 *** Supervisord
 **** A Chain of Process Monitors
+**** Installation
 
 *** Forever
 *** Circus
