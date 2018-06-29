@@ -543,6 +543,7 @@
      - =supervisorctl update=
      - =supervisorctl=
      - =supervisorctl start=
+**** Web Interface
 *** Forever
 *** Circus
 
