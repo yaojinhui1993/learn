@@ -545,6 +545,8 @@
      - =supervisorctl start=
 **** Web Interface
 *** Forever
+**** Installation
+
 *** Circus
 
 ** Development and Servers
