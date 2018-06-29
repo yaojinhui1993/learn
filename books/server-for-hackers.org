@@ -551,6 +551,7 @@
 *** Circus
 **** Installation
 **** Configuration
+**** Controlling Processes
 
 ** Development and Servers
 *** Serving Static Content
