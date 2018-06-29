@@ -519,6 +519,7 @@
 **** System V Init(SystemVinit, SysV)
 **** Systemd
 **** Upstart
+**** The Service Command
 *** Supervisord
 *** Forever
 *** Circus
