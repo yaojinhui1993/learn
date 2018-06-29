@@ -546,6 +546,7 @@
 **** Web Interface
 *** Forever
 **** Installation
+**** Usage
 
 *** Circus
 
