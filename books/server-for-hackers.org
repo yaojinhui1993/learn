@@ -538,6 +538,11 @@
      - user
      - environment
 
+**** Controlling Process
+     - =supervisorctl reread=
+     - =supervisorctl update=
+     - =supervisorctl=
+     - =supervisorctl start=
 *** Forever
 *** Circus
 
