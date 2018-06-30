@@ -4,3 +4,6 @@
 
 ** #9: Responsive UI Improvements and CSS Transitions
    [[https://www.youtube.com/watch?v=4hLA4JjM5Rg][link]]
+
+** #10:
+   [[https://www.youtube.com/watch?v=0A8n7KLs6a8][link]]
