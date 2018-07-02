@@ -1,0 +1,14 @@
+* Building a Chatbot with Laravel and BotMan
+** Introduction
+** Planning
+** Getting Started with BotMan
+** Building a Driver for BotMan
+** Onboarding
+** Triggering the Onboarding Sequence
+** The RSS Parser
+** Delivering a List of Article
+** Signing Up for the Mailing List
+** Pushing Out Content
+** Small Talk
+** Testing
+** Conclustion
