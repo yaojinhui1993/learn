@@ -1,5 +1,23 @@
 * Building a Chatbot with Laravel and BotMan
 ** Introduction
+*** DONE What Is a Chatbot?
+    CLOSED: [2018-07-02 Mon 12:27]
+    - State "DONE"       from "TODO"       [2018-07-02 Mon 12:27]
+*** DONE Examples
+    CLOSED: [2018-07-02 Mon 12:32]
+    - State "DONE"       from "TODO"       [2018-07-02 Mon 12:32]
+*** DONE Why Should You Build a Chatbot?
+    CLOSED: [2018-07-02 Mon 12:35]
+
+    - State "DONE"       from "TODO"       [2018-07-02 Mon 12:35]
+*** DONE What Are We Going to Build?
+    CLOSED: [2018-07-02 Mon 12:37]
+
+
+    - State "DONE"       from "TODO"       [2018-07-02 Mon 12:37]
+*** TODO Technologies
+
+
 ** Planning
 ** Getting Started with BotMan
 ** Building a Driver for BotMan
