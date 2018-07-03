@@ -97,6 +97,10 @@
 ** Delivering a List of Article
 
 ** Signing Up for the Mailing List
+*** DONE Asking a Question
+    CLOSED: [2018-07-03 Tue 21:00]
+
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 21:00]
 ** Pushing Out Content
 ** Small Talk
 ** Testing
