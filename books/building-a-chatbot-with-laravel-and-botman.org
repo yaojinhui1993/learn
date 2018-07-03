@@ -95,6 +95,7 @@
 
     - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:46]
 ** Delivering a List of Article
+
 ** Signing Up for the Mailing List
 ** Pushing Out Content
 ** Small Talk
