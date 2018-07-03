@@ -45,6 +45,13 @@
 
     - State "DONE"       from "TODO"       [2018-07-03 Tue 12:27]
 ** Getting Started with BotMan
+*** DONE Installation
+    CLOSED: [2018-07-03 Tue 12:31]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:31]
+*** DONE Drivers
+    CLOSED: [2018-07-03 Tue 12:32]
+
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:32]
 ** Building a Driver for BotMan
 ** Onboarding
 ** Triggering the Onboarding Sequence
