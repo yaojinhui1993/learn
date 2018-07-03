@@ -64,6 +64,26 @@
     CLOSED: [2018-07-03 Tue 18:10]
     - State "DONE"       from              [2018-07-03 Tue 18:10]
 ** Triggering the Onboarding Sequence
+*** DONE Persisting Users
+    CLOSED: [2018-07-03 Tue 20:02] SCHEDULED: <2018-07-03 Tue>
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 20:02]
+*** DONE New User
+    CLOSED: [2018-07-03 Tue 20:08]
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:08]
+    - Received Middleware
+    - Caputred Middleware
+    - Matching Middleware
+    - Heard Middleware
+    - Sending Middleware
+*** DONE Triggering the Onboarding Sequence
+    CLOSED: [2018-07-03 Tue 20:11]
+
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:11]
+*** DONE Ignoring Other Commands
+    CLOSED: [2018-07-03 Tue 20:15]
+
+
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:15]
 ** The RSS Parser
 ** Delivering a List of Article
 ** Signing Up for the Mailing List
