@@ -126,4 +126,11 @@
 
     - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:51]
 ** Testing
+*** DONE Testing That a New User Will Trigger the Onboarding Sequence
+    CLOSED: [2018-07-04 Wed 07:56]
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:56]
+*** DONE Testing an Existing User Does Not Trigger Onboarding
+    CLOSED: [2018-07-04 Wed 07:58]
+
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:58]
 ** Conclustion
