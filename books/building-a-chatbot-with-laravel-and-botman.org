@@ -53,6 +53,12 @@
 
     - State "DONE"       from "TODO"       [2018-07-03 Tue 12:32]
 ** Building a Driver for BotMan
+*** DONE ubisend
+    CLOSED: [2018-07-03 Tue 12:38]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:38]
+*** DONE Building a ubisend Driver for Botman
+    CLOSED: [2018-07-03 Tue 12:50]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:50]
 ** Onboarding
 ** Triggering the Onboarding Sequence
 ** The RSS Parser
