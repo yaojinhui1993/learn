@@ -60,6 +60,9 @@
     CLOSED: [2018-07-03 Tue 12:50]
     - State "DONE"       from "TODO"       [2018-07-03 Tue 12:50]
 ** Onboarding
+*** DONE What Makes a Good Onboarding Experience?
+    CLOSED: [2018-07-03 Tue 18:10]
+    - State "DONE"       from              [2018-07-03 Tue 18:10]
 ** Triggering the Onboarding Sequence
 ** The RSS Parser
 ** Delivering a List of Article
