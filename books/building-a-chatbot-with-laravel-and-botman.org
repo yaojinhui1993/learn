@@ -85,6 +85,15 @@
 
     - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:15]
 ** The RSS Parser
+*** DONE Writing an RSS Parser
+    CLOSED: [2018-07-03 Tue 20:39]
+
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:39]
+*** DONE Importing the Feed
+    CLOSED: [2018-07-03 Tue 20:46]
+
+
+    - State "DONE"       from "STARTED"    [2018-07-03 Tue 20:46]
 ** Delivering a List of Article
 ** Signing Up for the Mailing List
 ** Pushing Out Content
