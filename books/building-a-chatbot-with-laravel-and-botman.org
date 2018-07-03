@@ -19,6 +19,31 @@
 
 
 ** Planning
+   - Text
+   - Quick Replies
+   - Action Messages
+   - Carousel
+   - List
+   - Image
+   - Video
+*** DONE Onboarding
+    CLOSED: [2018-07-03 Tue 12:21]
+
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:21]
+
+*** DONE Presenting a List of Articles
+    CLOSED: [2018-07-03 Tue 12:24]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:24]
+*** DONE Pushing Out Articles
+    CLOSED: [2018-07-03 Tue 12:25]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:25]
+*** DONE Mailing List Subscription
+    CLOSED: [2018-07-03 Tue 12:27]
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:27]
+*** DONE Small Talk
+    CLOSED: [2018-07-03 Tue 12:27]
+
+    - State "DONE"       from "TODO"       [2018-07-03 Tue 12:27]
 ** Getting Started with BotMan
 ** Building a Driver for BotMan
 ** Onboarding
