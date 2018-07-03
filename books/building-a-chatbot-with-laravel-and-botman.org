@@ -102,6 +102,21 @@
 
     - State "DONE"       from "STARTED"    [2018-07-03 Tue 21:00]
 ** Pushing Out Content
+
+*** DONE Preparing The Articles for Sending
+    CLOSED: [2018-07-04 Wed 07:40]
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:40]
+*** DONE Sending the Messages
+    CLOSED: [2018-07-04 Wed 07:41]
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:41]
+*** DONE Marking Massages as Sent
+    CLOSED: [2018-07-04 Wed 07:42]
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:42]
+*** DONE Firing the Job
+    CLOSED: [2018-07-04 Wed 07:43]
+
+
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:43]
 ** Small Talk
 ** Testing
 ** Conclustion
