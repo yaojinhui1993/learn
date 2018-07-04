@@ -9,3 +9,9 @@
    - Create a Vue instance
    - Bind dom root the Vue instance
    - Bind the dom element to instance data
+
+** DONE 02 - Setup Vue Devtools
+   CLOSED: [2018-07-04 Wed 22:38]
+   - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:38]
+   Let's install =Vue Devtools= sooner, rather than later. As you'll see, this gives us a portal into any Vue instance on the page. Especially in these early stages, you'll get a lot of use out of this Chrome extension.
+   - =$vm0.data-properties=
