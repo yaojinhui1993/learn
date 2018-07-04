@@ -134,3 +134,6 @@
 
     - State "DONE"       from "STARTED"    [2018-07-04 Wed 07:58]
 ** Conclustion
+*** DONE So What Have You Learned?
+    CLOSED: [2018-07-04 Wed 08:01]
+    - State "DONE"       from "STARTED"    [2018-07-04 Wed 08:01]
