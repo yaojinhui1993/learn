@@ -15,3 +15,11 @@
    - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:38]
    Let's install =Vue Devtools= sooner, rather than later. As you'll see, this gives us a portal into any Vue instance on the page. Especially in these early stages, you'll get a lot of use out of this Chrome extension.
    - =$vm0.data-properties=
+
+** DONE 03 - Lists
+   CLOSED: [2018-07-04 Wed 22:48]
+   - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:48]
+   In real life, we're often working with arrays, rather than strings. In this episode, you'll learn how to use the =v-for= directive to filter through a list of items and render them on the page. We'll also continue our review of reactivity, in the process.
+   - =v-for=
+   - =v-text=
+   - =mounted= once the element is mounted
