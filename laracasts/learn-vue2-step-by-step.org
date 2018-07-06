@@ -59,3 +59,7 @@
            data(){ return {}}
        })
      #+END_SRC
+
+** STARTED 08 - Components Within Components
+   Not only can we create components, but, of course, any component may further consist of child components. In this episode, let's review a basic example of that very thing.
+   - Single root element
