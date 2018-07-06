@@ -32,3 +32,11 @@
    - =methods: {}=
    - =v-on:keyup=
    - =v-on:click= equals to =@click=
+
+** DONE 05 - Attribute and Class Binding
+   CLOSED: [2018-07-06 Fri 11:43]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 11:43]
+   We haven't yet reviewed attribute binding in Vue. This is a key concept to understand, so make sure that you pay attention over the next few minutes. We can use the =v-bind= directive to bind a property in our model to any element attribute.
+   - =v-bind:attribute=
+   - =v-bind:attribute= equivalance =:attribute=
+   - =:class="{ 'className': boolean}"= traditional binding
