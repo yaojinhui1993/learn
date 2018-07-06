@@ -60,6 +60,14 @@
        })
      #+END_SRC
 
-** STARTED 08 - Components Within Components
+** DONE 08 - Components Within Components
+   CLOSED: [2018-07-06 Fri 13:27]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 13:27]
    Not only can we create components, but, of course, any component may further consist of child components. In this episode, let's review a basic example of that very thing.
    - Single root element
+
+** DONE 09 - Practical Component Exercise #1: Message
+   CLOSED: [2018-07-06 Fri 13:39]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 13:39]
+   Let's begin reviewing the process of creating an assortment of pratical components for your own projects. We'll start with a simple one: convert Bulma's "message" component into a full-fledged Vue component with behavior.
+   - =props=
