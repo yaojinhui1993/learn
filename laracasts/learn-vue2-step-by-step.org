@@ -23,3 +23,12 @@
    - =v-for=
    - =v-text=
    - =mounted= once the element is mounted
+
+** DONE 04 - Vue Event Listeners
+   CLOSED: [2018-07-06 Fri 09:17]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 09:17]
+   In the previous episode, we defaulted to traditional event listeners and DOM traversal. Luckily, though, there's simpler way with Vue. Let's review the =v-on= directive for registering event listener.
+   - =v-on:click=
+   - =methods: {}=
+   - =v-on:keyup=
+   - =v-on:click= equals to =@click=
