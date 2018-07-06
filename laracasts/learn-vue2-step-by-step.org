@@ -41,7 +41,21 @@
    - =v-bind:attribute= equivalance =:attribute=
    - =:class="{ 'className': boolean}"= traditional binding
 
-** STARTED 06 - The Need for Computed Properties
+** DONE 06 - The Need for Computed Properties
+   CLOSED: [2018-07-06 Fri 12:48]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 12:48]
    Often, you'll find that a piece of data needs a bit of calculation, before it's rendered on to the page. In such instances, Vue's computed properties are exactly what you require.
    - =computed properties=
    - use =dataList.filter(data => condition)= to filter data
+
+** DONE 07 - Components 101
+   CLOSED: [2018-07-06 Fri 12:57]
+   - State "DONE"       from "STARTED"    [2018-07-06 Fri 12:57]
+   Let's begin reviewing Vue components. You'll make heavy use of these, as you begin to harness all that Vue has to offer, so pay special attention to the next several episodes.
+   - Vue global component
+     #+BEGIN_SRC js
+       Vue.compontent('task', {
+           template: '<li><slot></slot></li>'
+           data(){ return {}}
+       })
+     #+END_SRC
