@@ -128,3 +128,8 @@
    Let's begin focusing on structure, and how you'll build actual applications with Vue. That means we're ready to learn both =Webpack= and =vue-cli=. I will warning you ahead of time: this can be a little confusing. But just stick with me, and we'll iron out all the kinks as best as we can.
    As an aside, if you use Laravel, you'll be happy to know that the framework offers some facilites to make this whole process even simpler. We'll review that soon.
    - =components= properties
+
+** DONE 17 - Hot Module Replacement
+   CLOSED: [2018-07-09 Mon 17:49]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 17:49]
+   Hot module replacement is incredibly cool. Yes, it will automatically refresh the page each time you change a component; however, what's particular neat is that the state for all components will remain unchange. Think of it like "Live Reload" for every single component in your application. In this video, I'll quickly demonstrate how it works.
