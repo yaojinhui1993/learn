@@ -85,3 +85,8 @@
    - =props: {required: true}=:   =props= object syntax
    - =this.$children= get all of the slot children
    - =props= are unmutable
+** DONE 12 - Component Communication Example #1: Custom Events
+   CLOSED: [2018-07-09 Mon 15:57]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 15:57]
+   Let's begin reviewing the options you have, when it comes to communication between Vue components. Or, in other words, how can one component notify another about a particular action or event that just took place?
+   - =v-on:eventName= equivalance =@eventName=
