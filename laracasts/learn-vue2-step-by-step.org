@@ -90,3 +90,11 @@
    - State "DONE"       from "STARTED"    [2018-07-09 Mon 15:57]
    Let's begin reviewing the options you have, when it comes to communication between Vue components. Or, in other words, how can one component notify another about a particular action or event that just took place?
    - =v-on:eventName= equivalance =@eventName=
+
+** DONE 13 - Component Communication Example #2: Event Dispatcher
+   CLOSED: [2018-07-09 Mon 16:56]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 16:56]
+   The next choice you have, to allow for communication between Vue components, is creating your own event dispatcher. Don't worry, this is much easier than it sounds, due to the fact that every Vue instance already implements the necessary interfaces!
+   - =window.Event = new Vue()=
+   - =Event.$emit('applied')=
+   - =Event.$on('applied', ()=>{})=
