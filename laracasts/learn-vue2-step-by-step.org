@@ -98,3 +98,18 @@
    - =window.Event = new Vue()=
    - =Event.$emit('applied')=
    - =Event.$on('applied', ()=>{})=
+
+** DONE 14 - Named Slots in a Nutshell
+   CLOSED: [2018-07-09 Mon 17:09]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 17:09]
+   So far, we've only reviewed default components slots. Or, in other words, "take this bit of content, and insert it right there", as designated by the =slot= tags. But what about when we require more control? A modal component is a perfect example of this. If you want to slot a header section in one place, and a footer section in another, named slots are exactly what you need.
+   - Declare
+    #+BEGIN_SRC html
+      <slot name="header"></slot>
+      <slot>Default content here</slot>
+    #+END_SRC
+   - Use
+     #+BEGIN_SRC html
+       <div slot="name"></div>
+       <template slot="name"></template>
+     #+END_SRC
