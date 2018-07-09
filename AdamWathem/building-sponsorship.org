@@ -5,10 +5,15 @@
 ** #9: Responsive UI Improvements and CSS Transitions
    [[https://www.youtube.com/watch?v=4hLA4JjM5Rg][link]]
 
-** #10:
+** #10: Replacing static data with user data
    [[https://www.youtube.com/watch?v=0A8n7KLs6a8][link]]
 
 ** DONE #11: Refactoring backend payment handling
    CLOSED: [2018-07-05 Thu 17:15]
    - State "DONE"       from "STARTED"    [2018-07-05 Thu 17:15]
    [[https://www.youtube.com/watch?v=aLVp4D08m6I][link]]
+
+** DONE #12: Building Sponsorship
+   CLOSED: [2018-07-09 Mon 13:35]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 13:35]
+   - =data_get()=
