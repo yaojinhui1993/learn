@@ -121,3 +121,10 @@
    - Name view conversasion: =name-view=
    - =inline-template=
    - Follow the single-root regular
+
+** DONE 16 - Webpack and vue-cli
+   CLOSED: [2018-07-09 Mon 17:36]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 17:36]
+   Let's begin focusing on structure, and how you'll build actual applications with Vue. That means we're ready to learn both =Webpack= and =vue-cli=. I will warning you ahead of time: this can be a little confusing. But just stick with me, and we'll iron out all the kinks as best as we can.
+   As an aside, if you use Laravel, you'll be happy to know that the framework offers some facilites to make this whole process even simpler. We'll review that soon.
+   - =components= properties
