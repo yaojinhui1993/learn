@@ -71,7 +71,17 @@
    - State "DONE"       from "STARTED"    [2018-07-06 Fri 13:39]
    Let's begin reviewing the process of creating an assortment of pratical components for your own projects. We'll start with a simple one: convert Bulma's "message" component into a full-fledged Vue component with behavior.
    - =props=
-** STARTED 10 - Practical Component Exercise #2: Modal
+** DONE 10 - Practical Component Exercise #2: Modal
+   CLOSED: [2018-07-09 Mon 10:26]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 10:26]
    Let's move on to our next pratical component exercise. A traditional modal box provides some key learning ponints. In particular, we're going to learn how to communicate between components. What happens if one Vue instance or component needs to be notified when a particular actions takes place? How might we broadcast such things?
    =@close= attach the custom event
    =@emit('close')= emit the custom event
+
+** DONE 11 - Pratical Component Exercise #3: Tabs
+   CLOSED: [2018-07-09 Mon 10:51]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 10:51]
+   Let's review one more pratical component exercise, before moving on to new topics. Let's recreate the common tabs feature that you've seen on so many websites. This will give us a number of interesting techinques to review.
+   - =props: {required: true}=:   =props= object syntax
+   - =this.$children= get all of the slot children
+   - =props= are unmutable
