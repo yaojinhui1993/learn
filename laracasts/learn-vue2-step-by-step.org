@@ -133,3 +133,8 @@
    CLOSED: [2018-07-09 Mon 17:49]
    - State "DONE"       from "STARTED"    [2018-07-09 Mon 17:49]
    Hot module replacement is incredibly cool. Yes, it will automatically refresh the page each time you change a component; however, what's particular neat is that the state for all components will remain unchange. Think of it like "Live Reload" for every single component in your application. In this video, I'll quickly demonstrate how it works.
+
+** DONE 18 - Vue Ajax Requests with Axios
+   CLOSED: [2018-07-09 Mon 18:05]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 18:05]
+   Vue doesn't provide any specific AJAX functionality out of the box. Instead, you have the entire spectrum of the JavaScript community to pull from. May be you're already using jQuery? Ifso, =$.ajax= will do the trick. Want a native option? Consider the fetch API (just don't forget to include a polyfill for older browsers). Or, maybe a general purpose library will do the trick? In this lesson, we'll review =Axios=: a clean and simple HTTP request API that you can be intergrated into any project within seconds.
