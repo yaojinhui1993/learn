@@ -113,3 +113,11 @@
        <div slot="name"></div>
        <template slot="name"></template>
      #+END_SRC
+
+** DONE 15 - Single-Use Components and Inline Templates
+   CLOSED: [2018-07-09 Mon 17:18]
+   - State "DONE"       from "STARTED"    [2018-07-09 Mon 17:18]
+   Not every component needs to be generic and reusable. Sometimes, a single, view specific component is exactly what the doctor ordered. In this episode, we'll review the basic concept, and then discuss when you might reach for the =inline-template= attribute to nest your template directly in your HTML file.
+   - Name view conversasion: =name-view=
+   - =inline-template=
+   - Follow the single-root regular
