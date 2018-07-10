@@ -274,3 +274,9 @@
    CLOSED: [2018-07-10 Tue 17:43]
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 17:43]
    Let's take a few moments to discuss structure and responsibility, as it relates to your Vue components. Specifically, we'll review a hidden child component that is begging to be extracted.
+
+** DONE 32 - Vue Subclassing
+   CLOSED: [2018-07-10 Tue 17:54]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 17:54]
+   From time to time, you may find that components of a centain type require special functionality. Rather than copying and pasting this logic from file to file, what else might be a possibility? Well, though we could create a mixin for this purpose, let's instead opt for a dedicated subclass. In this episode, we'll use the common collection example to illustrate this workflow.
+   - =vue.extend()=
