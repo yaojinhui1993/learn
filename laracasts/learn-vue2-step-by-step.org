@@ -240,3 +240,32 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 16:42]
    Let's continue with our Stream demo app, and review the process of adding new statuses to the stream. To allow for this, we'll created a dedicated form component, pull in the =Form= and =Errors= classes from the =Object Oriented Forms= episodes, and then update our Laravel backend code.
    - =middleware= => =validation= => =create the statuses= => =return it, and also include the user=
+
+** DONE 30 - Testing Vue: Part 1
+   CLOSED: [2018-07-10 Tue 17:05]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 17:05]
+   In this episode, we'll step the excellent =Ava Test framework=, and begin testing a basic Vue component from scratch. As you'll find, there are a few small gotchas that you'll want to be aware of.
+   - Simple test
+     #+BEGIN_SRC js
+       test('that it renders a notification', t => {
+
+       })
+     #+END_SRC
+
+
+   - =babel-register=
+   - When test, use the tricky =new Vue(Notification).$mount()=  to get let the vue instance mounted
+   - Use =browser-env= to mock the browser
+   - Test Props
+     #+BEGIN_SRC javascript
+       test('that it renders a notification', t => {
+           let N = Vue.extend(Notification);
+
+           let vm = new N({ propsData: {
+               message: 'Foobar'
+           }}).$mount();
+
+           t.is(vm.$el.textContent, 'Foobar');
+       })
+     #+END_SRC
+   - beforeEach =test.beforeEach(t => {})=
