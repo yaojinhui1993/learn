@@ -200,3 +200,16 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 14:25]
    Let's begin reviewing shared state. You'll absolutely run into this before too long. If you have multiple Vue instances or components that need access to the same data - and they also need to be in sync with one another - how exactly do we allow for that?
    1. Shared the source object for the Vue instances.
+
+** DONE 25 - Custom Input Components
+   CLOSED: [2018-07-10 Tue 14:48]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 14:48]
+   You'll surely come across instances in your own projects, where you'd like to wrap a form input within a custome component. This way, you can have a single place to attach all custom sanitization, validation and behavior. However, in the process, you'll also find that the useful =v-model= directive no longer works the way it usually does.
+   In this episode, we'll learn exactly what Vue's =v-model= does, and then review how to make it work on any custom component.
+   - =v-model=
+     #+BEGIN_SRC html
+       <input type="text" v-model="coupon"></input>
+       <input type="text" :value="coupon" @input="coupon = $event.target.value">
+     #+END_SRC
+
+   - Define =ref= and use =this.$refs.input.value=
