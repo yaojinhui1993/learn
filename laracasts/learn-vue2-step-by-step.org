@@ -182,3 +182,9 @@
                })
        })
      #+END_SRC
+
+** DONE 22 - Webpack Config From Scratch
+   CLOSED: [2018-07-10 Tue 11:35]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 11:35]
+   You've learned a bit about =vue-loader= already; however, for learning purposes, let's build up a Webpack configuration file from scratch, so that we can begin extracting and importing modules. This will give you a solid review of the fundamentals, while also providing an opportunity to review just how powerful (yet initially confusing) all this stuff can be. Don't worry: in the next episode, I'll show you some options to simplify new projects that use Webpack.
+   - =output.publicpath= use the production in CDN.
