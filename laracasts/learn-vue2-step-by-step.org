@@ -161,3 +161,24 @@
    - Class =Form= property can get by =form.property=, it can also use to the =v-model= binding.
    - =axios[requestType]().then(this.onSuccess.bind(this))= Bind =this= to the callback context
    - =Object.assign({}, this)= clone =this= object
+
+** DONE 21 - Object-Oriented Forms: Part 3
+   CLOSED: [2018-07-10 Tue 11:10]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 11:10]
+   Let's take one more episode to refactor our code and address some community questions from the previous episode. Specially, we'll update the =form= class to return a =Promise= when submitted, we'll create a few AJAX helper methods, and, lastly, we'll refactor two methods to improve clarity. Ready?
+   - =Promise=
+     #+BEGIN_SRC js
+       return new Promise((resolve, reject) => {
+           axios[requestType](url, this.data())
+               .then(response => {
+                   this.onSuccess(response.data);
+
+                   resolve(response.data);
+               })
+               .catch(error => {
+                   this.onFail(error.data);
+
+                   reject(error.data);
+               })
+       })
+     #+END_SRC
