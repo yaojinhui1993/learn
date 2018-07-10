@@ -280,3 +280,26 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 17:54]
    From time to time, you may find that components of a centain type require special functionality. Rather than copying and pasting this logic from file to file, what else might be a possibility? Well, though we could create a mixin for this purpose, let's instead opt for a dedicated subclass. In this episode, we'll use the common collection example to illustrate this workflow.
    - =vue.extend()=
+
+** DONE 33 - Scoped Slots
+   CLOSED: [2018-07-10 Tue 18:19]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 18:19]
+   Scoped slots allow us to treat any given Vue component slot as a reusable template that you can pass data to. If you've ever needed to override the markup for a given slot within a parent, but don't have access to the relevant underlying data, template scoping is the solution.
+   - Default Slot
+     #+BEGIN_SRC html
+       <slot :item=items></slot>
+
+       <template scop="props">
+         <h5>{{ props.item }}</h5>
+       </template>
+     #+END_SRC
+
+
+   - Named Slot
+     #+BEGIN_SRC html
+       <slot name="menu-list" :item=items></slot>
+
+       <template slot="menu-list" scop="{ item }">
+         <h5>{{ item }}</h5>
+       </template>
+     #+END_SRC
