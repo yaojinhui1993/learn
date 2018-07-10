@@ -234,3 +234,9 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 16:03]
    In the previous episode, we referenced a simple function to render a relative date for each stream. However, Vue filters are more approperiate for basic string manipulation operations like this.
    - =filters= properties
+
+** DONE 29 - Dedicated Form Components
+   CLOSED: [2018-07-10 Tue 16:42]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 16:42]
+   Let's continue with our Stream demo app, and review the process of adding new statuses to the stream. To allow for this, we'll created a dedicated form component, pull in the =Form= and =Errors= classes from the =Object Oriented Forms= episodes, and then update our Laravel backend code.
+   - =middleware= => =validation= => =create the statuses= => =return it, and also include the user=
