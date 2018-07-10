@@ -188,3 +188,9 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 11:35]
    You've learned a bit about =vue-loader= already; however, for learning purposes, let's build up a Webpack configuration file from scratch, so that we can begin extracting and importing modules. This will give you a solid review of the fundamentals, while also providing an opportunity to review just how powerful (yet initially confusing) all this stuff can be. Don't worry: in the next episode, I'll show you some options to simplify new projects that use Webpack.
    - =output.publicpath= use the production in CDN.
+
+** DONE 23 - This is Laravel Mix
+   CLOSED: [2018-07-10 Tue 14:15]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 14:15]
+   One issue, with any build tool, is that for each new project, you have to reproduce the entire setup again and again. Wouldn't it be useful if we could optimize for the 80% of folks who simply want general ES2015+ module compilation, some CSS preprocessing, and possibly a few other common tasks? And for the remaining 20%, well, they should have access to the underlying configuration file, so they may tweak it to their project's exact needs. Well, that's exactly what Laravel Mix does for you
+   - =mix.js(['a.js', 'b.js'], 'destination directory')=, bundle complie file.
