@@ -228,3 +228,9 @@
    A single-page application still needs its data from somewhere. In this episode, we'll work with Laravel a bit to build up a =status= model, and its associated data. Then, once we register the necessary route endpoint, we can return this data as JSON. This way, Vue and Axios can easily fetch the data they require from our server.
    - When fetch the relationship data, use =select= can not effect, because it must take the =id= column
    - Create the =model= directory to add all the model file.
+
+** DONE 28 - Vue Filters
+   CLOSED: [2018-07-10 Tue 16:03]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 16:03]
+   In the previous episode, we referenced a simple function to render a relative date for each stream. However, Vue filters are more approperiate for basic string manipulation operations like this.
+   - =filters= properties
