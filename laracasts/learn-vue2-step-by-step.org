@@ -152,3 +152,12 @@
    - =errors.has(field)=, JavaScript can use =this.errors.hasOwnProperty(property)= to check.
    - =errors.any()=, JavaScript can use =Object.keys.length= to check
    - =event.target.name= get the event target field name
+
+** DONE 20 - Object-Oriented Forms: Part 2
+   CLOSED: [2018-07-10 Tue 10:22]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 10:22]
+   Now that we have our validation error handling in place, we can move on to extracting a dedicated =Form= class. This class can be responsible for resetting itself, submitting the AJAX request to our server, and more. Ready to dig in?
+   Once you finished this lesson, it's over to you. How might you expand these two classes to simplify your form interaction even further? Get started, and then let us know that you came up with in the comments.
+   - Class =Form= property can get by =form.property=, it can also use to the =v-model= binding.
+   - =axios[requestType]().then(this.onSuccess.bind(this))= Bind =this= to the callback context
+   - =Object.assign({}, this)= clone =this= object
