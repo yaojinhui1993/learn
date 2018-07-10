@@ -213,3 +213,11 @@
      #+END_SRC
 
    - Define =ref= and use =this.$refs.input.value=
+
+** DONE 26 - Vue SPA Essentials: Routing
+   CLOSED: [2018-07-10 Tue 15:31]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 15:31]
+   As a workflow exercise, over the next few episodes, we'll review some essential topics related to building a full SPA with Vue2. First up, we should discuss client-side-routing, and how that fit into Vue. As always, we'll start entirely from scratch, and build up our project.
+   - =vue-router=
+   - =router-link=
+   - =router-view=
