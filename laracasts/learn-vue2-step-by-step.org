@@ -194,3 +194,9 @@
    - State "DONE"       from "STARTED"    [2018-07-10 Tue 14:15]
    One issue, with any build tool, is that for each new project, you have to reproduce the entire setup again and again. Wouldn't it be useful if we could optimize for the 80% of folks who simply want general ES2015+ module compilation, some CSS preprocessing, and possibly a few other common tasks? And for the remaining 20%, well, they should have access to the underlying configuration file, so they may tweak it to their project's exact needs. Well, that's exactly what Laravel Mix does for you
    - =mix.js(['a.js', 'b.js'], 'destination directory')=, bundle complie file.
+
+** DONE 24 - Shared State 101
+   CLOSED: [2018-07-10 Tue 14:25]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 14:25]
+   Let's begin reviewing shared state. You'll absolutely run into this before too long. If you have multiple Vue instances or components that need access to the same data - and they also need to be in sync with one another - how exactly do we allow for that?
+   1. Shared the source object for the Vue instances.
