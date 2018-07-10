@@ -9,3 +9,9 @@
    While pixels have long been the go-to unit for declaring font-sizes, the truth is that, these days, it's not the best choice. What if, instead, we could declare our sizes and spacing dynamically, based upon the font-size of the root =html= element? Think about the possibilites. Your layout could scale seamlessly, from mobile to widescreen devices.
    - =rem= based root  =html= tag
    - The default =html= font size is =16px=
+
+** DONE Episode 14: Reverse the Order
+   CLOSED: [2018-07-11 Wed 07:02]
+   - State "DONE"       from "STARTED"    [2018-07-11 Wed 07:02]
+   You may find yourself wanting to reverse the order of certain elements on the page, when viewed on a mobile device. The most common illustration of this is the typical "sidebar on the left, main content on the right" layout. For mobile devices, you'll likely want to see the main content before the sidebar. Luckily, flexbox has our backs.
+   - =flex-direction:column-reverse=
