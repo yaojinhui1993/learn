@@ -269,3 +269,8 @@
        })
      #+END_SRC
    - beforeEach =test.beforeEach(t => {})=
+
+** DONE 31 - Vue Component Responsibility
+   CLOSED: [2018-07-10 Tue 17:43]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 17:43]
+   Let's take a few moments to discuss structure and responsibility, as it relates to your Vue components. Specifically, we'll review a hidden child component that is begging to be extracted.
