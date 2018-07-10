@@ -138,3 +138,17 @@
    CLOSED: [2018-07-09 Mon 18:05]
    - State "DONE"       from "STARTED"    [2018-07-09 Mon 18:05]
    Vue doesn't provide any specific AJAX functionality out of the box. Instead, you have the entire spectrum of the JavaScript community to pull from. May be you're already using jQuery? Ifso, =$.ajax= will do the trick. Want a native option? Consider the fetch API (just don't forget to include a polyfill for older browsers). Or, maybe a general purpose library will do the trick? In this lesson, we'll review =Axios=: a clean and simple HTTP request API that you can be intergrated into any project within seconds.
+
+** DONE 19 - Object-Oriented Forms: Part 1
+   CLOSED: [2018-07-10 Tue 09:38]
+   - State "DONE"       from "STARTED"    [2018-07-10 Tue 09:38]
+   Let's review some techniques that we might implement to DRY up our form interactions. If you've ever noticed yourself writing the same exact code, over and over, for each form, then extracting a =Form= class may be exactly what you need. Let's get started with part one of this two-part series.
+   - =@submit.prevent= Prevent default DOM event.
+   - In Vue =this.$data= get the Vue data property
+   - =axios.post().then().catch()=
+   - =errors.name[0]= change to =errors.get('name')=, the last errors is class =Error= instance
+   - =errors.report(errorData)=
+   - =errors.clear(field)=
+   - =errors.has(field)=, JavaScript can use =this.errors.hasOwnProperty(property)= to check.
+   - =errors.any()=, JavaScript can use =Object.keys.length= to check
+   - =event.target.name= get the event target field name
