@@ -1,8 +1,109 @@
 * Getting Things Done
 ** The Art of Getting Things Done
 
-*** A New Practice for a New Reality
+*** DONE A New Practice for a New Reality
+    CLOSED: [2018-07-12 Thu 07:52]
+    - State "DONE"       from "STARTED"    [2018-07-12 Thu 07:52]
+**** DONE The Problem: New Demands, Insufficient Resources
+     CLOSED: [2018-07-04 Wed 22:08]
 
+     - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:08]
+
+**** DONE Work No Longer Has Clear Boundaries
+     CLOSED: [2018-07-04 Wed 22:13]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:13]
+
+**** DONE Our Jobs Keep Changing
+     CLOSED: [2018-07-04 Wed 22:18]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:18]
+
+**** DONE The Old Models and Habits Are Insufficient
+     CLOSED: [2018-07-04 Wed 22:23]
+
+     - State "DONE"       from "STARTED"    [2018-07-04 Wed 22:23]
+
+**** DONE The "Big Picture" vs. the Nitty-Gritty
+     CLOSED: [2018-07-05 Thu 08:10]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-05 Thu 08:10]
+
+**** DONE The Promise: The "Ready State" of the Martial Artist
+     CLOSED: [2018-07-05 Thu 08:20]
+
+     - State "DONE"       from "STARTED"    [2018-07-05 Thu 08:20]
+
+**** DONE The "Mind Like Water" Simile
+     CLOSED: [2018-07-06 Fri 08:09]
+
+     - State "DONE"       from "STARTED"    [2018-07-06 Fri 08:09]
+
+**** DONE Can You Get Your "Productiive State" When Required
+     CLOSED: [2018-07-06 Fri 08:13]
+     - State "DONE"       from "STARTED"    [2018-07-06 Fri 08:13]
+
+**** DONE The Principle: Dealing Effectively with Internal Commitments
+     CLOSED: [2018-07-06 Fri 22:31]
+
+     - State "DONE"       from "TODO"       [2018-07-06 Fri 22:31]
+
+**** DONE The Basic Requirements for Managing Commitmentns
+     CLOSED: [2018-07-06 Fri 22:35]
+
+     - State "DONE"       from "STARTED"    [2018-07-06 Fri 22:35]
+
+**** DONE An Important Exercise to Test This Model
+     CLOSED: [2018-07-07 Sat 13:33]
+
+     - State "DONE"       from "STARTED"    [2018-07-07 Sat 13:33]
+**** DONE The Real Work of Knowledge Work
+     CLOSED: [2018-07-09 Mon 08:19]
+
+     - State "DONE"       from "STARTED"    [2018-07-09 Mon 08:19]
+
+**** DONE Why Things Are Your Mind
+     CLOSED: [2018-07-10 Tue 07:52]
+
+     - State "DONE"       from "STARTED"    [2018-07-10 Tue 07:52]
+
+**** DONE Your Mind Doesn't Have a Mind of Its Own
+     CLOSED: [2018-07-10 Tue 08:00]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-10 Tue 08:00]
+**** DONE The Transformation on "Stuff"
+     CLOSED: [2018-07-10 Tue 08:13]
+
+     - State "DONE"       from "STARTED"    [2018-07-10 Tue 08:13]
+**** DONE The Process: Managing Action
+     CLOSED: [2018-07-11 Wed 07:33]
+
+     - State "DONE"       from "STARTED"    [2018-07-11 Wed 07:33]
+
+**** DONE Managing Action Is the Prime Challenge
+     CLOSED: [2018-07-11 Wed 07:44]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-11 Wed 07:44]
+
+**** DONE The Value of Bottom-Up Approach
+     CLOSED: [2018-07-11 Wed 08:22]
+     - State "DONE"       from "STARTED"    [2018-07-11 Wed 08:22]
+
+**** DONE Horizontal and Vertical Action Management
+     CLOSED: [2018-07-12 Thu 07:19]
+
+     - State "DONE"       from "STARTED"    [2018-07-12 Thu 07:19]
+
+**** DONE The Major Change: Getting It All Out of Your Head
+     CLOSED: [2018-07-12 Thu 07:51]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-12 Thu 07:51]
 *** Getting Control of Your Life: The Five Stages of Mastering Workflow
 
 *** Getting Projects Creatively Under Way: The Five Phases of Project Planning
