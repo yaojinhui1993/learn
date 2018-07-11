@@ -15,3 +15,10 @@
    - State "DONE"       from "STARTED"    [2018-07-11 Wed 07:02]
    You may find yourself wanting to reverse the order of certain elements on the page, when viewed on a mobile device. The most common illustration of this is the typical "sidebar on the left, main content on the right" layout. For mobile devices, you'll likely want to see the main content before the sidebar. Luckily, flexbox has our backs.
    - =flex-direction:column-reverse=
+
+** DONE Episode 15: Make It Sticky
+   CLOSED: [2018-07-12 Thu 06:13]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 06:13]
+   Consider the common example of a heading that should remain fixed to the top of the page until the next section becomes visible. Traditionally, developers have resorted to JavaScript to allow for this. However, this days, we can tackle it with basic CSS. And when I say basic, I mean two properties and you're don.
+   - =position: sticky=
+   - =top: 0=
