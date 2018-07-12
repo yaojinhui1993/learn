@@ -344,3 +344,8 @@
    - State "DONE"       from "STARTED"    [2018-07-12 Thu 14:48]
    In this episode, we'll work together on the Laracasts codebase, as I create a pop-up modal for the "Contact Support" link. Why redirect to a new page and download all the necessary assets simply to fill out a form? Instead, we'll add a layer on top of the main page, and submit an Ajax request with the user's question.
    - [[https://github.com/euvl/vue-js-modal][vue-js-modal]]
+
+** DONE 40 - Reusability
+   CLOSED: [2018-07-12 Thu 15:00]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:00]
+   In the =Modern CSS for Backend Developers=, one of the lessons focused on constructing both the CSS and JavaScript for an accordion-like component. In this episode, we'll review the Vue-specific code we wrote in that lesson, and review how we can make it more agnostic and reusable.
