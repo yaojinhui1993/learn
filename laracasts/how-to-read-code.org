@@ -1,0 +1,11 @@
+* STARTED How to Read Code
+  To improve as a developer, you must focus on three things: learning, reading, and writing. Or, in other words, learn from somebody more seasoned than you; read a lot of code; and write your own code daily. This series will focus on the reading component. Together, we'll mentally parse an open source project. How was it constructed? What are the routing conventions? How are the controllered structured?
+
+** DONE Get it Running Locally
+   CLOSED: [2018-07-12 Thu 17:51]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 17:51]
+   Let's use the =laravel.com= source code as the basis for our learning in this series. This code is freely available to review on GitHub. Specifically, we'll focus on the documentation layer. We see all these markdown files for each page of documentation. How are they loaded, parsed, and presented on the page? And how is versioning handled? We'll decode all of it. The begin this journey, we must first get the laravel.com source code running locally.
+   - Running code locally
+     - git clone laravel code
+     - git clone laravel documentation
+   - =mv docs/** ./= move all docs stuff to current directory
