@@ -319,7 +319,9 @@
    - =justify-center= in =flex= layout
    - =:class="featureTestimonials.id === testimonials.id ? 'border-dark' : 'border-transparent'"=
 
-** STARTED 36 - The Difference Between Debounce and Throttle
+** DONE 36 - The Difference Between Debounce and Throttle
+   CLOSED: [2018-07-12 Thu 12:56]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 12:56]
    Most front-end developers never take the time to fully learn the difference between =debounce= and =throttle=. Instead, they substitute each option, hoping to achieve their disired end result. In this episode - though not directly related to Vue - we'll take some time to learn and review the differences between the two, as well as when you might reach for each.
    - [[http://demo.nimius.net/debounce_throttle/][demo]]
-   -
+   - =_.throttle= and =_.deboucnce=
