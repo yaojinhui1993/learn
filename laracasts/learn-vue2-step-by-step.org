@@ -366,3 +366,9 @@
    - chrome tricks: select dom and can use =$0= in the console to execute code.
    - =$0.offsetTop= get the current DOM element offset top pixels.
    - =window.scrollY= window scrolled position.
+
+** DONE 43 - Fixed to the Top: Part 2
+   CLOSED: [2018-07-12 Thu 15:51]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:51]
+   Now that we have the basic functionality from the previous episode working, let's refactoring the code into something for more reusable.
+   - Vue root element =this.$el=
