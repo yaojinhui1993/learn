@@ -311,3 +311,15 @@
    - =Flickity= library
    - =placeholder image=
    - include package css: =import "flickity/dist/flickity.min.css"=
+
+** DONE 35 - Create a Testimonials Component With Me
+   CLOSED: [2018-07-12 Thu 12:44]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 12:44]
+   In this episode, come along as I create a testimonials component for the upcoming Laracasts UI refresh. We'll discuss the benifits of isolated all related behavior within a single file, as well as one techniques for throttling the avatar mouserover event handler to an acceptable frequency.
+   - =justify-center= in =flex= layout
+   - =:class="featureTestimonials.id === testimonials.id ? 'border-dark' : 'border-transparent'"=
+
+** STARTED 36 - The Difference Between Debounce and Throttle
+   Most front-end developers never take the time to fully learn the difference between =debounce= and =throttle=. Instead, they substitute each option, hoping to achieve their disired end result. In this episode - though not directly related to Vue - we'll take some time to learn and review the differences between the two, as well as when you might reach for each.
+   - [[http://demo.nimius.net/debounce_throttle/][demo]]
+   -
