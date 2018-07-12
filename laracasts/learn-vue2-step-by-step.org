@@ -358,3 +358,11 @@
      - Parent comunicate with child through =props=
      - Child communicate with parent through =event=
    - Use =this.$vnode.key= to get the reserve =key= properties.
+
+** DONE 42 - Fixed to the Top
+   CLOSED: [2018-07-12 Thu 15:43]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:43]
+   In this episode, we'll learn how to fix an HTML element to the top of the page, based upon the current scroll position. This is a common feature in countless websites. We'll tackle the implementation in two steps. First, we'll get it to work in the simplest way possible. Then, we'll refactor toward a reusable component that can be applied anywhere.
+   - chrome tricks: select dom and can use =$0= in the console to execute code.
+   - =$0.offsetTop= get the current DOM element offset top pixels.
+   - =window.scrollY= window scrolled position.
