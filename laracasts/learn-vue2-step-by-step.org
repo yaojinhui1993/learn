@@ -397,3 +397,26 @@
            }
        })
      #+END_SRC
+
+** DONE 45 - Render Functions Part 1
+   CLOSED: [2018-07-12 Thu 17:26]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 17:26]
+   So far in this series, we'vue used templates to declare our desired HTML structures. However, there's another way: render functions. Though you won't reach for them nearly as often. they nonetheless serve an important role. In this lesson we'll review the basics.
+   - =h= is means *hybrid*
+     #+BEGIN_SRC js
+       export default {
+           render(element) {
+               return element('h1', 'Hello World!');
+           }
+       }
+
+       export default {
+           render: h => h('h1', 'Hello World!');
+       }
+
+       export default {
+           render(element) {
+               return element('h1', { class: 'foobar'}, 'Hello World!');
+           }
+       }
+     #+END_SRC
