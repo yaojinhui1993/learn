@@ -372,3 +372,28 @@
    - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:51]
    Now that we have the basic functionality from the previous episode working, let's refactoring the code into something for more reusable.
    - Vue root element =this.$el=
+
+** DONE 44 - Tooltips Three Tips
+   CLOSED: [2018-07-12 Thu 17:09]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 17:09]
+   In this episode, we'll construct a standtip using three techinques: data attributes, Vue directives, and dedicated Vue components.
+   - data-set
+     - =document.querySelectorAll('[data-tooltip]').forEach(() => {})=
+     - [[https://popper.js.org/][popper.js]]
+     - =elem.dataset.tooltip= call the =<p data-tooltip></p>= element.
+   - v-directives
+     #+BEGIN_SRC html
+       Args: <span v-tooltip:top="Here is another way to make a tooltip"></span>
+
+       Modifiers: <span v-tooltip.top="Here is another way to make a tooltip"></span>
+     #+END_SRC
+     #+BEGIN_SRC js
+       Vue.directive('tooltip', {
+           bind(elem, bindings) {
+               new Tooltip(elem, {
+                   placement: bindings.arg,
+                   title: bindings.value
+               });
+           }
+       })
+     #+END_SRC
