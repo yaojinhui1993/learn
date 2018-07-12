@@ -349,3 +349,12 @@
    CLOSED: [2018-07-12 Thu 15:00]
    - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:00]
    In the =Modern CSS for Backend Developers=, one of the lessons focused on constructing both the CSS and JavaScript for an accordion-like component. In this episode, we'll review the Vue-specific code we wrote in that lesson, and review how we can make it more agnostic and reusable.
+
+** DONE 41 - Reusability: Part2
+   CLOSED: [2018-07-12 Thu 15:25]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 15:25]
+   Let's continue with our accordion component refactor. In this lesson, we'll create two components: =Accordion= and =AccordionItem=. This will allow us to use a data-driven approach to declaring the visibility of each item's associated body.
+   - Parents and child communication
+     - Parent comunicate with child through =props=
+     - Child communicate with parent through =event=
+   - Use =this.$vnode.key= to get the reserve =key= properties.
