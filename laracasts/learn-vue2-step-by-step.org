@@ -325,3 +325,9 @@
    Most front-end developers never take the time to fully learn the difference between =debounce= and =throttle=. Instead, they substitute each option, hoping to achieve their disired end result. In this episode - though not directly related to Vue - we'll take some time to learn and review the differences between the two, as well as when you might reach for each.
    - [[http://demo.nimius.net/debounce_throttle/][demo]]
    - =_.throttle= and =_.deboucnce=
+
+** DONE 37 - Mega Menus and One to One Relationships
+   CLOSED: [2018-07-12 Thu 13:56]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 13:56]
+   In this lesson, come along as we construct a mega-menu from scratch. We'll learn how to create a explicit link between an anchor tag and its associated menu, while allowing both pieces to live within the same Vue component and consume the same data.
+   - [[https://github.com/LinusBorg/portal-vue][PortalVue]]
