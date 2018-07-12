@@ -331,3 +331,10 @@
    - State "DONE"       from "STARTED"    [2018-07-12 Thu 13:56]
    In this lesson, come along as we construct a mega-menu from scratch. We'll learn how to create a explicit link between an anchor tag and its associated menu, while allowing both pieces to live within the same Vue component and consume the same data.
    - [[https://github.com/LinusBorg/portal-vue][PortalVue]]
+
+** DONE 38 - Vue Portal Use Case #2
+   CLOSED: [2018-07-12 Thu 14:17]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 14:17]
+   Let's review one more example for when you wight reach for a =portal=. If you need a way to move a link within a Vue component file to a different part of the page, Vue portals to the rescue.
+   - =<portal-target slim></portal-target>= slim portal, so that portal do not add another div element
+   - =<portal-toraget name="unique"></portal-target>>= unique name
