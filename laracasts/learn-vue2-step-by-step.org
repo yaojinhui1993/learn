@@ -303,3 +303,11 @@
          <h5>{{ item }}</h5>
        </template>
      #+END_SRC
+
+** DONE 34 - Wrap Existing Tools into Components
+   CLOSED: [2018-07-12 Thu 12:10]
+   - State "DONE"       from "STARTED"    [2018-07-12 Thu 12:10]
+   In this episode, we'll wrap the popular =Flickity= carousel library into a dedicated Vue component. As you'll find, do so will allow us to expose a single interface, while isolating all awareness of Flickity to a single File.
+   - =Flickity= library
+   - =placeholder image=
+   - include package css: =import "flickity/dist/flickity.min.css"=
