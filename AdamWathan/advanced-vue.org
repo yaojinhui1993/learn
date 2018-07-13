@@ -1,8 +1,12 @@
 * Advanced Vue Component Design
 
-** Building Controlled Component
+** DONE Building Controlled Component
+   CLOSED: [2018-07-13 Fri 13:04]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 13:04]
    Learn the fundamentals of component communication best practices, and how you can use that knowledge to create you own components that work with Vue's v-model dricetive.
   [[/Users/yjh/Documents/tutorials/advanced-vue/1. Building Controlled Components.mp4][File]], [[https://codesandbox.io/s/oxxlx055xy?from-embed][Code]]
+  - =aria-checked= attributes can set the checkbox component
+  - the fundamental of =v-model= is *<input :value="some-value" @input="$event.target.value"></input>*
 
 ** Customizing Controlled Component Bindings
    Learn how to customize v-model so you can use more expressive names in your controlled components.
