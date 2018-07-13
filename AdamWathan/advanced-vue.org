@@ -77,10 +77,36 @@
            }
        }
      #+END_SRC
-** Encapsulating External Behavior: Background Scrolling
-   Like event handling, sometimes you need to bypass Vue's activity system and do old-scholl DOM manipulation to keep a component's logic encapsulated. This lesson will teach you how and when to do it.
+** DONE Encapsulating External Behavior: Background Scrolling
+   CLOSED: [2018-07-13 Fri 14:44]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 14:44]
+   Like event handling, sometimes you need to bypass Vue's activity system and do old-scroll DOM manipulation to keep a component's logic encapsulated. This lesson will teach you how and when to do it.
    [[~/Documents/tutorials/advanced-vue/5. Encapsulating External Behavior: Background Scrolling.mp4][File]], [[https://codesandbox.io/s/z0mx3w9km?from-embed][Code]]
+   - Set the screen locked
+     #+BEGIN_SRC css
+       .model-open {
+           height: 100vh;
+           overflow: hidden;
 
+       }
+     #+END_SRC
+   - Set the body style property, and watch the value immediately
+     #+BEGIN_SRC js
+       export default {
+           watch: {
+               show: {
+                   immediate: true,
+                   handler: function (show) {
+                       if (show) {
+                           this.preventBackgroundScrolling && document.body.style.setProperty('overflow', 'hidden');
+                       } else {
+                           this.preventBackgroundScrolling && document.body.style.removeProperty('overflow')
+                       }
+                   }
+               }
+           }
+       }
+     #+END_SRC
 ** Encapsulating External Behavior: Portals
    When a single interaction involves multiple disconnected parts of the DOM(think a button that opens a modal that lives at the end of the body), a component's implementation details can quickly leak to other parts of your application and cause unnecessary coupling. Learn how you can use the portal pattern to avoid this.
    [[~/Documents/tutorials/advanced-vue/6. Encapsulating External Behavior: Portals.mp4][File]], [[https://codesandbox.io/s/vy0k8283o5?from-embed][Code]]
