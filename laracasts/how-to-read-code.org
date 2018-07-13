@@ -9,3 +9,10 @@
      - git clone laravel code
      - git clone laravel documentation
    - =mv docs/** ./= move all docs stuff to current directory
+
+** DONE Finding the Documentation Page
+   CLOSED: [2018-07-13 Fri 09:31]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 09:31]
+   Now that we have the application running locally, let's figure out how a documentation page is loaded. We already know that each section is stored as Markdown file. So how exactly are the files loaded annd presented to the user?
+
+   - step by step read code.
