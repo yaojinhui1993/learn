@@ -129,9 +129,14 @@
        </portal>
      #+END_SRC
 
-** Injecting Content Using Slots
+** DONE Injecting Content Using Slots
+   CLOSED: [2018-07-13 Fri 17:12]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 17:12]
    Learn the fundamentals of using slots to customize a component's content.
    [[~/Documents/tutorials/advanced-vue/8. Injecting Content Using Slots.mp4][File]], [[https://codesandbox.io/s/8x54ow4vl9?from-embed][Code]]
+   - slot
+   - name slot
+   - default solt
 
 ** Native-Style Buttons Using Slots and Class Merging
    In this lesson, you'll learn how to apply our knowledge of slots to build a custom button component that behaves just like a native HTML element.
