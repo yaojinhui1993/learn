@@ -138,7 +138,9 @@
    - name slot
    - default solt
 
-** Native-Style Buttons Using Slots and Class Merging
+** DONE Native-Style Buttons Using Slots and Class Merging
+   CLOSED: [2018-07-13 Fri 17:17]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 17:17]
    In this lesson, you'll learn how to apply our knowledge of slots to build a custom button component that behaves just like a native HTML element.
    [[~/Documents/tutorials/advanced-vue/9. Native-Style Buttons Using Slots and Class Merging.mp4][File]], [[https://codesandbox.io/s/j4m180n11v?from-embed][Code]]
 
