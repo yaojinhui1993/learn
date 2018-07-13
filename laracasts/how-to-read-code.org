@@ -32,3 +32,24 @@
    - State "DONE"       from "STARTED"    [2018-07-13 Fri 10:21]
    Now that we fully understand how the documentation is loaded, parsed, and rendered on the screen, let's move on to different piece of the codebase. Are there additional performance considerations that we might learn from? Well, as it turns out, the answer is yes. The Laravel.com website adopts full page caching to vastly improve load times. Why boot the entire framework for each request, when you can easily render a cached HTML response instead?
    - =Middleware/CacheResponse.php=
+
+** DONE Make Your Own Documentation Website with TDD
+   CLOSED: [2018-07-13 Fri 11:14]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 11:14]
+   In this episode, we'll put what we've learned to the test. Can we create a project from scratch that renders versioned documentation pages, writing in Markdown? Let's use TDD to drive our workflow, while implementing the techniques we've learned from this series. Along the way, we'll review a number of key decisions, including:
+   - How to use TDD to describe our desired features and functionality.
+   - How to use Mockery's partial mocks to intercept method calls.
+   - Why it's vital that you be thoughtful when mocking.
+   - When/How/Why to use real-time facades.
+
+
+   - Partial Mock
+     #+BEGIN_SRC php
+       app()->instance('App\Documentation', \Mockery::mock(App\Documentation[markdownPath], function($mock) {
+           $mock->shouldReceive('markdownPath')
+               ->once()
+               ->andReturn(
+                   base_path('stub/docs/1.0/stub.md')
+               );
+       }));
+     #+END_SRC
