@@ -8,9 +8,21 @@
   - =aria-checked= attributes can set the checkbox component
   - the fundamental of =v-model= is *<input :value="some-value" @input="$event.target.value"></input>*
 
-** Customizing Controlled Component Bindings
-   Learn how to customize v-model so you can use more expressive names in your controlled components.
+** DONE Customizing Controlled Component Bindings
+   CLOSED: [2018-07-13 Fri 13:35]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 13:35]
+   Learn how to customize =v-model= so you can use more expressive names in your controlled components.
    [[~/Documents/tutorials/advanced-vue/2. Customizing Controlled Component Bindings.mp4][File]], [[https://codesandbox.io/s/mqnzm84plx?from-embed][Code]]
+   #+BEGIN_SRC js
+     export default {
+         model: {
+             prop: "toggle", // default "value"
+             event: "toggle", // default "input"
+         }
+     }
+   #+END_SRC
+
+
 
 ** Wrapping External Libraries as Vue Components
    There's a lot of high quality libraries out there designed to be used as just vanilla JS or as jQuery plugins. In this lesson your'll learn how to turn those libraries into Vue components so you can maintain a single JS paradigm within your own applications
