@@ -32,10 +32,51 @@
    - [[https://github.com/dbushell/Pikaday][Pikaday]]
    - =...this.options= merge the options to the external libraries.
 
-** Encapsulating External Behavior: Closing on Escape
+** DONE Encapsulating External Behavior: Closing on Escape
+   CLOSED: [2018-07-13 Fri 14:28]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 14:28]
    In this lesson you'll learn and how it can sometimes be useful to break outside of Vue's built-in event handling system to write more portable components.
    [[~/Documents/tutorials/advanced-vue/4. Encapsulating External Behavior: Closing on Escape.mp4][File]], [[https://codesandbox.io/s/1v1o4lvp9j?from-embed][Code]]
+   - let =div= or other element can focus, add the =tabindex= attribute to it.
+   - After Vue re-rendered, focus the needed element.
+     #+BEGIN_SRC js
+       this.$nextTick(() => {
+           this.$refs.modal.focus()
+       })
+     #+END_SRC
+   - Create global event listener, and remove event listener - Method 1
+     #+BEGIN_SRC js
+       export default {
+           created() {
+               this.escapeHandler = (e) => {
+                   if (e.key === 'Escape' && this.show) {
+                       this.dismiss()
+                   }
+               }
+               document.addEventListener('keydown', this.escapeHandler)
+           },
 
+           destroyed() {
+               document.removeEventHandler('keydown', this.escapeHandler)
+           }
+       }
+     #+END_SRC
+   - Method 2
+     #+BEGIN_SRC js
+       export default {
+           created() {
+               const escapedHandler = (e) => {
+                   if (e.key === 'Escape' && this.show) {
+                       this.dismiss()
+                   }
+               }
+               document.addEventListener('keydown', escapeHandler)
+               this.$once('hook:destroyed', () => {
+                   document.removeEventListener('keydown', escapeHandler)
+               })
+           }
+       }
+     #+END_SRC
 ** Encapsulating External Behavior: Background Scrolling
    Like event handling, sometimes you need to bypass Vue's activity system and do old-scholl DOM manipulation to keep a component's logic encapsulated. This lesson will teach you how and when to do it.
    [[~/Documents/tutorials/advanced-vue/5. Encapsulating External Behavior: Background Scrolling.mp4][File]], [[https://codesandbox.io/s/z0mx3w9km?from-embed][Code]]
