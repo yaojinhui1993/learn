@@ -21,3 +21,8 @@
    CLOSED: [2018-07-13 Fri 09:52]
    - State "DONE"       from "STARTED"    [2018-07-13 Fri 09:52]
    It seems that, at some point, the companion Markdown for a requested documentation page is loaded, compiled, and cached. In this episode, let's figure out exactly how that workflow is organized and processed.
+
+** DONE Rendering the Documentation
+   CLOSED: [2018-07-13 Fri 10:04]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 10:04]
+   We've figured out how the Markdown files are loaded, and parsed. The only remaining step is to get the content on the page. In this episode, we'll learn how the content is passed to the view, while accounting the situtations when an invalid documentation page is requested.
