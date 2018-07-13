@@ -114,9 +114,20 @@
    [[~/Documents/tutorials/advanced-vue/6. Encapsulating External Behavior: Portals.mp4][File]], [[https://codesandbox.io/s/vy0k8283o5?from-embed][Code]]
    - [[https://github.com/LinusBorg/portal-vue][Portal]]
 
-** Encapsulating External Behavior: Reusing Portals
+** DONE Encapsulating External Behavior: Reusing Portals
+   CLOSED: [2018-07-13 Fri 17:03]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 17:03]
    Learn how to reuse generic portal targets to avoid leaking knowledge to the root component about what's actually being rendered.
    [[~/Documents/tutorials/advanced-vue/7. Encapsulating External Behavior: Reusing Portals.mp4][File]], [[https://codesandbox.io/s/xv1ooy9v1p?from-embed][Code]]
+   - Use the =v-if= tag to let portal-target do not conflict
+     #+BEGIN_SRC html
+       <portal to="modals" v-if="showAnnouncement">
+         <announcement-modal>
+           :show="showAnnouncement"
+           @close="showAnnouncement = close"
+         </announcement-modal>
+       </portal>
+     #+END_SRC
 
 ** Injecting Content Using Slots
    Learn the fundamentals of using slots to customize a component's content.
