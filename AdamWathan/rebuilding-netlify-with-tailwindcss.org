@@ -1,0 +1,17 @@
+* DONE Rebuilding Netlify with Tailwind CSS
+  CLOSED: [2018-07-14 Sat 07:12]
+  - State "DONE"       from "STARTED"    [2018-07-14 Sat 07:12]
+
+
+  - [[https://www.youtube.com/watch?v=_JhTaENzfZQ][Link]]
+  - [[http://www.zondicons.com][zondicons]]  A set of free premium SVG icons for you to use on your digital products.
+  - [[https://jakearchibald.github.io/svgomg/][svgomg]]
+  - [[https://github.com/dukestreetstudio/zondicons][zondicons github]]
+  - ~tu tu tu tu tututu...~
+  - Set image hover cover
+    #+BEGIN_SRC html
+      <div class="relative rounded overflow-hidden">
+        <img alt="" src="" class="w-48"/>
+        <div class="absolute pin bg-black-20 opacity-100 hover:opacity-0"></div>
+      </div>
+    #+END_SRC
