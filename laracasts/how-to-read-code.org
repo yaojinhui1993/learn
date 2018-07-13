@@ -26,3 +26,9 @@
    CLOSED: [2018-07-13 Fri 10:04]
    - State "DONE"       from "STARTED"    [2018-07-13 Fri 10:04]
    We've figured out how the Markdown files are loaded, and parsed. The only remaining step is to get the content on the page. In this episode, we'll learn how the content is passed to the view, while accounting the situtations when an invalid documentation page is requested.
+
+** DONE Full Page Caching
+   CLOSED: [2018-07-13 Fri 10:21]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 10:21]
+   Now that we fully understand how the documentation is loaded, parsed, and rendered on the screen, let's move on to different piece of the codebase. Are there additional performance considerations that we might learn from? Well, as it turns out, the answer is yes. The Laravel.com website adopts full page caching to vastly improve load times. Why boot the entire framework for each request, when you can easily render a cached HTML response instead?
+   - =Middleware/CacheResponse.php=
