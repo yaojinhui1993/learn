@@ -144,8 +144,10 @@
    In this lesson, you'll learn how to apply our knowledge of slots to build a custom button component that behaves just like a native HTML element.
    [[~/Documents/tutorials/advanced-vue/9. Native-Style Buttons Using Slots and Class Merging.mp4][File]], [[https://codesandbox.io/s/j4m180n11v?from-embed][Code]]
 
-** Extending Components Using Composition
-   You'll often have situations in an application where two cmoponents share quite a bit of logic but alse have a few notable differences. In these lession, you'll learn how slots can be used to "extend" a common base component using compositions, instead of resorting to mixins or inheritance.
+** DONE Extending Components Using Composition
+   CLOSED: [2018-07-13 Fri 17:32]
+   - State "DONE"       from "STARTED"    [2018-07-13 Fri 17:32]
+   You'll often have situations in an application where two components share quite a bit of logic but also have a few notable differences. In these lesson, you'll learn how slots can be used to "extend" a common base component using compositions, instead of resorting to mixins or inheritance.
    [[~/Documents/tutorials/advanced-vue/10. Extending Components Using Composition.mp4][File]], [[https://codesandbox.io/s/jj8vjjxlk9?from-embed][Code]]
 
 ** Passing Data Up Using Scoped Slots
