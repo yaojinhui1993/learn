@@ -262,9 +262,18 @@
      }
    #+END_SRC
 
-** Render Functions and Slots
+** DONE Render Functions and Slots
+   CLOSED: [2018-07-14 Sat 14:37]
+   - State "DONE"       from "STARTED"    [2018-07-14 Sat 14:37]
    Learn how to interact with slots inside of render functions, and how a special property of render functions that template doesn't support can open up a lot of new component design possibilites.
    [[~/Documents/tutorials/advanced-vue/15. Render Functions and Slots.mp4][File]], [[https://codesandbox.io/s/z2k1j94o8m?from-embed][Code]]
+   - =this.$slots= properties
+   - Default slots =this.$slots.default=
+   - Custom header slot =this.$slots.header=
+   - Use slots, just pass the =this.$slots.default= to the createElement third argument
+   - Scope Slots =this.$scopeSlots.default=
+   - Use Scope Slots, because scope slots are prop functions, so use it like =this.$scopeSlots.default({ key: value })=
+   - =this.$scopeSlots.default({ key:value })= return vnode. we can return it directly, and Vue render it just exactly we passed it.
 
 ** Data Provider Components
    Using render functions and scoped slots, components don't have to generate any of their own HTML. Learn how to leverage this concept to build a component FetchJson component that can be used to make AJAX calls directly in your markup.
