@@ -198,9 +198,51 @@
        }
      #+END_SRC
 
-** Render Functions and Components
+** DONE Render Functions and Components
+   CLOSED: [2018-07-14 Sat 14:14]
+   - State "DONE"       from "STARTED"    [2018-07-14 Sat 14:14]
    In this lesson you'll learn how to render other components from inside of a render function.
    [[~/Documents/tutorials/advanced-vue/13. Render Functions and Components.mp4][File]], [[https://codesandbox.io/s/k05o3npx25?from-embed][Code]]
+   - Directly pass the Component into the =createElement()=
+   - =nativeOn= vs =on=
+     Because when register custom components, Vue listen for custom event. So should listen the native event on the custom component.
+     #+BEGIN_SRC js
+       import PrimaryButton from './PrimaryButton.vue'
+
+       export default {
+           render(createElement) {
+               return createElement(PrimaryButton, {
+                   nativeOn: () => alert('Hello World!')
+               }, 'Hello World')
+           }
+       }
+     #+END_SRC
+   - Pass =props= to other components
+   - Register =components= property only in =template=
+   - =v-model= do not effect in the render function, so we should listen the event manually
+   - code
+     #+BEGIN_SRC js
+       import ToggleInput from './TogleInput.vue'
+
+       export default {
+           data() {
+               return {
+                   toggle: false
+               }
+           },
+           render(createdElement) {
+               return createdElement(ToggleInput, {
+                   props: {
+                       toggle: this.toggle
+                   },
+                   on: {
+                       input: (newValue) => this.toggle = newValue
+                   }
+               })
+           }
+
+       }
+     #+END_SRC
 
 ** Render Functions and Children
    In this lesson you'll learn how to write render functions that contain multiple children, and how to replace directives like v-for using array transformations.
