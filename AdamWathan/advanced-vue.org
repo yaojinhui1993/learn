@@ -172,9 +172,31 @@
        </div>
      #+END_SRC
 
-** Render Functions 101
-   For most components you will use templates to contruct your html, but Vue also supports building a components's HTML using /reder/ functions. In this mini-series, you'll learn how reander functions work and why there are still useful even if you aren't using JSX.
+** DONE Render Functions 101
+   CLOSED: [2018-07-14 Sat 13:56]
+   - State "DONE"       from "STARTED"    [2018-07-14 Sat 13:56]
+   For most components you will use templates to construct your html, but Vue also supports building a components's HTML using /render/ functions. In this mini-series, you'll learn how render functions work and why there are still useful even if you aren't using JSX.
    [[~/Documents/tutorials/advanced-vue/12. Render Functions 101.mp4][File]], [[https://codesandbox.io/s/5vxlz052px?from-embed][Code]]
+   - Pros:  Dynamic template element
+   - Code
+     #+BEGIN_SRC js
+       export default {
+           props: ['tag'],
+           data() {
+               return {}
+           },
+           render (createElement) {
+               return createElement(this.tag, {
+                   attrs: {
+                       class: 'btn btn-blue'
+                   },
+                   on: {
+                       click: () => alert('Hello World');
+                   }
+               }, 'Hello World!')
+           }
+       }
+     #+END_SRC
 
 ** Render Functions and Components
    In this lesson you'll learn how to render other components from inside of a render function.
