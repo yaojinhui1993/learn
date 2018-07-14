@@ -150,9 +150,27 @@
    You'll often have situations in an application where two components share quite a bit of logic but also have a few notable differences. In these lesson, you'll learn how slots can be used to "extend" a common base component using compositions, instead of resorting to mixins or inheritance.
    [[~/Documents/tutorials/advanced-vue/10. Extending Components Using Composition.mp4][File]], [[https://codesandbox.io/s/jj8vjjxlk9?from-embed][Code]]
 
-** Passing Data Up Using Scoped Slots
+** DONE Passing Data Up Using Scoped Slots
+   CLOSED: [2018-07-14 Sat 13:45]
+   - State "DONE"       from "STARTED"    [2018-07-14 Sat 13:45]
    Scoped slots are easily one of Vue's powerful features, but can be a bit tricky to wrap your head around. In this lesson, you'll learn how to see scoped slots as callback props, making them a lot easier to understand.
    [[~/Documents/tutorials/advanced-vue/11. Passing Data Up Using Scoped Slots.mp4][File]], [[https://codesandbox.io/s/nwz1xpkyl0?from-embed][Code]]
+   - Function-Prop vs Scop-Slots
+     #+BEGIN_SRC html
+       <contact-list :pseudo-slot="({ contact }) => contact.name.first">
+         <a :href="`/contacts/${contact.id}`" slot-scope="{ contact }">
+           {{ contact.name.first }}
+         </a>
+       </contact-list>
+
+       <div>
+         {{ pseudoSlot({ contact: contact})}}
+       </div>
+
+       <div>
+         <slot :contact="contact"></slot>
+       </div>
+     #+END_SRC
 
 ** Render Functions 101
    For most components you will use templates to contruct your html, but Vue also supports building a components's HTML using /reder/ functions. In this mini-series, you'll learn how reander functions work and why there are still useful even if you aren't using JSX.
