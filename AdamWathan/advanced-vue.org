@@ -244,9 +244,23 @@
        }
      #+END_SRC
 
-** Render Functions and Children
+** DONE Render Functions and Children
+   CLOSED: [2018-07-14 Sat 14:23]
+   - State "DONE"       from "STARTED"    [2018-07-14 Sat 14:23]
    In this lesson you'll learn how to write render functions that contain multiple children, and how to replace directives like v-for using array transformations.
    [[~/Documents/tutorials/advanced-vue/14. Render Functions and Children.mp4][File]], [[https://codesandbox.io/s/7w1pr58p6x?from-embed][Code]]
+   - Just pass element array to the third argument about the =createElement=
+   #+BEGIN_SRC js
+     render(createElement) {
+         return createElement('div', {}, [
+             createElement('h1', {}, 'Your Contacts'),
+             createElement('ul', {}, this.contacts.map(contact => {
+                 return createElement('li', {}, `${contact.name.first} ${contact.name.last}`)
+             }))
+         ])
+
+     }
+   #+END_SRC
 
 ** Render Functions and Slots
    Learn how to interact with slots inside of render functions, and how a special property of render functions that template doesn't support can open up a lot of new component design possibilites.
