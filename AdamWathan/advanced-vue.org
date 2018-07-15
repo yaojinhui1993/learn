@@ -275,9 +275,12 @@
    - Use Scope Slots, because scope slots are prop functions, so use it like =this.$scopeSlots.default({ key: value })=
    - =this.$scopeSlots.default({ key:value })= return vnode. we can return it directly, and Vue render it just exactly we passed it.
 
-** Data Provider Components
+** DONE Data Provider Components
+   CLOSED: [2018-07-16 Mon 07:09]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 07:09]
    Using render functions and scoped slots, components don't have to generate any of their own HTML. Learn how to leverage this concept to build a component FetchJson component that can be used to make AJAX calls directly in your markup.
    [[~/Documents/tutorials/advanced-vue/16. Data Provider Components.mp4][File]], [[https://codesandbox.io/s/nk9qr8yz0p?from-embed][Code]]
+   - Reuse code. Decouple the =contact-list= component and =fetch-json= component.
 
 ** Getting Started with Renderless UI Components
    One of the biggest headaches with traditional JS UI libraries is that they are a pain to customize. In this mini-series, you'll learn how to use render functions and scoped slots to separate presentation and behavior into separate components; making it easy to cmopletely customize a component's appearance without reimplementing any logic.
