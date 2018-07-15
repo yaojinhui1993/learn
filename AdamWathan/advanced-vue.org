@@ -298,9 +298,12 @@
    [[~/Documents/tutorials/advanced-vue/18. Passing Data Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/k96ljlz7yv?from-embed][Code]]
    - Use prop data =model= properties
 
-** Passing Actions Props from Renderless Components
+** DONE Passing Actions Props from Renderless Components
+   CLOSED: [2018-07-16 Mon 07:43]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 07:43]
    In this lesson you'll learn about "action props", and how they can be used to provide behavior to a parent component.
-   [[~/Documents/tutorials/advanced-vue/19. Passing Action Props from Renderless Components.mp4][Code]], [[https://codesandbox.io/s/9l2jwy14mp?from-embed][File]]
+   [[~/Documents/tutorials/advanced-vue/19. Passing Action Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/9l2jwy14mp?from-embed][Code]]
+   - Like the =data props=, just pass the method action to the scope slots.
 
 ** Passing Binding Props from Renderless Components
    In this lesson you'll learn about "binding props", which let you attach prop and event bindings to a parent element, while keeping all of the implementation details encapsulated inside the child component.
