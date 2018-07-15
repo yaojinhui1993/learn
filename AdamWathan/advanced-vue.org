@@ -305,10 +305,25 @@
    [[~/Documents/tutorials/advanced-vue/19. Passing Action Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/9l2jwy14mp?from-embed][Code]]
    - Like the =data props=, just pass the method action to the scope slots.
 
-** Passing Binding Props from Renderless Components
+** DONE Passing Binding Props from Renderless Components
+   CLOSED: [2018-07-16 Mon 07:59]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 07:59]
    In this lesson you'll learn about "binding props", which let you attach prop and event bindings to a parent element, while keeping all of the implementation details encapsulated inside the child component.
    [[~/Documents/tutorials/advanced-vue/20. Passing Binding Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/l5yoxyv02q?from-embed][Code]]
+   - v-bind three styles
+     #+BEGIN_SRC html
+       <input :value="inputValue"></input>
+       <input v-bind:value="inputValue"></input>
+       <input v-bind="{ value: inputValue}"></input>
+     #+END_SRC
+   - v-on three stlyes
+     #+BEGIN_SRC html
+       <input @click="handleClick"></input>
 
+       <input v-on:click="handleClick"></input>
+
+       <input v-on={ click: handleClick }></input>
+     #+END_SRC
 ** Renderless UI Components: Functions as Binding Props
    Sometimes bindings props need context to work correctly. Learn how to use functions as "lazy" binding props that can accept parameters from the parent.
    [[~/Documents/tutorials/advanced-vue/21. Renderless UI Components: Functions as Binding Props.mp4][File]], [[https://codesandbox.io/s/kn1nv6ypv?from-embed][Code]]
