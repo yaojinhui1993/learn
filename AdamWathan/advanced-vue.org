@@ -282,9 +282,14 @@
    [[~/Documents/tutorials/advanced-vue/16. Data Provider Components.mp4][File]], [[https://codesandbox.io/s/nk9qr8yz0p?from-embed][Code]]
    - Reuse code. Decouple the =contact-list= component and =fetch-json= component.
 
-** Getting Started with Renderless UI Components
-   One of the biggest headaches with traditional JS UI libraries is that they are a pain to customize. In this mini-series, you'll learn how to use render functions and scoped slots to separate presentation and behavior into separate components; making it easy to cmopletely customize a component's appearance without reimplementing any logic.
-   [[~/Documents/tutorials/advanced-vue/17. Getting Started with Renderless UI Components.mp4][Code]], [[https://codesandbox.io/s/x1z0myl0p?from-embed][File]]
+** DONE Getting Started with Renderless UI Components
+   CLOSED: [2018-07-16 Mon 07:23]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 07:23]
+   One of the biggest headaches with traditional JS UI libraries is that they are a pain to customize. In this mini-series, you'll learn how to use render functions and scoped slots to separate presentation and behavior into separate components; making it easy to completely customize a component's appearance without reimplementing any logic.
+   [[~/Documents/tutorials/advanced-vue/17. Getting Started with Renderless UI Components.mp4][File]], [[https://codesandbox.io/s/x1z0myl0p?from-embed][Code]]
+   - Create a Renderless UI Components
+     1. Create a component only contain =render= function that return =$scopeSlots=
+     2. Use that component and add the customize DOM elements.
 
 ** Passing Data Props from Renderless Components
    Slot props come in three general flavors. In this lesson you'll learn about "data props" and how use them.
