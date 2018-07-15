@@ -291,9 +291,12 @@
      1. Create a component only contain =render= function that return =$scopeSlots=
      2. Use that component and add the customize DOM elements.
 
-** Passing Data Props from Renderless Components
+** DONE Passing Data Props from Renderless Components
+   CLOSED: [2018-07-16 Mon 07:38]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 07:38]
    Slot props come in three general flavors. In this lesson you'll learn about "data props" and how use them.
-   [[~/Documents/tutorials/advanced-vue/18. Passing Data Props from Renderless Components.mp4][Code]], [[https://codesandbox.io/s/k96ljlz7yv?from-embed][File]]
+   [[~/Documents/tutorials/advanced-vue/18. Passing Data Props from Renderless Components.mp4][File]], [[https://codesandbox.io/s/k96ljlz7yv?from-embed][Code]]
+   - Use prop data =model= properties
 
 ** Passing Actions Props from Renderless Components
    In this lesson you'll learn about "action props", and how they can be used to provide behavior to a parent component.
