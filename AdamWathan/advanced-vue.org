@@ -355,9 +355,12 @@
    Scoped slots are ideal for customizing how a component look, but it still make sense to use configuration to customize a component's behavior. In this lesson we'll add a configuration prop to our renderless component to change it functionality.
    [[~/Documents/tutorials/advanced-vue/23. Configuring Renderless Components.mp4][File]], [[https://codesandbox.io/s/l9v91jn0zq?from-embed][Code]]
 
-** Wrapping Renderless Components
+** DONE Wrapping Renderless Components
+   CLOSED: [2018-07-16 Mon 09:44]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 09:44]
    Renderless components create a lot of work for the consumer compared to a traditional component that combines presentation and behavior in one unit. Learn how to create opinionated wrapper components that ease the burden on the consumer while still providing the flexibility of renderless components when needed.
    [[~/Documents/tutorials/advanced-vue/24. Wrapping Renderless Components.mp4][File]], [[https://codesandbox.io/s/5z5056yoq4?from-embed][Code]]
+   - =v-model= consist of =prop= and =event=
 
 ** Element Queries as a Data Provider Component
    In this lesson, we'll use the data provider component pattern to write a transparent wrapper component that can be used to give a component access to its current dimessions, which we can then use to customize how that component looks based on the space available to it.
