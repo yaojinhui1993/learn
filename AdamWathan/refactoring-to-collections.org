@@ -54,3 +54,7 @@
    - Small Talk: Everything is an object
    - =macroable=
    - =ifAny= =ifEmpty=
+** DONE Comparing Monthly Revenue
+   CLOSED: [2018-07-16 Mon 22:19]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 22:19]
+   - =zip()=
