@@ -362,9 +362,12 @@
    [[~/Documents/tutorials/advanced-vue/24. Wrapping Renderless Components.mp4][File]], [[https://codesandbox.io/s/5z5056yoq4?from-embed][Code]]
    - =v-model= consist of =prop= and =event=
 
-** Element Queries as a Data Provider Component
-   In this lesson, we'll use the data provider component pattern to write a transparent wrapper component that can be used to give a component access to its current dimessions, which we can then use to customize how that component looks based on the space available to it.
+** DONE Element Queries as a Data Provider Component
+   CLOSED: [2018-07-16 Mon 10:02]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 10:02]
+   In this lesson, we'll use the data provider component pattern to write a transparent wrapper component that can be used to give a component access to its current dimenssion, which we can then use to customize how that component looks based on the space available to it.
    [[~/Documents/tutorials/advanced-vue/25. Element Queries as a Data Provider Component.mp4][File]], [[https://codesandbox.io/s/20r8wnx44r?from-embed][Code]]
+   - [[https://github.com/wnr/element-resize-detector][element-resize-detector]] Optimized cross-browser resize listener for elements.
 
 ** Building Compound Components with Provide/Inject
    There are certain types of components that have multiple related pieces, like tabs and tab panels, or items in an accordion list. Learn how to use Vue's provide and inject features to make it possible for these related components to communicate without forcing the consumer to wire everything up mannually.
