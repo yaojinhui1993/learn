@@ -16,3 +16,8 @@
    - State "DONE"       from "STARTED"    [2018-07-07 Sat 06:11]
    In this episode, we'll construct the relationship between a user and their respective achievements. As you'll see, this is a prime use-case for a generic pivot table.
    - Use =$ahievement->awardedTo($user)=  mehtod but also =$user->awarded($achievement)= because it can make the =User.php= not more bigger.
+
+** DONE Episode 5: What If We Didn't Use a Database?
+   CLOSED: [2018-07-17 Tue 07:56]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 07:56]
+   Leading up to this episode, I've been doing some thinking. Yes, we can store achievement badges within the database, but where do we put the logic that determines if the given user should be granted that badge? This led me to considering a different path we might consider. In this episode, let's tinker around with that idea. If we like it, we'll keep it. If we don't, we'll revert it.
