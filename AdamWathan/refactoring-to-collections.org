@@ -43,3 +43,7 @@
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 21:38]
    - =first()=
    - =NullObject=
+** DONE Tagging on the Fly
+   CLOSED: [2018-07-16 Mon 21:48]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 21:48]
+   - normalize
