@@ -61,3 +61,8 @@
 ** DONE Manipulating DNA
    CLOSED: [2018-07-16 Mon 22:47]
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 22:47]
+** DONE Building a Lookup Table
+   CLOSED: [2018-07-16 Mon 22:59]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 22:59]
+   - =toAssoc=
+   - =mapToAssoc=
