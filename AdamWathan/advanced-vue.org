@@ -379,9 +379,12 @@
   - let =provide= an object, it can sync data from parent component and children components the same data.
   - Parent and child communicate use the =provide/inject=
 
-** Building a Compound Sortable List Component
+** DONE Building a Compound Sortable List Component
+   CLOSED: [2018-07-16 Mon 10:49]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 10:49]
    In this lesson, we'll combine a lot of the pattern's we've used so far to build a compound, renderless, controlled sortable list component that also wrap up an external library. It's the kitchen of component design!
    [[~/Documents/tutorials/advanced-vue/27. Building a Compound Sortable List Component.mp4][File]], [[https://codesandbox.io/s/o98y1l735y?from-embed][Code]]
+   - [[https://shopify.github.io/draggable/][draggle]]
 
 ** Building a Search Select: Data Bindings
    In this mini-series, we'll build a robust search select component by applying the principles covered through the reset of the coures.
