@@ -16,3 +16,12 @@
    - Get the last part =explode=
    - =end()= method need a variable not expressions
    - =collect()->last= get the last collect
+** DONE Binary to Decimal
+   CLOSED: [2018-07-16 Mon 14:30]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 14:30]
+   - =$binary[$i] * (2 ** $exponent)=
+     - use =$binary[$i]= get the character.
+     - use =**= expression exponent expression
+     - =str_split($string)= split the string to array
+     - =collect([])->reverse()= reverse the collect, but not the key, should use the =values= to reset the keys
+     - =collect([])->map(function(column, key))=
