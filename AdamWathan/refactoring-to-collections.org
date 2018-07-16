@@ -38,3 +38,8 @@
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 20:02]
    - =contains=
    - =flatMap=
+** DONE Choosing Syntax Handler
+   CLOSED: [2018-07-16 Mon 21:38]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 21:38]
+   - =first()=
+   - =NullObject=
