@@ -1,0 +1,12 @@
+* Refactoring to Collections
+** DONE Pricing Lamps and Wallets
+   CLOSED: [2018-07-16 Mon 14:07]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 14:07]
+   - use =filter()= instead of =if=
+   - use =in_array= instead of *a == 'b' || a == 'c'*
+   - use =collect()->contains= instead of =in_array=
+   - =sum()= method build top of the =reduce()= method
+   - use =map()= instead of =foreach=
+   - =flatMap()= equals =map() + flatten(1)=
+   - =pluck()= equals =map()= return specified key
+   - =sum('key')= equals =pluck('key') + sum()=
