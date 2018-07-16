@@ -343,7 +343,9 @@
        }
      #+END_SRC
 
-** Implementing Alternate Layouts with Renderless Components
+** DONE Implementing Alternate Layouts with Renderless Components
+   CLOSED: [2018-07-16 Mon 09:12]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 09:12]
    In this lesson we'll take the renderless component we've built throughout the previous five lessons and use it to implement a drastically different layout, without write any of the component logic.
    [[~/Documents/tutorials/advanced-vue/22. Implementing Alternate Layouts with Renderless Components.mp4][File]], [[https://codesandbox.io/s/1r789z3nnl?from-embed][Code]]
 
