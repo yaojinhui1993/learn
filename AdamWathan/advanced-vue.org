@@ -324,9 +324,24 @@
 
        <input v-on={ click: handleClick }></input>
      #+END_SRC
-** Renderless UI Components: Functions as Binding Props
+** DONE Renderless UI Components: Functions as Binding Props
+   CLOSED: [2018-07-16 Mon 08:17]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 08:17]
    Sometimes bindings props need context to work correctly. Learn how to use functions as "lazy" binding props that can accept parameters from the parent.
    [[~/Documents/tutorials/advanced-vue/21. Renderless UI Components: Functions as Binding Props.mp4][File]], [[https://codesandbox.io/s/kn1nv6ypv?from-embed][Code]]
+   - Use functions
+     #+BEGIN_SRC html
+       <button v-on="removeButtonEvent(tag,)"></button>
+     #+END_SRC
+     #+BEGIN_SRC js
+       render() {
+           return this.$scopedSlots.default({
+               removeButtonEvent: (tag) => {
+                   this.removeTag()
+               }
+           })
+       }
+     #+END_SRC
 
 ** Implementing Alternate Layouts with Renderless Components
    In this lesson we'll take the renderless component we've built throughout the previous five lessons and use it to implement a drastically different layout, without write any of the component logic.
