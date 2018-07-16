@@ -386,8 +386,10 @@
    [[~/Documents/tutorials/advanced-vue/27. Building a Compound Sortable List Component.mp4][File]], [[https://codesandbox.io/s/o98y1l735y?from-embed][Code]]
    - [[https://shopify.github.io/draggable/][draggle]]
 
-** Building a Search Select: Data Bindings
-   In this mini-series, we'll build a robust search select component by applying the principles covered through the reset of the coures.
+** DONE Building a Search Select: Data Bindings
+   CLOSED: [2018-07-16 Mon 11:01]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 11:01]
+   In this mini-series, we'll build a robust search select component by applying the principles covered through the reset of the courses.
    [[~/Documents/tutorials/advanced-vue/28. Building a Search Select: Data Bindings.mp4][File]], [[https://codesandbox.io/s/ykypmk03xj?from-embed][Code]]
 
 ** Building a Search Select: Filtering
