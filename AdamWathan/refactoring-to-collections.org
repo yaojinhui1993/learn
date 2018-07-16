@@ -10,3 +10,9 @@
    - =flatMap()= equals =map() + flatten(1)=
    - =pluck()= equals =map()= return specified key
    - =sum('key')= equals =pluck('key') + sum()=
+** DONE CSV Surgery 101
+   CLOSED: [2018-07-16 Mon 14:16]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 14:16]
+   - Get the last part =explode=
+   - =end()= method need a variable not expressions
+   - =collect()->last= get the last collect
