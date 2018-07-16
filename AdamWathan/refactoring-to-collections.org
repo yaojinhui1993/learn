@@ -25,3 +25,7 @@
      - =str_split($string)= split the string to array
      - =collect([])->reverse()= reverse the collect, but not the key, should use the =values= to reset the keys
      - =collect([])->map(function(column, key))=
+** DONE What's Your GitHub Score
+   CLOSED: [2018-07-16 Mon 18:05]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 18:05]
+   - =switch= to =array= and =array_get= or =collect([])->get()=
