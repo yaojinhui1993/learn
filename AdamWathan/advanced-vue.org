@@ -392,7 +392,9 @@
    In this mini-series, we'll build a robust search select component by applying the principles covered through the reset of the courses.
    [[~/Documents/tutorials/advanced-vue/28. Building a Search Select: Data Bindings.mp4][File]], [[https://codesandbox.io/s/ykypmk03xj?from-embed][Code]]
 
-** Building a Search Select: Filtering
+** DONE Building a Search Select: Filtering
+   CLOSED: [2018-07-16 Mon 11:22]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 11:22]
    In this lesson we'll add filtering support to the search select, working through all of the edge cases to make sure it behaves intuitively.
    [[~/Documents/tutorials/advanced-vue/29. Building a Search Select: Filtering.mp4][File]], [[https://codesandbox.io/s/oozwlvk36?from-embed][Code]]
 ** Building a Search Select: Focus Management
