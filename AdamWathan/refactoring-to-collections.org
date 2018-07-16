@@ -47,3 +47,10 @@
    CLOSED: [2018-07-16 Mon 21:48]
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 21:48]
    - normalize
+** DONE Nitpicking a Pull Request
+   CLOSED: [2018-07-16 Mon 22:10]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 22:10]
+   - =isEmpty()=
+   - Small Talk: Everything is an object
+   - =macroable=
+   - =ifAny= =ifEmpty=
