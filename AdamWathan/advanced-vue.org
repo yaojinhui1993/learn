@@ -369,9 +369,15 @@
    [[~/Documents/tutorials/advanced-vue/25. Element Queries as a Data Provider Component.mp4][File]], [[https://codesandbox.io/s/20r8wnx44r?from-embed][Code]]
    - [[https://github.com/wnr/element-resize-detector][element-resize-detector]] Optimized cross-browser resize listener for elements.
 
-** Building Compound Components with Provide/Inject
+** DONE Building Compound Components with Provide/Inject
+   CLOSED: [2018-07-16 Mon 10:19]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 10:19]
    There are certain types of components that have multiple related pieces, like tabs and tab panels, or items in an accordion list. Learn how to use Vue's provide and inject features to make it possible for these related components to communicate without forcing the consumer to wire everything up mannually.
   [[~/Documents/tutorials/advanced-vue/26. Building Compound Components with Provide and Inject.mp4][File]], [[https://codesandbox.io/s/jl6pz69ox3?from-embed][Code]]
+  - =provide= function, return any object to let the children know
+  - =inject= properties to get the parent =provide= values
+  - let =provide= an object, it can sync data from parent component and children components the same data.
+  - Parent and child communicate use the =provide/inject=
 
 ** Building a Compound Sortable List Component
    In this lesson, we'll combine a lot of the pattern's we've used so far to build a compound, renderless, controlled sortable list component that also wrap up an external library. It's the kitchen of component design!
