@@ -424,9 +424,20 @@
      - =element.scrollIntoView()=
      - =element.scrollIntoView({ block: 'nearest'})=
 
-** Building a Search Select: Click Outside Component
+** DONE Building a Search Select: Click Outside Component
+   CLOSED: [2018-07-16 Mon 12:41]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 12:41]
    In this lesson we'll make it possible to close the search select by clicking outside of it, but with a catch: we implement this behavior from scratch as its own renderless component, not using an existing directive-based library.
    [[~/Documents/tutorials/advanced-vue/33. Building a Search Select: Click Outside Component.mp4][File]], [[https://codesandbox.io/s/w66mzknr27?from-embed][Code]]
+   - event listener
+     #+BEGIN_SRC js
+       const lister = (e) => {
+           if (e.target === this.$el || this.$el.contains(e.target)) {
+               return
+           }
+           do()
+       }
+     #+END_SRC
 
 ** Building a Search Select: Intergrating Propper.js
    In this lesson, we'll intergrate Propper.js with our search selelct component so that dropdown position reacts inteligently to the size and scroll position of the viewport.
