@@ -397,9 +397,12 @@
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 11:22]
    In this lesson we'll add filtering support to the search select, working through all of the edge cases to make sure it behaves intuitively.
    [[~/Documents/tutorials/advanced-vue/29. Building a Search Select: Filtering.mp4][File]], [[https://codesandbox.io/s/oozwlvk36?from-embed][Code]]
-** Building a Search Select: Focus Management
+** DONE Building a Search Select: Focus Management
+   CLOSED: [2018-07-16 Mon 11:29]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 11:29]
    In this lesson we'll tackle focus management, making sure that the search is focus when the component is opened and the trigger is re-focused when the component closes.
    [[~/Documents/tutorials/advanced-vue/30. Building a Search Select: Focus Management.mp4][File]], [[https://codesandbox.io/s/o95oq681l6?from-embed][Code]]
+   - use the =this.$nextTick= method
 
 ** Building a Search Select: Making It Controlled
    In this lesson we'll convert the search select into a controlled component, pushing the state into the parent. We'll also make the filtering logic controllable from the outside.
