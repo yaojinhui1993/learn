@@ -29,3 +29,7 @@
    CLOSED: [2018-07-16 Mon 18:05]
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 18:05]
    - =switch= to =array= and =array_get= or =collect([])->get()=
+** DONE Formatting a Pull Request Comment
+   CLOSED: [2018-07-16 Mon 19:49]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 19:49]
+   - =implode()=
