@@ -439,6 +439,10 @@
        }
      #+END_SRC
 
-** Building a Search Select: Intergrating Propper.js
-   In this lesson, we'll intergrate Propper.js with our search selelct component so that dropdown position reacts inteligently to the size and scroll position of the viewport.
+** DONE Building a Search Select: Intergrating Popper.js
+   CLOSED: [2018-07-16 Mon 12:49]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 12:49]
+   In this lesson, we'll intergrate Popper.js with our search selelct component so that dropdown position reacts inteligently to the size and scroll position of the viewport.
    [[~/Documents/tutorials/advanced-vue/34. Building a Search Select: Integrating Popper.js.mp4][File]], [[https://codesandbox.io/s/vyxl1z5pp5?from-embed][Code]]
+   - [[https://popper.js.org/][popper js]]
+   - Vue =beforeDestroy= properties
