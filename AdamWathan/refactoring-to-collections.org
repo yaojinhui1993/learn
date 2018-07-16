@@ -33,3 +33,8 @@
    CLOSED: [2018-07-16 Mon 19:49]
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 19:49]
    - =implode()=
+** DONE Stealing Mail
+   CLOSED: [2018-07-16 Mon 20:02]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 20:02]
+   - =contains=
+   - =flatMap=
