@@ -66,3 +66,7 @@
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 22:59]
    - =toAssoc=
    - =mapToAssoc=
+** DONE Transposing Form Input
+   CLOSED: [2018-07-16 Mon 23:15]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 23:15]
+   - transpose
