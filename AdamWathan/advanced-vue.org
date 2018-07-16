@@ -410,9 +410,19 @@
    In this lesson we'll convert the search select into a controlled component, pushing the state into the parent. We'll also make the filtering logic controllable from the outside.
    [[~/Documents/tutorials/advanced-vue/31. Building a Search Select: Making It Controlled.mp4][File]], [[https://codesandbox.io/s/8n0mnm2v70?from-embed][Code]]
 
-** Building a Search Select: Keyboard Navigation
+** DONE Building a Search Select: Keyboard Navigation
+   CLOSED: [2018-07-16 Mon 12:33]
+   - State "DONE"       from "STARTED"    [2018-07-16 Mon 12:33]
    In this lesson we'll add comprehensive keyboard navigation to the search select, including handling things like scrolling highlighted items into view.
    [[~/Documents/tutorials/advanced-vue/32. Building a Search Select: Keyboard Navigation.mp4][File]], [[https://codesandbox.io/s/n7mw5871v0?from-embed][Code]]
+   - key
+     - =@keydown.esc=
+     - =@keydown.up=
+     - =@keydown.down=
+     - =@keydown.enter.prevent=
+     - =@keydown.tab.prevent=
+     - =element.scrollIntoView()=
+     - =element.scrollIntoView({ block: 'nearest'})=
 
 ** Building a Search Select: Click Outside Component
    In this lesson we'll make it possible to close the search select by clicking outside of it, but with a catch: we implement this behavior from scratch as its own renderless component, not using an existing directive-based library.
