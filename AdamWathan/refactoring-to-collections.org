@@ -95,3 +95,8 @@
 ** DONE Building a Table of Contents - Building Markup
    CLOSED: [2018-07-17 Tue 17:17]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 17:17]
+
+** DONE Highlighting Code Blocks - Intro
+   CLOSED: [2018-07-17 Tue 17:21]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 17:21]
+   - input & expected
