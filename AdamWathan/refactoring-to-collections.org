@@ -76,3 +76,6 @@
    - =sortBy= and =sortByDesc=
    - =groupBy=
    - =pipe=
+** DONE Building a Table of Contents - Intro
+   CLOSED: [2018-07-17 Tue 13:20]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 13:20]
