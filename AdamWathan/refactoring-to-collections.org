@@ -126,3 +126,6 @@
 ** DONE Highlighting Code Blocks - Chunking Lines of Code
    CLOSED: [2018-07-17 Tue 20:57]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:57]
+** DONE Highlighting Code Blocks - Self-Rendering Code Blocks
+   CLOSED: [2018-07-17 Tue 21:08]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 21:08]
