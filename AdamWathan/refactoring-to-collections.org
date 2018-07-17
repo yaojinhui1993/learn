@@ -108,3 +108,9 @@
 ** DONE Highlighting Code Blocks - Slicing Out the Code
    CLOSED: [2018-07-17 Tue 20:16]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:16]
+
+** DONE Highlighting Code Blocks - Introducing ChunkBy
+   CLOSED: [2018-07-17 Tue 20:31]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:31]
+   - =chunk()=
+   - =chunkBy()=
