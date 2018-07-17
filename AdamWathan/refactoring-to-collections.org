@@ -70,3 +70,9 @@
    CLOSED: [2018-07-16 Mon 23:15]
    - State "DONE"       from "STARTED"    [2018-07-16 Mon 23:15]
    - transpose
+** DONE Ranking a Competition
+   CLOSED: [2018-07-17 Tue 12:48]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 12:48]
+   - =sortBy= and =sortByDesc=
+   - =groupBy=
+   - =pipe=
