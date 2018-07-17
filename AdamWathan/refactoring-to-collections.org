@@ -129,3 +129,7 @@
 ** DONE Highlighting Code Blocks - Self-Rendering Code Blocks
    CLOSED: [2018-07-17 Tue 21:08]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 21:08]
+
+** DONE Highlighting Code Blocks - Recap
+   CLOSED: [2018-07-17 Tue 21:13]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 21:13]
