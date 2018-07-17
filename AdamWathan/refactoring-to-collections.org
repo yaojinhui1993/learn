@@ -100,3 +100,7 @@
    CLOSED: [2018-07-17 Tue 17:21]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 17:21]
    - input & expected
+
+** DONE Highlighting Code Blocks - Basic Structure
+   CLOSED: [2018-07-17 Tue 17:26]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 17:26]
