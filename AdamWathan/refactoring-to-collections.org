@@ -82,3 +82,8 @@
 ** DONE Building a Table of Contents - Extracting Headings
    CLOSED: [2018-07-17 Tue 13:30]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 13:30]
+     - =Crawel=
+** DONE Building a Table of Contents - Slice and Dice.
+   CLOSED: [2018-07-17 Tue 16:59]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 16:59]
+   - =sliceBefore=
