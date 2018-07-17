@@ -87,3 +87,7 @@
    CLOSED: [2018-07-17 Tue 16:59]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 16:59]
    - =sliceBefore=
+
+** DONE Building a Table of Contents - Nesting Headings with Recursion
+   CLOSED: [2018-07-17 Tue 17:08]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 17:08]
