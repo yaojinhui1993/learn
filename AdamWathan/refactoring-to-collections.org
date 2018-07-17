@@ -114,3 +114,8 @@
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:31]
    - =chunk()=
    - =chunkBy()=
+
+** DONE Highlighting Code Blocks - Introducing eachCons
+   CLOSED: [2018-07-17 Tue 20:43]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:43]
+   - =eachCons=
