@@ -119,3 +119,7 @@
    CLOSED: [2018-07-17 Tue 20:43]
    - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:43]
    - =eachCons=
+
+** DONE Highlighting Code Blocks - Slicing with a Window
+   CLOSED: [2018-07-17 Tue 20:53]
+   - State "DONE"       from "STARTED"    [2018-07-17 Tue 20:53]
