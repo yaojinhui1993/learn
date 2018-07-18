@@ -99,3 +99,11 @@
    CLOSED: [2018-07-18 Wed 13:51]
    - State "DONE"       from "STARTED"    [2018-07-18 Wed 13:51]
    Login throttling in Laravel 5.1 is a breeze! In this lesson, we'll review the basic concept, the implementation, and finally the underlying source code to make it possible.
+
+** DONE Push Event to the Client
+   CLOSED: [2018-07-18 Wed 14:13]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 14:13]
+   You know how to fire an event with Laravel, but what about when you want that event to travel all the way to the client-side? How the heck do we do that?
+   - =channel=
+   - =channel.bind('event', () => {})=
+   - Server side =onBroadCast= on specify channel
