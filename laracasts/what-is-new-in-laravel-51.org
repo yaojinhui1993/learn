@@ -82,3 +82,15 @@
    We've already reviewed middleware parameters at Laracasts, so this episode will serve as a quick, crash-course overview.
    - =php artisan make:middleware= and register the middleware to the =Kernel=
    - middleware parameters: =['middleware' => 'admin:JefferyWay, params, ...']=
+
+** DONE Named Route Groups
+   CLOSED: [2018-07-18 Wed 12:52]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 12:52]
+   This next one is by no means a big feature, but it might prove useful in some situations. You may now apply a prefix to your named routes. I'll show how.
+   #+BEGIN_SRC php
+     Route::group(['prefix' => 'admin', 'as' => 'Admin.'], function () {
+         Route::get('home', ['as' => 'home'], function() {
+             return 'some view';
+         });
+     });
+   #+END_SRC
