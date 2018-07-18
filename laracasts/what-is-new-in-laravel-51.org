@@ -60,3 +60,12 @@
      #+END_SRC
    - =$this->argument()=
    - =$this->options()=
+
+** DONE Directory Changes
+   CLOSED: [2018-07-18 Wed 12:27]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 12:27]
+   You'll find that two directory names have been changed. "Commands" is now "Jobs", and "Handlers" is now "Listeners". Don't worry; these changes won't break your code. They're backward compatible.
+   - =php artisan make:command=
+   - =php artisan make:job=
+   - =php artisan make:listener=
+   - =php artisan event:generate=
