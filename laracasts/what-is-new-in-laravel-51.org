@@ -131,3 +131,9 @@
    - State "DONE"       from "STARTED"    [2018-07-18 Wed 15:47]
    Before we move on to learning how roles fit into this workflow, let's take some time to peek behind the scenes. This way, if you're curious, you'll know exactly how all the bits and pieces fit together.
    - =before=
+
+** DONE ACL in Laravel: Roles and Permissions
+   CLOSED: [2018-07-19 Thu 06:39]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 06:39]
+   Form some projects, you may find that you require greater flexbilitiy. Consider a CMS like WordPress, where users may be assigned roles, each which has its own set permissions. How can we make that work?
+   - tables: =permissions=, =roles=, =permission_role=, =role_user=
