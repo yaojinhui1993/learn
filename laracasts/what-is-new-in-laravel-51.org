@@ -125,3 +125,9 @@
    - State "DONE"       from "STARTED"    [2018-07-18 Wed 15:25]
    Let's continue with our review of Laravel's ACL capbilities, by reviewing policy objects.
    - =php artisan make:policy=
+
+** DONE ACL in Laravel: Part 3 (Behind the Scenes)
+   CLOSED: [2018-07-18 Wed 15:47]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 15:47]
+   Before we move on to learning how roles fit into this workflow, let's take some time to peek behind the scenes. This way, if you're curious, you'll know exactly how all the bits and pieces fit together.
+   - =before=
