@@ -94,3 +94,8 @@
          });
      });
    #+END_SRC
+
+** DONE Login Throttling
+   CLOSED: [2018-07-18 Wed 13:51]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 13:51]
+   Login throttling in Laravel 5.1 is a breeze! In this lesson, we'll review the basic concept, the implementation, and finally the underlying source code to make it possible.
