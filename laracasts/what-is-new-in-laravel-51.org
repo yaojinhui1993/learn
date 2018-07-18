@@ -20,3 +20,16 @@
      #+BEGIN_SRC php
        @inject('stats', 'App\Stats')
      #+END_SRC
+
+** DONE Elixir Improvements
+   CLOSED: [2018-07-18 Wed 10:04]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 10:04]
+   In addition to a series of optimizations and consistency improvements, in Laravel 5.1, Elixir includes EcmaScript 6 compilation right out of the box, using the excellent Babel compiler.
+   - ES2015 function
+     #+BEGIN_SRC js
+       let fun = () => true;
+
+
+       let fun2 = a => a > 10;
+       let fun3 = (a) => a > 10;
+     #+END_SRC
