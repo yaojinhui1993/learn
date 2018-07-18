@@ -119,3 +119,9 @@
    - In blade, use the =@can('update-post')=
    - =auth()= method or =Auth= facade get the current auth user.
    - Use =$request->user()->can('update-post')= get current user.
+
+** DONE ACL in Laravel: Part 2 (Policy Objects)
+   CLOSED: [2018-07-18 Wed 15:25]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 15:25]
+   Let's continue with our review of Laravel's ACL capbilities, by reviewing policy objects.
+   - =php artisan make:policy=
