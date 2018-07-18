@@ -5,3 +5,18 @@
    CLOSED: [2018-07-18 Wed 09:19]
    - State "DONE"       from "STARTED"    [2018-07-18 Wed 09:19]
    Upon installing Laravel 5.1, the first thing you'll notice is that the style guide is a bit different. Laravel now adopts the PSR-2 coding standard. If you're not familiar, this is nothing more than a set of style guidelines for writing code.
+
+** DONE Injecting Services With Blade
+   CLOSED: [2018-07-18 Wed 09:33]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 09:33]
+   Inspired by ASP.NET MVC 6, you may now inject services directly into your views. While it's not appropriate for everything, there are a number of situations where this technique will prove to be quite useful. Let me show you.
+   - Method 1: View Composer
+     #+BEGIN_SRC php
+       View::composer('stats', function($view) {
+           return $view->with('stats', app('App\Stats'));
+       })
+     #+END_SRC
+   - Method 2: Inject in the =stats.blade.php=
+     #+BEGIN_SRC php
+       @inject('stats', 'App\Stats')
+     #+END_SRC
