@@ -107,3 +107,15 @@
    - =channel=
    - =channel.bind('event', () => {})=
    - Server side =onBroadCast= on specify channel
+
+** DONE ACL in Laravel: Part 1
+   CLOSED: [2018-07-18 Wed 15:13]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 15:13]
+   Laravel 5.1 is the first release to offer ACL functionality straight out of the box. Let me show you how laughably simple it is to work with!
+   - =AuthServiceProvider=
+   - Define gate =$gate->define('showpost', function() {})=
+   - Use defined gate =Gate::denies('show-post', $post)= and =Gate::allows()=
+   - In controller use =$this->authorize('show-post')= to check permissions
+   - In blade, use the =@can('update-post')=
+   - =auth()= method or =Auth= facade get the current auth user.
+   - Use =$request->user()->can('update-post')= get current user.
