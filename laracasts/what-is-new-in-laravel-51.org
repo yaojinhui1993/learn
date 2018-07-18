@@ -43,3 +43,20 @@
    CLOSED: [2018-07-18 Wed 11:22]
    - State "DONE"       from "STARTED"    [2018-07-18 Wed 11:22]
    Whether for database seeding or general testing, you're going to love model factories in Laravel 5.1. A single line of code can give you a huge amount of convenience and power.
+
+** DONE Artisan Signatures
+   CLOSED: [2018-07-18 Wed 11:39]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 11:39]
+   In the past, defining arguments and options for an Artisan command was - to be frank - a big pain. For options, you needed to create a method that returned an array of arrays, where each one contained a sequence of values. It was up to you to memorize all of this. Thankfully, in Laravel 5.1, it's infinitely easier. In fact, it's as easy as defining a route.
+   - $signature
+     #+BEGIN_SRC php
+       protected $signature = 'laracasts:greet {name}'; // need arguments
+
+       protected $signature = 'laracasts:greet {name}'; // option arguments
+
+       protected $signature = 'laracasts:greet {name=Joe}'; // default arguments
+
+       protected $signature = 'laracasts:greet {name=Joe} {--greeting=Hi}'; // Option
+     #+END_SRC
+   - =$this->argument()=
+   - =$this->options()=
