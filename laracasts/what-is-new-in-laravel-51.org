@@ -1,0 +1,7 @@
+* STARTED What's New in Laravel 5.1
+  Laravel 5.1 includes a variety of welcomed new features. Everything from broadcasting events, to massively improved testing facilities, to LTS support. As always, Laravel is setting the curve with this new release. Let's breeze through the new features that you'll be enjoying.
+
+** DONE Adopting PSR-2
+   CLOSED: [2018-07-18 Wed 09:19]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 09:19]
+   Upon installing Laravel 5.1, the first thing you'll notice is that the style guide is a bit different. Laravel now adopts the PSR-2 coding standard. If you're not familiar, this is nothing more than a set of style guidelines for writing code.
