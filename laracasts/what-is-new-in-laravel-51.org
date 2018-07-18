@@ -33,3 +33,8 @@
        let fun2 = a => a > 10;
        let fun3 = (a) => a > 10;
      #+END_SRC
+
+** DONE Better Testing Facilities
+   CLOSED: [2018-07-18 Wed 10:20]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 10:20]
+   If you worked through the =Intuitive Integration Testing= series, you'll feel right at home in 5.1. Most of that API is now part of the base install. This means, you'll be writing incredibly readable integration tests in no time.
