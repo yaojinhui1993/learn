@@ -69,3 +69,9 @@
    - =php artisan make:job=
    - =php artisan make:listener=
    - =php artisan event:generate=
+
+** DONE Documentation and LTS
+   CLOSED: [2018-07-18 Wed 12:34]
+   - State "DONE"       from "STARTED"    [2018-07-18 Wed 12:34]
+   We don't require a code editor for this one. For Laravel 5.1, the documentation has been massively improved - with Taylor Otwell going over each and every page. Event better, we now have excellent search at our fingertips.
+   Not only that, but with version 5.1, your company instantly inhreits long term support: bug fixes for two years, and security fixes for three!
