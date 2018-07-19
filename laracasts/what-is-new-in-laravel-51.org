@@ -1,4 +1,6 @@
-* STARTED What's New in Laravel 5.1
+* DONE What's New in Laravel 5.1
+  CLOSED: [2018-07-19 Thu 09:05]
+  - State "DONE"       from "STARTED"    [2018-07-19 Thu 09:05]
   Laravel 5.1 includes a variety of welcomed new features. Everything from broadcasting events, to massively improved testing facilities, to LTS support. As always, Laravel is setting the curve with this new release. Let's breeze through the new features that you'll be enjoying.
 
 ** DONE Adopting PSR-2
