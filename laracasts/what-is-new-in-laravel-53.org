@@ -32,3 +32,9 @@
    CLOSED: [2018-07-19 Thu 11:21]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 11:21]
    In Laravel 5.3, the framework makes a little suggestion on a practical JavaScript setup, using =Vue=. Have a look at your =resources/assets/js/= folder to check it out. It's important to note, however, that this is all entirely optional. If you prefer Ember or Backbone, delete the contents of you main =app.js= entry point, and you're good to go! It's only a suggestion.
+
+** DONE Simpler Pagination
+   CLOSED: [2018-07-19 Thu 11:34]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 11:34]
+   Out of the box in Laravel 5.3, pagination will still feel very similar to you. However, should you need to modify the underlying HTML, the process is now significantly easier. In fact, you'll find that the process is very similar to how it was is Laravel 3!
+   - =$user->links()=
