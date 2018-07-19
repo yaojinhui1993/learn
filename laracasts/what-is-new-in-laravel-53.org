@@ -107,3 +107,11 @@
    CLOSED: [2018-07-19 Thu 17:22]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 17:22]
    Now that you understand how to setup and import your Eloquent records, let's figure out how to query them. You'll find that Scout attaches a global query scope to your models, which adds a useful =searchable()= method. While we're reviewing this, we'll also take some time to review custom rankings with Algolia.
+
+** DONE Facade Fakes
+   CLOSED: [2018-07-19 Thu 17:44]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 17:44]
+   In Laravel 5.3, a number of facades provide a static =fake= method that can be called to replace the underlying class with a minimal fake version, for the purposes of testing. A fake is a type of test double, where you create a light, barebones implementation of a particular API or interface in order to satisfy or assist a given test.
+   Consider a scenario where the code you're testing fires an event. Well, it's possible that you don't want the associated event listeners to be triggered, as part of that test. Instead, we can use a double: replace the underlying dispatcher with a fake version. Now, we can assert that the necessary event was triggered, without worrying about any of the side effects from firing an actual real event. It sounds complicated, but I assure you that it's all very simple.
+   - =Event::fake()=
+   - =Event::assertFired(UserBecameForeverSupporter::class)=
