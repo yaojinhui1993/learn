@@ -39,3 +39,13 @@
            return back()->withInput()->withErrors($validator);
        }
      #+END_SRC
+
+** DONE Token-Based Authentication
+   CLOSED: [2018-07-19 Thu 10:29]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:29]
+   Laravel 5.2 now includes support for multiple authentication systems. For instance, maybe you want your web users to sign in with the traditional session-based setup that you've been using for years. But what the API your offer? A login form doesn't make much sense in that case. Instead, we can opt a different driver all together: a token-based driver.
+   - Use json request: =http localhost/api/v1/user/1 --json=
+   - Carry parameter request: =http localhost/api/v1/user/1 api_key==foo --json=
+   - =middleware('auth:api')=
+   - =Auth::guard('api')->user()=
+   - User table add =api_token= column
