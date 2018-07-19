@@ -49,3 +49,11 @@
    CLOSED: [2018-07-19 Thu 12:36]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 12:36]
    This next addition to Laravel 5.3 is a small, but useful one. When using the =foreach= or =forelse= Blade directives, you'll now have a new =$loop= object available to each iteration. This will provide useful information about the loop, including the current index, if it's the first or last item, if there are remaining iterations for the loop, and more.
+
+** DONE Toggle Pivot Table Records
+   CLOSED: [2018-07-19 Thu 13:47]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 13:47]
+   In Laravel 5.3, you'll find a new =toggle()= method on all =belongsToMany= relationships. This solves the issue of needing to delete a pivot table record if it exists, or adding it if it doestn't. As an example, consider needing to toggle a user's "like" status for a post.
+   - =$user->favorites()->attach()=
+   - =$user->favorites()->detach()=
+   - =$user->favorites()->toggle()=
