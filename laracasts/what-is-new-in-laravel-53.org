@@ -81,3 +81,8 @@
    Admit it: you always have to do a bit of research to remind yourself how to upload files, determine the temporary folder, guess the file extension, etc. Well now, I promise: you won't forget. In Laravel 5.3, the =UploadedFile= instance offers a new =store()= method for rapidly saving files - even all the way to S3 (as we'll do in this video).
    - =request()->file('avatar')->store('avatars')= store file at =storage/avatars/=
    - =storeAs=
+
+** DONE Laravel Passport
+   CLOSED: [2018-07-19 Thu 16:02]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 16:02]
+   Want to setup OAuth2 server with API authentication in minutes, instead of days? Well, you're in luck. =Laravel Passport= has your back! In this episode, Taylor Otwell, himself, stops by show you the goods.
