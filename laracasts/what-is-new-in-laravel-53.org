@@ -64,3 +64,8 @@
    Notifications in Laravel 5.3 are incredible. Create a single a notification class, and then designate one or more distribution channels to use - such as email, SMS, Slack, and more. I think you'll really like this new component, so let's take a few episodes to review all of its functionality. We'll start with basic email notifications, and review the nice, fluent API for rapidbly building up messages.
    - =php artisan make:notification=
    - =$user->notify(new LessonPublished($lesson))=
+
+** DONE Notifications: Database
+   CLOSED: [2018-07-19 Thu 15:02]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 15:02]
+   Let's move on and review the database channel for sending notifications. With this approach, any notification you send will be stored in the database, at which point you can fetch them and display them for the user. In this episode, we'll review the entire process - while also leveraging polymorphism to render each notification type within our views as cleanly as possible.
