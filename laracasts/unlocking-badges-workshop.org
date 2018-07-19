@@ -25,3 +25,8 @@
    CLOSED: [2018-07-20 Fri 07:01]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 07:01]
    In the previous episode, we tinkered with the idea of not using a database at all for determine and fetching a user's acquired achievement badges. Let's talk about that refactor - including the pros and cons to such an approach - before ultimately reverting in favor of a better solution for our needs.
+** DONE Syncing User Achievements With Collections
+   CLOSED: [2018-07-20 Fri 07:28]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 07:28]
+   Now that we've reverted the previous lesson's work, we can move on to a clean approach. In this lesson, we'll build the necessary system to register and sync achievements with any given user, based on newly awarded experience.
+   - =qualifier()=
