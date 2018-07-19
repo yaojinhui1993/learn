@@ -97,3 +97,8 @@
            $this->info('All Done!');
        })->describe('Generate a special model.');
      #+END_SRC
+
+** DONE Advanced Search With Laravel Scout
+   CLOSED: [2018-07-19 Thu 16:51]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 16:51]
+   Laravel Scout is a driver-based solution for performing advanced, full text search on your Eloquent Models. Out of the box, it comes with support for Algolia, which offers a fantastic service. In this episode, we'll learn how to set everything up, and send a table full of records to Algolia. For the more curious among you, we'll also, toward the end of the video, dig into the guts of Scout to figure out how everything is put together behind the scenes.
