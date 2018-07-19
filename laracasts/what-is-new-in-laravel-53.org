@@ -57,3 +57,10 @@
    - =$user->favorites()->attach()=
    - =$user->favorites()->detach()=
    - =$user->favorites()->toggle()=
+
+** DONE Notifications: Email
+   CLOSED: [2018-07-19 Thu 14:39]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 14:39]
+   Notifications in Laravel 5.3 are incredible. Create a single a notification class, and then designate one or more distribution channels to use - such as email, SMS, Slack, and more. I think you'll really like this new component, so let's take a few episodes to review all of its functionality. We'll start with basic email notifications, and review the nice, fluent API for rapidbly building up messages.
+   - =php artisan make:notification=
+   - =$user->notify(new LessonPublished($lesson))=
