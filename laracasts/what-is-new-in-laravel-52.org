@@ -24,3 +24,18 @@
    CLOSED: [2018-07-19 Thu 09:50]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 09:50]
    In Laravel 5.2, you'll find a new =make:auth= command, which adds a helpful bit of view scaffolding to get you up and running as quickly as possible. Nearly every application requires authentication, login throttling, and password resets. Let's learn how to all of that in sixty seconds.
+
+** DONE Validating Arrays
+   CLOSED: [2018-07-19 Thu 10:04]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:04]
+   In past versions of Laravel, if you needed to validate an array from a form, it was actually pretty annoying! But not anymore. Now the process is a cinch.
+   - Manual create validator
+     #+BEGIN_SRC php
+       $validator = Validator::make($request->all(), [
+           'email.*' => 'required|email'
+       ]);
+
+       if ($validator->fails()) {
+           return back()->withInput()->withErrors($validator);
+       }
+     #+END_SRC
