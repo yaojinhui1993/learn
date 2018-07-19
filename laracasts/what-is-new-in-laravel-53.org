@@ -10,3 +10,20 @@
    CLOSED: [2018-07-19 Thu 10:57]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:57]
    We're still taking it slow. What kind of series would it be if we discussed the coolest additions first? Anyways...next up, we have a small, but important change to be aware of. As of 5.3, all query builder calls will return Collection objects, rather than arrays. If you think about it, this make the general Laravel API more consistent, as relevant Eloquent calls already return Collection objects.
+
+** DONE The Global Cache Helper
+   CLOSED: [2018-07-19 Thu 11:05]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 11:05]
+   In this episode, I'll introduce you to a funky little new =cache= global function! In 5.3, written by yours truly.
+   - =cache=
+     - =cache()=
+     - =cache('foo', 'default')=
+     - =cache(['foo' => 'bar'], 60)=
+     - =cache(['user.1.vote' => [1, 2, 3]], 60)=
+     - =cache()->put()=
+     - =cache()->get()=
+   - =session=
+     - =session()=
+     - =session(['foo' => 'bar'])=
+     - =session('foo')=
+     - =session('foox', 'default')=
