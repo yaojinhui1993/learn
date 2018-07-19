@@ -1,7 +1,12 @@
 * STARTED What's New in Laravel 5.3
   It's about that time again! The release of Laravel 5.3 is imminent. That means, it's finally time to dig in and see what's new. And, well, there's a lot! From directory changes, to notifications, to passports, to everything in between!
 
-** DONE Important Directory changes
+** DONE Important Directory Changes
    CLOSED: [2018-07-19 Thu 10:50]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:50]
    Let's start off with some of the smaller changes, and then work our way up to the big additions! To begin you'll notice that your main directory structure is slightly different! A new routes folder at the top level? And what happened to the events, listeners, jobs, and policies folders? What's going on?
+
+** DONE The Query Builder Now Returns Collections
+   CLOSED: [2018-07-19 Thu 10:57]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:57]
+   We're still taking it slow. What kind of series would it be if we discussed the coolest additions first? Anyways...next up, we have a small, but important change to be aware of. As of 5.3, all query builder calls will return Collection objects, rather than arrays. If you think about it, this make the general Laravel API more consistent, as relevant Eloquent calls already return Collection objects.
