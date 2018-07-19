@@ -86,3 +86,14 @@
    CLOSED: [2018-07-19 Thu 16:02]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 16:02]
    Want to setup OAuth2 server with API authentication in minutes, instead of days? Well, you're in luck. =Laravel Passport= has your back! In this episode, Taylor Otwell, himself, stops by show you the goods.
+
+** DONE Closure-Based Commands
+   CLOSED: [2018-07-19 Thu 16:25]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 16:25]
+   Closure-based commands are a useful alternative to generating full Artisan command classes. You'll find that this approach is quite similar to how you do your routing (closures vs. controller classes). Want to pass a simple closure to handle a command? Well now you can!
+   - Example
+     #+BEGIN_SRC php
+       Artisan::command('generate:model {name}', function() {
+           $this->info('All Done!');
+       })->describe('Generate a special model.');
+     #+END_SRC
