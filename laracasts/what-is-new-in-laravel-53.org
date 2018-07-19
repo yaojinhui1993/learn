@@ -69,3 +69,8 @@
    CLOSED: [2018-07-19 Thu 15:02]
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 15:02]
    Let's move on and review the database channel for sending notifications. With this approach, any notification you send will be stored in the database, at which point you can fetch them and display them for the user. In this episode, we'll review the entire process - while also leveraging polymorphism to render each notification type within our views as cleanly as possible.
+
+** DONE Send Slack Notifications With Laravel in Minutes
+   CLOSED: [2018-07-19 Thu 15:12]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 15:12]
+   Let's learn how to use Laravel 5.3's Slack notification channel to notify us, the administrator, each time payment is processed in our application. As you'll quickly see, it's all a cinch!
