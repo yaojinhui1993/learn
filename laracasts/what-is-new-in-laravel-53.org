@@ -38,3 +38,9 @@
    - State "DONE"       from "STARTED"    [2018-07-19 Thu 11:34]
    Out of the box in Laravel 5.3, pagination will still feel very similar to you. However, should you need to modify the underlying HTML, the process is now significantly easier. In fact, you'll find that the process is very similar to how it was is Laravel 3!
    - =$user->links()=
+
+** DONE Mailables
+   CLOSED: [2018-07-19 Thu 12:26]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 12:26]
+   Laravel 5.3 "mailables" are thin wrappers around the traditional syntax for sending mail. I think you'll find that they're easier to work with, and much easier on the eyes. Let me show you the essiential in the episode.
+   - =Mail::to('jeff@example.com')->send(new WelcomeToLaracasts)=
