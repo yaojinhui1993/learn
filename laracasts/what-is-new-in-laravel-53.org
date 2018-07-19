@@ -115,3 +115,20 @@
    Consider a scenario where the code you're testing fires an event. Well, it's possible that you don't want the associated event listeners to be triggered, as part of that test. Instead, we can use a double: replace the underlying dispatcher with a fake version. Now, we can assert that the necessary event was triggered, without worrying about any of the side effects from firing an actual real event. It sounds complicated, but I assure you that it's all very simple.
    - =Event::fake()=
    - =Event::assertFired(UserBecameForeverSupporter::class)=
+
+** DONE Fluent Validation Rules
+   CLOSED: [2018-07-19 Thu 18:07]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 18:07]
+   Imagine that you need to define a validation rule which specifies that the provided email address must be unique on the users table, limited to the email column, where the person's status is set to true. but excluding the current user's email address. As you may know, traditionally, we must provide a comma separated list within a string for all of these parameters. It's pretty rough! But not anymore. Now, in Laravel 5.3, you can use the useful =Rule= class to fluently build up these constraints.
+   - Rule
+     #+BEGIN_SRC php
+       $this->validate(request(), [
+           'email' => [
+               'required',
+               'email',
+               Rule::unique('users', 'email')
+               ->ignore(auth()->id())
+               ->where('active', 1);
+           ]
+       ])
+     #+END_SRC
