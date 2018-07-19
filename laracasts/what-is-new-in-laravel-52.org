@@ -1,4 +1,6 @@
-* STARTED What's New in Laravel 52
+* DONE What's New in Laravel 52
+  CLOSED: [2018-07-19 Thu 10:31]
+  - State "DONE"       from "STARTED"    [2018-07-19 Thu 10:31]
  It's about that time again. Laravel 5.2 is on its way, with a variety of useful new additions. Let's get ahead of the game, and begin reviewing what's new.
 
 ** DONE Implicit Route Binding
