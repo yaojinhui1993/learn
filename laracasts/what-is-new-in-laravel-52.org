@@ -1,0 +1,9 @@
+* STARTED What's New in Laravel 52
+ It's about that time again. Laravel 5.2 is on its way, with a variety of useful new additions. Let's get ahead of the game, and begin reviewing what's new.
+
+** DONE Implicit Route Binding
+   CLOSED: [2018-07-19 Thu 09:20]
+   - State "DONE"       from "STARTED"    [2018-07-19 Thu 09:20]
+   Laravel has offered route model binding for some time now. However, with Laravel 5.2, much of this process is now implicit. Need to fetch a record by its id? Just typehint the model, and Laravel will automatically send you the proper instance of it.
+   - =$this->router->bind('route_name', clouser)=
+   - Route wildcard name must the same as the clouser parameter name
