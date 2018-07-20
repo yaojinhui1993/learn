@@ -1,2 +1,7 @@
 * STARTED What's New in Laravel 5.6
   Laravel 5.6 is upon us! While it's true that this release isn't quite as flashy, there are still an number of incredibly useful new additions and updates. Let's review them together.
+
+** DONE Upgrading the Laracasts Codebase to Laravel 5.6
+   CLOSED: [2018-07-20 Fri 16:41]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:41]
+   Before we review the new additions to Laravel 5.6, let's begin by upgrading a real codebase from version 5.5 to 5.6. =As you'll find= with your own projects, some of the release notes will be relevant to your codebase, while others will not.
