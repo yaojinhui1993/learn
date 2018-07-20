@@ -28,3 +28,9 @@
            'expires_at' => 'date:Y-m-d'
        ];
      #+END_SRC
+
+** DONE Improved Logging... Even to Slack
+   CLOSED: [2018-07-20 Fri 17:25]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 17:25]
+   Logging has been vastly improved in Laravel 5.6. You'll find a new =config/logging.php= file in a fresh install of laravel. Here, you may configure your desired default logging channel, or even specify a stack of channels. Maybe informational logs should be sent to the standard =laravel.log= file, while mission critical logs should be sent to Slack. Easy!
+   - =Log::info('Hello World!')=
