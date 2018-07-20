@@ -11,3 +11,8 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:57]
    Laravel, for a while now, has included functionality for broadcasting server-side events over a WebSocket connection to the client-side. Often, as part of this process, it will prove necessary to authorize the current user. "Do they have permission to access this private channel or not?" Authorizations such as these are registered within your =routes/channels.php= file.
    If this file eventually becomes unwieldy, due to the number of authorizations, you may optionally extract the relevant logic to dedicated channel classes, using =php artisan make:channel=.
+
+** DONE Collision Reporting
+   CLOSED: [2018-07-20 Fri 17:02]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 17:02]
+   Laravel 5.6 ships with drastically improved error reporting, when interacting with the framework through the console. In this lesson, we'll compare and contrast the exception output you'll see for an Artisan command in versions 5.5 and 5.6.
