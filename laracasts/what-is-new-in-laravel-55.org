@@ -1,0 +1,7 @@
+* STARTED What's New in Laravel 5.5
+  Here we go again! Currently scheduled for an Augest release date, we're on the verge of Laravel 5.5. With that in mind, let's get a head start on the new features and additions to the framework. As always, there's quite a few!
+
+** DONE Laravel 5.5 Installation and Whoops!
+   CLOSED: [2018-07-20 Fri 10:53]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:53]
+   Let's get started by *installing*, at the time of this recording, the development version of Laravel. That way, we can pull in the 5.5 version of the framework. Once setup, we'll also take a quick look at the new =Whoops= intergration.
