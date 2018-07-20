@@ -20,3 +20,8 @@
    CLOSED: [2018-07-20 Fri 09:39]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:39]
    Laravel 5.4's routing component has been upgraded to support a more fluent routing syntax. No longer are you required to reference an array of awkward options, should you require a route group, prefix or name.
+
+** DONE Resourceful Controllers With Model Boilerplate.
+   CLOSED: [2018-07-20 Fri 09:49]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:49]
+   When generating a controller from the command line (=php artisan make:controller=), you'll now find a new =--model= flag. When called with the name of a model, Laravel will automatically generate a resourceful controller that includes the necessary boilterplate to inject this model in all relevant controller actions.
