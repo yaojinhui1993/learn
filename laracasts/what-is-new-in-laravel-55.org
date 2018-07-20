@@ -95,3 +95,13 @@
            return true;
        });
      #+END_SRC
+
+** DONE What's New in Laravel Mix
+   CLOSED: [2018-07-20 Fri 13:49]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 13:49]
+   Though Mix is entirely separte from Laravel 5.5, you will find a bump to version 1.0 in your packages.json file. In this video, we'll review a few new additions, including updated versioning, sequential custom tasks, fast SASS compilation, CSS purification, and more.
+   - =mix.sass()=
+   - =mix.fastSass()=
+   - =mix.copy()=
+   - =mix.combine([])=
+   - =mix.option({ purifyCss: true})=
