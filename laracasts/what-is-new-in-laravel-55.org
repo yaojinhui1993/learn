@@ -78,3 +78,9 @@
    CLOSED: [2018-07-20 Fri 12:43]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:43]
    Debugging a complex collection pipeline can get a little tricky. Often, you'll find yourself temporarily commenting out portions of code, as you confirm the dumped output. In Laravel 5.5, you'll find two new helper methods on your collection instances: =dump()= and =dd()=
+
+** DONE Model Factory Generation
+   CLOSED: [2018-07-20 Fri 12:47]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:47]
+   In Larave 5.4, all model factories were contained within a single file. Need to construct a new factory? Well, you know the drill: copy and paste the one bofer it, and make your changes. Luckily though, in 5.5, there's a simpler way. Each of your Eloquent models will now have a respective model factory file.
+   =php artisan make:factory Video=
