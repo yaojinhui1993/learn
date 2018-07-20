@@ -1,4 +1,6 @@
-* STARTED What's New in Laravel 5.5
+* DONE What's New in Laravel 5.5
+  CLOSED: [2018-07-20 Fri 16:18]
+  - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:18]
   Here we go again! Currently scheduled for an Augest release date, we're on the verge of Laravel 5.5. With that in mind, let's get a head start on the new features and additions to the framework. As always, there's quite a few!
 
 ** DONE Laravel 5.5 Installation and Whoops!
