@@ -40,3 +40,10 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 17:49]
    For a while now, Laravel has offered the ability to throttle the incoming requests. However, as part of Laravel 5.6, you can now dynamically configure the number of allowed attempts.
    =$rate_limit= in =User.php= model
+
+** DONE Logout Other Devices
+   CLOSED: [2018-07-20 Fri 18:01]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 18:01]
+   Laravel now includes the useful =logoutOtherDevices= method on the =SessionGuard= class (=auth()->logoutOtherDevices()=). This means, with ease, you can invalidate all other sessions for a user's account. One use-case for this is ensuring that multiple people cannot log in and access the same account simultaneously. For a second example, but forgot to logout. No problem; you can offer the functionality to click a button invalidate that libary session.
+   - =Illuminate\Session\Middleware\AuthenticateSession::class=
+   - =auth()->logoutOtherDevices()=
