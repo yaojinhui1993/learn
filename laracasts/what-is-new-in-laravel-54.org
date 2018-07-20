@@ -15,3 +15,8 @@
    CLOSED: [2018-07-20 Fri 09:34]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:34]
    As part of Laravel 5.4, Laravel Elixir has been upgraded and renamed to Laravel Mix. While both versions will continue to exist, Mix should be your build tool wrapper of choice. It's build on Webpack, and provides nearly exact same friendly API that you're already used to.
+
+** DONE Fluent Routing
+   CLOSED: [2018-07-20 Fri 09:39]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:39]
+   Laravel 5.4's routing component has been upgraded to support a more fluent routing syntax. No longer are you required to reference an array of awkward options, should you require a route group, prefix or name.
