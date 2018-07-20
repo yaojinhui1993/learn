@@ -30,3 +30,8 @@
    CLOSED: [2018-07-20 Fri 10:00]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:00]
    In Laravel 5.4, Blade offers a new =@component= directive. With this new addition, you may now, where relevant, think in terms of components and slots (much like Vue's implementation). Define a view partial, reference any necessary variables, and then call this component from any other view. It's probably best best if I simply show you!
+
+** DONE Markdown Mailables
+   CLOSED: [2018-07-20 Fri 10:08]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:08]
+   When sending email, you may combine Markdown with Blade components to provide maximum flexibility. You're going to love this. Let's review the entire workflow, while using =Mailtrap.io= as ourtest server to review each compiled email.
