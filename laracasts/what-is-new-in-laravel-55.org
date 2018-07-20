@@ -164,3 +164,8 @@
    A more object-oriented approach would be to allow the exception to determine how to render itself. And now, in Laravel 5.5, you can do that very thing.
    - In =Exceptions/PostIsPrivate=, laravel will automatic call the  =render()= function
    - If =Exceptions/PostIsPrivate= implement =Responsable= interface, it will automatic call too.
+
+** DONE Optional Objects
+   CLOSED: [2018-07-20 Fri 16:01]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:01]
+   Laravel 5.5 includes a new =helper()= function, which you can think of as a generic null object implementation. have you ever run into the situation where you need to fetch a property from a relationship, but it's possible that the relationship itself returns =null=? Well now we have a cleaner way to do this.
