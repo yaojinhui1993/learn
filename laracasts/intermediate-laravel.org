@@ -1,0 +1,2 @@
+* STARTED Intermediate Laravel
+  Made your way through =Laravel 5 Fundamentals= yet? Nice job! It's time to dig a bit deeper. In this series, not only will we review higher level features, such as using the Scheduler component and dispatching commands and events, but we'll also often peak behind the scenes to figure out how each piece fits together.
