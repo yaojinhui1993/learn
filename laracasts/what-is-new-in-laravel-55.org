@@ -38,3 +38,8 @@
 
        }
      #+END_SRC
+
+** DONE Fresh Migrations
+   CLOSED: [2018-07-20 Fri 11:16]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:16]
+   A new =migrate:fresh= Artisan command is being introduced as part of Laravel 5.5. This is similar to the existing =refresh= option, however, rather than rolling back all of your migrations (and triggering the respective =down= method for each), this new command will simply drow all tables and run your migrations fron scratch.
