@@ -110,3 +110,25 @@
    CLOSED: [2018-07-20 Fri 13:55]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 13:55]
    In Laravel 5.5, you'll no longer be required to manually register your Artisan commands. The framework will instead automatically scan the =commands= fold for you. The means you may now run =php artisan make:command FooCommand=, and then immediately trigger it. Useful!
+
+** DONE Higher Order Tap
+   CLOSED: [2018-07-20 Fri 14:11]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 14:11]
+   The =tap()= helper function has now been supercharged to be even more flexible. You may omit the closure second argument to this function, in which case a proxy class will be returned. This proxy will properly delegate to any method you call from that point forward, while returning your original value per usual. It sounds a bit confusing on paper, but you'll get a lot of use out of this one.
+   Please note that this update to =tap()= is also available in fresh 5.4 installations.
+   - Orign
+     #+BEGIN_SRC php
+       $id = $post->update($attributes);
+
+       return $post;
+     #+END_SRC
+   - Old =tap=
+     #+BEGIN_SRC php
+       return tap($post, function ($post) use ($attributes) {
+           $post->update($attributes);
+       })
+     #+END_SRC
+   - New =tap=
+     #+BEGIN_SRC php
+       return tap($post)->update($attributes);
+     #+END_SRC
