@@ -5,3 +5,36 @@
    CLOSED: [2018-07-20 Fri 10:53]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:53]
    Let's get started by *installing*, at the time of this recording, the development version of Laravel. That way, we can pull in the 5.5 version of the framework. Once setup, we'll also take a quick look at the new =Whoops= intergration.
+
+** DONE Streamlined Request Validation
+   CLOSED: [2018-07-20 Fri 11:05]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:05]
+   A small, but long-requested addition, you may now send a =validate= message directly on your =Request= instance. Event better, this method call will return the validated data, which means you can pass the request directly to your model's =create= or =update= methods. Simpler code for the win!
+   - CSRF exception: the page durning the inactive state.
+   - Old validation workflow
+     #+BEGIN_SRC php
+       public function store()
+       {
+           $this->validate(request(), [
+               'title' => 'required',
+               'body' => 'required'
+           ]);
+
+           Post::create([request('title', 'body')]);
+
+           return 'Done';
+       }
+     #+END_SRC
+   - Now validation workflow
+     #+BEGIN_SRC php
+       public function store()
+       {
+           $validateData = request()->validate([
+               'title' => 'required',
+               'body' => 'required'
+           ]);
+
+           Post::create($validateData);
+
+       }
+     #+END_SRC
