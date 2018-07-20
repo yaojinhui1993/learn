@@ -84,3 +84,14 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:47]
    In Larave 5.4, all model factories were contained within a single file. Need to construct a new factory? Well, you know the drill: copy and paste the one bofer it, and make your changes. Luckily though, in 5.5, there's a simpler way. Each of your Eloquent models will now have a respective model factory file.
    =php artisan make:factory Video=
+
+** DONE Custom Blade "If" Directives
+   CLOSED: [2018-07-20 Fri 12:56]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:56]
+   In Laravel 5.5, you'll find a sweet new syntax for defining custom =if= Blade directives. Want a useful =@subscriber= directive to conditionally load HTML for only the subscribers of your site? It's so easy! Give me a few moments, and I 'll show you how.
+   - Syntax In service provider.
+     #+BEGIN_SRC php
+       \Blade::if('member', function() {
+           return true;
+       });
+     #+END_SRC
