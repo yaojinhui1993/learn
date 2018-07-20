@@ -142,3 +142,10 @@
    CLOSED: [2018-07-20 Fri 15:17]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 15:17]
    Laravel offers two new useful Blade directives as part of version 5.5: =@auth= and =@guest=. They do exactly what you'd imagine, so say goodbye to the constant =@if (auth()->check())=
+
+** DONE Route Helpers
+   CLOSED: [2018-07-20 Fri 15:26]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 15:26]
+   You may now use the helpful =Route::view()= and =Route::redirect()= helpers within your =routes.php= file. Think of these as shorthand for loading a view and performing a redirect, respectively.
+   - =Route::redirect('/me', '/home')=
+   - =Route::view('/', 'welcome')=
