@@ -49,3 +49,8 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:25]
    Out of the box, Laravel ships with a small bit of boilterplate to get you up and running as quickly as possible. Specifically, it includes a few Sass and Vue suggestions. However, as part of Laravel 5.5, you may now configure this initial boilterplate top your liking. Want to strip all of it? Now you can. Prefer to use React instead of Vue? Easy!
    =php artisan preset:none=
+
+** DONE Automatic Package Discovery
+   CLOSED: [2018-07-20 Fri 11:34]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:34]
+   If you've ever installed a Laravel package before, you most certainly were required to visit your =config/app.php= file to add a service provider and alias. This is what allows the package to bootstrap itself into your Laravel installation. In Laravel 5.5, however, packages can optionally perform these steps automatically. In this video, we'll update existing Laracasts package to allow for this very thing.
