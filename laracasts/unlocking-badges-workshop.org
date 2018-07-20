@@ -30,3 +30,11 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 07:28]
    Now that we've reverted the previous lesson's work, we can move on to a clean approach. In this lesson, we'll build the necessary system to register and sync achievements with any given user, based on newly awarded experience.
    - =qualifier()=
+
+** DONE Two Ways to Organize a Project
+   CLOSED: [2018-07-20 Fri 23:00]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 23:00]
+   In this episode, we'll discuss two equally valid ways to organize all of the achievement-related files, including service providers, events, listeners, etc.
+   - Named Event and Listener:
+     - When the Event is fired ? (Event)
+     - Then what I do ? (Listener)
