@@ -46,3 +46,9 @@
    CLOSED: [2018-07-20 Fri 10:32]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:32]
    Laravel Dusk is a brand new first-party package that drastically simplifies the process of performing tests against an actual browser. As such, it can be used to test all forms of behavior and JavaScript interaction. In this episode, I'll give you the quick rundown; however, I do encourage you to watch =How I Personally Learn: Dusk Edition= for a slower dive into what this new testing package can do for you.
+
+** DONE Map Eloquent Events to Dedicated Classes
+   CLOSED: [2018-07-20 Fri 10:40]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:40]
+   As part of Laravel 5.4, you may now map any Eloquent events (created, saved, deleted, etc.) to dedicated event classes. You'll find that this method cleans up you model code significantly.
+   =Event::listen(eloquent.event: App\Post', clouser)=
