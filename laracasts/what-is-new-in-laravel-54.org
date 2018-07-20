@@ -41,3 +41,8 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:22]
    By now, you're surely well aware that Laravel offers facades, which offer a simple, static interface to objects in your service container. In the past however, should we have needed to create our own facades, we were required to manually construct each relevant facade. Not anymore! Laravel 5.4 can do it on-demand for you. This is insanely cool, and will annoy countless onlookers. So they're definetly worth a look.
    - =use Facade\Service\Twitter=
+
+** DONE Browser Testing With Laravel Dusk
+   CLOSED: [2018-07-20 Fri 10:32]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:32]
+   Laravel Dusk is a brand new first-party package that drastically simplifies the process of performing tests against an actual browser. As such, it can be used to test all forms of behavior and JavaScript interaction. In this episode, I'll give you the quick rundown; however, I do encourage you to watch =How I Personally Learn: Dusk Edition= for a slower dive into what this new testing package can do for you.
