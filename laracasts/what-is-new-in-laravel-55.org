@@ -67,3 +67,9 @@
 
        })
      #+END_SRC
+
+** DONE Silky Smooth Custom Validation Rules
+   CLOSED: [2018-07-20 Fri 12:36]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:36]
+   In Laravel 5.5, you'll find a brand new =App/Rule= folder. The next time you require custom logic for a particular request attribute, you'll laugh at how simple it now is.
+   - =php artisan make:rule=
