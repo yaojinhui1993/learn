@@ -1,2 +1,10 @@
 * STARTED Intermediate Laravel
   Made your way through =Laravel 5 Fundamentals= yet? Nice job! It's time to dig a bit deeper. In this series, not only will we review higher level features, such as using the Scheduler component and dispatching commands and events, but we'll also often peak behind the scenes to figure out how each piece fits together.
+
+** DONE Scheduling Commands and Tasks
+   CLOSED: [2018-07-20 Fri 22:45]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 22:45]
+   For any application, you'll need to trigger certain tasks at various points in time. Every month, or every day, or even every half-hour. Traditionally, this can be a confusing task, but not with Laravel!
+   - =$schedule->exec('touch foo.txt')->everyFiveMinutes()=
+   - =$schedule->exec('touch foo.txt')->dailyAt('10:30')=
+   - =$schedule->command(laracasts:report')->dailyAt('10:30')->sendOutputTo(path/to/file)->emailOutputTo('')=
