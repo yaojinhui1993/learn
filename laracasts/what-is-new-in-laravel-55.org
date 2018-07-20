@@ -73,3 +73,8 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:36]
    In Laravel 5.5, you'll find a brand new =App/Rule= folder. The next time you require custom logic for a particular request attribute, you'll laugh at how simple it now is.
    - =php artisan make:rule=
+
+** DONE Collection Dumping
+   CLOSED: [2018-07-20 Fri 12:43]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 12:43]
+   Debugging a complex collection pipeline can get a little tricky. Often, you'll find yourself temporarily commenting out portions of code, as you confirm the dumped output. In Laravel 5.5, you'll find two new helper methods on your collection instances: =dump()= and =dd()=
