@@ -1,4 +1,6 @@
-* STARTED What is New in Laravel 5.4
+* DONE What is New in Laravel 5.4
+  CLOSED: [2018-07-20 Fri 10:41]
+  - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:41]
  It's that time of year again! Laravel in on the cusp of graduating to version 5.4. Along with it comes a variety of excellent optimizations and features. Markdown mail, higher order collection messages, Dusk, real-time facades... yes, please! In this series, I'll get you up to speed on what's new in laravel 5.4 as quickly as possible.
 
 ** DONE Sanitizing Middleware
