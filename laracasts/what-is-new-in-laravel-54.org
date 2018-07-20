@@ -1,0 +1,7 @@
+* STARTED What is New in Laravel 5.4
+ It's that time of year again! Laravel in on the cusp of graduating to version 5.4. Along with it comes a variety of excellent optimizations and features. Markdown mail, higher order collection messages, Dusk, real-time facades... yes, please! In this series, I'll get you up to speed on what's new in laravel 5.4 as quickly as possible.
+
+** DONE Sanitizing Middleware
+   CLOSED: [2018-07-20 Fri 09:18]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:18]
+   First up for this series is a review of two new middleware that are included with Laravel out of the box: =TrimStrings= and =ConvertEmptyStringToNull=. In effect, for every form request, Laravel will automatically trim any white space, while also converting all empty request fields to =null=.
