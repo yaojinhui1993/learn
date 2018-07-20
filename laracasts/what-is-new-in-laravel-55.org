@@ -132,3 +132,8 @@
      #+BEGIN_SRC php
        return tap($post)->update($attributes);
      #+END_SRC
+
+** DONE The RefreshDatabase Trait
+   CLOSED: [2018-07-20 Fri 15:07]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 15:07]
+   In previous versions of Laravel, you were presented with two database-specific traits for your test classes: =DatabaseTransactions= and =DatabaseMigrations=. While it doesn't take too much work to understand the difference between the two, nonetheless, it could be confusing to newcomers. "Wait, which one am I supposed to use to reset my database? Which is better?" In Laravel 5.5, all of this has been streamlined (though these traits are still available for backward compatibility). You'll now find a single =RefreshDatabase= trait that automatically figures out which DB reset strategy to use.
