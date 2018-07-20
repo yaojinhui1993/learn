@@ -105,3 +105,8 @@
    - =mix.copy()=
    - =mix.combine([])=
    - =mix.option({ purifyCss: true})=
+
+** DONE Auto-Registering Artisan Commands
+   CLOSED: [2018-07-20 Fri 13:55]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 13:55]
+   In Laravel 5.5, you'll no longer be required to manually register your Artisan commands. The framework will instead automatically scan the =commands= fold for you. The means you may now run =php artisan make:command FooCommand=, and then immediately trigger it. Useful!
