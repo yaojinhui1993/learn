@@ -156,3 +156,11 @@
    When writing tests for your application, you may encounter situations when you don't want Laravel to automatically catch and transform an exception. You can now disable exception handling on a test-by-test basis, via the =$this->withoutExceptionHandling()= method call.
    - =$response->dump()->assertStatus(422)=
    - =$this->withExceptionHandling()=
+
+** DONE Cleaner Exception Rendering
+   CLOSED: [2018-07-20 Fri 15:51]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 15:51]
+   When an exception is thrown in your app, you can optionally let it bubble up to =app\Exception\Handler.php=. Here, you may type-check the exception to determine the appropriate response to return. While this is certainly useful, over the lifetime of a project, you'll notice that this method grows and grows.
+   A more object-oriented approach would be to allow the exception to determine how to render itself. And now, in Laravel 5.5, you can do that very thing.
+   - In =Exceptions/PostIsPrivate=, laravel will automatic call the  =render()= function
+   - If =Exceptions/PostIsPrivate= implement =Responsable= interface, it will automatic call too.
