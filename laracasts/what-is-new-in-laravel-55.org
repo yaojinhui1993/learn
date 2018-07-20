@@ -149,3 +149,10 @@
    You may now use the helpful =Route::view()= and =Route::redirect()= helpers within your =routes.php= file. Think of these as shorthand for loading a view and performing a redirect, respectively.
    - =Route::redirect('/me', '/home')=
    - =Route::view('/', 'welcome')=
+
+** DONE Toggle Exception Handling Within Your Tests
+   CLOSED: [2018-07-20 Fri 15:36]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 15:36]
+   When writing tests for your application, you may encounter situations when you don't want Laravel to automatically catch and transform an exception. You can now disable exception handling on a test-by-test basis, via the =$this->withoutExceptionHandling()= method call.
+   - =$response->dump()->assertStatus(422)=
+   - =$this->withExceptionHandling()=
