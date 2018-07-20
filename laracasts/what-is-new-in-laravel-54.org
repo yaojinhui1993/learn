@@ -35,3 +35,9 @@
    CLOSED: [2018-07-20 Fri 10:08]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:08]
    When sending email, you may combine Markdown with Blade components to provide maximum flexibility. You're going to love this. Let's review the entire workflow, while using =Mailtrap.io= as ourtest server to review each compiled email.
+
+** DONE Real-Time Facades
+   CLOSED: [2018-07-20 Fri 10:22]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:22]
+   By now, you're surely well aware that Laravel offers facades, which offer a simple, static interface to objects in your service container. In the past however, should we have needed to create our own facades, we were required to manually construct each relevant facade. Not anymore! Laravel 5.4 can do it on-demand for you. This is insanely cool, and will annoy countless onlookers. So they're definetly worth a look.
+   - =use Facade\Service\Twitter=
