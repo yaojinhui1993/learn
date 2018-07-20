@@ -16,3 +16,15 @@
    CLOSED: [2018-07-20 Fri 17:02]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 17:02]
    Laravel 5.6 ships with drastically improved error reporting, when interacting with the framework through the console. In this lesson, we'll compare and contrast the exception output you'll see for an Artisan command in versions 5.5 and 5.6.
+
+** DONE Eloquent Date Casting
+   CLOSED: [2018-07-20 Fri 17:09]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 17:09]
+   When casting Eloquent attributes, you can now easily declare the format for your date columns. Maybe a particular date field, when converted to JSON, should be renderd as "January 1st" or "1/1/18". No problem.
+   - =today()=
+   - date cast
+     #+BEGIN_SRC php
+       protected $casts = [
+           'expires_at' => 'date:Y-m-d'
+       ];
+     #+END_SRC
