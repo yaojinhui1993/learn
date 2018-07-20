@@ -25,3 +25,8 @@
    CLOSED: [2018-07-20 Fri 09:49]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:49]
    When generating a controller from the command line (=php artisan make:controller=), you'll now find a new =--model= flag. When called with the name of a model, Laravel will automatically generate a resourceful controller that includes the necessary boilterplate to inject this model in all relevant controller actions.
+
+** DONE Blade Components and Slots
+   CLOSED: [2018-07-20 Fri 10:00]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 10:00]
+   In Laravel 5.4, Blade offers a new =@component= directive. With this new addition, you may now, where relevant, think in terms of components and slots (much like Vue's implementation). Define a view partial, reference any necessary variables, and then call this component from any other view. It's probably best best if I simply show you!
