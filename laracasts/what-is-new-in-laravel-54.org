@@ -5,3 +5,8 @@
    CLOSED: [2018-07-20 Fri 09:18]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:18]
    First up for this series is a review of two new middleware that are included with Laravel out of the box: =TrimStrings= and =ConvertEmptyStringToNull=. In effect, for every form request, Laravel will automatically trim any white space, while also converting all empty request fields to =null=.
+
+** DONE Higher Order Collection Messages
+   CLOSED: [2018-07-20 Fri 09:25]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 09:25]
+   Laravel 5.4 includes support for higher order messaging, which is a fancy term that essientially breaks down to "collection shutcuts". What if, rather than filtering a collection, passing a clouser, and returning some data, you could simply type: =$collection->filter->isArchieved()= ? How cool is that? I'll show you how it all workes in this episode.
