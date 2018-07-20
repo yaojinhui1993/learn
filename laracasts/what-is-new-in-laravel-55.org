@@ -54,3 +54,16 @@
    CLOSED: [2018-07-20 Fri 11:34]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:34]
    If you've ever installed a Laravel package before, you most certainly were required to visit your =config/app.php= file to add a service provider and alias. This is what allows the package to bootstrap itself into your Laravel installation. In Laravel 5.5, however, packages can optionally perform these steps automatically. In this video, we'll update existing Laracasts package to allow for this very thing.
+
+** DONE Faster Email Testing
+   CLOSED: [2018-07-20 Fri 11:42]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 11:42]
+   Testing the layout of your mailables can always be a little tricky. Usually, we resort to sending the email to a test email server like =Mailtrap=, and then reviewing the output. In Laravel 5.5, however, we can now return a mailable class instance directly from any route. convenient.
+   - =Renderable= interface
+   - Render email
+     #+BEGIN_SRC php
+       Route::get('/', function() {
+           return new App\Mail\Welcome;
+
+       })
+     #+END_SRC
