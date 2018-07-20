@@ -169,3 +169,13 @@
    CLOSED: [2018-07-20 Fri 16:01]
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:01]
    Laravel 5.5 includes a new =helper()= function, which you can think of as a generic null object implementation. have you ever run into the situation where you need to fetch a property from a relationship, but it's possible that the relationship itself returns =null=? Well now we have a cleaner way to do this.
+
+** DONE API Resources
+   CLOSED: [2018-07-20 Fri 16:17]
+   - State "DONE"       from "STARTED"    [2018-07-20 Fri 16:17]
+   In Laravel 5.5, resources classes allow you to transform your Eloquent models into the proper JSON data structure. Though you can of course override the =toArray()= method on your models to allow for this, when building an API that you intend to expose to potentially millions of users, it's important to codify this structure and response format as reliably and consistantly as you can.
+   - =php artisan make:resources=
+   - =Resources::collection=
+   - =php artisan make:resources UserCollection=
+   - =Resource::wrap('items')=
+   - =Resource::withoutWrapping()=
