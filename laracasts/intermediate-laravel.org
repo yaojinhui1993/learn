@@ -14,3 +14,8 @@
    - State "DONE"       from "STARTED"    [2018-07-20 Fri 23:29]
    The best way to become a better coder is to read a lot of code. Let's do that together in this lesson. Now that you understand the fundamentals of scheduling tasks, we'll flex our muscles and dig into underlying source code to figure out how this all works!
    - Write that what you eactly want to need.
+
+** DONE The Power of Eventing
+   CLOSED: [2018-07-21 Sat 17:26]
+   - State "DONE"       from "STARTED"    [2018-07-21 Sat 17:26]
+   Laravel offers an incredibly powerful eventing system. Likely more powerful than you're aware. Over the course of the next two lessons, we'll both review the essentials and dig into the underlying source code that orchestrates Laravel's event handling.
