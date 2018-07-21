@@ -104,8 +104,77 @@
 
 
      - State "DONE"       from "STARTED"    [2018-07-12 Thu 07:51]
-*** Getting Control of Your Life: The Five Stages of Mastering Workflow
+*** DONE Getting Control of Your Life: The Five Stages of Mastering Workflow
+    CLOSED: [2018-07-21 Sat 11:10]
+    - State "DONE"       from "STARTED"    [2018-07-21 Sat 11:10]
+    1. We collect things that command our attention.
+    2. Process what they mean and what to do about them.
+    3. Organize the results.
+    4. Review
+    5. Do
+**** DONE Collect
+     CLOSED: [2018-07-14 Sat 12:29]
 
+
+     - State "DONE"       from "TODO"       [2018-07-14 Sat 12:29]
+**** DONE Gathering 100 Percent of the "Incompletes"
+     CLOSED: [2018-07-14 Sat 12:51]
+
+     - State "DONE"       from "STARTED"    [2018-07-14 Sat 12:51]
+**** DONE The Collection Tools
+     CLOSED: [2018-07-14 Sat 13:18]
+
+     - State "DONE"       from "TODO"       [2018-07-14 Sat 13:18]
+**** DONE The Collection Success Factors
+     CLOSED: [2018-07-16 Mon 05:33]
+
+     - State "DONE"       from "STARTED"    [2018-07-16 Mon 05:33]
+**** DONE Process
+     CLOSED: [2018-07-16 Mon 06:18]
+     - State "DONE"       from "STARTED"    [2018-07-16 Mon 06:18]
+**** DONE Organize
+     CLOSED: [2018-07-17 Tue 08:12]
+
+     - State "DONE"       from "STARTED"    [2018-07-17 Tue 08:12]
+**** DONE Projects
+     CLOSED: [2018-07-17 Tue 22:05]
+
+     - State "DONE"       from "STARTED"    [2018-07-17 Tue 22:05]
+
+**** DONE The Next-Action Categories
+     CLOSED: [2018-07-17 Tue 22:10]
+
+     - State "DONE"       from "STARTED"    [2018-07-17 Tue 22:10]
+**** DONE Calendar
+     CLOSED: [2018-07-18 Wed 06:58]
+     
+     - State "DONE"       from "STARTED"    [2018-07-18 Wed 06:58]
+**** DONE No actionable Items
+     CLOSED: [2018-07-18 Wed 08:03]
+
+     - State "DONE"       from "STARTED"    [2018-07-18 Wed 08:03]
+**** DONE Review
+     CLOSED: [2018-07-19 Thu 07:43]
+
+     - State "DONE"       from "STARTED"    [2018-07-19 Thu 07:43]
+**** DONE What to Review When
+     CLOSED: [2018-07-19 Thu 07:54]
+
+     - State "DONE"       from "STARTED"    [2018-07-19 Thu 07:54]
+**** DONE Critical Success Factor: The Weekly Review
+     CLOSED: [2018-07-20 Fri 21:33]
+
+
+
+     - State "DONE"       from "STARTED"    [2018-07-20 Fri 21:33]
+**** DONE Do
+     CLOSED: [2018-07-21 Sat 09:47]
+
+     - State "DONE"       from "STARTED"    [2018-07-21 Sat 09:47]
+**** DONE Three Models For Making Action Choices
+     CLOSED: [2018-07-21 Sat 11:10]
+
+     - State "DONE"       from "STARTED"    [2018-07-21 Sat 11:10]
 *** Getting Projects Creatively Under Way: The Five Phases of Project Planning
 
    
