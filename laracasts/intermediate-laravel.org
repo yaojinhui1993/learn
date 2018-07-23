@@ -19,3 +19,7 @@
    CLOSED: [2018-07-21 Sat 17:26]
    - State "DONE"       from "STARTED"    [2018-07-21 Sat 17:26]
    Laravel offers an incredibly powerful eventing system. Likely more powerful than you're aware. Over the course of the next two lessons, we'll both review the essentials and dig into the underlying source code that orchestrates Laravel's event handling.
+
+** DONE Eventing: Behind the Scenes
+   CLOSED: [2018-07-23 Mon 16:59]
+   - State "DONE"       from "STARTED"    [2018-07-23 Mon 16:59]
