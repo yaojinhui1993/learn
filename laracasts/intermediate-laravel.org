@@ -26,3 +26,9 @@
 ** DONE Illuminate Contracts
    CLOSED: [2018-07-23 Mon 22:06]
    - State "DONE"       from "STARTED"    [2018-07-23 Mon 22:06]
+     Laravel 5 includes a comprehensive set of contracts, or interfaces, for all of its various components. This means, for the projects where it makes sense to seek maximum decoupling, never before has such a task been easier.
+
+** DONE Containers, Alias and Contracts: Behind the Scenes
+   CLOSED: [2018-07-23 Mon 22:34]
+   - State "DONE"       from "TODO"       [2018-07-23 Mon 22:34]
+   Based on our learning from the previous episode, it seems as if multiple keys point to the same binding within Laravel's service container. How exactly does this work? Let's once again peel back the curtain, and figure this out.
