@@ -23,3 +23,6 @@
 ** DONE Eventing: Behind the Scenes
    CLOSED: [2018-07-23 Mon 16:59]
    - State "DONE"       from "STARTED"    [2018-07-23 Mon 16:59]
+** DONE Illuminate Contracts
+   CLOSED: [2018-07-23 Mon 22:06]
+   - State "DONE"       from "STARTED"    [2018-07-23 Mon 22:06]
