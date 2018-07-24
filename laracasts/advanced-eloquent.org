@@ -13,3 +13,10 @@
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 20:38]
    Our starting point is a laughable one: =Post::find(1)=. It's literally the first thing you learn how to do with Eloquent. But, think about it, do you fully understand what happens behind the scenes, when you make this call?
    - =newQuery= is =Eloquent Builder=
+
+** DONE Where the Hack is Where?
+   CLOSED: [2018-07-24 Tue 21:02]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 21:02]
+   Okay, so we can do things like =Post::where($args)=, but there's just one problem: where exactly is that =where= method stored? It's defintely not on our =Model= class!
+   =__callStatic()=
+   =__call()=
