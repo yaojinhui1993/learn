@@ -58,3 +58,7 @@
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 13:59]
    Think of a job as an instruction, typically queued, that you want to give your application. Rather than throwing all this logic in your controller, assign it a readable name, assign your dependencies, and queue it up!
 
+** DONE How to Write Custom Blade Directives
+   CLOSED: [2018-07-24 Tue 14:14]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 14:14]
+   From time to time, you'll want to create custom Blade directives for your views. In the past, this wasn't the most enjoyable experience; however, today. it's quite a bit simpler.
