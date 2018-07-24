@@ -47,3 +47,8 @@
    CLOSED: [2018-07-24 Tue 12:16]
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 12:16]
    When you begin a new project, you'll often want to create any number of sample records in your database. Let me show you how easy this process is, thanks to table seeder classes, and model factories.
+
+** DONE The Seeds of Database Seeding
+   CLOSED: [2018-07-24 Tue 12:31]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 12:31]
+   Like we've been doing often in this series, let's figure out how this whole database seeding thing is orchestrated; from the Artisan command, itself, all the way up to the main =Seeder= class. Remember: if you want to be a better coder, read a lot of code.
