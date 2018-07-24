@@ -32,3 +32,8 @@
    CLOSED: [2018-07-23 Mon 22:34]
    - State "DONE"       from "TODO"       [2018-07-23 Mon 22:34]
    Based on our learning from the previous episode, it seems as if multiple keys point to the same binding within Laravel's service container. How exactly does this work? Let's once again peel back the curtain, and figure this out.
+
+** DONE HTTP Middleware
+   CLOSED: [2018-07-24 Tue 11:20]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 11:20]
+   Middleware offers us a very easy way to manage and filter incoming requests.
