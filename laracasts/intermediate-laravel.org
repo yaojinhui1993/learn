@@ -37,3 +37,8 @@
    CLOSED: [2018-07-24 Tue 11:20]
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 11:20]
    Middleware offers us a very easy way to manage and filter incoming requests.
+
+** DONE Middleware Parameters
+   CLOSED: [2018-07-24 Tue 11:32]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 11:32]
+   Now what about when you need a little more granularity? Sure, we can filter requests to only allow the users who are subscribed to our application, but what if want to drill down further and specify that they must be subscribed to a particular plan? Well, in these cases, we may leverage middleware parameters.
