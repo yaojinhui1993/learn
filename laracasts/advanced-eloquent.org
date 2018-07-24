@@ -1,4 +1,6 @@
-* Advanced Eloquent
+* DONE Advanced Eloquent
+  CLOSED: [2018-07-24 Tue 23:03]
+  - State "DONE"       from "STARTED"    [2018-07-24 Tue 23:03]
   Sure, you've learned the essientials of using Eloquent in your applications, but do you really understand what's going on under the hood? Well, that's specifically what we're interested in for this series. How do all the bits and pieces fit together?
 
 ** DONE Building the World
