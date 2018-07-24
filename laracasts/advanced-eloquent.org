@@ -1,0 +1,9 @@
+* Advanced Eloquent
+  Sure, you've learned the essientials of using Eloquent in your applications, but do you really understand what's going on under the hood? Well, that's specifically what we're interested in for this series. How do all the bits and pieces fit together?
+
+** DONE Building the World
+   CLOSED: [2018-07-24 Tue 20:25]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 20:25]
+   Before we dive into Eloquent, let's build the world so that we may toy around. As part of the process, we'll create some migrations, models, and seed classes.
+   - =composer self-update=
+   - =sqlite3 storage/database.sqlite=
