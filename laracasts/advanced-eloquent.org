@@ -25,3 +25,8 @@
    CLOSED: [2018-07-24 Tue 21:13]
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 21:13]
    Okay, let's move to a lower level, and figure out how the query builder actually construct these SQL quires and passes them to PDO.
+
+** DONE Eager Loading is a Beast
+   CLOSED: [2018-07-24 Tue 23:03]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 23:03]
+   The reality is that there's significant complexity to a full-featured ORM, like Eloquent. Ore area where this is immediately apparent is eager loading. In this episode, as best as we can, we'll decode this process, piece by piece. How exactly dose =Post::with('comments')->get()= work underneath the hood?
