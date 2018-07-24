@@ -7,3 +7,9 @@
    Before we dive into Eloquent, let's build the world so that we may toy around. As part of the process, we'll create some migrations, models, and seed classes.
    - =composer self-update=
    - =sqlite3 storage/database.sqlite=
+
+** DONE Use the Source, Luke
+   CLOSED: [2018-07-24 Tue 20:38]
+   - State "DONE"       from "STARTED"    [2018-07-24 Tue 20:38]
+   Our starting point is a laughable one: =Post::find(1)=. It's literally the first thing you learn how to do with Eloquent. But, think about it, do you fully understand what happens behind the scenes, when you make this call?
+   - =newQuery= is =Eloquent Builder=
