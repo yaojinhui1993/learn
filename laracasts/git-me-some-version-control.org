@@ -1,0 +1,2 @@
+* STARTED Get Me Some Version Control
+ Version control can be a mysterious thing at first. Why exactly do I need this? Before long, you depend on it with your life. If you're new to this world, let me help!
