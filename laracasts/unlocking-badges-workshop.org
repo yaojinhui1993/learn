@@ -43,3 +43,9 @@
    CLOSED: [2018-07-24 Tue 08:26]
    - State "DONE"       from "STARTED"    [2018-07-24 Tue 08:26]
    In this lesson, let's use TDD to provide a sensible default =name= for each achievement, based upon the class name.
+
+** DONE An Artisan Command to Generate New Achievements
+   CLOSED: [2018-07-25 Wed 09:27]
+   - State "DONE"       from "STARTED"    [2018-07-25 Wed 09:27]
+   It might be nice to offer an Artisan command to quickly scaffold new achievement classes. Though it provides only a small speed boost, conveniences like this are always useful and appreciated.
+   - Use by the method =$this->command(Command::class)= in ServiceProvider to register command.
