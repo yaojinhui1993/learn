@@ -1,2 +1,15 @@
 * STARTED Get Me Some Version Control
  Version control can be a mysterious thing at first. Why exactly do I need this? Before long, you depend on it with your life. If you're new to this world, let me help!
+
+** DONE Say Hi to Git
+   CLOSED: [2018-07-25 Wed 12:17]
+   - State "DONE"       from "STARTED"    [2018-07-25 Wed 12:17]
+   As with most tools, step one is to install it! Let's tackle that, and then perform our first commit.
+   - =git config --global user.name=myname= Set global user name
+   - =git config --global user.email=test@example.com= Set global user email
+   - =git config --global core.editor=vim= Set global git editor
+   - =git init= Create or new a git repository
+   - =git add some.txt=
+   - =git status= Current directory status
+   - =git commit=  =git commit -m "First commit"=
+   - =git log= Get all the git commit log
