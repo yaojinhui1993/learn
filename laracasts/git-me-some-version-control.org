@@ -20,3 +20,12 @@
    So you've learned how to add and commit files. But what exactly does that even mean, and what does each command do? 'Tis confusion
    - =git status=
    - =git diff=
+
+** DONE Fixing and Amending Commits
+   CLOSED: [2018-07-26 Thu 17:59]
+   - State "DONE"       from "STARTED"    [2018-07-26 Thu 17:59]
+   Almost immediately, you'll fall into a trap where you've made a commit, only to realize that you forgot something or made any sort of error or typo. Do you create a new commit? Do you amend the last one? Do you start over from scratch? Don't worry, for such a common thing, the fix is easy.
+   - =git reset --soft commitcode= git reset commit, but code still exists
+   - =git reset --hard commitcode= git reset everying
+   - =git commit --amend=
+   - =git show commitcode= show the commit change
