@@ -13,3 +13,10 @@
    - =git status= Current directory status
    - =git commit=  =git commit -m "First commit"=
    - =git log= Get all the git commit log
+
+** DONE What Git Add Actually Does
+   CLOSED: [2018-07-26 Thu 17:48]
+   - State "DONE"       from "STARTED"    [2018-07-26 Thu 17:48]
+   So you've learned how to add and commit files. But what exactly does that even mean, and what does each command do? 'Tis confusion
+   - =git status=
+   - =git diff=
