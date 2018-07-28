@@ -36,3 +36,11 @@
    Before we move on, let's review the basic workflow you'll use when working on projects. Most importantly, we'll review the important question, "When are you supposed to create new commits?".
    - Commit use present general time. like =Install Laravel=
    - Commit first line is =title=, if want more message, add a blank line first, and follow the content after it.
+
+** STARTED Branching
+   Back to the Future 2 is the key to understanding Git branching. I know, that sounds wierd, but it's true!
+   - =get checkout -- file= discard files
+   - =get checkout -b feature/bug/issue/fix-reporting= create new branch.
+   - =get checkout master= change branch to master
+   - =get merge feature-reporting= merge branch.
+   - =get branch -d feature-reporting= delete branch.
