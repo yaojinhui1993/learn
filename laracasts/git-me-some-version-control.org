@@ -29,3 +29,10 @@
    - =git reset --hard commitcode= git reset everying
    - =git commit --amend=
    - =git show commitcode= show the commit change
+
+** DONE Basic Workflow
+   CLOSED: [2018-07-29 Sun 03:17]
+   - State "DONE"       from "STARTED"    [2018-07-29 Sun 03:17]
+   Before we move on, let's review the basic workflow you'll use when working on projects. Most importantly, we'll review the important question, "When are you supposed to create new commits?".
+   - Commit use present general time. like =Install Laravel=
+   - Commit first line is =title=, if want more message, add a blank line first, and follow the content after it.
