@@ -86,3 +86,11 @@
    CLOSED: [2018-07-30 Mon 16:34]
    - State "DONE"       from "STARTED"    [2018-07-30 Mon 16:34]
    Now that you've learned the basics of Git, let's figure out how push your repository up to GitHub.
+
+** DONE Rebasing
+   CLOSED: [2018-07-30 Mon 17:07]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 17:07]
+   You've learned how to merge branches, but did you know that there's a secnod way to merge changes? Git rebasing offers a way to rebuild a clean commit history. It can be a bit confusing at first, so let me demonstrate the basic concept in this video.
+   - =git rebase <branch>=
+   - =git log --oneline=
+   - =git log --oneline --graph=
