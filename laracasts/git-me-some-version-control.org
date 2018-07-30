@@ -94,3 +94,9 @@
    - =git rebase <branch>=
    - =git log --oneline=
    - =git log --oneline --graph=
+
+** DONE Interactive Rebasing
+   CLOSED: [2018-07-30 Mon 17:31]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 17:31]
+   What about the times when you end up with a series of somewhat disjointed commits that don't even remotely tell a story. Perhaps commit messages like "WIP" or "fix typo are" littered through out the implementation of some given feature. Is it possible to fix things up? Of course it is. We'll use interactive rebasing to make the process a cinch.
+   - =git rebase -i <branch>=
