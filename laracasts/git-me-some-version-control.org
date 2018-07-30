@@ -81,3 +81,8 @@
    - =git stash apply=
    - =git stash drop=
    - =git stash branch feature/reporting=
+
+** DONE Pushing to GitHub
+   CLOSED: [2018-07-30 Mon 16:34]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 16:34]
+   Now that you've learned the basics of Git, let's figure out how push your repository up to GitHub.
