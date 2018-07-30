@@ -37,10 +37,21 @@
    - Commit use present general time. like =Install Laravel=
    - Commit first line is =title=, if want more message, add a blank line first, and follow the content after it.
 
-** STARTED Branching
+** DONE Branching
+   CLOSED: [2018-07-30 Mon 09:10]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 09:10]
    Back to the Future 2 is the key to understanding Git branching. I know, that sounds wierd, but it's true!
    - =get checkout -- file= discard files
    - =get checkout -b feature/bug/issue/fix-reporting= create new branch.
    - =get checkout master= change branch to master
    - =get merge feature-reporting= merge branch.
    - =get branch -d feature-reporting= delete branch.
+
+** DONE Handling Merge Conflicts
+   CLOSED: [2018-07-30 Mon 15:53]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 15:53]
+   From time to time, you'll encounter a merge conflict. Yikes! How is Git supposed to know which piece of code you wish to favor, when it has been modified on two separate branches? Well, it doesn't! That's your job!
+   - =git branch= list all branch
+   - =git branch -v= list branch and most recent commit message
+   - =git merge=
+   - =git diff=
