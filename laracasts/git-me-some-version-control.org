@@ -55,3 +55,18 @@
    - =git branch -v= list branch and most recent commit message
    - =git merge=
    - =git diff=
+
+** DONE Git Alias
+   CLOSED: [2018-07-30 Mon 16:01]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 16:01]
+   You'll very quickly grow tired of typing these commands over and over. Instead, create some helpful aliase for yourself.
+   - =git config --global alias.s status= set =status= to =s=
+   - Git Stuff
+     #+BEGIN_SRC bash
+       alias ga="git add"
+       alias gaa="git add ."
+       alias gc="git commit -m "
+       alias gp="git push github"
+       alias gs="git status"
+       alias nah="git reset --hard;git clean -df;"
+     #+END_SRC
