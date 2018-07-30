@@ -70,3 +70,14 @@
        alias gs="git status"
        alias nah="git reset --hard;git clean -df;"
      #+END_SRC
+
+** DONE Stash Away Changes
+   CLOSED: [2018-07-30 Mon 16:25]
+   - State "DONE"       from "STARTED"    [2018-07-30 Mon 16:25]
+   What about situations where you need to stash away changes temporarily, in order to switch to, for example, you master branch to perform some sort of hot fix? Sure, we could commit, but what if we're not ready for a commit just yet? How do we handle these scenarios?
+   - =git stash=
+   - =git stash list=
+   - =git stash pop=
+   - =git stash apply=
+   - =git stash drop=
+   - =git stash branch feature/reporting=
