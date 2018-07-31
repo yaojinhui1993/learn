@@ -22,3 +22,13 @@
      #+END_SRC
    - Route Model Binding
    - Let Model has the =path= method
+
+** DONE A Thread Can Have Replies
+   CLOSED: [2018-07-31 Tue 16:30]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 16:30]
+   Now that we've added a basic feature for users to read forum threads, we can next move on to viewing all replies associated with each thread. As before, we'll start with a test to describe our desired outcome.
+   - Occured Tests
+     1. =a_user_can_read_replies_that_are_associated_with_a_thread=
+     2. =it_has_an_owner= in =ReplyTest= unit test
+   - Model =created_at= and =updated_at= are Carbon instance
+   - =php artisan make test ReplyTest --unit=
