@@ -5,3 +5,20 @@
    CLOSED: [2018-07-31 Tue 15:51]
    - State "DONE"       from "STARTED"    [2018-07-31 Tue 15:51]
    Let's begin by reviewing the most minimal requirements for a forum. If you think about it, we couldn't possibly construct a forum without users, and replies. So let's tackle those first.
+
+** DONE Test-Driving Threads
+   CLOSED: [2018-07-31 Tue 16:13]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 16:13]
+   Now that we have our seed data in place, we can move on to our first small feature: "a user should be able to read threads." Simple enough! We'll start with a basic test, and then scaffold the necessary views to make it pass.
+   - Occured Tests
+     1. =a_user_can_view_all_threads=
+     2. =a_user_can_read_a_single_thread=
+   - Controller name is *plural*
+   - Assert page has specificed title.
+     #+BEGIN_SRC php
+       $response = $this->get('/threads');
+
+       $response->assertSee($thread->title);
+     #+END_SRC
+   - Route Model Binding
+   - Let Model has the =path= method
