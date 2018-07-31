@@ -46,3 +46,8 @@
    - Blade =@include= can inherit parent variables
    - =phpunit --filter <test-name>=
    - =$this->be($user)= sign in a user when test
+
+** DONE The Reply Forum
+   CLOSED: [2018-07-31 Tue 17:18]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:18]
+   Now that we've tested the end-point for adding a new reply, the only remaining step is to create the HTML for the form. in the process, we'll also ensure that only logged-in users are able to see it.
