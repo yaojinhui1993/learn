@@ -75,3 +75,11 @@
    Now that our endpoint tests are returning green, we can construct the HTML forum to publish a new thread. However, in the process, we'll stumble upon an odd exception handling issue that needs to be addressed. Luckily, Adam Wathan has a useful solution that we can implement.
    - tests
      1. =guests_cannot_see_the_create_thread_page=
+
+** DONE A Thread Should Be Assigned a Channel
+   CLOSED: [2018-07-31 Tue 18:12]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 18:12]
+   Right now, all threads are thrown into the same "global" namespace, so to speak. Ideally, we should assign each thread to a channel. That way, for a development forum, we may easily filter threads by PHP, or JavaScript, or Servers.
+   - Tests
+     1. =a_thread_belongs_to_a_channel=
+     2. =a_thread_can_make_a_string_path=
