@@ -68,3 +68,10 @@
      1. =create()=
      2. =make()=
      3. =signIn()=
+
+** DONE The Exception Handling Conundrum
+   CLOSED: [2018-07-31 Tue 17:52]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:52]
+   Now that our endpoint tests are returning green, we can construct the HTML forum to publish a new thread. However, in the process, we'll stumble upon an odd exception handling issue that needs to be addressed. Luckily, Adam Wathan has a useful solution that we can implement.
+   - tests
+     1. =guests_cannot_see_the_create_thread_page=
