@@ -32,3 +32,17 @@
      2. =it_has_an_owner= in =ReplyTest= unit test
    - Model =created_at= and =updated_at= are Carbon instance
    - =php artisan make test ReplyTest --unit=
+
+** DONE A User May Respond To Threads
+   CLOSED: [2018-07-31 Tue 17:09]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:09]
+   We've implemented the necessary functionality to render a thread with all relevant replies, but we haven't yet allowed a user to type in a reply and submit it to the server. Let's get started on that now.
+   - Occured Tests
+     1. =a_thread_has_replies=
+     2. =a_thread_has_a_creator=
+     3. =an_authenticated_user_may_participate_in_forum_threads=
+     4. =a_thread_can_add_a_reply=
+     5. =unauthenticated_users_may_not_add_replies=
+   - Blade =@include= can inherit parent variables
+   - =phpunit --filter <test-name>=
+   - =$this->be($user)= sign in a user when test
