@@ -59,3 +59,12 @@
    - Tests
      1. =an_authenticated_user_can_create_new_forum_threads=
      2. =guests_may_not_create_threads=
+
+** DONE Let's Make Some Testing Helpers
+   CLOSED: [2018-07-31 Tue 17:38]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:38]
+   I'm a big fan of making the process of writing tests as natural as humanly possible. The harder it is to construct a test, the more likely it is your simply...won't. With that in mind, let's extract a few helpers and snippets to assist us.
+   - functions
+     1. =create()=
+     2. =make()=
+     3. =signIn()=
