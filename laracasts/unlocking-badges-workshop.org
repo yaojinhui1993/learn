@@ -49,3 +49,8 @@
    - State "DONE"       from "STARTED"    [2018-07-25 Wed 09:27]
    It might be nice to offer an Artisan command to quickly scaffold new achievement classes. Though it provides only a small speed boost, conveniences like this are always useful and appreciated.
    - Use by the method =$this->command(Command::class)= in ServiceProvider to register command.
+
+** DONE Viewing Achivements: Part 1
+   CLOSED: [2018-07-31 Tue 13:33]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 13:33]
+   Much of this feature is now working, so let's finally view it in the browser. We'll start by preparing a few sample achievement badges, and then seeding and fetching a user's achievements. Once we have this information, is should be as simple as looping through all achievements, and toggling a CSS class that indicates if the current user has been awarded the related badge.
