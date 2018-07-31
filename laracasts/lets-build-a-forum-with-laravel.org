@@ -51,3 +51,11 @@
    CLOSED: [2018-07-31 Tue 17:18]
    - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:18]
    Now that we've tested the end-point for adding a new reply, the only remaining step is to create the HTML for the form. in the process, we'll also ensure that only logged-in users are able to see it.
+
+** DONE A User May Publish Threads
+   CLOSED: [2018-07-31 Tue 17:29]
+   - State "DONE"       from "STARTED"    [2018-07-31 Tue 17:29]
+   So far, a user can read and reply to threads, but they don't yet have the ability to publish their own threads. Let's begin fixing that in this episode.
+   - Tests
+     1. =an_authenticated_user_can_create_new_forum_threads=
+     2. =guests_may_not_create_threads=
