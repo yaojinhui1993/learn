@@ -118,3 +118,10 @@
    Currently, we have two different SQL queries for fetching all channels directly in our view layer. Let's fix that by extracting a dedicated view composer.
    - =View::composer('<blade>', closure)=
    - =View::share('<blade>', closure)=
+
+** DONE A User Can Filter All Threads By Username
+   CLOSED: [2018-08-01 Wed 11:03]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 11:03]
+   It would be nice if any user could have a link that displays only the threads that they've personally created. Even beyond that, why not allow for the ability to view any forum user's threads? Let's figure out how in this episode.
+   - Tests
+     1. =a_user_can_filter_threads_by_any_username=
