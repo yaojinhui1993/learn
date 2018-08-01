@@ -83,3 +83,16 @@
    - Tests
      1. =a_thread_belongs_to_a_channel=
      2. =a_thread_can_make_a_string_path=
+
+** DONE How to Test Validation Errors
+   CLOSED: [2018-08-01 Wed 09:57]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 09:57]
+   We haven't written any validation logic yet for our forum. This means that a user could whip up a request with all sorts of invalid data, and we gladly persist it to the database. Let's fix that in this episode, while writing tests to ensure that everything functions as we expect.
+   - Tests
+     1. =a_thread_requires_a_title=
+     2. =a_thread_requires_a_body=
+     3. =a_thread_requires_a_validate_channel=
+     4. =a_reply_requires_a_body=
+   - Get response Location =$response->headers->get('Location')=
+   - =assertSessionHasErrors('property')= when test validation errors
+   - Encapsulate =disabledErrorHandling= and =signIn= and =post to server=  in =publishThread= for quickly test =Validation Errors=
