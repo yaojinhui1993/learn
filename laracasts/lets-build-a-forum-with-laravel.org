@@ -219,3 +219,11 @@
      1. =it_records_activity_when_a_thread_is_created=
      2. =it_records_activity_when_a_reply_is_created=
    - Use trait it Laravel, it will auto trigger =boot<TraitName>= method.
+
+** DONE How To Construct an Activity Feed with TDD: Part 2
+   CLOSED: [2018-08-01 Wed 17:49]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 17:49]
+   Now that we've written the necessary code to record all relevant activity, in this episode, we can render it onto the user's profile page, and group all relevant records according to their date.
+   - Basic polymorphic views
+   - =groupBy(closure)=
+   - =@component= blade directive
