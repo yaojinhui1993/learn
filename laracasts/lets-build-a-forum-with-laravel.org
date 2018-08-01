@@ -193,3 +193,12 @@
    - Tests
      1. =a_user_has_a_profile=
      2. =profiles_display_all_threads_created_by_the associated_user=
+
+** DONE A User Can Delete Their Threads
+   CLOSED: [2018-08-01 Wed 16:39]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 16:39]
+   One simple ability that we haven't yet implemented is the option to delete threads. If "John Doe" creates a thread and later change his mind, let's allow him to delete it entirely.
+   - Tests
+     1. =a_thread_can_be_deleted=
+     2. =guests_cannot_delete_threads=
+     3. =threads_may_only_be_deleted_by_those_who_has_permission=
