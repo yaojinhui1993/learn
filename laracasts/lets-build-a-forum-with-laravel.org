@@ -185,3 +185,11 @@
    - State "DONE"       from "STARTED"    [2018-08-01 Wed 16:04]
    In this episode, we'll continue optimizing our SQL queries. Specifically, we'll review global Eloquent scopes and the useful =$with= property to automatically eager load any necessary relationships.
    - =protected $with= property, global eager load relationship
+
+** DONE A User Has a Profile
+   CLOSED: [2018-08-01 Wed 16:21]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 16:21]
+   It would be useful if every user in our forum had an associated profile page. That way, we can review more information about them, including all threads that they've personally created.
+   - Tests
+     1. =a_user_has_a_profile=
+     2. =profiles_display_all_threads_created_by_the associated_user=
