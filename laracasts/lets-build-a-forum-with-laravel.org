@@ -105,3 +105,9 @@
      - =a_user_can_filter_threads_according_to_a_tag=
      - =a_channel_consists_of_threads=
    - =Route Model Binding= use the =getRouteKeyName= method to change binding column.
+
+** DONE Validation Errors and Old Data
+   CLOSED: [2018-08-01 Wed 10:32]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 10:32]
+   In this episode, we need to do a bit of work on the "create thread" page. We'll first add a link to the navigation bar, and then move on to tweaking the form, itself. Specifically, we shuld provide validation error feedback, and ensure that any text that the user types into the forum's various fields will be remembered if a validation error is triggered.
+   - =old()= method to fetch the user typed
