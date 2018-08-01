@@ -135,3 +135,16 @@
      2. Thread@scopeFilter
      3. ThreadFilters@apply
      4. Abstract Filters
+
+** DONE Meta Details and Pagination
+   CLOSED: [2018-08-01 Wed 14:13]
+   - State "DONE"       from "TODO"       [2018-08-01 Wed 14:13]
+   We should add a sidebar to each thread page for various meta information, such as when the thread was published, how many replies it has, and more. Further, we've yet to add pagination to our app. What happens when a thread has over one hundred replies? Let's ensure that we put the propper pagination links in place.
+   - Add replies count method
+     1. =$thread->replies->count()=
+     2. =$thread->replies()->count()=
+     3. =$thread->withCount('replies')=
+     4. In =static::addGlobalScoped($builder)= add =$thread->withCount('replies')=
+     5. use dynamic attribute =getRepliesCountAttribute=
+   - =str_plural()=
+   - Replationship Pagination =$thread->replies()->paginate(10)=
