@@ -202,3 +202,11 @@
      1. =a_thread_can_be_deleted=
      2. =guests_cannot_delete_threads=
      3. =threads_may_only_be_deleted_by_those_who_has_permission=
+
+** DONE Authorization with Polices
+   CLOSED: [2018-08-01 Wed 17:00]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 17:00]
+   We must be careful that we don't inadvertently give any registered form user the ability to delete all threads. Let's create a policy class to ensure that this cann't happen.
+   - Tests
+     1. =unauthrozed_users_may_not_delete_threads=
+     2. =authorized_users_can_delete_threads=
