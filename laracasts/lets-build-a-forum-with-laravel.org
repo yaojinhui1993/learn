@@ -210,3 +210,12 @@
    - Tests
      1. =unauthrozed_users_may_not_delete_threads=
      2. =authorized_users_can_delete_threads=
+
+** DONE How to Construct an Activity Feed with TDD
+   CLOSED: [2018-08-01 Wed 17:29]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 17:29]
+   In this episode, we'll use TDD to drive out and activity feed. That way, we can, for example, track when a user creates a new forum thread, or posts a reply. As always, we'll begin with the most basic implementation. Once we get to green, we can then move on to the refactoring stage to clean things up drastically.
+   - Tests
+     1. =it_records_activity_when_a_thread_is_created=
+     2. =it_records_activity_when_a_reply_is_created=
+   - Use trait it Laravel, it will auto trigger =boot<TraitName>= method.
