@@ -125,3 +125,13 @@
    It would be nice if any user could have a link that displays only the threads that they've personally created. Even beyond that, why not allow for the ability to view any forum user's threads? Let's figure out how in this episode.
    - Tests
      1. =a_user_can_filter_threads_by_any_username=
+
+** DONE A Lession In Refactoring
+   CLOSED: [2018-08-01 Wed 11:33]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 11:33]
+   Since it seems that filtering will be an important component to our application, let's take a bit of time to perform some refactoring. Luckily, because we have a set of tests to back us up every step of the way, we can be as bold as wish. There's no fear of breaking the app, if your tests will notify you the second you make a refactoring error.
+   - Sequence
+     1. ThreadsController@index
+     2. Thread@scopeFilter
+     3. ThreadFilters@apply
+     4. Abstract Filters
