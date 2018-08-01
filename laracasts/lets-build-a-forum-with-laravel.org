@@ -157,3 +157,12 @@
      1. =a_user_can_filter_threads_by_popularity=
    - Use relationship to order =$thread->orderBy('replies_count', 'desc')=
    - Clear exists =orders=: =$this->builder->getQuery()->order = []=
+
+** DONE A User Can Favorite Replies
+   CLOSED: [2018-08-01 Wed 15:09]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 15:09]
+   It would be useful if authenticated users could have the ability to "favorite" any reply within a thread. Let's begin impementing that functionality now, by using polymorphic relations.
+   - Tests
+     1. =an_authenticated_user_can_favorite_any_reply=
+     2. =guest_cannot_favorite_anything=
+     3. =an_authenticated_user_may_only_favorite_a_reply_once=
