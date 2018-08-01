@@ -179,3 +179,9 @@
    CLOSED: [2018-08-01 Wed 15:44]
    - State "DONE"       from "STARTED"    [2018-08-01 Wed 15:44]
    Let's review the N+1 problem, as it relates to Eloquent. To do so, we'll install =Laravel Debugbar= so that we can analyze the exact SQL quires that are being executed for each page load. As you'll learn, there are a variety of simple steps we can follow to reduce our query count by the dozens.
+
+** DONE Global Scopes and Further Query Reduction
+   CLOSED: [2018-08-01 Wed 16:04]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 16:04]
+   In this episode, we'll continue optimizing our SQL queries. Specifically, we'll review global Eloquent scopes and the useful =$with= property to automatically eager load any necessary relationships.
+   - =protected $with= property, global eager load relationship
