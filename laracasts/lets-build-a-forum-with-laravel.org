@@ -227,3 +227,10 @@
    - Basic polymorphic views
    - =groupBy(closure)=
    - =@component= blade directive
+
+** DONE Extracting Controller Queries to the Model
+   CLOSED: [2018-08-01 Wed 18:00]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 18:00]
+   At the moment, we have long, fluent Eloquent query in our controller. Instead, let's use TDD to extract it into the =Activity= model.
+   - Tests
+     1. =it_fetch_a_feed_for_any_user=
