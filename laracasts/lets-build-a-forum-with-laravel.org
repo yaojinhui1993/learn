@@ -148,3 +148,12 @@
      5. use dynamic attribute =getRepliesCountAttribute=
    - =str_plural()=
    - Replationship Pagination =$thread->replies()->paginate(10)=
+
+** DONE A User Can Filter Threads By Popularity
+   CLOSED: [2018-08-01 Wed 14:44]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 14:44]
+   It would be nice if users had the ability to filter all threads by popularity. That way, the most active threads will bubble to the top of the stack. Let's write a test and then implement this very feature.
+   - Tests
+     1. =a_user_can_filter_threads_by_popularity=
+   - Use relationship to order =$thread->orderBy('replies_count', 'desc')=
+   - Clear exists =orders=: =$this->builder->getQuery()->order = []=
