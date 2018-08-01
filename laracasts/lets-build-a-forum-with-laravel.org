@@ -96,3 +96,12 @@
    - Get response Location =$response->headers->get('Location')=
    - =assertSessionHasErrors('property')= when test validation errors
    - Encapsulate =disabledErrorHandling= and =signIn= and =post to server=  in =publishThread= for quickly test =Validation Errors=
+
+** DONE Users Can Filter Threads By Channel
+   CLOSED: [2018-08-01 Wed 10:18]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 10:18]
+   Now that we've associated all threads with a channel, we can now perform the necessary UI updates to allow users to filter threads by their desired channel.
+   - Tests
+     - =a_user_can_filter_threads_according_to_a_tag=
+     - =a_channel_consists_of_threads=
+   - =Route Model Binding= use the =getRouteKeyName= method to change binding column.
