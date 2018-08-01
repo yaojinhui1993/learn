@@ -54,3 +54,9 @@
    CLOSED: [2018-07-31 Tue 13:33]
    - State "DONE"       from "STARTED"    [2018-07-31 Tue 13:33]
    Much of this feature is now working, so let's finally view it in the browser. We'll start by preparing a few sample achievement badges, and then seeding and fetching a user's achievements. Once we have this information, is should be as simple as looping through all achievements, and toggling a CSS class that indicates if the current user has been awarded the related badge.
+
+** DONE Viewing Earned Achivements: Part 2
+   CLOSED: [2018-08-01 Wed 09:19]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 09:19]
+   In this lesson, we'll construct a view that displays which achievements the current user has and has not been awarded.
+   - CSS =filter: grayscale(0.2)= properties, when hover the DOM element.
