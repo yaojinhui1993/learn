@@ -166,3 +166,11 @@
      1. =an_authenticated_user_can_favorite_any_reply=
      2. =guest_cannot_favorite_anything=
      3. =an_authenticated_user_may_only_favorite_a_reply_once=
+
+** DONE The Favorite Button
+   CLOSED: [2018-08-01 Wed 15:33]
+   - State "DONE"       from "STARTED"    [2018-08-01 Wed 15:33]
+   Now that we've tested the full process of favoriting a reply, we can move on to creating the form to process this action for the user. In the process, we'll begin discussing the N+1 problem.
+   - =$thread->load('replies')=, eager load one layer relationship
+   - =$thread->load('replies.favorites)->load('replies.owner')=, eager load more layer relationships
+   - =$this->hasMany()->withCount('favorties')= in =Thread@replies=, defined relationship and eagor count the favorites count for replies.
