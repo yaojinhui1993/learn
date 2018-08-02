@@ -381,3 +381,9 @@
    CLOSED: [2018-08-02 Thu 16:36]
    - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:36]
    We can finally switch over to the client-side, and begin constructing a =user-notifications= Vue component the will be responsible for fectching all relevant notifcations and rendering them within a "bell" dropdown panel.
+
+** DONE Refactoring for the Better or Worse?
+   CLOSED: [2018-08-02 Thu 16:55]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:55]
+   Let's perform a round of refactoring in this episode. But there's a twist! At the conclusion of the refactor, we'll take a very important step. That step is to ask ourselvers, "Is the code better as a result of this refactor? Or did we make it more confusing?"
+   - As simple and clean as possible.
