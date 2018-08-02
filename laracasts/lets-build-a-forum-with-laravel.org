@@ -387,3 +387,11 @@
    - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:55]
    Let's perform a round of refactoring in this episode. But there's a twist! At the conclusion of the refactor, we'll take a very important step. That step is to ask ourselvers, "Is the code better as a result of this refactor? Or did we make it more confusing?"
    - As simple and clean as possible.
+
+** DONE Notification Fakes in a Nutshell
+   CLOSED: [2018-08-02 Thu 17:04]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 17:04]
+   If you check out =ThreadTest= class, you'll notice that we don't yet have a test that asserts that, each time a reply is added to a thread, a notification should be prepared for all thread subscribers. Let's use a notification fake to test this functionality.
+   - Tests
+     - =a_thread_notifies_all_registered_subscribers_when_a_reply_is_added=
+   - =Notification::fake()= and =assertSendTo()=
