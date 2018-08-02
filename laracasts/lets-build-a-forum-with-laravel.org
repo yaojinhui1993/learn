@@ -337,3 +337,11 @@
    I've learned from running the laracasts forum that users often want to filter all threads according to those that have not yet received replies. Let's add that very functionality in this episode.
    - Tests
      - =a_user_can_filter_threads_by_those_that_are_unawsered=
+
+** DONE Thread Subscriptions: Part 1
+   CLOSED: [2018-08-02 Thu 14:55]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 14:55]
+   It would be useful if users could subscribe to any number of threads in our forum. That way, each time a reply is left, the user will immediately be notified. Let's get started implementing this very functionality.
+   - Tests
+     - =a_thread_can_be_subscribed_to=
+     - =a_thread_can_be_unsubscribed_from=
