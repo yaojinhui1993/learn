@@ -421,3 +421,9 @@
      - =it_checks_invalid_keywords=
      - =it_checks_any_key_being_held_down=
    - Detect great equal than 4 characters =preg_match('/(.)\\1{4,}/', 'aaaaaaa', $match)=
+
+** DONE Spam Detection At All Ports
+   CLOSED: [2018-08-03 Fri 07:59]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 07:59]
+   At the moment, we only perform spam detection when the user writes a new reply. But what about when they update the new reply, or post a new thread entriely? In this lesson, we'll review some options for performing spam detection for each of these actions.
+   - When replicate code more than three sceonds, it should be refactor.
