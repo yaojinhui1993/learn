@@ -412,3 +412,12 @@
      - =replies_that_contain_spam_may_not_be_created=
      - =it_validates_spam=
    - Use Tests to play the code for what I want.
+
+** DONE Graduating Inspection Methods to Classes
+   CLOSED: [2018-08-02 Thu 18:09]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 18:09]
+   Rather than adding countless inspections to our single =Spam= class, instead, let's elevate each of these inspections to its own class. Then, our =Spam= class can simply filter through all registered inspections, and trigger them. Much cleaner.
+   - Tests
+     - =it_checks_invalid_keywords=
+     - =it_checks_any_key_being_held_down=
+   - Detect great equal than 4 characters =preg_match('/(.)\\1{4,}/', 'aaaaaaa', $match)=
