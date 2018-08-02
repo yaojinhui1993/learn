@@ -321,3 +321,12 @@
    Now that we're thinking in terms of Vue collections, we can easily turn the form for publishing a new reply into its own component. This way, when the user submit the form, we can simply perform an AJAX call to persist the data, and then push to the "replies" collection - which will, in response, automatically trigger a re-render.
    - =$reply->load('owner')=
    - =loaction.pathname= get current url path
+
+** DONE Laravel and Vue Pagination
+   CLOSED: [2018-08-02 Thu 14:16]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 14:16]
+   Since we're now rendering all replies with JavaScript, we can no longer depend upon rendering pagination links on the server side. To compensate, let's crete a dedicated =paginator= Vue component to handle all the necessary logic behavior.
+   - Tests
+     - =a_user_can_request_all_replies_for_a_given_thread=
+   - Vue =Mixins=
+   - =history.pushState= update url
