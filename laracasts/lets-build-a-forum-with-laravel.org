@@ -248,3 +248,9 @@
    In this episode, we'll implement an elegant flash messaging system, using Vue. That way, when a user performs an important action, we can flash a quick message to indicate the outcome.
    - =redirect('/route')->with('flash', 'You state has been updated')= Redirect with flash session message.
    - Vue instance implement Event bus
+
+** DONE A User's Activity Feed Should Include Favorited Replies
+   CLOSED: [2018-08-02 Thu 09:58]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 09:58]
+   At the moment, a user's activity feed will exclusively display a timeline of their own threads and replies. Let's extend that in this episode to include any replies that they've favorited.
+   =view('<file-path>')->exists()=
