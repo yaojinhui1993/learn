@@ -345,3 +345,10 @@
    - Tests
      - =a_thread_can_be_subscribed_to=
      - =a_thread_can_be_unsubscribed_from=
+
+** DONE Thread Subscriptions: Part 2
+   CLOSED: [2018-08-02 Thu 15:10]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 15:10]
+   Now that our model tests prove that users can properly subscribe to threads. let's move up a level and right the general feature that describes what should happen when a particular endpoint is triggered.
+   - Tests
+     - =a_user_can_subscribe_to_threads=
