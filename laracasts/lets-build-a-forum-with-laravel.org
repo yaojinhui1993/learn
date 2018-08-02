@@ -403,3 +403,12 @@
    - Tests
      - =a_thread_can_check_if_the_authenticated_user_has_read_all_replies=
    - =<some-thing>CacheKey=
+
+** DONE Spam Detection
+   CLOSED: [2018-08-02 Thu 17:54]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 17:54]
+   Spam is a sad reality of any successful forum, and we can't ignore it. In this episode, let's begin constructing a series of spam detectors. We'll start with basic keyword detection, but this will soon evolve to all sorts of inspections.
+   - Tests
+     - =replies_that_contain_spam_may_not_be_created=
+     - =it_validates_spam=
+   - Use Tests to play the code for what I want.
