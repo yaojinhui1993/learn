@@ -293,3 +293,8 @@
        }
      #+END_SRC
    - =isFavorited= to =active= and =favoritesCount= to =count=
+
+** DONE Squashing Bugs
+   CLOSED: [2018-08-02 Thu 11:26]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 11:26]
+   I think we've introduced a couple of bugs related to adding and removing activity. Let's work through them in this episode and patch things up, before moving on to a new feature.
