@@ -370,3 +370,9 @@
      - =a_notification_is_prepared_when_a_subscribed_thread_receievs_a_new_reply_that_is_not_by_the_current_user=
      - =a_user_can_mark_a_notification_as_read=
      - =a_user_can_fetch_their_unread_notifications=
+
+** DONE Test Refactoring
+   CLOSED: [2018-08-02 Thu 16:19]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:19]
+   Let's take a few moments to refactor the tests in our =NotificationsTest= class. A handful of tweaks should makes this file far more simple to read and understand six months from now.
+   - =tap()=
