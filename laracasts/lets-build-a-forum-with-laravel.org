@@ -272,3 +272,9 @@
      - =unauthorized_users_cannot_update_replies=
    - =inline-template=
    - =:attribute = {{ $reply }}= $reply object automatically transform to json object to Vue props.
+
+** DONE Ajaxifying The Delete Button
+   CLOSED: [2018-08-02 Thu 10:47]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 10:47]
+   Now that each reply is wrapped within a dedicated Vue instance, we can easily swap out the traditional form for deleting the reply with a snappier AJAX version that doesn't require a page refresh.
+   - =$(this.$el).fadeOut(300)= self fade out after 300ms
