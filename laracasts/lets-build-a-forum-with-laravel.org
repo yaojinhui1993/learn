@@ -262,3 +262,13 @@
    - Tests
      - =unauthorized_users_cannot_delete_replies=
      - =authorized_users_can_delete_replies=
+
+** DONE A Vue Reply Component
+   CLOSED: [2018-08-02 Thu 10:34]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 10:34]
+   We're starting to realize that each individual form reply should have a decent amount of behavior associated with it. With that in mind, in this episode we'll create a dedicated Vue component for a reply, and then implement the necessary functionality to quickly edit the body of a reply without requiring a page refresh.
+   - Tests
+     - =authorized_users_can_update_replies=
+     - =unauthorized_users_cannot_update_replies=
+   - =inline-template=
+   - =:attribute = {{ $reply }}= $reply object automatically transform to json object to Vue props.
