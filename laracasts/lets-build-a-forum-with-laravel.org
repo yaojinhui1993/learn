@@ -234,3 +234,10 @@
    At the moment, we have long, fluent Eloquent query in our controller. Instead, let's use TDD to extract it into the =Activity= model.
    - Tests
      1. =it_fetch_a_feed_for_any_user=
+** DONE The Activity Deletion Bug
+   CLOSED: [2018-08-02 Thu 09:26]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 09:26]
+   I think we have a bug in our activity feed. What happens if we delete a thread? Will that cascade and delete all relevant activity in the process? And, if not, what happens when we try to view the user's profile page? Hmm, let's write a regression test to find out.
+   - Tests
+     - =authorized_users_can_delete_threads=
+   - =$thread->replies()->delete()= this is queryBuilder, so can not trigger =deleting= event. If want to trigger event, should use =$thread->replies->each->delete()= Eloquent collections.
