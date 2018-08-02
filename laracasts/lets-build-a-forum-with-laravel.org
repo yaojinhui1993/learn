@@ -352,3 +352,12 @@
    Now that our model tests prove that users can properly subscribe to threads. let's move up a level and right the general feature that describes what should happen when a particular endpoint is triggered.
    - Tests
      - =a_user_can_subscribe_to_threads=
+
+** DONE Thread Subscriptions: Part 3
+   CLOSED: [2018-08-02 Thu 15:29]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 15:29]
+   Let's take a bit of time on the UI side of things. We need to prepare a "subscribe" Vue component that handles the behavior of toggling the current user's subscription to any given thread.
+   - Tests
+     - =it_knows_if_the_authenticated_user_is_subscribed_to_it=
+     - =a_user_can_unsubscribe_from_threads=
+   - =json_encode(boolean)= return the boolean string type
