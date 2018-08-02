@@ -241,3 +241,10 @@
    - Tests
      - =authorized_users_can_delete_threads=
    - =$thread->replies()->delete()= this is queryBuilder, so can not trigger =deleting= event. If want to trigger event, should use =$thread->replies->each->delete()= Eloquent collections.
+
+** DONE Flash Messaging with Vue
+   CLOSED: [2018-08-02 Thu 09:48]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 09:48]
+   In this episode, we'll implement an elegant flash messaging system, using Vue. That way, when a user performs an important action, we can flash a quick message to indicate the outcome.
+   - =redirect('/route')->with('flash', 'You state has been updated')= Redirect with flash session message.
+   - Vue instance implement Event bus
