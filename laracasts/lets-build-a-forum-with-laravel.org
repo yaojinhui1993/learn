@@ -376,3 +376,8 @@
    - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:19]
    Let's take a few moments to refactor the tests in our =NotificationsTest= class. A handful of tweaks should makes this file far more simple to read and understand six months from now.
    - =tap()=
+
+** DONE Thread Subscriptions: Part 5
+   CLOSED: [2018-08-02 Thu 16:36]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 16:36]
+   We can finally switch over to the client-side, and begin constructing a =user-notifications= Vue component the will be responsible for fectching all relevant notifcations and rendering them within a "bell" dropdown panel.
