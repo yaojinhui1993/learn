@@ -254,3 +254,11 @@
    - State "DONE"       from "STARTED"    [2018-08-02 Thu 09:58]
    At the moment, a user's activity feed will exclusively display a timeline of their own threads and replies. Let's extend that in this episode to include any replies that they've favorited.
    =view('<file-path>')->exists()=
+
+** DONE Authorized Users Can Delete Replies
+   CLOSED: [2018-08-02 Thu 10:10]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 10:10]
+   We're still missing a very basic piece of functionality. Any authorized user should be able to delete a reply. Let's implement that in this episode.
+   - Tests
+     - =unauthorized_users_cannot_delete_replies=
+     - =authorized_users_can_delete_replies=
