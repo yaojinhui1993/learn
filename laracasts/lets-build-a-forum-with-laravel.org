@@ -330,3 +330,10 @@
      - =a_user_can_request_all_replies_for_a_given_thread=
    - Vue =Mixins=
    - =history.pushState= update url
+
+** DONE A User Can Filter By Unawnsered Threads
+   CLOSED: [2018-08-02 Thu 14:39]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 14:39]
+   I've learned from running the laracasts forum that users often want to filter all threads according to those that have not yet received replies. Let's add that very functionality in this episode.
+   - Tests
+     - =a_user_can_filter_threads_by_those_that_are_unawsered=
