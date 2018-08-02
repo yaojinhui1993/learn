@@ -278,3 +278,18 @@
    - State "DONE"       from "STARTED"    [2018-08-02 Thu 10:47]
    Now that each reply is wrapped within a dedicated Vue instance, we can easily swap out the traditional form for deleting the reply with a snappier AJAX version that doesn't require a page refresh.
    - =$(this.$el).fadeOut(300)= self fade out after 300ms
+
+** DONE A Vue Favorite Component
+   CLOSED: [2018-08-02 Thu 11:10]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 11:10]
+   We have one last piece of the puzzle, when it comes to our =Reply= component. The favoriting functionality still consists of a traditional form. Let's turn that into a dedicated =Favorite= component to clean things up.
+   - Tests
+     - =an_authenticated_user_can_unfavorite_a_reply=
+   - =$appends= Laravel model append attribute
+   - Vue bind classes with computed property
+     #+BEGIN_SRC js
+       computed: () {
+           return ['btn', this.isFavorited ? 'btn-primary' : 'btn-default'];
+       }
+     #+END_SRC
+   - =isFavorited= to =active= and =favoritesCount= to =count=
