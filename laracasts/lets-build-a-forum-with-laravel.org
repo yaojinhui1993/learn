@@ -314,3 +314,10 @@
            return handler(window.App.user)
        })
      #+END_SRC
+
+** DONE A New Reply Component
+   CLOSED: [2018-08-02 Thu 12:31]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 12:31]
+   Now that we're thinking in terms of Vue collections, we can easily turn the form for publishing a new reply into its own component. This way, when the user submit the form, we can simply perform an AJAX call to persist the data, and then push to the "replies" collection - which will, in response, automatically trigger a re-render.
+   - =$reply->load('owner')=
+   - =loaction.pathname= get current url path
