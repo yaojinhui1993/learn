@@ -395,3 +395,11 @@
    - Tests
      - =a_thread_notifies_all_registered_subscribers_when_a_reply_is_added=
    - =Notification::fake()= and =assertSendTo()=
+
+** DONE This Thread Has Been Updated Since You Last Read It.
+   CLOSED: [2018-08-02 Thu 17:32]
+   - State "DONE"       from "STARTED"    [2018-08-02 Thu 17:32]
+   It would be useful if users could have a small visual cue that any given thread has been updated since they last read it. This indication could be as small as making the title of the thread bold in such instances. So how do we allow for this? Well, while there's countless ways to implement this, let's try using basic caching.
+   - Tests
+     - =a_thread_can_check_if_the_authenticated_user_has_read_all_replies=
+   - =<some-thing>CacheKey=
