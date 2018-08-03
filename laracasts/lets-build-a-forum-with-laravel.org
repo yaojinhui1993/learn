@@ -597,3 +597,8 @@
    We next need to display the visits/views count for each thread on each page. If only for learning purposes, we'll review three different implementations - one per episode - while discussing the pros and cons for each. To begin, let's assume that the forum we're building will be incredibly popular. If so, we might consider using Redis to track and increment the views count each time the page is loaded. Let's get started.
    - Tests
      - =a_theard_record_each_visit= in =ThreadTest=
+
+** DONE Thread Views: Design #2 - Extract Class
+   CLOSED: [2018-08-03 Fri 17:07]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 17:07]
+   In the previous episode, we successfully recorded the views count through a single trait, or concern. However, you may notice that the "visit"  suffix is referenced in a number of method names. When you encounter repeated keywords, often it's an indication that a class is requesting to be extracted. Let's tacle that very thing in this episode, and then review the before and later.
