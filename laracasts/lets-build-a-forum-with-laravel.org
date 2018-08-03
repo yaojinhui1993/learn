@@ -528,3 +528,10 @@
    - =Storage::fake()=
    - =Storage::disk('public')->assertExists('avatars/avatars.jpg')=
    - =$file->hashName()=
+
+** DONE Testing Avatar Uploads: Part 2
+   CLOSED: [2018-08-03 Fri 15:12]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 15:12]
+   Now that we've mostly driven out the backend side of things, let's shift our attention to the view layer. We should present a form to the user, so that they may choose an avatar to upload and associate with their profile.
+   - Tests
+     - =a_user_can_determine_their_avatar_path= in =UserTest=
