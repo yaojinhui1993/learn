@@ -475,3 +475,11 @@
    - Tests
      - =mentioned_a_user_in_reply_is_notified= in =MentionUsersTest=
    - =preg_match_all('/\@[^\s\.]+/', $reply->body, $matches)= match all reply body that start '@' and end '.' or ' ' characters.
+
+** DONE Mentioned Users Notification: Part 2
+   CLOSED: [2018-08-03 Fri 11:39]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 11:39]
+   Now that we're at green, we can begin refactoring out code. Let's use a basic eventing setup, now that we have multiple actions that need to take place each time a reply is posted.
+   - Tests
+     - =it_can_detect_all_mentioned_users_in-the_body= in =ReplyTest=
+   - =filter()= method without any arguments, will filter all empty items.
