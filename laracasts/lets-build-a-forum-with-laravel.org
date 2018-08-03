@@ -460,3 +460,10 @@
    - Use =lastReply= in relationship
      - =return $this->hasOne(Reply::class)->latest()=
    - When test not expect, consider is eager loading problem.
+
+** DONE Refactoring to Form Requests
+   CLOSED: [2018-08-03 Fri 11:02]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 11:02]
+   The =RepliesController= method that handles the submission of a new reply still feels a bit bloated to me. In this episode, we'll refactor it down to a single method call.
+   - =php artisan make:request CreatePostForm=
+   - Overrided requestForm =failedAuthorization= method.
