@@ -437,3 +437,10 @@
      - remove =node_modules/*= files
      - run =npm install= command
    - =npm list --depth=0=
+
+** DONE Refactoring to Custom Validation
+   CLOSED: [2018-08-03 Fri 10:12]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 10:12]
+   As we've implemented our spam detection layer, have you noticed that we've split the validation process into two steps? First, we trigger Laravel's built-in validators, then we apply our spam detection. What if we could create a custom validation rule instead and clean up our code in the process? Well , we can
+   - Extend Validator: =Validator::extend('spamfree', 'App\Rules\SpamFree@passes')=
+   - Validation Message in =resources/lang/en/validation.php=
