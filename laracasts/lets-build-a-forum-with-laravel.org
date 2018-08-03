@@ -570,3 +570,18 @@
        }
      #+END_SRC
    - Vue normal props merge to the component's root element.
+
+** DONE Trending Threads with Redis
+   CLOSED: [2018-08-03 Fri 16:18]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 16:18]
+   It would be useful if visitors could instantly see which threads are currently trending on our forum. An incredibly simply way to implement this is through sorted sets with Redis. Let's get started.
+   - Tests
+     - =it_incremens_a_thread_score_each_time_it_is_read= in =TrendingThreadsTest=
+   - Redis sorted sets
+     #+BEGIN_SRC bash
+       zincrby 'trending_threads' 1 'Some thread title'
+
+       zincrby 'trending_threads' 1 'Another thread title'
+
+       zrange 'treanding_threads' 0 -1
+     #+END_SRC
