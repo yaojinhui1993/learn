@@ -467,3 +467,11 @@
    The =RepliesController= method that handles the submission of a new reply still feels a bit bloated to me. In this episode, we'll refactor it down to a single method call.
    - =php artisan make:request CreatePostForm=
    - Overrided requestForm =failedAuthorization= method.
+
+** DONE Mentioned Users Notification: Part 1
+   CLOSED: [2018-08-03 Fri 11:23]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 11:23]
+   The next feature we need to implement is the ability for users to receive automatic notifications each time their username is mentioned within a thread. We'll get started in this episode by preparing a test, and then writing the least amount of code to get it to green.
+   - Tests
+     - =mentioned_a_user_in_reply_is_notified= in =MentionUsersTest=
+   - =preg_match_all('/\@[^\s\.]+/', $reply->body, $matches)= match all reply body that start '@' and end '.' or ' ' characters.
