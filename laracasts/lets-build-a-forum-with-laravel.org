@@ -444,3 +444,19 @@
    As we've implemented our spam detection layer, have you noticed that we've split the validation process into two steps? First, we trigger Laravel's built-in validators, then we apply our spam detection. What if we could create a custom validation rule instead and clean up our code in the process? Well , we can
    - Extend Validator: =Validator::extend('spamfree', 'App\Rules\SpamFree@passes')=
    - Validation Message in =resources/lang/en/validation.php=
+
+** DONE A User May Not Reply More Than Once Per Minute
+   CLOSED: [2018-08-03 Fri 10:35]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 10:35]
+   At the moment, any spanner can write a program to leave a forum reply every five seconds. Yikes! Let's at the very least limit users to no more than one reply per minute.
+   - Tests
+     - =users_may_only_reply_a_maximum_of_once_per_minute=
+     - =a_user_can_fetch_their_most_recent_reply=
+     - =it_knows_if_it_was_just_published= in =ReplyTest=
+   - Ways
+     1. Compare current user last reply create time.
+        In policy class
+     2. Use =throttle= middleware
+   - Use =lastReply= in relationship
+     - =return $this->hasOne(Reply::class)->latest()=
+   - When test not expect, consider is eager loading problem.
