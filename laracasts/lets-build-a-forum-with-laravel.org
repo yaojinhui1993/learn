@@ -510,3 +510,8 @@
    Now that we understand how the At.js plugin works, we can begin integrating it into our forum. Let's get a working implementation setup in this episode.
    - Tests
      - =it_can_fetch_all_mentioned_users_starting_with_the_given_characters= in =MentionUsersTest=
+
+** DONE Basic View Tweaks
+   CLOSED: [2018-08-03 Fri 14:25]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 14:25]
+   Before we move on to a few more important new features, let's take some time to perform some smaller tweaks. For instance, on the thread listing page, we should display the author's name. Additionally, we aren't using pagination here. Let's fix both of these issues now.
