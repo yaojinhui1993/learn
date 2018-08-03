@@ -497,3 +497,9 @@
      - =it_wraps_mentioned_usernames_in_the_body_within_anchor_tags= in =ReplyTest=
    - =setBodyAttribute=
    - =preg_replace('/@([\w\-]+)/', '<a href="/profiles/$1">$0</a>', $body)=
+** DONE Instant Username Autocompletion
+   CLOSED: [2018-08-03 Fri 13:49]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 13:49]
+   In this episode, we'll begin researching how to allow for GitHub-style instant =@username= autocompletion. During the research phase, we'll set up a brand new throw-away project to learn =how it will work=. Then, once we feel comfortable, in the next episode we'll intergrate autocompletion into our forum.
+   - =v-html=
+   - [[github.com/ichord/At.js][At.js]]
