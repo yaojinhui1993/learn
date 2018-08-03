@@ -503,3 +503,10 @@
    In this episode, we'll begin researching how to allow for GitHub-style instant =@username= autocompletion. During the research phase, we'll set up a brand new throw-away project to learn =how it will work=. Then, once we feel comfortable, in the next episode we'll intergrate autocompletion into our forum.
    - =v-html=
    - [[github.com/ichord/At.js][At.js]]
+
+** DONE Instant Username Autocompletion: Part 2
+   CLOSED: [2018-08-03 Fri 14:13]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 14:13]
+   Now that we understand how the At.js plugin works, we can begin integrating it into our forum. Let's get a working implementation setup in this episode.
+   - Tests
+     - =it_can_fetch_all_mentioned_users_starting_with_the_given_characters= in =MentionUsersTest=
