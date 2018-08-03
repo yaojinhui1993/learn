@@ -585,3 +585,8 @@
 
        zrange 'treanding_threads' 0 -1
      #+END_SRC
+
+** DONE Isolating Knowledge
+   CLOSED: [2018-08-03 Fri 16:34]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 16:34]
+   In this episode, we'll continue reviewing our trending threads in Redis logic. Could we possibly extract this code to a dedicated class? And if we did so, what benifits might we encounter as a result?
