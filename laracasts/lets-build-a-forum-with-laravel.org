@@ -602,3 +602,11 @@
    CLOSED: [2018-08-03 Fri 17:07]
    - State "DONE"       from "STARTED"    [2018-08-03 Fri 17:07]
    In the previous episode, we successfully recorded the views count through a single trait, or concern. However, you may notice that the "visit"  suffix is referenced in a number of method names. When you encounter repeated keywords, often it's an indication that a class is requesting to be extracted. Let's tacle that very thing in this episode, and then review the before and later.
+
+** DONE Thread Views: Design #3 - KISS
+   CLOSED: [2018-08-03 Fri 17:28]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 17:28]
+   Finally, we've made it to our third and final design choice: KISS. A vital skill for all web developers in to understand when certain optimizations and refactors are necessary, and when it simply doesn't matter. In the case of this particular feature, would it be easier if we simply added a "visit" column to our threads table? Yes, we'd need to increment this count each time a thread is read, but is that necessarily a problem? Are we anticipating a scale and level of traffic that demands such an optimizations? If not, keep it simple.
+   - Tests
+     - =we_record_a_new_visit_each_time_the_thread_is_read= in =ReadThreadTests=
+   - Keep it simple and stupid
