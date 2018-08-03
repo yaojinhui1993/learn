@@ -488,3 +488,12 @@
    CLOSED: [2018-08-03 Fri 12:39]
    - State "DONE"       from "STARTED"    [2018-08-03 Fri 12:39]
    An important part of your workflow involves file scanning. Yes, your code works. Yes, the test pass. But, even so, take a third pass and scall all relevant files. Does anything jump out at you? Are there any small tweaks that might add more clarity? Should that variable be inlined? Can we reduce the number of queries over here?
+
+** DONE Wrap Usernames Within Anchor Tags
+   CLOSED: [2018-08-03 Fri 12:51]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 12:51]
+   Now that we can successfully notify mentioned usernames within a reply, let's begin updating the UI. First up, we'll match any usernames, and wrap them within anchor tags that link to their profile.
+   - Tests
+     - =it_wraps_mentioned_usernames_in_the_body_within_anchor_tags= in =ReplyTest=
+   - =setBodyAttribute=
+   - =preg_replace('/@([\w\-]+)/', '<a href="/profiles/$1">$0</a>', $body)=
