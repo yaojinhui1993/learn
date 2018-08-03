@@ -515,3 +515,16 @@
    CLOSED: [2018-08-03 Fri 14:25]
    - State "DONE"       from "STARTED"    [2018-08-03 Fri 14:25]
    Before we move on to a few more important new features, let's take some time to perform some smaller tweaks. For instance, on the thread listing page, we should display the author's name. Additionally, we aren't using pagination here. Let's fix both of these issues now.
+
+** DONE Testing Avatar Uploads
+   CLOSED: [2018-08-03 Fri 14:49]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 14:49]
+   We should next allow users to upload avatars for their profile. As always, let's take a test-driven approach to thisk task. As you'll find, Laravel offers a number of resources to make the process of testing file uploads incredibly easy.
+   - Tests
+     - =only_members_can_add_avatars= in =AddAvatarTest=
+     - =a_valid_avatar_must_be_provided= in =AddAvatarTest=
+     - =a_user_may_add_avatar_to_their_profile=
+   - =UploadedFile::fake()->image('avatar.jpg')=
+   - =Storage::fake()=
+   - =Storage::disk('public')->assertExists('avatars/avatars.jpg')=
+   - =$file->hashName()=
