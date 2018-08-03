@@ -590,3 +590,10 @@
    CLOSED: [2018-08-03 Fri 16:34]
    - State "DONE"       from "STARTED"    [2018-08-03 Fri 16:34]
    In this episode, we'll continue reviewing our trending threads in Redis logic. Could we possibly extract this code to a dedicated class? And if we did so, what benifits might we encounter as a result?
+
+** DONE Thread Views: Design #1 - Trait
+   CLOSED: [2018-08-03 Fri 16:54]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 16:54]
+   We next need to display the visits/views count for each thread on each page. If only for learning purposes, we'll review three different implementations - one per episode - while discussing the pros and cons for each. To begin, let's assume that the forum we're building will be incredibly popular. If so, we might consider using Redis to track and increment the views count each time the page is loaded. Let's get started.
+   - Tests
+     - =a_theard_record_each_visit= in =ThreadTest=
