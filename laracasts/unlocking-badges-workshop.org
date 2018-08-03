@@ -60,3 +60,11 @@
    - State "DONE"       from "STARTED"    [2018-08-01 Wed 09:19]
    In this lesson, we'll construct a view that displays which achievements the current user has and has not been awarded.
    - CSS =filter: grayscale(0.2)= properties, when hover the DOM element.
+** DONE We Need a Seeder Console Command
+   CLOSED: [2018-08-04 Sat 03:40]
+   - State "DONE"       from "STARTED"    [2018-08-04 Sat 03:40]
+   One we deploy this new feature, initially, it will appear as if all users have zero achievements. This is because the logic that syncs a users achievements does not take place until they've accrued new experience points. To fix this, let's use TDD to construct an artisan command to seed all user achievements in our system.
+   - Tests
+     - =achievements_can_be_seeded_for_all_users_as_a_console_command= in =AchivementsTest=
+   - Call command in test =$this->artisan('laracasts:sync-user-achievements')=
+   - =$this->reportProgress= in command
