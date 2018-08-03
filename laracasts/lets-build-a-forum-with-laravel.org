@@ -610,3 +610,11 @@
    - Tests
      - =we_record_a_new_visit_each_time_the_thread_is_read= in =ReadThreadTests=
    - Keep it simple and stupid
+
+** DONE Users Must Confirm Their Email Address #1: Protection
+   CLOSED: [2018-08-03 Fri 17:52]
+   - State "DONE"       from "STARTED"    [2018-08-03 Fri 17:52]
+   If spam is a significant concern, one option is to force all forum users to first confirm their email address before we grant access to publish new threads. Typically, spammers will enter gibberish email addresses during the sign up process. With this modification, a real email address will be required.
+   - Tests
+     - =authenticated_users_must_first_confirm_their_email_address_before_creating_threads=
+   - =php artisan make:middleware RedirectIfEmailNotConfirmed=
