@@ -676,3 +676,8 @@
    CLOSED: [2018-08-06 Mon 14:31]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 14:31]
    Our tests are showing that everything from the AJAX endpoint and forward should work as expected; however, we haven't yet touched the front-end side of this feature. Let's begin writing the necessary Vue logic to allow the thread's creator to mark any reply as "best".
+
+** DONE Refactoring Authorization
+   CLOSED: [2018-08-06 Mon 14:55]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 14:55]
+   We still need to finish up the "Best Reply" feature, but let's take a quick break to refactor our authorization setup. Things are beginning to get messy, and I worry that this authorization logic could grow to be split between countless files. In this episode, let's experiment with creating a dedicated authorization module.
