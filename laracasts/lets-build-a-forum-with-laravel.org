@@ -654,3 +654,11 @@
      - =a_thread_requires_a_unique_thread= in =CreateThreadsTest=
    - =$string[-1]= get the string last character.
    - =preg_relpace_callback()=
+
+** DONE We Need a Regression Test
+   CLOSED: [2018-08-06 Mon 13:53]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 13:53]
+   Now that we're properly generating incrementing slugs for threads that have the same title, we should take note of a few edge cases that could break things. If we find a bug along the way, we'll write a regression test to reproduce it, and then refactor as needed to return everything to green.
+   - Tests
+     - =a_thread_with_a_title_that_ends_in_a_number_should_generate_the_propper_slug= in =CreateThreadsTest=
+   - Use model event =created= to create Thread slug
