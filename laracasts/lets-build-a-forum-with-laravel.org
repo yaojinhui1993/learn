@@ -729,3 +729,10 @@
    CLOSED: [2018-08-06 Mon 17:32]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 17:32]
    Now that we have the server-side endpoints fully tested, let's switch to the front-end and write the necessary Vue code to allow administrators to toggle a thread's "locked" status.
+
+** DONE An Administrator May Lock Any Thread: Part 4
+   CLOSED: [2018-08-06 Mon 17:52]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 17:52]
+   The basic UI functionality is in place. At this point, we only need to send the appropriate AJAX requests to toggle the "locked" column within the threads table.
+   - Tests
+     - =administrator_can_unlock_threads= in =LockThreadTest=
