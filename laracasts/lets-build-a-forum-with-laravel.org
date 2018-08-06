@@ -627,3 +627,11 @@
      - =a_confirmation_email_is_sent_upon_registration= in =RegistrationTest=
      - =user_can_fully_confirm_their_email_addresses=
    - =protected $casts=
+
+** DONE Users Must Confirm Their Email Address #3: -Cleanup
+   CLOSED: [2018-08-06 Mon 10:57]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 10:57]
+   At this point, everything appears to be working properly. So let's take this episode to simplify a sections, remove the event listener approach, and clean up our code.
+   - Tests
+     - =confirming_an_invalid_token= in =RegistrationTest=
+   - =factory(User::class, uncomfirmed', closure)=
