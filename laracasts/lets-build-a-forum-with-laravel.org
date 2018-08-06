@@ -640,3 +640,8 @@
    CLOSED: [2018-08-06 Mon 11:09]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 11:09]
    Well, we thought we were finished with the email confirmation feature, but, after a second glance, I think we have a few more loose ends to wrap up. In this episode, we'll do a small bit of refactoring, while also ensuring that the generated email token is more unique and will be deleted upon confirmation.
+
+** DONE A Thread Should Have a Unique Slug: Part 1
+   CLOSED: [2018-08-06 Mon 11:26]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 11:26]
+   So far we've been using the =id= of each thread as the URI identifier. However, in many cases, regardless of the app you're building, you may not want to expose your primary keys in this way. Instead, let's switch over to a slug-based approach.
