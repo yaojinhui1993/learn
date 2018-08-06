@@ -714,3 +714,13 @@
    - Tests
      - =an_administrator_can_lock_any_thread= in =LockThreads=
      - =a_thread_maybe_locked= in =ThreadTest=
+
+** DONE An Administrator May Lock Any Thread: Part 2
+   CLOSED: [2018-08-06 Mon 17:18]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 17:18]
+   Let's continue fleshing out the routes and controllers that our front-end will expect for this feature. In this episode, we'll review two endpoint approaches for updating a thread's "locked" status.
+   - Tests
+     - =once_locked_a_thread_may_not_receive_new_replies= in =LockThreadsTest=
+     - =non_administrator_may_not_lock_threads= in =LockThreadsTest=
+     - =administrator_can_lock_threads= in =LockThreadsTest=
+   - Dedicated =LockedThreadsController=
