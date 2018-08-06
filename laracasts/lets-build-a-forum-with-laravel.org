@@ -706,3 +706,11 @@
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:34]
    At the moment, everyone - even guests - can see the button to mark a "Best Reply." Now we do have protection on the backend, but we should certainly hide this button for all users who aren't the creator of the thread. Let's tackle that in this episode, before moving on to something new.
    - prop name use =data-reply= for example.
+
+** DONE An Administrator May Lock Any Thread
+   CLOSED: [2018-08-06 Mon 16:52]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:52]
+   Next up, we need to begin adding the ability to lock any forum thread. Whether a conversation veers far off course, or the administrator simply wants to respond a thread and then close it, this is a common feature for any forum. Let's get started implementing it with TDD.
+   - Tests
+     - =an_administrator_can_lock_any_thread= in =LockThreads=
+     - =a_thread_maybe_locked= in =ThreadTest=
