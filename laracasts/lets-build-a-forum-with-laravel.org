@@ -618,3 +618,12 @@
    - Tests
      - =authenticated_users_must_first_confirm_their_email_address_before_creating_threads=
    - =php artisan make:middleware RedirectIfEmailNotConfirmed=
+
+** DONE Users Must Confirm Their Email Address: #2 - Confirmation
+   CLOSED: [2018-08-06 Mon 10:29]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 10:29]
+   Now that we have the proper protections in place, we can move on to the next step: sending all new users an email confirmation request upon registration. Once they click back to our website through this link, we can mark their account as confirmed, and they may they begin posting to the furm.
+   - Tests
+     - =a_confirmation_email_is_sent_upon_registration= in =RegistrationTest=
+     - =user_can_fully_confirm_their_email_addresses=
+   - =protected $casts=
