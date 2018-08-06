@@ -724,3 +724,8 @@
      - =non_administrator_may_not_lock_threads= in =LockThreadsTest=
      - =administrator_can_lock_threads= in =LockThreadsTest=
    - Dedicated =LockedThreadsController=
+
+** DONE An Administrtator May Lock Any Thread: Part 3
+   CLOSED: [2018-08-06 Mon 17:32]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 17:32]
+   Now that we have the server-side endpoints fully tested, let's switch to the front-end and write the necessary Vue code to allow administrators to toggle a thread's "locked" status.
