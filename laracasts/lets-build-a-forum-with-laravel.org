@@ -645,3 +645,12 @@
    CLOSED: [2018-08-06 Mon 11:26]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 11:26]
    So far we've been using the =id= of each thread as the URI identifier. However, in many cases, regardless of the app you're building, you may not want to expose your primary keys in this way. Instead, let's switch over to a slug-based approach.
+
+** DONE A Thread Should Have a Unique Slug: Part 2
+   CLOSED: [2018-08-06 Mon 11:42]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 11:42]
+   At this point, we are generating slugs for each new thread; however, what happens if multiple threads have the same title? Everything will blow up, that's what! It sounds like we need to detect existing slugs in the database, and apply an increment to the slug.
+   - Tests
+     - =a_thread_requires_a_unique_thread= in =CreateThreadsTest=
+   - =$string[-1]= get the string last character.
+   - =preg_relpace_callback()=
