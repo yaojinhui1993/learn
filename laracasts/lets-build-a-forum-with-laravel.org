@@ -686,3 +686,17 @@
    CLOSED: [2018-08-06 Mon 16:00]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:00]
    Let's return to the client-side, and add the necessary logic to submit an AJAX request when the owner of a thread marks a new reply as "best". As you'll see, we'll need to review a couple different options for toggling state.
+
+** DONE Confusing Errors and Solutions
+   CLOSED: [2018-08-06 Mon 16:24]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:24]
+   What happens if a "best reply" is deleted by its owner? Shouldn't we update the owning thread to nullify the =best_reply_id= column? Otherwise, that column will refer to a reply that doesn't exist. In this episode, we'll add a database constraint to perform this update automatically. However, as we implement it, we'll encounter a few confusing issues that aren't so easy to debug.
+   - Tests
+     - =if_a_best_reply_is_deleted_then_the_thread_in_properly_updated_to_reflect_that= in =BestReplyTest=
+   - Database set foreign key
+     #+BEGIN_SRC php
+       $table->foreign('best_reply_id')->references('id')->on('replies')->onDelete('set null');
+     #+END_SRC
+   - Migration table with foregin tables, careful the migrate timestamps
+   - SQLite foreign key not support
+     - Solution: =DB::statement('PRAGMA foreign_keys=on')=
