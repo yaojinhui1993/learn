@@ -736,3 +736,8 @@
    The basic UI functionality is in place. At this point, we only need to send the appropriate AJAX requests to toggle the "locked" column within the threads table.
    - Tests
      - =administrator_can_unlock_threads= in =LockThreadTest=
+
+** DONE From Laravel 5.4 to Laravel 5.5
+   CLOSED: [2018-08-06 Mon 18:05]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 18:05]
+   Let's allocate some time in this episode to upgrade our Laravel installation from version 5.4 to 5.5. As you'll see, because we have a full suit of tests to back us up, we can perform this upgrade with incredible confidence.
