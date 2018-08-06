@@ -681,3 +681,8 @@
    CLOSED: [2018-08-06 Mon 14:55]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 14:55]
    We still need to finish up the "Best Reply" feature, but let's take a quick break to refactor our authorization setup. Things are beginning to get messy, and I worry that this authorization logic could grow to be split between countless files. In this episode, let's experiment with creating a dedicated authorization module.
+
+** DONE Remembering a Best Reply
+   CLOSED: [2018-08-06 Mon 16:00]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:00]
+   Let's return to the client-side, and add the necessary logic to submit an AJAX request when the owner of a thread marks a new reply as "best". As you'll see, we'll need to review a couple different options for toggling state.
