@@ -662,3 +662,12 @@
    - Tests
      - =a_thread_with_a_title_that_ends_in_a_number_should_generate_the_propper_slug= in =CreateThreadsTest=
    - Use model event =created= to create Thread slug
+
+** DONE Make the Best Reply: Part 1
+   CLOSED: [2018-08-06 Mon 14:19]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 14:19]
+   Our next feature to implement is one that allows the creator of a thread to mark any reply as the best answer. Let's begin by implementing the underlying server-side logic. Once complete, is the following episode, we can move on to the front-end side of things.
+   - Tests
+     - =a_thread_creator_may_mark_any_reply_as_the_best_reply= in =BestReplyTest=
+     - =it_knows_if_it_is_the_best_reply= in =ReplyTest=
+     - =only_a_thread_creator_may_mark_a_reply_test= in =BestReplyTest=
