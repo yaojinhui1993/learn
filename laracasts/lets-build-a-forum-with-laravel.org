@@ -700,3 +700,9 @@
    - Migration table with foregin tables, careful the migrate timestamps
    - SQLite foreign key not support
      - Solution: =DB::statement('PRAGMA foreign_keys=on')=
+
+** DONE Thread Authorization
+   CLOSED: [2018-08-06 Mon 16:34]
+   - State "DONE"       from "STARTED"    [2018-08-06 Mon 16:34]
+   At the moment, everyone - even guests - can see the button to mark a "Best Reply." Now we do have protection on the backend, but we should certainly hide this button for all users who aren't the creator of the thread. Let's tackle that in this episode, before moving on to something new.
+   - prop name use =data-reply= for example.
