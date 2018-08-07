@@ -800,3 +800,8 @@
    CLOSED: [2018-08-07 Tue 22:23]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:23]
    At this point, we have a fully functional search system in place. However, it might be nice to offer more interactive results. What if the user could instantly filter all search results according to a given facet, such as a tag or channel name? Let's begin preparing such a thing in this episode.
+
+** DONE First Class Search: Instant Results
+   CLOSED: [2018-08-07 Tue 22:43]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:43]
+   In this episode, you'll learn how to display live search results for our forum on the page. We can even integrate the channel facet to provide on-the-fly filtering.
