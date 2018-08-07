@@ -810,3 +810,8 @@
    CLOSED: [2018-08-07 Tue 22:57]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:57]
    Now that we have a solid understanding of how to work Algolia and the VueInstantSearch Pluign, let's fully integrate it into our forum.
+
+** DONE WYSIWYG
+   CLOSED: [2018-08-07 Tue 23:21]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 23:21]
+   At the moment, we're using a basic =textarea= for the body of each forum thread or reply. Let's upgrade these inputs to powerful WYSIWYG text editors, using Trix.
