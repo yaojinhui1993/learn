@@ -783,3 +783,8 @@
    CLOSED: [2018-08-07 Tue 18:09]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 18:09]
    Everything is looking good for this feature, so the only remaining step is to handle the AJAX request for updating the thread. Along the way, we'll encounter a few small edge cases that should be addressed.
+
+** DONE First Class Search: Scout Review
+   CLOSED: [2018-08-07 Tue 21:42]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 21:42]
+   It's time to add first-class search to our little forum. Let's begin in this episode with a quick review of =Laravel Scout= and =Algolia=.
