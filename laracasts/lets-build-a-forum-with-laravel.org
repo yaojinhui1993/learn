@@ -828,3 +828,8 @@
    - Tests
      - =a_thread_body_is_sanitized_automatically= in =ThreadsTest=
      - =a_reply_body_is_sanitized_automatically= in =ReplyTest=
+
+** DONE Onward
+   CLOSED: [2018-08-08 Wed 00:18]
+   - State "DONE"       from "STARTED"    [2018-08-08 Wed 00:18]
+   This series has easily been the most depth course Laracasts has ever released, but the reality is there's so much more to do. As such, let's migrate the end result of all our work to a brand new series that'll pick up right where we left off: "How to Manage an Open Source Project."
