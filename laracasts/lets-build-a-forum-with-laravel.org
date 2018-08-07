@@ -805,3 +805,8 @@
    CLOSED: [2018-08-07 Tue 22:43]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:43]
    In this episode, you'll learn how to display live search results for our forum on the page. We can even integrate the channel facet to provide on-the-fly filtering.
+
+** DONE First Class Search: Forum Intergration
+   CLOSED: [2018-08-07 Tue 22:57]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:57]
+   Now that we have a solid understanding of how to work Algolia and the VueInstantSearch Pluign, let's fully integrate it into our forum.
