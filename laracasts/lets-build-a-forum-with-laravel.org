@@ -815,3 +815,8 @@
    CLOSED: [2018-08-07 Tue 23:21]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 23:21]
    At the moment, we're using a basic =textarea= for the body of each forum thread or reply. Let's upgrade these inputs to powerful WYSIWYG text editors, using Trix.
+
+** DONE WYSIWYG: Part 2
+   CLOSED: [2018-08-07 Tue 23:45]
+   - State "DONE"       from              [2018-08-07 Tue 23:45]
+   Let's continue on with our Trix editor implementation. There are a few more places where we'll need to replace a standard =textarea= with the new =wysiwyg= component. Along the way, we'll also discuss how a Vue child component can listen and respond to an event on its parent.
