@@ -820,3 +820,11 @@
    CLOSED: [2018-08-07 Tue 23:45]
    - State "DONE"       from              [2018-08-07 Tue 23:45]
    Let's continue on with our Trix editor implementation. There are a few more places where we'll need to replace a standard =textarea= with the new =wysiwyg= component. Along the way, we'll also discuss how a Vue child component can listen and respond to an event on its parent.
+
+** DONE Sanitizing Is a Must
+   CLOSED: [2018-08-08 Wed 00:12]
+   - State "DONE"       from "STARTED"    [2018-08-08 Wed 00:12]
+   When building web applications, always assume that the user is malicious. As such, any time you accept and display user input, sanitize it first. Think of this as the equivalent of throwing their input into a sink filled with soapy water. The goal is to clean that HTML as best as we can. Scrub it down in preparation for display. Script tag? Sorry, but no. Inline styles? See ya. Click event handlers? Hell no.
+   - Tests
+     - =a_thread_body_is_sanitized_automatically= in =ThreadsTest=
+     - =a_reply_body_is_sanitized_automatically= in =ReplyTest=
