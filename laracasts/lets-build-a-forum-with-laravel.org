@@ -747,3 +747,21 @@
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 09:48]
    If we'd like to add a second layer of spam protection, we could implement reCAPTCHA. Luckily, the basic process is rather easy. In this episode, we'll get everything to work as quickly as possible. Then, in the following lesson, we can do a bit of refactoring to clean things up.
    - =Zttp=
+
+** DONE Recaptcha Refactoring
+   CLOSED: [2018-08-07 Tue 10:08]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 10:08]
+   Now that we have reCAPTCHA working for our forum, let's take a few minutes to clean things up. I wonder if we can extract that reCAPTCHA API call to a custom validation rule. Now that we're running Laravel 5.5, this should be a cinch!
+   - =Tests=
+     - =a_thread_requires_recaptcha_verification= in =CreateThreadsTest=
+   - Mock
+     #+BEGIN_SRC php
+       app()->singleton(Recaptcha::class, function() {
+           $m = \Mockery::mock(Recaptcha::class);
+           $m->shouldReceive('passes')->once()->andReturn(true);
+       });
+
+       // unbind the singleton instance
+       unset(app()[Recaptcha::class]);
+
+     #+END_SRC
