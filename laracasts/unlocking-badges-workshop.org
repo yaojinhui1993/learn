@@ -68,3 +68,7 @@
      - =achievements_can_be_seeded_for_all_users_as_a_console_command= in =AchivementsTest=
    - Call command in test =$this->artisan('laracasts:sync-user-achievements')=
    - =$this->reportProgress= in command
+** DONE The Real Laracasts Achievements Badges
+   CLOSED: [2018-08-07 Tue 08:17]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 08:17]
+   I will now begin constructing the actual achievement badge that you can earn here at Laracasts. The badge designs are ready, so come along as I add them.
