@@ -765,3 +765,12 @@
        unset(app()[Recaptcha::class]);
 
      #+END_SRC
+
+** DONE A Thread Can Be Updated
+   CLOSED: [2018-08-07 Tue 12:54]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 12:54]
+   Amazingly enough, we've managed to get this far without adding the ability to edit an existing thread. Before moving on to implementing search, let's knock this out quickly.
+   - Tests
+     - =a_thread_can_be_updated= in =CreatedThreadTests=
+     - =a_thread_requires_a_title_and_a_body_to_be_updated=
+     - =unauthorized_users_may_not_update_threads=
