@@ -795,3 +795,8 @@
    Now that we have both Scout and Algolia ready to go, let's implement search into our forum. Along the way, we'll review a few gotchas and roadblocks related to feature testing code that will hit an external API like Algolia's.
    - Tests
      - =a_user_can_search_threads= in =SearchTest=
+
+** DONE First Class Search: Faceting and Ranking
+   CLOSED: [2018-08-07 Tue 22:23]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 22:23]
+   At this point, we have a fully functional search system in place. However, it might be nice to offer more interactive results. What if the user could instantly filter all search results according to a given facet, such as a tag or channel name? Let's begin preparing such a thing in this episode.
