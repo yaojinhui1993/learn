@@ -741,3 +741,9 @@
    CLOSED: [2018-08-06 Mon 18:05]
    - State "DONE"       from "STARTED"    [2018-08-06 Mon 18:05]
    Let's allocate some time in this episode to upgrade our Laravel installation from version 5.4 to 5.5. As you'll see, because we have a full suit of tests to back us up, we can perform this upgrade with incredible confidence.
+
+** DONE Recaptcha
+   CLOSED: [2018-08-07 Tue 09:48]
+   - State "DONE"       from "STARTED"    [2018-08-07 Tue 09:48]
+   If we'd like to add a second layer of spam protection, we could implement reCAPTCHA. Luckily, the basic process is rather easy. In this episode, we'll get everything to work as quickly as possible. Then, in the following lesson, we can do a bit of refactoring to clean things up.
+   - =Zttp=
