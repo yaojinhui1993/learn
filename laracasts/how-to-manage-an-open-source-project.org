@@ -11,3 +11,8 @@
    CLOSED: [2018-08-08 Wed 12:48]
    - State "DONE"       from "STARTED"    [2018-08-08 Wed 12:48]
    Our project will be of little use, if the general public doesn't know how to install it. Let's work through that entire process, while making installation notes for the project's readme file.
+
+** DONE Resolving Our First Issue
+   CLOSED: [2018-08-09 Thu 05:07]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 05:07]
+   In the previous issue, we created our first GitHub issue: "Unconfirmed users should not be given the oppertunity to prepare create forum threads." Let's resolve that very issue in this episode.
