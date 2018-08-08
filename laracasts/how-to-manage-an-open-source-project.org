@@ -41,3 +41,12 @@
    CLOSED: [2018-08-09 Thu 06:18]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 06:18]
    Now that our tests are returning green, let's display each user's reputation on the page, next to their respective usernames.
+
+** DONE Feature: Reducing Reputation
+   CLOSED: [2018-08-09 Thu 06:39]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 06:39]
+   At the moment, any user can "game the system" by rapidly creating and deleting threads or replies. We must ensure that, if a user's thread or reply is deleted, we reduce their reputation to match.
+   - =a_user_loses_points_when_they_delete_a_thread= in =ReputationTest=
+   - =a_user_loses_points_when_their_reply_to_a_thread_is_deleted= in =ReputationTest=
+   - =a_user_earns_points_when_their_reply_is_favorited= in =ReputationTest=
+   - =a_user_loses_points_when_their_reply_is_unfavorited=  in =ReputationTest=
