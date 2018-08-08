@@ -36,3 +36,8 @@
    CLOSED: [2018-08-09 Thu 06:12]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 06:12]
    We now have a basic reputation system in place, but I think it could use some refactoring. At the moment, if somebody joined your team, how would they know where, and what conditions, reputation is awarded to a user? It's not easy at that moment, let's elevate the concept of "reputation" to a first class citizen.
+
+** DONE Feature: Displaying Reputation
+   CLOSED: [2018-08-09 Thu 06:18]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 06:18]
+   Now that our tests are returning green, let's display each user's reputation on the page, next to their respective usernames.
