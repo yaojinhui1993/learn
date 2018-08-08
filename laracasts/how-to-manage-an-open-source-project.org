@@ -1,5 +1,8 @@
-* DONE How to Manage an Open Source Project
-  CLOSED: [2018-08-08 Wed 08:17]
-  - State "DONE"       from "STARTED"    [2018-08-08 Wed 08:17]
+* STARTED How to Manage an Open Source Project
   Managing a popular open source project can be daunting at first. How do we maintain all these issues, or automatically trigger our test suit for incoming PRs? And what's a useful workflow for brainstorming and adding new features?
   In this series, together, we'll manage and maintain an open source forum, called *Council*, that we originally built from scratch here at Laracasts.
+  
+** DONE The GitHub Repository
+   CLOSED: [2018-08-08 Wed 12:31]
+   - State "DONE"       from "STARTED"    [2018-08-08 Wed 12:31]
+   To begin this series, let's push our project to GitHub, so that anyone can install it - and even contribute to make it better.
