@@ -50,3 +50,8 @@
    - =a_user_loses_points_when_their_reply_to_a_thread_is_deleted= in =ReputationTest=
    - =a_user_earns_points_when_their_reply_is_favorited= in =ReputationTest=
    - =a_user_loses_points_when_their_reply_is_unfavorited=  in =ReputationTest=
+
+** DONE Licensing and Code of Conducts
+   CLOSED: [2018-08-09 Thu 07:42]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 07:42]
+   Yeah, yeah, this one will be a little on the mundane side. Nonetheless, it needs to bee addressed. Most successful open source projects will include, within the root of the project, tho following three documents: LICENSE, CODE_OF_CONDUCT, and CONTRIBUTING. Let's do a quick overview in this episode.
