@@ -6,3 +6,8 @@
    CLOSED: [2018-08-08 Wed 12:31]
    - State "DONE"       from "STARTED"    [2018-08-08 Wed 12:31]
    To begin this series, let's push our project to GitHub, so that anyone can install it - and even contribute to make it better.
+
+** DONE Installation Instructions
+   CLOSED: [2018-08-08 Wed 12:48]
+   - State "DONE"       from "STARTED"    [2018-08-08 Wed 12:48]
+   Our project will be of little use, if the general public doesn't know how to install it. Let's work through that entire process, while making installation notes for the project's readme file.
