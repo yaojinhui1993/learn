@@ -16,3 +16,9 @@
    CLOSED: [2018-08-09 Thu 05:07]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 05:07]
    In the previous issue, we created our first GitHub issue: "Unconfirmed users should not be given the oppertunity to prepare create forum threads." Let's resolve that very issue in this episode.
+
+** DONE The Issue and PR Grind
+   CLOSED: [2018-08-09 Thu 05:28]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 05:28]
+   We already have a number of issues and pull requests up on GitHub. Let's get to work on these, as we learn the basic day-to-day workflow for maintaining any open source project.
+   - Resolve relating issuses using the =relosves #<issue-number>=  or =Fix #<issue-number>= syntax in commit message.
