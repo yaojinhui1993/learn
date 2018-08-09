@@ -72,3 +72,10 @@
    CLOSED: [2018-08-07 Tue 08:17]
    - State "DONE"       from "STARTED"    [2018-08-07 Tue 08:17]
    I will now begin constructing the actual achievement badge that you can earn here at Laracasts. The badge designs are ready, so come along as I add them.
+
+** DONE More Sensible Achivement Defaults
+   CLOSED: [2018-08-09 Thu 12:51]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 12:51]
+   In the previous episode, we noticed that an achievements icon filename is almost always the kekab-case version of the class name. With that in mind, let's make that the default. Next, we'll turn the achievement's description property into a dedicated method.
+   - Tests
+     - =it_sets_a_default_icon=
