@@ -72,3 +72,9 @@
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 13:05]
    StyleCI is an excellent service for automating the process of analyzing and performing style-guide fixes. As an example, if your project conforms to PSR-2, but a pull request is submitted that doesn't adhere to that standard, wouldn't it be great if we could automatically fix those issue without nagging the contributtor to do it mannually?
    =.styleci.yml=
+
+** DONE Syntax Highlighting PR with Refactoring
+   CLOSED: [2018-08-09 Thu 16:41]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 16:41]
+   It looks like a PR that adds syntax highlighting just came in. Let's work through the code changes, merge it in, and then apply a bit of refactoring to clean things up.
+   - The more indent, the more complex code. So least indent.
