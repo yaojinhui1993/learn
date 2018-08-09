@@ -83,3 +83,8 @@
    CLOSED: [2018-08-09 Thu 17:06]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 17:06]
    If you're not careful, you mind find yourself merging PRs without fully understanding what the underlying code does. "Hey, the tests return green, so it's safe to merge. Right?" Try to avoid this mindset. It's vital that you study the code behind every pull request. Otherwise, you might end up with a codebase that in no way reflects your original vision and ideas for how the project should be structured.
+
+** DONE Queues and Worker Bees
+   CLOSED: [2018-08-09 Thu 17:31]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 17:31]
+   Let's resolve this issue on GitHub. As part of the process, we'll need to do a quick review of dispatching jobs, and running queue workers.
