@@ -66,3 +66,9 @@
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 08:18]
    Let's set up a continous intergration server with =Travis CI=. This way, we can automate the process of building and testing our project each time a new commit is made, or a PR is presented.
    - =.travis.yml=
+
+** DONE StyleCI
+   CLOSED: [2018-08-09 Thu 13:05]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 13:05]
+   StyleCI is an excellent service for automating the process of analyzing and performing style-guide fixes. As an example, if your project conforms to PSR-2, but a pull request is submitted that doesn't adhere to that standard, wouldn't it be great if we could automatically fix those issue without nagging the contributtor to do it mannually?
+   =.styleci.yml=
