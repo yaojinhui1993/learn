@@ -88,3 +88,8 @@
    CLOSED: [2018-08-09 Thu 17:31]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 17:31]
    Let's resolve this issue on GitHub. As part of the process, we'll need to do a quick review of dispatching jobs, and running queue workers.
+
+** DONE A Thread Can Be Pinned
+   CLOSED: [2018-08-09 Thu 17:50]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 17:50]
+   In this episode, we'll work through a new PR that adds support for pinning one or more threads to the top of all results. This can be useful for important news-related posts, codes of conducts, etc. Let's review the PR, make any necessary tweaks, and merge it into master.
