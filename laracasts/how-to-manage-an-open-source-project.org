@@ -55,3 +55,8 @@
    CLOSED: [2018-08-09 Thu 07:42]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 07:42]
    Yeah, yeah, this one will be a little on the mundane side. Nonetheless, it needs to bee addressed. Most successful open source projects will include, within the root of the project, tho following three documents: LICENSE, CODE_OF_CONDUCT, and CONTRIBUTING. Let's do a quick overview in this episode.
+
+** DONE Merging and Tweaking a Large PR
+   CLOSED: [2018-08-09 Thu 08:07]
+   - State "DONE"       from "STARTED"    [2018-08-09 Thu 08:07]
+   Not all PRs amount to simple formatting and bug fixes. Often, you'll receive significant feature additions that affect dozens of files. In these cases, it's important to fully review, test, and even tweak the code before merging it into your codebase. Let's work through that process together.
