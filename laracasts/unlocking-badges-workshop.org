@@ -79,3 +79,9 @@
    In the previous episode, we noticed that an achievements icon filename is almost always the kekab-case version of the class name. With that in mind, let's make that the default. Next, we'll turn the achievement's description property into a dedicated method.
    - Tests
      - =it_sets_a_default_icon=
+
+** DONE Achievement Caching
+   CLOSED: [2018-08-10 Fri 05:46]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 05:46]
+   Did you notice that we have a pesky N+1 issue at the moment? Let's resolve it in this episode by caching all chievements forever. If at some point in the future we need to add a new achievement, we'll simply make a note to clear out the cache during our deployment process.
+   - Let the cache in a higher position.
