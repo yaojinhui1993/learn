@@ -137,3 +137,8 @@
    When we call the =path= method on a =Reply= instance, it doesn't take into account the fact that all replies are paginated. This means all reply paths will send you to page one, rather than the page that you'll find the actual reply. We can't have this. Let's figure out how to calculate the full URL, based on the specified paginiation settings.
    - Tests
      - =it_generates_correct_path_for_paginated_thread= in =ReplyTest=
+
+** DONE Git Tagging and Releases
+   CLOSED: [2018-08-11 Sat 06:08]
+   - State "DONE"       from "STARTED"    [2018-08-11 Sat 06:08]
+   GitHub releases offer us a way to package up software for our users. Maybe a person wants the latests 2.0 release of your code. Or maybe, due to the limits of their system, they need to stick with 1.0 version. No problem. All of this is a cinch. In this lesson, we'll review how to use Git tags to create new releases.
