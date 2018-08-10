@@ -59,3 +59,6 @@
     CLOSED: [2018-08-10 Fri 14:34]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 14:34]
     - 使 blade 被 Laravel 渲染后，生成 PDF 或 Image 文件。
+*** DONE 012. 解决跨域问题（ CORS ）——barryvdh/laravel-cors
+    CLOSED: [2018-08-10 Fri 14:41]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 14:41]
