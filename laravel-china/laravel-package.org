@@ -52,3 +52,6 @@
 *** DONE 009. 逆向 Seed 生成器——orangehill/iseed
     CLOSED: [2018-08-10 Fri 12:58]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:58]
+*** DONE 010. 数据查询缓存——watson/rememberable
+    CLOSED: [2018-08-10 Fri 13:07]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 13:07]
