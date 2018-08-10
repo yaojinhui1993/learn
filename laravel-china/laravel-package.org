@@ -49,3 +49,6 @@
 *** DONE 008. 利用 Clockwork 在 Google Chrome 下调试你的 Laravel APP ——itsgoingd/clockwork
     CLOSED: [2018-08-10 Fri 12:52]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:52]
+*** DONE 009. 逆向 Seed 生成器——orangehill/iseed
+    CLOSED: [2018-08-10 Fri 12:58]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:58]
