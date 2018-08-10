@@ -30,3 +30,6 @@
       - backup:list——列出所有的备份；
       - backup:monitor——监控所有备份的健康情况；
       - backup:run——执行备份。
+*** DONE 003. 七牛文件系统驱动 —— overtrue/laravel-filesystem-qiniu
+    CLOSED: [2018-08-10 Fri 11:04]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:04]
