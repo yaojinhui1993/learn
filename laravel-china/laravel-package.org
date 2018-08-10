@@ -33,3 +33,7 @@
 *** DONE 003. 七牛文件系统驱动 —— overtrue/laravel-filesystem-qiniu
     CLOSED: [2018-08-10 Fri 11:04]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:04]
+*** DONE 004. 哈希数据 ID —— vinkla/hashids
+    CLOSED: [2018-08-10 Fri 11:22]
+
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:22]
