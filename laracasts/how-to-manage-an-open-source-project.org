@@ -125,3 +125,8 @@
    CLOSED: [2018-08-10 Fri 18:08]
    - State "DONE"       from "STARTED"    [2018-08-10 Fri 18:08]
    It looks like we have a pull request to upgrade Council to Laravel 5.6. Let's work through that PR in this episode, at which point half-way through, we'll encounter an odd, mysterious application bugs related to foreign Sqlite constraints in 5.6.
+
+** DONE Parsing a "Work in Progress PR"
+   CLOSED: [2018-08-10 Fri 21:42]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 21:42]
+   Per my request in a recent episode, we now have a new PR for displaying a user's profile activity. However, it's still marked as a "Work in Progress". This means, while most of the functionality has been implemented, we'll need to pay extra attention to any remaining loose ends that should be filled in. Let's begin working through it in this episode together.
