@@ -62,3 +62,8 @@
 *** DONE 012. 解决跨域问题（ CORS ）——barryvdh/laravel-cors
     CLOSED: [2018-08-10 Fri 14:41]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 14:41]
+*** DONE 013. 嵌套集合模型（无限极分类）——kalnoy/nestedset（代替 baum/baum）
+    CLOSED: [2018-08-10 Fri 16:08]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 16:08]
+    - left, right
+    - Dingo
