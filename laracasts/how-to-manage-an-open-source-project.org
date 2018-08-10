@@ -93,3 +93,11 @@
    CLOSED: [2018-08-09 Thu 17:50]
    - State "DONE"       from "STARTED"    [2018-08-09 Thu 17:50]
    In this episode, we'll work through a new PR that adds support for pinning one or more threads to the top of all results. This can be useful for important news-related posts, codes of conducts, etc. Let's review the PR, make any necessary tweaks, and merge it into master.
+
+** DONE Archiving Channels With TDD
+   CLOSED: [2018-08-10 Fri 16:42]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 16:42]
+   Today, we need to build upon a recent commit that added support for editing channels. The PR stopped just short of allowing administrators to archive channels. As it turns out, this can be a bit tricky. So let's figure out our course of action, and implement it with TDD.
+   - Tests
+     - =a_channel_can_be_archived=
+     - =an_administrator_can_mark_an_existing_channel_as_archieved= in =ChannelAdministrationTest=
