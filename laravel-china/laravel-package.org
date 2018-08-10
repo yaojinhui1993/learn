@@ -14,4 +14,10 @@
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:24]
 
 ** STARTED 视频列表
-*** STARTED 001. Composer 加速—— hirak/prestissimo
+*** DONE 001. Composer 加速—— hirak/prestissimo
+    CLOSED: [2018-08-10 Fri 10:35]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:35]
+    - =composer global require hirak/prestissimo=, install package
+    - =composer global update hirak/prestissimo=, update package
+    - =composer global remove hirak/prestissimo=, remove package
+    - =composer install --profile=, 显示时间和内存使用信息
