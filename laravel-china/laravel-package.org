@@ -21,3 +21,12 @@
     - =composer global update hirak/prestissimo=, update package
     - =composer global remove hirak/prestissimo=, remove package
     - =composer install --profile=, 显示时间和内存使用信息
+*** DONE 002. 数据备份 ——spatie/laravel-backup
+    CLOSED: [2018-08-10 Fri 10:53]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:53]
+    - =MailHog= in Homestead
+    - Command
+      - backup:clean——移除所有超过配置中规定天数的旧备份；
+      - backup:list——列出所有的备份；
+      - backup:monitor——监控所有备份的健康情况；
+      - backup:run——执行备份。
