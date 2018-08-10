@@ -40,3 +40,6 @@
 *** DONE 005. 手机号验证——propaganistas/laravel-phone
     CLOSED: [2018-08-10 Fri 11:36]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:36]
+*** DONE 006. 日志查看工具—— rap2hpoutre/laravel-log-viewer
+    CLOSED: [2018-08-10 Fri 12:30]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:30]
