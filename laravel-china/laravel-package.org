@@ -55,3 +55,7 @@
 *** DONE 010. 数据查询缓存——watson/rememberable
     CLOSED: [2018-08-10 Fri 13:07]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 13:07]
+*** DONE 011. 快速生成 PDF——barryvdh/laravel-snappy
+    CLOSED: [2018-08-10 Fri 14:34]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 14:34]
+    - 使 blade 被 Laravel 渲染后，生成 PDF 或 Image 文件。
