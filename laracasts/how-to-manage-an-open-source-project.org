@@ -115,3 +115,8 @@
    When submitting a pull request to fix a bug, it's vital that a test accompanies your fix. The maintainer can't just take your word for it. Show them what the problem is. "Hey, if we take this specific route through the code, everything blows up. Here's a test that prove it.".
    - Tests
      - =the_path_to_a_channel_is_unaffected_by_its_archived_status= in =ChannelAdministrationTest=
+
+** DONE Squash and Merging the New UI
+   CLOSED: [2018-08-10 Fri 17:42]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 17:42]
+   After a week of writing CSS, I'm ready to merge in the first draft of the new "Council" UI. We're not yet finished, however; there's still work to be done. The profile page hasn't yet been styled, and the forum requires the responsive Tailwind classes to display correctly on mobile devices. We'll tackle these lingering tasks soon, together.
