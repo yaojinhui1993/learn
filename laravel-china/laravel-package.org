@@ -1,0 +1,17 @@
+* Laravel Package
+
+** 基础信息
+
+** 舞台布置
+*** DONE 安装 LaraBBS
+    CLOSED: [2018-08-10 Fri 10:20]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:20]
+*** DONE PostMan 和 API
+    CLOSED: [2018-08-10 Fri 10:22]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:22]
+*** DONE Larabbs 中已安装的扩展包
+    CLOSED: [2018-08-10 Fri 10:24]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 10:24]
+
+** STARTED 视频列表
+*** STARTED 001. Composer 加速—— hirak/prestissimo
