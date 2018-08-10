@@ -37,3 +37,6 @@
     CLOSED: [2018-08-10 Fri 11:22]
 
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:22]
+*** DONE 005. 手机号验证——propaganistas/laravel-phone
+    CLOSED: [2018-08-10 Fri 11:36]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 11:36]
