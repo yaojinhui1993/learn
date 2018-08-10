@@ -43,3 +43,6 @@
 *** DONE 006. 日志查看工具—— rap2hpoutre/laravel-log-viewer
     CLOSED: [2018-08-10 Fri 12:30]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:30]
+*** DONE 007. Eloquent 条件查询——tucker-eric/eloquentfilter
+    CLOSED: [2018-08-10 Fri 12:49]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:49]
