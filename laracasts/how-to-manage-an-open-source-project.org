@@ -130,3 +130,10 @@
    CLOSED: [2018-08-10 Fri 21:42]
    - State "DONE"       from "STARTED"    [2018-08-10 Fri 21:42]
    Per my request in a recent episode, we now have a new PR for displaying a user's profile activity. However, it's still marked as a "Work in Progress". This means, while most of the functionality has been implemented, we'll need to pay extra attention to any remaining loose ends that should be filled in. Let's begin working through it in this episode together.
+
+** DONE Calculating Paginated Reply Paths
+   CLOSED: [2018-08-11 Sat 05:57]
+   - State "DONE"       from "STARTED"    [2018-08-11 Sat 05:57]
+   When we call the =path= method on a =Reply= instance, it doesn't take into account the fact that all replies are paginated. This means all reply paths will send you to page one, rather than the page that you'll find the actual reply. We can't have this. Let's figure out how to calculate the full URL, based on the specified paginiation settings.
+   - Tests
+     - =it_generates_correct_path_for_paginated_thread= in =ReplyTest=
