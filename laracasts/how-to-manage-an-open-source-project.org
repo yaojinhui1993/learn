@@ -120,3 +120,8 @@
    CLOSED: [2018-08-10 Fri 17:42]
    - State "DONE"       from "STARTED"    [2018-08-10 Fri 17:42]
    After a week of writing CSS, I'm ready to merge in the first draft of the new "Council" UI. We're not yet finished, however; there's still work to be done. The profile page hasn't yet been styled, and the forum requires the responsive Tailwind classes to display correctly on mobile devices. We'll tackle these lingering tasks soon, together.
+
+** DONE Upgrading to Laravel 5.6
+   CLOSED: [2018-08-10 Fri 18:08]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 18:08]
+   It looks like we have a pull request to upgrade Council to Laravel 5.6. Let's work through that PR in this episode, at which point half-way through, we'll encounter an odd, mysterious application bugs related to foreign Sqlite constraints in 5.6.
