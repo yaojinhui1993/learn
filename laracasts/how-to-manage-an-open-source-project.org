@@ -108,3 +108,10 @@
    It seems like, just about in all cases, when we fetch a collection of channels, they should exclude any archived records. What if we instead made that a global scope?
    - Tests
      - =archived_channels_are_exclude_by_default= in =ChannelTest=
+
+** DONE The Test Proves It's a Bug
+   CLOSED: [2018-08-10 Fri 17:29]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 17:29]
+   When submitting a pull request to fix a bug, it's vital that a test accompanies your fix. The maintainer can't just take your word for it. Show them what the problem is. "Hey, if we take this specific route through the code, everything blows up. Here's a test that prove it.".
+   - Tests
+     - =the_path_to_a_channel_is_unaffected_by_its_archived_status= in =ChannelAdministrationTest=
