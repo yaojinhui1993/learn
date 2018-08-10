@@ -46,3 +46,6 @@
 *** DONE 007. Eloquent 条件查询——tucker-eric/eloquentfilter
     CLOSED: [2018-08-10 Fri 12:49]
     - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:49]
+*** DONE 008. 利用 Clockwork 在 Google Chrome 下调试你的 Laravel APP ——itsgoingd/clockwork
+    CLOSED: [2018-08-10 Fri 12:52]
+    - State "DONE"       from "STARTED"    [2018-08-10 Fri 12:52]
