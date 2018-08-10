@@ -101,3 +101,10 @@
    - Tests
      - =a_channel_can_be_archived=
      - =an_administrator_can_mark_an_existing_channel_as_archieved= in =ChannelAdministrationTest=
+
+** DONE Simpler Queries with Global Scopes
+   CLOSED: [2018-08-10 Fri 16:58]
+   - State "DONE"       from "STARTED"    [2018-08-10 Fri 16:58]
+   It seems like, just about in all cases, when we fetch a collection of channels, they should exclude any archived records. What if we instead made that a global scope?
+   - Tests
+     - =archived_channels_are_exclude_by_default= in =ChannelTest=
