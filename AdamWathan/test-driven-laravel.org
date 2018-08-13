@@ -25,8 +25,13 @@
        - Assert
          See the concert details
 
-** Getting to Green
+** DONE Getting to Green
+   CLOSED: [2018-08-13 Mon 17:54]
+   - State "DONE"       from "TODO"       [2018-08-13 Mon 17:54]
    In this lesson, we use TDD to scaffold out a lot of the boiler plate in the application and get our first test passing.
+
+   - Summary
+     - One test drive one line code.
 
 ** Unit Testing Presentation Logic
    In this lesson, we drive out some presentation helpers via unit tests to extract some logic from our view.
