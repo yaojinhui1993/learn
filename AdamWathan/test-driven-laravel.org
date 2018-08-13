@@ -5,8 +5,25 @@
    First of all, welcome to Test-Driven Laravel!
    To get things started, let's talk a bit about the app we are going to build, and figure out where we should start.
    [[~/Documents/tutorials/test-driven-laravel/1-getting-the-ball-rolling/1-what-do-we-build-first.mp4][1-what-do-we-build-first.mp4]]
-** Sketching out Our First Test
+** DONE Sketching out Our First Test
+   CLOSED: [2018-08-13 Mon 17:13]
+   - State "DONE"       from "STARTED"    [2018-08-13 Mon 17:13]
    In this lesson, we scaffold out a new application and start sketching out the first test.
+   *Important note*
+   We start the course with Laravel 5.3 which was the current version at the time of recording. If you want to follow along line-by-line, I recommend that you start with a fresh 5.3 project, and upgrade to 5.4 and beyong we do it in the course.
+   To create a fresh Laravel 5.3 project, run this in your terminal.
+   =composer create-project laravel/laravel=5.3.* ticketbeast=
+   If you'd like to start with Laravel 5.4(or even 5.5), I recommand watching the upgrade videos first so you have an idea of what differences you need to watch out for.
+
+
+   - Tests
+     - =user_can_view_a_concert_listing= in =ViewConcertListing Test=
+       - Arrange
+         Create a Project
+       - Act
+         View the concert listing
+       - Assert
+         See the concert details
 
 ** Getting to Green
    In this lesson, we use TDD to scaffold out a lot of the boiler plate in the application and get our first test passing.
