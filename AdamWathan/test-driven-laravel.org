@@ -1,5 +1,7 @@
 * Getting the Ball Rolling
-** What Do We Build First
+** DONE What Do We Build First
+   CLOSED: [2018-08-13 Mon 16:53]
+   - State "DONE"       from "STARTED"    [2018-08-13 Mon 16:53]
    First of all, welcome to Test-Driven Laravel!
    To get things started, let's talk a bit about the app we are going to build, and figure out where we should start.
    [[~/Documents/tutorials/test-driven-laravel/1-getting-the-ball-rolling/1-what-do-we-build-first.mp4][1-what-do-we-build-first.mp4]]
