@@ -33,9 +33,17 @@
    - Summary
      - One test drive one line code.
 
-** Unit Testing Presentation Logic
+** DONE Unit Testing Presentation Logic
+   CLOSED: [2018-08-14 Tue 12:57]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 12:57]
    In this lesson, we drive out some presentation helpers via unit tests to extract some logic from our view.
 
+   - Tests
+     - =can_get_formatted_date= in =ConcertTest= =unit=
+
+   - Summary
+     - Use Laravel =factory= to create test data
+     - Use =get<item>Attribute= magic method to dynamic get attribute.
 ** Refactoring For Speed
    In this lesson, we finish extracting some presentation helpers, then refactor our tests to run without using the database to keep thing fast.
 
