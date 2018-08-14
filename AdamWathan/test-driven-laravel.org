@@ -55,8 +55,20 @@
    - Summary
      - =create= and =make= differences
 
-** Hiding Unpublished Concerts
+** DONE Hiding Unpublished Concerts
+   CLOSED: [2018-08-14 Tue 16:37]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 16:37]
    In this lesson, we introduce the idea of "published" and "unpublished" concerts, and hide unpblished concerts from visitors to the site.
+
+   - Tests
+     - =user_cannot_view_unpublished_concert_listings= in =ViewConcertListingTest= =feature=
+
+   - Summary
+     - =published= and =unpublished=
+       =publish=true/false= vs =published_at=timestamps/null=
+     - =assertResponseStatusCode()=
+     - =whereNotNull= eloquent query
+     - =get()= vs =visit()= method to get the endpoint in test
 
 ** Testing Query Scopes
    In this lesson, we extract some query logic to a custom scope and ensure that it's covered by our tests.
