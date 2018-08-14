@@ -82,8 +82,13 @@
    - Summary
      - Encapsulate model query from controller to query scope.
 
-** Factory States
+** DONE Factory States
+   CLOSED: [2018-08-14 Tue 16:58]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 16:58]
    In this lesson, we abstract some details about makes a concert "published" from our tests by encapsulating them in a factory state.
+
+   - Summary
+     - factory state =$factory->state(App\Concert::class, 'published', closure)=
 
 * Purchasing Concert Tickets
 ** Intro
