@@ -91,7 +91,9 @@
      - factory state =$factory->state(App\Concert::class, 'published', closure)=
 
 * Purchasing Concert Tickets
-** Intro
+** DONE Intro
+   CLOSED: [2018-08-14 Tue 17:00]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 17:00]
    In this lesson, we talk about getting started with the "Purchasing Concert Tickets" feature that we're going to implement next.
 
 ** Browser Testing vs Endpoint Testing
