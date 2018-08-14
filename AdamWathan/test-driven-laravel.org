@@ -96,8 +96,17 @@
    - State "DONE"       from "STARTED"    [2018-08-14 Tue 17:00]
    In this lesson, we talk about getting started with the "Purchasing Concert Tickets" feature that we're going to implement next.
 
-** Browser Testing vs Endpoint Testing
+** DONE Browser Testing vs Endpoint Testing
+   CLOSED: [2018-08-14 Tue 17:28]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 17:28]
    In this lesson, we talk about the trade-offs involved in testing through the browser vs. testing endpoint directly, and why you might choose one option over the other.
+
+   - Summary
+     - What do I want from my tests?
+       1. Confidence that the system works
+       2. Reliable, don't break for unimportant reasons.
+       3. Fast, so I run them often.
+       4. Simple, as few tools as possible, easy to recreate test environment.
 
 ** Outlining the First Purchasing Test
    In this lesson, we design our initial "customer can purchase concert tickets" test.
