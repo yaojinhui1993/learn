@@ -70,8 +70,17 @@
      - =whereNotNull= eloquent query
      - =get()= vs =visit()= method to get the endpoint in test
 
-** Testing Query Scopes
+** DONE Testing Query Scopes
+   CLOSED: [2018-08-14 Tue 16:51]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 16:51]
    In this lesson, we extract some query logic to a custom scope and ensure that it's covered by our tests.
+
+   - Tests
+     - change =user_can_view_a_concert_listing= to =user_can_view_a_published_concert_listing=
+     - =concerts_with_a_published_at_date_are_published=
+
+   - Summary
+     - Encapsulate model query from controller to query scope.
 
 ** Factory States
    In this lesson, we abstract some details about makes a concert "published" from our tests by encapsulating them in a factory state.
