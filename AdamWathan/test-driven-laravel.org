@@ -108,8 +108,16 @@
        3. Fast, so I run them often.
        4. Simple, as few tools as possible, easy to recreate test environment.
 
-** Outlining the First Purchasing Test
+** DONE Outlining the First Purchasing Test
+   CLOSED: [2018-08-14 Tue 17:39]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 17:39]
    In this lesson, we design our initial "customer can purchase concert tickets" test.
+
+   - Tests
+     - =customer_can_purchase_concert_tickets= in =PurchaseTicketsTest=
+   - Summary
+     - =$this->json('POST', '/endpoint', [data])= use json to visit an endpoint.
+     - Use test as a playground to play with code.
 
 ** Faking the Payment Gateway
    In this lesson, we create a fake implementation of our payment gateway to avoid hitting Stripe during our intergration tests.
