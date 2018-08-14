@@ -94,3 +94,13 @@
      - =it_can_filter_achievements_down_to_only_those_that_the_given_user_has_been_awarded= in =AchievementsTest=
    - Summary
      =Achievement.php= model overriding the =newCollection=, return the =Achievements.php= class. The =Achievements.php= class extends Laravel base =Collection= class. So that when use =Achievement::all()= method, it will return the =Achievements.php= collection. In the =Achievements.php= we can add any we we to extend collection method, like =expert()= method to get a collection that contain all the expert achievements.
+** DONE Color Coding Achievements
+   CLOSED: [2018-08-14 Tue 08:09]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 08:09]
+   At the moment, all achievements exist on the same playing field, which we disignate using a blue background. Let's add the necessary logic to specify a bignner, intermidiate, or advanced skill level for each achievement type. Then, in our UI, we can visualize these with yellow, blue, and red background colors, respectively.
+   - Tests
+     - =it_sets_a_default_skill_lever= in =AchievementTypeTest=
+     - =it_persists_the_achievement_attributes_in_the_database= in =AchievementTypeTest=
+
+   - Summary
+     use =enum= type in the database.
