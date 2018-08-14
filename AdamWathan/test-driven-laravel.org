@@ -44,8 +44,16 @@
    - Summary
      - Use Laravel =factory= to create test data
      - Use =get<item>Attribute= magic method to dynamic get attribute.
-** Refactoring For Speed
+** DONE Refactoring For Speed
+   CLOSED: [2018-08-14 Tue 16:25]
+   - State "DONE"       from "STARTED"    [2018-08-14 Tue 16:25]
    In this lesson, we finish extracting some presentation helpers, then refactor our tests to run without using the database to keep thing fast.
+
+   - Tests
+     - =can_get_formatted_start_time= in =ConcertTest= =unit=
+     - =can_get_ticket_price_in_dollars= in =ConcertTest= =unit=
+   - Summary
+     - =create= and =make= differences
 
 ** Hiding Unpublished Concerts
    In this lesson, we introduce the idea of "published" and "unpublished" concerts, and hide unpblished concerts from visitors to the site.
