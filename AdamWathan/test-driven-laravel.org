@@ -218,7 +218,9 @@
    - Summary
      - =$this->fail('message')= in the =fail= method add the failed message.
 
-** Finish the Feature Test
+** DONE Finish the Feature Test
+   CLOSED: [2018-08-15 Wed 15:54]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:54]
    In this lesson, we get our "cannot purchase more tickets than remain" feature test passing by finishing our controller implementation.
 
 ** Cancelling Failed Orders
