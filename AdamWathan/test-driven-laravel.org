@@ -454,8 +454,15 @@
      - When delete stale code, first thing is run the feature test to improve the feature test is passing. And then comment the stale code and rerun feature test, if also passing, we can confidence to delete that code. And last thing, inspect the method in the code, and comment the method rerun feature test to check is still passing, if so, delete it.
 
 * Something Smells in Our Controllers
-** Cleaning Up a Loose Variable
-   In this lesson, we look to eliminate a loose variable in our controller by adding some additional behavior to our Reservation class, and then spend some time pushing the responsibility for creating reservations inside our Concert class and our of our controller.
+** DONE Cleaning Up a Loose Variable
+   CLOSED: [2018-08-16 Thu 05:21]
+   - State "DONE"       from              [2018-08-16 Thu 05:21]
+   In this lesson, we look to eliminate a loose variable in our controller by adding some additional behavior to our Reservation class, and then spend some time pushing the responsibility for creating reservations inside our Concert class and out of our controller.
+
+   - Tests
+     - =retrieving_the_reservation_tickets= in =ReservationTest= =unit=
+   - Summary
+     - When refactor, eliminate loose variables is a way.
 
 ** Moving the Email to Reservation
    In this lesson, we notice a long parameter list we'd like to refactor, but in order to do that, we need to tweak how reservations are created so that reservation has knowledge of the customer who is reserving the tickets.
