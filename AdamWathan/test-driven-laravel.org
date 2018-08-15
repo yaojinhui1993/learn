@@ -438,15 +438,20 @@
 ** DONE A Change in Behavior
    CLOSED: [2018-08-16 Thu 04:51]
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 04:51]
-   Our feature test is still failing because some of our order code has a different understanding of what it means to "releases" tickets.
+   Our feature test is still failing because some of our older code has a different understanding of what it means to "releases" tickets.
    In this lesson, we diagnose the issue and update our specification to help us drive out the change in behavior.
 
    - Summary
      - =release= and =reserved= are different meanings in the code.
 
-** Deleting Stale Tests
+** DONE Deleting Stale Tests
+   CLOSED: [2018-08-16 Thu 05:10]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 05:10]
    In this lesson, we discuss the importance of high level feature tests, and how they help give use the confidence to delete stale code when confronted with a failing unit test.
 
+   - Summary
+     - =Feature= test is our application feature, and =Unit= test is to help Feature test.
+     - When delete stale code, first thing is run the feature test to improve the feature test is passing. And then comment the stale code and rerun feature test, if also passing, we can confidence to delete that code. And last thing, inspect the method in the code, and comment the method rerun feature test to check is still passing, if so, delete it.
 
 * Something Smells in Our Controllers
 ** Cleaning Up a Loose Variable
