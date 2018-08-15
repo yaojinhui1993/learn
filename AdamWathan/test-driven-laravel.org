@@ -167,8 +167,16 @@
      - Encapsulate the post method and parameters to a dedicated method
      - Encapsulate validation assert to a dedicated method =assertValidationError=
 
-** Handling Failed Charges
+** DONE Handling Failed Charges
+   CLOSED: [2018-08-15 Wed 14:53]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 14:53]
    In this lesson, we drive out what should happen when a customer's payment fails.
+
+   - Tests
+     - =an_order_is_not_created_if_payment_fails= in =PurchaseTicketsTest= =feature=
+     - =charges_with_an_invalid_payment_token_fail= in =FakePaymentGateWayTest= =unit=
+   - Summary
+     - Use =try-catch= block in the tests for having change to handling the exception
 
 ** Preventing Tickets Sales to Unpublished Concerts
    In this lesson, we add a new feature test to cover the situation when someone tries to view a concert that hasn't been published yet.
