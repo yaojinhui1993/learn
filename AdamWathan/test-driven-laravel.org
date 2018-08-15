@@ -278,8 +278,13 @@
    In this lesson, we talks about three issues with our existing design and why they are worth addressing.
 
 * A Surgical Refactoring
-** Persisting the Order Amount
-  In this lesson, we work on persisting the order amount to the database, instead of calculating it on the fly based on tickets price and tickets quantitly.
+** DONE Persisting the Order Amount
+   CLOSED: [2018-08-15 Wed 17:19]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:19]
+  In this lesson, we work on persisting the order amount to the database, instead of calculating it on the fly based on tickets price and tickets quantity.
+
+  - Summary
+    - When refactor, keep test green and add code and comment it.
 
 ** Removing the Need to Cancel Orders
    In this lesson, we work getting rid of the need to cancel orders when a payment fails by separating the idea of finding tickets from confirming an order.
