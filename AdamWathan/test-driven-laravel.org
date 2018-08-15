@@ -299,8 +299,13 @@
    - Summary
      - When refactor, keep tests green!
 
-** Extracting a Named Constructor
+** DONE Extracting a Named Constructor
+   CLOSED: [2018-08-15 Wed 17:50]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:50]
    In this lesson, we introduced a named constructor for creating orders from customer details and tickets.
+
+   - Tests
+     - =creating_an_order_from_tickets_and_email= in =OrderTest= =unit=
 
 ** Precomputing the Order Amount
    In this lesson, we work on removing the need for an order to know how to calculate it's own price so we can eliminlate some duplication in our code.
