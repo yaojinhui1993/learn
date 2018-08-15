@@ -330,7 +330,9 @@
    We also talk about different approaches to isolating the Reservation from it's collaborators, and why you might not need a special library to do it.
 
 * Off to the Races
-**  Uh Oh, a Race Condition!
+** DONE Uh Oh, a Race Condition!
+   CLOSED: [2018-08-15 Wed 20:10]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:10]
    Over the last few lessons we've improved the design of our code significantly, but we've also introduced a race condition.
 
 ** Requestception
