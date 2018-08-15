@@ -388,8 +388,14 @@
      - =cannot_reserved_tickets_that_have_already_been_purchased= in =ConcertTest= =unit=
      - =cannot_reserved_tickets_that_have_already_been_reserved= in =ConcertTest= =unit=
 
-** That Guy Stole My Tickets
+** DONE That Guy Stole My Tickets
+   CLOSED: [2018-08-15 Wed 21:09]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 21:09]
    For some reason, person B is getting their name added to tickets that person A paid for! Let's figure out what's going on.
+
+   - Summary
+     - Laravel only maintain a request information. If test have subrequest, the first request will replaced by last request even last request is finished.
+       The solution is save the first request and restore the saved request after last request is finished. =$savedRequest = $this->app['request']= and =$this->app['request'] = $savedRequest=
 
 * Hunting for Stale Code
 
