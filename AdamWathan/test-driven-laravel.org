@@ -223,8 +223,15 @@
    - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:54]
    In this lesson, we get our "cannot purchase more tickets than remain" feature test passing by finishing our controller implementation.
 
-** Cancelling Failed Orders
+** DONE Cancelling Failed Orders
+   CLOSED: [2018-08-15 Wed 16:03]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 16:03]
    In this lesson, we make sure that if a customer's payment fails, we cancel their order.
+
+   - Tests
+     - =tickets_are_released_when_order_is_cancelled= in =OrderTest= =unit=
+   - Summary
+     - assert status in arrange state.
 
 ** Refactoring and Redundant Test Coverage
    In this lesson, we  extract some logic from our Order class to Tickets class, and discuss whether or not it's important to add new test coverage.
