@@ -345,8 +345,16 @@
    - Summary
      - subrequest test
 
-** Hooking into Charges
+** DONE Hooking into Charges
+   CLOSED: [2018-08-15 Wed 20:27]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:27]
    In this lesson, we add a hook to our fake payment gateway to allow us to trigger a nested request.
+
+   - Tests
+     - =runnig_a_hook_before_the_first_charge= in =FakePaymentGateWayTest= =unit=
+   - Summary
+     - Use hook and callback in the =FakePaymentGateWay= to trigger before charge functions
+     - =$this->beforeFirstChargeCallback->__invoke($this)= use this to invoke callback attribute.
 
 ** Uh Oh, a Segfault!
    In this lesson, we finish wrting our feature test to cover the race condition. But when we run it, we hit a segfault! Let's see if we can diagnose the issue.
