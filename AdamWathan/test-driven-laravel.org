@@ -139,8 +139,13 @@
      - Use the =hasMany= snippets
      - Use the =range(1, $quantity)= php method in =foreach= to create the quantily tickets.
 
-** Encapsulating Relactionship Logic in the Model
+** DONE Encapsulating Relationship Logic in the Model
+   CLOSED: [2018-08-15 Wed 14:19]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 14:19]
    In this lesson, we work on refactoring some of our controller code and pushing some logic into the model.
+
+   - Tests
+     - =can_order_concert_tickets= in =ConcertTest= =unit=
 
 ** Getting Started with Validation Testing
    In this lesson, we work on testing and implementing some request validation rules.
