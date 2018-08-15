@@ -379,8 +379,14 @@
    - Summary
      - In factory use closure =function() { factory(); }= to delay factory.
 
-** Reserved Means Reserved
+** DONE Reserved Means Reserved
+   CLOSED: [2018-08-15 Wed 21:01]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 21:01]
    In this lesson, we work on making sure the rest of the application respects our newly introduced "reserved" status on tickets.
+
+   - Tests
+     - =cannot_reserved_tickets_that_have_already_been_purchased= in =ConcertTest= =unit=
+     - =cannot_reserved_tickets_that_have_already_been_reserved= in =ConcertTest= =unit=
 
 ** That Guy Stole My Tickets
    For some reason, person B is getting their name added to tickets that person A paid for! Let's figure out what's going on.
