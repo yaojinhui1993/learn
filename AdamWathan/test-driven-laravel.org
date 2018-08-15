@@ -315,8 +315,13 @@
    - Tests
      - change =creating_an_order_from_tickets_and_email= to =creating_an_order_from_tickets_email_and_amount= in =OrderTest= =unit=
 
-** Uncovering a New Domain Object
+** DONE Uncovering a New Domain Object
+   CLOSED: [2018-08-15 Wed 18:06]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 18:06]
    In this lesson, we walk through a strategy I use to discover new objects in my code, and start driving out a new domain object with tests.
+
+   - Tests
+     - =calculating_the_total_cost= in =ReservationTest= =unit=
 
 ** You Might Not Need a Mocking Framework
    In this lesson, we work on removing the need to migrate the database when testing our simple Reservation class.
