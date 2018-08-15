@@ -291,8 +291,13 @@
    - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:27]
    In this lesson, we work getting rid of the need to cancel orders when a payment fails by separating the idea of finding tickets from confirming an order.
 
-** Preparing for Extraction
+** DONE Preparing for Extraction
+   CLOSED: [2018-08-15 Wed 17:36]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:36]
    In this lesson, we work on removing the need to create orders through a concert by removing a redundant relationship.
+
+   - Summary
+     - When refactor, keep tests green!
 
 ** Extracting a Named Constructor
    In this lesson, we introduced a named constructor for creating orders from customer details and tickets.
