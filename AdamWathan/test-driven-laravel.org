@@ -307,8 +307,13 @@
    - Tests
      - =creating_an_order_from_tickets_and_email= in =OrderTest= =unit=
 
-** Precomputing the Order Amount
+** DONE Precomputing the Order Amount
+   CLOSED: [2018-08-15 Wed 17:59]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:59]
    In this lesson, we work on removing the need for an order to know how to calculate it's own price so we can eliminlate some duplication in our code.
+
+   - Tests
+     - change =creating_an_order_from_tickets_and_email= to =creating_an_order_from_tickets_email_and_amount= in =OrderTest= =unit=
 
 ** Uncovering a New Domain Object
    In this lesson, we walk through a strategy I use to discover new objects in my code, and start driving out a new domain object with tests.
