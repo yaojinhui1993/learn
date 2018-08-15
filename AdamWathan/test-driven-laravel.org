@@ -147,8 +147,16 @@
    - Tests
      - =can_order_concert_tickets= in =ConcertTest= =unit=
 
-** Getting Started with Validation Testing
+** DONE Getting Started with Validation Testing
+   CLOSED: [2018-08-15 Wed 14:29]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 14:29]
    In this lesson, we work on testing and implementing some request validation rules.
+
+   - Tests
+     - =email_is_required_to_purchase_tickets= in =PurchaseTicketsTest= =feature=
+   - Summary
+     - Use =disabledExceptionHandling= to toggle Laravel exception handle.
+     - =$this->decodeResponseJson= in test to decode response data to json.
 
 ** Reducing Duplication with Custom Assertion
    In this lesson, we abstract some commonly paired assertions behind a custom assertion with a more expressive name.
