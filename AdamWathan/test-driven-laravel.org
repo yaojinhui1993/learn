@@ -464,8 +464,16 @@
    - Summary
      - When refactor, eliminate loose variables is a way.
 
-** Moving the Email to Reservation
+** DONE Moving the Email to Reservation
+   CLOSED: [2018-08-16 Thu 05:32]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 05:32]
    In this lesson, we notice a long parameter list we'd like to refactor, but in order to do that, we need to tweak how reservations are created so that reservation has knowledge of the customer who is reserving the tickets.
+
+   - Tests
+     - =retrieving_the_customers_email= in =ReservationTest= =unit=
+   - Summary
+     - Encapsulate the email responsibility to the Reservation class.
+     - Consistence the parameters to easily refactor the responsibility to some class.
 
 ** Refactoring "Long Parameters List" Using "Preserve Whole Object"
    In this lesson, we attempt to refactor the "long parameter list" code smell we noticed in our Order class using the "preserve whole object" refactoring.
