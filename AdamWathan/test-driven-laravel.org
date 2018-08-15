@@ -356,8 +356,13 @@
      - Use hook and callback in the =FakePaymentGateWay= to trigger before charge functions
      - =$this->beforeFirstChargeCallback->__invoke($this)= use this to invoke callback attribute.
 
-** Uh Oh, a Segfault!
+** DONE Uh Oh, a Segfault!
+   CLOSED: [2018-08-15 Wed 20:33]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:33]
    In this lesson, we finish wrting our feature test to cover the race condition. But when we run it, we hit a segfault! Let's see if we can diagnose the issue.
+
+   - Summary
+     - =segmentation fault= in phpunit, maybe infinite loop.
 
 ** Replicating the Failure at the Unit Level
    In order to get a better understanding of our segfault issue, we try and replicate it at the unit level so we can fix it more easily.
