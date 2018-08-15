@@ -364,7 +364,9 @@
    - Summary
      - =segmentation fault= in phpunit, maybe infinite loop.
 
-** Replicating the Failure at the Unit Level
+** DONE Replicating the Failure at the Unit Level
+   CLOSED: [2018-08-15 Wed 20:39]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:39]
    In order to get a better understanding of our segfault issue, we try and replicate it at the unit level so we can fix it more easily.
 
 ** Reserving Individual Tickets
