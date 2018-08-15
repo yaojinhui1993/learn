@@ -119,8 +119,16 @@
      - =$this->json('POST', '/endpoint', [data])= use json to visit an endpoint.
      - Use test as a playground to play with code.
 
-** Faking the Payment Gateway
+** DONE Faking the Payment Gateway
+   CLOSED: [2018-08-15 Wed 12:42]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 12:42]
    In this lesson, we create a fake implementation of our payment gateway to avoid hitting Stripe during our intergration tests.
+
+   - Tests
+     - =charges_with_a_valid_payment_token_are_successful= in =FakePaymentGateWayTest= =unit=
+   - Summary
+     - Down to unit test to implement FakePaymentGateWay methods
+     - =$this->app->instance('<interface>', 'instance')= Laravel bind instance to interface.
 
 ** Adding Tickets to Orders
    In this lesson, we work on creating tickets and attaching them to orders when a customer make a purchase.
