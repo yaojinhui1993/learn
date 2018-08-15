@@ -254,9 +254,15 @@
      - =hasOrderFor= method near the =order= relaction method
 
 * Returning Order Details
-** Asserting Against JSON Response
+** DONE Asserting Against JSON Response
+   CLOSED: [2018-08-15 Wed 16:52]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 16:52]
   In this lesson, we add tests to ensure that we are getting back meaniningfully order information after purchasing tickets, and discuss different strategies for testing JSON response.
 
+  - Summary
+    - =seeJsonEquals= match the expected results exactly with response.
+    - =seeJsonContains/seeJson= response contain the expected results, especially contain the deep layer data.
+    - =seeJsonSubset= only check the subset contain the expected results. it is a magical method. 🔥
 ** Returning Order Details
    In this lesson, we work on getting our existing feature test passing by driving out an order's JSON representation at the unit level.
 
