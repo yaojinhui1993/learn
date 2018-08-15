@@ -399,8 +399,19 @@
 
 * Hunting for Stale Code
 
-** Cancelling Reservation
+** DONE Cancelling Reservation
+   CLOSED: [2018-08-16 Thu 04:31]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 04:31]
    In this lesson, we find a sneaky bug and work towards solving it through an isolated unit test.
+
+   - Tests
+     - =reserved_tickets_are_released_when_a_reservation_is_cancelled= in =ReservationTest= =unit=
+   - Summary
+     - use Mockery to assert method should be invoked
+       #+BEGIN_SRC php
+         $ticket1 = Mockery::mock(Ticket::class);
+         $ticket1->shoudlReceive('release')->once();
+       #+END_SRC
 
 ** Refactoring Mockes to Spies
    In this lesson, we talk about 3 different ways to create mock objects, as well as how using spies instead of mocks can help keep your tests more organized.
