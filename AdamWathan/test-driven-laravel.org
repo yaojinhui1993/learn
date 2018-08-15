@@ -286,7 +286,9 @@
   - Summary
     - When refactor, keep test green and add code and comment it.
 
-** Removing the Need to Cancel Orders
+** DONE Removing the Need to Cancel Orders
+   CLOSED: [2018-08-15 Wed 17:27]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:27]
    In this lesson, we work getting rid of the need to cancel orders when a payment fails by separating the idea of finding tickets from confirming an order.
 
 ** Preparing for Extraction
