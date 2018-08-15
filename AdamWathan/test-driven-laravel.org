@@ -233,8 +233,15 @@
    - Summary
      - assert status in arrange state.
 
-** Refactoring and Redundant Test Coverage
-   In this lesson, we  extract some logic from our Order class to Tickets class, and discuss whether or not it's important to add new test coverage.
+** DONE Refactoring and Redundant Test Coverage
+   CLOSED: [2018-08-15 Wed 16:18]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 16:18]
+   In this lesson, we extract some logic from our Order class to Tickets class, and discuss whether or not it's important to add new test coverage.
+
+   - Tests
+     - =a_ticket_can_be_released= in =TicketsTest= =unit=
+   - Summary
+     - =fresh()= method in tests
 
 ** Cleaning Up Our Tests
    Much like production code, test code needs to be refactored and kept healthy and maintainable.
