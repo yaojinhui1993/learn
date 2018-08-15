@@ -271,7 +271,9 @@
    - Tests
      - =converting_to_an_array= in =OrderTest= =unit=
 
-** This Design Sucks
+** DONE This Design Sucks
+   CLOSED: [2018-08-15 Wed 17:07]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 17:07]
    You don't awlays write beautiful code on the first try.
    In this lesson, we talks about three issues with our existing design and why they are worth addressing.
 
