@@ -243,9 +243,15 @@
    - Summary
      - =fresh()= method in tests
 
-** Cleaning Up Our Tests
+** DONE Cleaning Up Our Tests
+   CLOSED: [2018-08-15 Wed 16:34]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 16:34]
    Much like production code, test code needs to be refactored and kept healthy and maintainable.
    In this lesson, we go over our existing test suite and look for opportunities to clean it up.
+
+   - Summary
+     - Compasered =assertConcertHasOrderFor($concert, 'email')=, =assertConcertDoesNotHaveOrderFor= with =assertTrue($concert->hasOrderFor('email'))=
+     - =hasOrderFor= method near the =order= relaction method
 
 * Returning Order Details
 ** Asserting Against JSON Response
