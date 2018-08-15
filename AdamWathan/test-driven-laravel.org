@@ -198,8 +198,14 @@
 
    - Tests
      - =cannot_purchase_more_tickets_than_remain= in =PurchaseTicketsTest= =feature=
-** Adding Tickets to Concerts
+** DONE Adding Tickets to Concerts
+   CLOSED: [2018-08-15 Wed 15:30]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:30]
    In this lesson, we implement the ability to add tickets to concerts so there are tickets available when a customer tries to purchase.
+
+   - Tests
+     - =can_add_tickets= in =ConcertTest= =unit=
+     - =tickets_remaining_does_not_include_tickets_associated_with_an_order= in =ConcertTest= =unit=
 
 ** Refusing Orders When There Are No More Tickets
    In this lesson, we work on making sure orders are not created when someone tries to purchase more tickets than remain, and ensuring that a customer can't purchase tickets already purchased by another customer.
