@@ -207,8 +207,16 @@
      - =can_add_tickets= in =ConcertTest= =unit=
      - =tickets_remaining_does_not_include_tickets_associated_with_an_order= in =ConcertTest= =unit=
 
-** Refusing Orders When There Are No More Tickets
+** DONE Refusing Orders When There Are No More Tickets
+   CLOSED: [2018-08-15 Wed 15:48]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:48]
    In this lesson, we work on making sure orders are not created when someone tries to purchase more tickets than remain, and ensuring that a customer can't purchase tickets already purchased by another customer.
+
+   - Tests
+     - =trying_to_purchase_more_tickets_than_remain_throws_an_exception= in =ConcertTest= =unit=
+     - =cannot_order_tickets_that_have_already_been_purchasedA in =ConcertTest== =unit=
+   - Summary
+     - =$this->fail('message')= in the =fail= method add the failed message.
 
 ** Finish the Feature Test
    In this lesson, we get our "cannot purchase more tickets than remain" feature test passing by finishing our controller implementation.
