@@ -191,9 +191,13 @@
 
 * Limiting Tickets Sales
 
-** Outlining the First Test Case
+** DONE Outlining the First Test Case
+   CLOSED: [2018-08-15 Wed 15:18]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:18]
    In this lesson, we work on writing a test to ensure that customers can't purchase more tickets than are still available
 
+   - Tests
+     - =cannot_purchase_more_tickets_than_remain= in =PurchaseTicketsTest= =feature=
 ** Adding Tickets to Concerts
    In this lesson, we implement the ability to add tickets to concerts so there are tickets available when a customer tries to purchase.
 
