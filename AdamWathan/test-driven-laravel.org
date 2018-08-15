@@ -178,8 +178,16 @@
    - Summary
      - Use =try-catch= block in the tests for having change to handling the exception
 
-** Preventing Tickets Sales to Unpublished Concerts
+** DONE Preventing Tickets Sales to Unpublished Concerts
+   CLOSED: [2018-08-15 Wed 15:04]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 15:04]
    In this lesson, we add a new feature test to cover the situation when someone tries to view a concert that hasn't been published yet.
+
+   - Tests
+     - =cannot_purchase_tickets_to_an_unpublished_concert= in =PurchaseTicketsTest= =feature=
+     - change =customer_can_purchase_concert_tickets= to =customer_can_purchase_to_a_published_concert=
+   - Summary
+     - =findOrFail= convert to 404 exception
 
 * Limiting Tickets Sales
 
