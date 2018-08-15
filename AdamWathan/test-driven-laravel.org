@@ -323,7 +323,9 @@
    - Tests
      - =calculating_the_total_cost= in =ReservationTest= =unit=
 
-** You Might Not Need a Mocking Framework
+** DONE You Might Not Need a Mocking Framework
+   CLOSED: [2018-08-15 Wed 18:12]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 18:12]
    In this lesson, we work on removing the need to migrate the database when testing our simple Reservation class.
    We also talk about different approaches to isolating the Reservation from it's collaborators, and why you might not need a special library to do it.
 
