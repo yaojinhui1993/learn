@@ -335,8 +335,15 @@
    - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:10]
    Over the last few lessons we've improved the design of our code significantly, but we've also introduced a race condition.
 
-** Requestception
+** DONE Requestception
+   CLOSED: [2018-08-15 Wed 20:18]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:18]
    In this lesson, we discuss how subrequests work, and how we can use them to help test this race condition.
+
+   - Tests
+     - =cannot_purchase_tickets_another_customer_is_trying_to_purchase= in =PurchaseTicketsTest= =feature=
+   - Summary
+     - subrequest test
 
 ** Hooking into Charges
    In this lesson, we add a hook to our fake payment gateway to allow us to trigger a nested request.
