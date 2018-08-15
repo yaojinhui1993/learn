@@ -369,8 +369,15 @@
    - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:39]
    In order to get a better understanding of our segfault issue, we try and replicate it at the unit level so we can fix it more easily.
 
-** Reserving Individual Tickets
+** DONE Reserving Individual Tickets
+   CLOSED: [2018-08-15 Wed 20:55]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 20:55]
    To make sure nobody can purchase someone else's tickets while they are still trying to pay, we work on introducing the idea of a ticket being "reserved".
+
+   - Tests
+     - =a_ticket_can_be_reserved= in =TicketTest= =unit=
+   - Summary
+     - In factory use closure =function() { factory(); }= to delay factory.
 
 ** Reserved Means Reserved
    In this lesson, we work on making sure the rest of the application respects our newly introduced "reserved" status on tickets.
