@@ -158,8 +158,14 @@
      - Use =disabledExceptionHandling= to toggle Laravel exception handle.
      - =$this->decodeResponseJson= in test to decode response data to json.
 
-** Reducing Duplication with Custom Assertion
+** DONE Reducing Duplication with Custom Assertion
+   CLOSED: [2018-08-15 Wed 14:42]
+   - State "DONE"       from "STARTED"    [2018-08-15 Wed 14:42]
    In this lesson, we abstract some commonly paired assertions behind a custom assertion with a more expressive name.
+
+   - Summary
+     - Encapsulate the post method and parameters to a dedicated method
+     - Encapsulate validation assert to a dedicated method =assertValidationError=
 
 ** Handling Failed Charges
    In this lesson, we drive out what should happen when a customer's payment fails.
