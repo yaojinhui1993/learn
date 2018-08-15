@@ -413,8 +413,27 @@
          $ticket1->shoudlReceive('release')->once();
        #+END_SRC
 
-** Refactoring Mockes to Spies
+** DONE Refactoring Mockes to Spies
+   CLOSED: [2018-08-16 Thu 04:42]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 04:42]
    In this lesson, we talk about 3 different ways to create mock objects, as well as how using spies instead of mocks can help keep your tests more organized.
+
+   - Summary
+     - Mock function the second parameter is a callback
+       #+BEGIN_SRC php
+         Mock::(Ticket::class, function($mock) {
+             $mock->shouldReceive('release')->once();
+         })
+       #+END_SRC
+     - =Mock::mock(Ticket::class)->shouldReceive('release')->getMock()= method to get mock
+     - Mockery spy
+       #+BEGIN_SRC php
+         // Arrange
+         $ticket = Mockery::spy(Ticket::class);
+
+         // Assert
+         $ticket->shouldHaveReceived('release');
+       #+END_SRC
 
 ** A Change in Behavior
    Our feature test is still failing because some of our order code has a different understanding of what it means to "releases" tickets.
