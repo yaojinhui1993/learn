@@ -543,7 +543,9 @@
    - Summary
      - =phpunit --exclude-group <group-name>= exclude group
 
-** Handling Invalid Payment Tokens
+** DONE Handling Invalid Payment Tokens
+   CLOSED: [2018-08-16 Thu 11:32]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 11:32]
    In this lesson, we add a new test to make sure our StripePaymentGateway behaves as expected when attempting to charge with an invalid payment token.
 
 ** The Moment of Truth
