@@ -519,7 +519,9 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:31]
    In this lesson we use Stripe's API to fetch the most recent charge so we can make assertions about it in our test.
 
-** Making a Successful Charge
+** DONE Making a Successful Charge
+   CLOSED: [2018-08-16 Thu 09:38]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:38]
    In this lesson we work through the first set of test failures and successfully make a charge to Stripe.
 
 ** Dealing with Lingering State
