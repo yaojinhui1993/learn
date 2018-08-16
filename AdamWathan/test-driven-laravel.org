@@ -602,7 +602,9 @@
 
 * Upgrading Our Suit to Laravel 5.4
 
-** Upgrading to Laravel 5.4
+** DONE Upgrading to Laravel 5.4
+   CLOSED: [2018-08-16 Thu 14:56]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:56]
    In this lesson, we upgrade TicketBeast to Laravel 5.4, and get our tests back to green using =browser-kit-testing= package.
 
 ** Removing the BrowserKit Dependency
