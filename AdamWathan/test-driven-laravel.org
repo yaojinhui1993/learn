@@ -486,9 +486,17 @@
      - [[https://sourcemaking.com/refactoring/smells/long-parameter-list][Long Parameter List]] code smell
      - [[https://sourcemaking.com/refactoring/preserve-whole-object][Preserve Whole Object]] refactoring
 
-** Green with Feature Envy
+** DONE Green with Feature Envy
+   CLOSED: [2018-08-16 Thu 08:15]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 08:15]
    Our "preserve whole object" refactoring didn't turn out as nicely as we hoped.
    In this lesson, we look to treat the original problem as a "feature envy" issue instead of a "long parameter list" issue, and see if that leads us to a better solution.
+
+   - Tests
+     - =completing_a_reservation= in =ReservationTest= =unit=
+   - Summary
+     - [[https://sourcemaking.com/refactoring/smells/feature-envy][Feature Envy]] code smell
+     - When delete code and tests, first delete code and then delete tests, and last things is run all tests.
 
 ** Avoiding Service Classes with Method Injection
    In this lesson, we notice that we're lacking a single source of truth for the amount we charge the customer and the amount used to create the new order.
