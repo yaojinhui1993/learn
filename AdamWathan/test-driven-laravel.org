@@ -649,7 +649,9 @@
      - =retrieving_an_order_by_confirmation_number= in =OrderTest= =unit=
      - =retrieving_a_nonexistent_order_by_confirmation_number_throws_an_exception= in =OrderTest= =unit=
 
-** Making Static Data Real
+** DONE Making Static Data Real
+   CLOSED: [2018-08-16 Thu 16:30]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:30]
    In this lesson, we work through using tests to replace some of the hard coded data in our mockup with real data that's attached to our order.
 
 ** Deciding What to Test in a View
