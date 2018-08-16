@@ -514,7 +514,9 @@
    - Tests
      - =charges_with_a_valid_payment_token_are_successful= in =StripePaymentGatewayTest= =unit=
 
-** Retriving the Last Charge
+** DONE Retriving the Last Charge
+   CLOSED: [2018-08-16 Thu 09:31]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:31]
    In this lesson we use Stripe's API to fetch the most recent charge so we can make assertions about it in our test.
 
 ** Making a Successful Charge
