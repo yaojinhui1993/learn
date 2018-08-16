@@ -475,8 +475,16 @@
      - Encapsulate the email responsibility to the Reservation class.
      - Consistence the parameters to easily refactor the responsibility to some class.
 
-** Refactoring "Long Parameters List" Using "Preserve Whole Object"
+** DONE Refactoring "Long Parameters List" Using "Preserve Whole Object"
+   CLOSED: [2018-08-16 Thu 08:04]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 08:04]
    In this lesson, we attempt to refactor the "long parameter list" code smell we noticed in our Order class using the "preserve whole object" refactoring.
+
+   - Tests
+     - =creating_an_order_from_reservation= in =OrderTest= =unit=
+   - Summary
+     - [[https://sourcemaking.com/refactoring/smells/long-parameter-list][Long Parameter List]] code smell
+     - [[https://sourcemaking.com/refactoring/preserve-whole-object][Preserve Whole Object]] refactoring
 
 ** Green with Feature Envy
    Our "preserve whole object" refactoring didn't turn out as nicely as we hoped.
