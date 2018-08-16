@@ -632,8 +632,13 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 15:54]
    In this lesson, we figure out th URL structure we want to use to keep order confirmation pages private, and drive out the ability to successfully hit out new endpoint.
 
-** Asserting Against View Data
+** DONE Asserting Against View Data
+   CLOSED: [2018-08-16 Thu 16:02]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:02]
    In this lesson, we flesh out an initial implementation of our controller, and walk through how to test the data that is bound to a view without asserting against the rendered HTML.
+
+   - Summary
+     - =$response->assertViewHas('order', $order)=, compare view has object order equals the given order. Even, the second argument can pass a closure and return boolean to tell the assert true or false.
 
 ** Extracting a Finder Method
    In this lesson, we refactor some Eloquent calls in our controller to a dedicated finder method, and discuss when it's important to add new tests while refactoring and when it's not.
