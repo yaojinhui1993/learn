@@ -719,8 +719,13 @@
    - Summary
      =Str::random= and =Str::quickRandom=
 
-** Recatoring to a Facade
+** DONE Refatoring to a Facade
+   CLOSED: [2018-08-16 Thu 18:07]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 18:07]
    In this lesson, we wire up our =RandomOrderConfirmationNumberGenernator= to be the default implementation we use in our application, and make use of Laravel's =Facade= to replace our explict use of Laravel's container in our =order= class with something more expressive.
+
+   - Summary
+     - Facade =getFacadeAccessor= and implement Laravel Facade method.
 
 * Storing the Last Four Card Digists
 
