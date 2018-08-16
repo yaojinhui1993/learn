@@ -555,8 +555,14 @@
 
 * Keeping Things Synchronized with Contract Tests
 
-** When Interfaces Aren't Enough
+** DONE When Interfaces Aren't Enough
+   CLOSED: [2018-08-16 Thu 12:36]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 12:36]
    In this lesson, we identify some of the risks of using fakes, and why it takes more than an interface to make sure multiple implementations stay in sync.
+
+   - Summary
+     - Interfaces define the method, not the behavior. The behavior is defined by the tests.
+     - ContractTests
 
 ** Refactoring Forward Duplication
    In this lesson, we begin refactoring the tests for our two PaymentGateway implementations towards being identical so we can extract them to a contract test.
