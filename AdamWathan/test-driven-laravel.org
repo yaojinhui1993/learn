@@ -659,7 +659,13 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:40]
    In this lesson, we spend some time discussing what you need to take into consideration when deciding what data is important to test in a renderd view.
 
-** Decoupling Data from Presentation
+** DONE Decoupling Data from Presentation
+   CLOSED: [2018-08-16 Thu 16:55]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:55]
+   In this lesson, we talk about strategies you can use to make your feature tests more resilient to superficial changes in your templates, and work through a specific example using dates.
+
+   - Summary
+     - Use =time= tag, and pass the assert date attribute.
 
 * Generating Confirmation Numbers
 
