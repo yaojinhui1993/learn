@@ -607,8 +607,15 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:56]
    In this lesson, we upgrade TicketBeast to Laravel 5.4, and get our tests back to green using =browser-kit-testing= package.
 
-** Removing the BrowserKit Dependency
+** DONE Removing the BrowserKit Dependency
+   CLOSED: [2018-08-16 Thu 15:21]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 15:21]
    In this lesson, we refactor our BrowserKit tests to use Laravel 5.4's testing features, so we can remove our dependency on the compabitility package.
+
+   - Summary
+     - =see= => =$response->assertSee()= in =TestResponse=
+     - =seeJsonSubset= => =$response->assertJson()= in =TestResponse=
+     - =decodeResponseJson= => =$response->decodeResponseJson=
 
 * Viewing Order Confirmations
 
