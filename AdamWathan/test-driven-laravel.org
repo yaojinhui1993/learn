@@ -548,7 +548,9 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 11:32]
    In this lesson, we add a new test to make sure our StripePaymentGateway behaves as expected when attempting to charge with an invalid payment token.
 
-** The Moment of Truth
+** DONE The Moment of Truth
+   CLOSED: [2018-08-16 Thu 11:38]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 11:38]
    In this lesson, we finally fire up the browser to find out if all of this TDD stuff has really given us a working system.
 
 * Keeping Things Synchronized with Contract Tests
