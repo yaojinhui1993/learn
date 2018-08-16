@@ -572,7 +572,9 @@
    - Summary
      - use *closure* to encapsulate method.
 
-** Capturing Charges with Callbacks
+** DONE Capturing Charges with Callbacks
+   CLOSED: [2018-08-16 Thu 13:59]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 13:59]
    In this lesson, we come up with a strategies for being able to keep track of the total charges made during a test that will work for both implementations for our PaymentGateway interface.
 
 ** Making the Tests Identical
