@@ -498,7 +498,9 @@
      - [[https://sourcemaking.com/refactoring/smells/feature-envy][Feature Envy]] code smell
      - When delete code and tests, first delete code and then delete tests, and last things is run all tests.
 
-** Avoiding Service Classes with Method Injection
+** DONE Avoiding Service Classes with Method Injection
+   CLOSED: [2018-08-16 Thu 09:07]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:07]
    In this lesson, we notice that we're lacking a single source of truth for the amount we charge the customer and the amount used to create the new order.
    We walk through what it might look like to solve this problem with a service class, and then how we can avoid the service class entirely using method injection.
 
