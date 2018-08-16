@@ -577,8 +577,10 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 13:59]
    In this lesson, we come up with a strategies for being able to keep track of the total charges made during a test that will work for both implementations for our PaymentGateway interface.
 
-** Making the Tests Identical
-   In this lesson, we port the newChargesDuring method over to the FakePaymentGateways, finally leaving us with two identical tests that are ready for extraction.
+** DONE Making the Tests Identical
+   CLOSED: [2018-08-16 Thu 14:09]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:09]
+   In this lesson, we port the =newChargesDuring= method over to the FakePaymentGateways, finally leaving us with two identical tests that are ready for extraction.
 
 ** Extracting a Contract Test
    In this lesson, we extract the identical PaymentGateway tests into a contract test, shared through a trait.
