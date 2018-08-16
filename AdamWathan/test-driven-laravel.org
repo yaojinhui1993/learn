@@ -524,7 +524,9 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:38]
    In this lesson we work through the first set of test failures and successfully make a charge to Stripe.
 
-** Dealing with Lingering State
+** DONE Dealing with Lingering State
+   CLOSED: [2018-08-16 Thu 09:55]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:55]
    In this lesson we diagnose why are test is passing after commenting out our implementation, and come up with a new strategy to run our tests with isolated data.
 
 ** Don't Mock What You Don't Own
