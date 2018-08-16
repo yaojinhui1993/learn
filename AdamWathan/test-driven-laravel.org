@@ -619,8 +619,13 @@
 
 * Viewing Order Confirmations
 
-** Sketching out Order Confirmations
+** DONE Sketching out Order Confirmations
+   CLOSED: [2018-08-16 Thu 15:32]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 15:32]
   In this lesson, we begin driving out our test for viewing order confirmations based on a static mockup.
+
+  - Tests
+    - =user_can_view_their_order_confirmation= in =ViewOrderTest= =unit=
 
 ** Driving out the Endpoint
    In this lesson, we figure out th URL structure we want to use to keep order confirmation pages private, and drive out the ability to successfully hit out new endpoint.
