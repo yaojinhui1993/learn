@@ -679,8 +679,10 @@
      - =phpunit --stop-on-failure= phpunit stop on the first failure
      - =$orderConfirmation->generate()=
 
-** Stubbling the Interface
-   In this lesson, we decide we want to able to stub how order confirmation numbres are gerenated for our high level feature test, and use that insight to design an interface where we can encapsulate that logic.
+** DONE Stubbling the Interface
+   CLOSED: [2018-08-16 Thu 17:14]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:14]
+   In this lesson, we decide we want to able to stub how order confirmation numbers are gerenated for our high level feature test, and use that insight to design an interface where we can encapsulate that logic.
 
 ** Updating Our Unit Tests
    In this lesson, we update one of our =Order= unit tests to make use of the factory we added previously, and make sure that orders include their confirmation numbers when we render them as JSON.
