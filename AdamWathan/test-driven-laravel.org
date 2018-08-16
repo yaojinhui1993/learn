@@ -506,8 +506,13 @@
 
 * Testing-Driving the Real Stripe Adapter
 
-** Generating a Valid Payment Token
+** DONE Generating a Valid Payment Token
+   CLOSED: [2018-08-16 Thu 09:20]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 09:20]
    In this lesson we scaffold out an initial test for our StripePaymentGateway and figure out how to generate a valid payment token using Stripe's API.
+
+   - Tests
+     - =charges_with_a_valid_payment_token_are_successful= in =StripePaymentGatewayTest= =unit=
 
 ** Retriving the Last Charge
    In this lesson we use Stripe's API to fetch the most recent charge so we can make assertions about it in our test.
