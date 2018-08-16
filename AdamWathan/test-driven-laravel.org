@@ -729,8 +729,15 @@
 
 * Storing the Last Four Card Digists
 
-** Prompting Charges to Objects
+** DONE Prompting Charges to Objects
+   CLOSED: [2018-08-17 Fri 02:45]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 02:45]
    In this lesson, we introduce a new =Charge= object to carry meta data about purchases, such as the last four digits of the card used. We drive out this charge in our =FakePaymentGateway= first through changes to our =PaymentGatewayContractTests=.
+
+   - Tests
+     - =can_get_detail_about_a_successful_charge= in =PaymentGatewayContractTests= =unit=
+   - Summary
+     Use tests drive out an object.
 
 ** Leveraging Our Contract Tests
    In this lesson, we use our updated contract tests to update the behavior of our StripePaymentGateway to keep it synchronized with our fake.
