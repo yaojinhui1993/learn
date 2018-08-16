@@ -654,8 +654,10 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:30]
    In this lesson, we work through using tests to replace some of the hard coded data in our mockup with real data that's attached to our order.
 
-** Deciding What to Test in a View
-   In this lesson, we spend some time discussing what you need to take into consideraction when deciding what data is important to test in a renderd view.
+** DONE Deciding What to Test in a View
+   CLOSED: [2018-08-16 Thu 16:40]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 16:40]
+   In this lesson, we spend some time discussing what you need to take into consideration when deciding what data is important to test in a renderd view.
 
 ** Decoupling Data from Presentation
 
