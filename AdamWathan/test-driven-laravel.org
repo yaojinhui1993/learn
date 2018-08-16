@@ -590,8 +590,13 @@
    - Summary
      - Trait with abstract
 
-** Extracting the Failure Case
+** DONE Extracting the Failure Case
+   CLOSED: [2018-08-16 Thu 14:49]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:49]
    In this lesson, we refactor the =charges_with_an_invalid_payment_token_fail= tests to make them identical, and then extract it to our contract tests.
+
+   - Summary
+     - Move =try-catch= block to =newChargeDuring= method callback
 
 
 
