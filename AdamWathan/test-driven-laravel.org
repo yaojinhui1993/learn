@@ -697,8 +697,17 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:35]
    In this lesson, we discuss the what we want our confirmation numbers ultimately look like and why.
 
-** Testing the Confirmation Number Format
+** DONE Testing the Confirmation Number Format
+   CLOSED: [2018-08-16 Thu 17:47]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:47]
    In this lesson, we use the characteristics we identified previously to specify how our confirmation numbers should look with a set of unit tests, and work on getting them to pass.
+
+   - Tests
+     - =must_be_24_characters_long= in =RandomOrderConfirmationNumberGeneratorTest= =unit=
+     - =can_only_contain_uppercase_letters_and_numbers= in =RandomOrderConfirmationNumberGeneratorTest= =unit=
+     - =cannot_contain_ambiguous_characters= in =RandomOrderConfirmationNumberGeneratorTest= =unit=
+   - Summary
+     - =assertRegExp=
 
 ** Ensuring Uniqueness
    In this lesson, we come up with a strategy to force ourselves away from our slimed implementation by testing that each confirmation number is unique.
