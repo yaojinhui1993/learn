@@ -582,8 +582,13 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:09]
    In this lesson, we port the =newChargesDuring= method over to the FakePaymentGateways, finally leaving us with two identical tests that are ready for extraction.
 
-** Extracting a Contract Test
+** DONE Extracting a Contract Test
+   CLOSED: [2018-08-16 Thu 14:38]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 14:38]
    In this lesson, we extract the identical PaymentGateway tests into a contract test, shared through a trait.
+
+   - Summary
+     - Trait with abstract
 
 ** Extracting the Failure Case
    In this lesson, we refactor the =charges_with_an_invalid_payment_token_fail= tests to make them identical, and then extract it to our contract tests.
