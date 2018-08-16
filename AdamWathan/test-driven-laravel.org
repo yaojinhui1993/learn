@@ -564,8 +564,13 @@
      - Interfaces define the method, not the behavior. The behavior is defined by the tests.
      - ContractTests
 
-** Refactoring Forward Duplication
+** DONE Refactoring Forward Duplication
+   CLOSED: [2018-08-16 Thu 12:51]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 12:51]
    In this lesson, we begin refactoring the tests for our two PaymentGateway implementations towards being identical so we can extract them to a contract test.
+
+   - Summary
+     - use *closure* to encapsulate method.
 
 ** Capturing Charges with Callbacks
    In this lesson, we come up with a strategies for being able to keep track of the total charges made during a test that will work for both implementations for our PaymentGateway interface.
