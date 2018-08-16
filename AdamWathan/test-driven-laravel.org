@@ -669,8 +669,15 @@
 
 * Generating Confirmation Numbers
 
-** Fixing the Test Suit
+** DONE Fixing the Test Suit
+   CLOSED: [2018-08-16 Thu 17:05]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:05]
    In this lesson, we get our test suit back to green by temporarily making some of our new columns nullable, and discuss adding a test to ensure confirmation numbers are generated for new orders.
+
+
+   - Summary
+     - =phpunit --stop-on-failure= phpunit stop on the first failure
+     - =$orderConfirmation->generate()=
 
 ** Stubbling the Interface
    In this lesson, we decide we want to able to stub how order confirmation numbres are gerenated for our high level feature test, and use that insight to design an interface where we can encapsulate that logic.
