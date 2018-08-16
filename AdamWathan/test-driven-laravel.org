@@ -627,7 +627,9 @@
   - Tests
     - =user_can_view_their_order_confirmation= in =ViewOrderTest= =unit=
 
-** Driving out the Endpoint
+** DONE Driving out the Endpoint
+   CLOSED: [2018-08-16 Thu 15:54]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 15:54]
    In this lesson, we figure out th URL structure we want to use to keep order confirmation pages private, and drive out the ability to successfully hit out new endpoint.
 
 ** Asserting Against View Data
