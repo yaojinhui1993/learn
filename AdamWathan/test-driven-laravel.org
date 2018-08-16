@@ -535,8 +535,13 @@
    A commpon miscoception about testing is that you should mock calls to external APIs to avoid the newwork.
    In this lesson, we compare the pros and cons of intergrating with Stripe vs. mocking our calls to Stripe to better understand why shouldn't mock third-party code.
 
-** Using Groups to Skip Intergration Tests
+** DONE Using Groups to Skip Intergration Tests
+   CLOSED: [2018-08-16 Thu 11:26]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 11:26]
    In this lesson, we use PHPUnit's "group" feature to make it easy to skip our intergration tests when we don't have an internet connection.
+
+   - Summary
+     - =phpunit --exclude-group <group-name>= exclude group
 
 ** Handling Invalid Payment Tokens
    In this lesson, we add a new test to make sure our StripePaymentGateway behaves as expected when attempting to charge with an invalid payment token.
