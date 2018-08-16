@@ -692,7 +692,9 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:28]
    In this lesson, we update one of our =Order= unit tests to make use of the factory we added previously, and make sure that orders include their confirmation numbers when we render them as JSON.
 
-** Confirmation Number Characteristics
+** DONE Confirmation Number Characteristics
+   CLOSED: [2018-08-16 Thu 17:35]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:35]
    In this lesson, we discuss the what we want our confirmation numbers ultimately look like and why.
 
 ** Testing the Confirmation Number Format
