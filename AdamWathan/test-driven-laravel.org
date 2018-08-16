@@ -709,8 +709,15 @@
    - Summary
      - =assertRegExp=
 
-** Ensuring Uniqueness
+** DONE Ensuring Uniqueness
+   CLOSED: [2018-08-16 Thu 17:58]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:58]
    In this lesson, we come up with a strategy to force ourselves away from our slimed implementation by testing that each confirmation number is unique.
+
+   - Tests
+     - =confirmation_numbers_must_be_unique= in =RandomOrderConfirmationNumberGener= =unit=
+   - Summary
+     =Str::random= and =Str::quickRandom=
 
 ** Recatoring to a Facade
    In this lesson, we wire up our =RandomOrderConfirmationNumberGenernator= to be the default implementation we use in our application, and make use of Laravel's =Facade= to replace our explict use of Laravel's container in our =order= class with something more expressive.
