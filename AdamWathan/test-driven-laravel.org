@@ -684,7 +684,12 @@
    - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:14]
    In this lesson, we decide we want to able to stub how order confirmation numbers are gerenated for our high level feature test, and use that insight to design an interface where we can encapsulate that logic.
 
-** Updating Our Unit Tests
+   - Summary
+     - Mock =$orderConfirmation->generate()= method, and bind it to the Container.
+
+** DONE Updating Our Unit Tests
+   CLOSED: [2018-08-16 Thu 17:28]
+   - State "DONE"       from "STARTED"    [2018-08-16 Thu 17:28]
    In this lesson, we update one of our =Order= unit tests to make use of the factory we added previously, and make sure that orders include their confirmation numbers when we render them as JSON.
 
 ** Confirmation Number Characteristics
