@@ -994,8 +994,15 @@
              return $this;
          }
        #+END_SRC
-** Converting Empty Strings to Null
+** DONE Converting Empty Strings to Null
+   CLOSED: [2018-08-17 Fri 15:48]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 15:48]
    In this lesson we add a test to prove that concert subtitles are optional, and active some new middleware from Laravel 5.4 to simplify the task.
+
+   - Tests
+     - =subtitle_is_optional= in =AddConcertTest= =feature=
+   - Summary
+     - Laravel 5.4 =TrimNullMiddleware=
 
 ** Reducing Noise with Form Factories
    In this lesson we identify a lot of duplication in our validation tests and use a technique similar to model factires to clean up the noise.
