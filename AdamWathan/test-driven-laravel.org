@@ -965,8 +965,16 @@
    - Summary
      use =auth= middleware.
 
-** Adding a Valid Concert
+** DONE Adding a Valid Concert
+   CLOSED: [2018-08-17 Fri 15:11]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 15:11]
    In this lesson we drive out the ability to add new concerts and make sure only promoters can access this endpoint.
+
+   - Tests
+     - =adding_a_valid_concert= in =AddConcertTest= =feature=
+     - =guests_cannot_add_new_concerts= in =AddConcertTest= =feature=
+   - Summary
+     - =Carbon::parse(vsprintf('%s %s', request(['date', 'time'])))=
 
 ** Validations and Redirects
    In this lesson we drive out our first validation rule for the concert form, and look at a useful trick for making assertions about =redirect()->back()= behavior.
