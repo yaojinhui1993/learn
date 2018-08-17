@@ -976,10 +976,26 @@
    - Summary
      - =Carbon::parse(vsprintf('%s %s', request(['date', 'time'])))=
 
-** Validations and Redirects
+** DONE Validations and Redirects
+   CLOSED: [2018-08-17 Fri 15:41]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 15:41]
    In this lesson we drive out our first validation rule for the concert form, and look at a useful trick for making assertions about =redirect()->back()= behavior.
+
+   - Tests
+     - =title_is_required=
+   - Summary
+     - Laravel validation error, then use =redirect()->back()= method, and the =back()= method use the =referer= header to get the from page and redriect the page.
+     - =redirect()->back()= use =session()->previousURL()= to get previousURL
+       #+BEGIN_SRC php
+         private function from($url)
+         {
+             session()->setPriviousUrl(url($url));
+
+             return $this;
+         }
+       #+END_SRC
 ** Converting Empty Strings to Null
-   In this lesson we add a test to prove that concert subtitles are optional, and active some new middleware from Laravel 5.4 to simplify thet task.
+   In this lesson we add a test to prove that concert subtitles are optional, and active some new middleware from Laravel 5.4 to simplify the task.
 
 ** Reducing Noise with Form Factories
    In this lesson we identify a lot of duplication in our validation tests and use a technique similar to model factires to clean up the noise.
