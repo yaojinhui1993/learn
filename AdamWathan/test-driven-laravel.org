@@ -1012,9 +1012,14 @@
    - Summary
      - add =validParam($overrides = [])= method.
 
-** Connecting Promoters to Concerts
+** DONE Connecting Promoters to Concerts
+   CLOSED: [2018-08-17 Fri 16:18]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 16:18]
    Up until now we've being operating under this assumption that we'd add concerts manually on a promoter's behalf.
    Now that promoters can add concerts themselves, we need to make sure we are tracking who adds each concert so we know who to transfer the ticket money to.
+
+   - Summary
+     - =Auth::user()->concerts()->create([])=, use relationship create concerts.
 
 ** Autopublishing New Concerts
    In one of the earlist lessons in the course, we added some functionality to make sure that only published concerts were visible in the browser.
