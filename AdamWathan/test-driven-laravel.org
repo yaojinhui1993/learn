@@ -784,8 +784,14 @@
          OrderConfirmationNumberGenerator::shouldReceive('generate')->andReturn('ODERCONFIRMATION1234');
        #+END_SRC
      - Collection to Array use =all()= method
-** Claiming Tickets When Creating Orders
+** DONE Claiming Tickets When Creating Orders
+   CLOSED: [2018-08-17 Fri 10:14]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 10:14]
    In this lesson, we decide when ticket codes should be generated, and rework and existing test to use mock expectations to prepare for our implementation.
+
+   - Summary
+     - Mockery spy expect method with parameters
+       - Mock::spy(Ticker::class)->shouldHaveReceived('claimedFor', ['order']);
 
 ** Assigining Codes When Claiming Tickets
    In this lesson, we add a new test for the new =claimFor= method in our =Ticket= class, and drive out them implementation.
