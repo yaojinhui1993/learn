@@ -767,9 +767,23 @@
 
 * Assigining Ticket Codes
 
-** Feature Test and JSON Updates
+** DONE Feature Test and JSON Updates
+   CLOSED: [2018-08-17 Fri 10:03]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 10:03]
    In this lesson, we come up with approach for driving out the generation of ticket codes from the outside in, and make some tweaks to the JSON representation of a completed order.
 
+   - Summary
+     - Facade Test
+       #+BEGIN_SRC php
+         $orderConfirmationNumberGenerator = Mockery::mock(OrderConfirmationNumberGenerator::class, [
+             'generate' => 'ORDERCONFIRMATION1234',
+         ]);
+         $this->app->instance(OrderConfirmationNumberGenerator::class, $OrderConfirmationNumberGenerator);
+
+         // Equals
+         OrderConfirmationNumberGenerator::shouldReceive('generate')->andReturn('ODERCONFIRMATION1234');
+       #+END_SRC
+     - Collection to Array use =all()= method
 ** Claiming Tickets When Creating Orders
    In this lesson, we decide when ticket codes should be generated, and rework and existing test to use mock expectations to prepare for our implementation.
 
