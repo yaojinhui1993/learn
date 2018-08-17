@@ -756,8 +756,13 @@
    - Summary
      - Feature test should be do reaction during the refactor stage.
 
-** Deleting More Stale Code
+** DONE Deleting More Stale Code
+   CLOSED: [2018-08-17 Fri 09:44]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 09:44]
    In this lesson, we notice that changing how =orders= created reveals some lingering old design decisions that are triggering test failures. We work through removing the stale code, and updating any tests we need to keep to no longer rely on the code we want to remove.
+
+   - Summary
+     - When delete stale code, comment code, and run all tests, if all passing, then should delete it.
 
 
 * Assigining Ticket Codes
