@@ -845,7 +845,9 @@
    - Summary
      Mockery return arrays =Mockery::mock(TicketCodeGenerator::class)->shouldReceive('generatorFor')->andReturn('ticketcode1', 'ticketcode2', 'ticketcode3')=
 
-** Ready to Demo
+** DONE Ready to Demo
+   CLOSED: [2018-08-17 Fri 11:33]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 11:33]
    In this short lesson, we make a small tweak to our =TicketCheckout= Vue component and finally walk through the entire purchasing flow from start to finish.
 
 * Emailing Order Confirmations
