@@ -1074,7 +1074,9 @@
 
 * Upaditng Basic Concert Info
 
-** Viewing the Update Form
+** DONE Viewing the Update Form
+   CLOSED: [2018-08-17 Fri 18:06]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 18:06]
    In this lesson, I walk through some simple tests I put together behind-the-scenes to give us a head start on updating concerts.
 
 ** The First Update Test
