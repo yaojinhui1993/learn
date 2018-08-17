@@ -1089,8 +1089,14 @@
      - When create data, name attribute with *old* prefix, and updated data with *new* prefix.
      - =patch= every time when edit.
 
-** Driving Out Basic Concept Updates
+** DONE Driving Out Basic Concept Updates
+   CLOSED: [2018-08-18 Sat 05:43]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 05:43]
    In this lesson we implement the ability perform concert updates, and start working through some of the permissions checks we need to be concerned with.
+   - Tests
+     - =promoters_cannot_edit_other_unpublished_concerts= in =EditConcertTest= =unit=
+   - Summary
+     - When test the test, create old data, pass new data, and assert the data is still keep old stae.
 
 ** Restricting Updates to Unpublished Concerts
    In this lesson we make sure only unpublished concerts can be edited, prevent guest from editing concerts, and drive out an example validation rule.
