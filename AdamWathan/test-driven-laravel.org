@@ -1110,8 +1110,14 @@
 
 * Postponing Ticket Creation
 
-** Storing the Intended Ticket Quantity
+** DONE Storing the Intended Ticket Quantity
+   CLOSED: [2018-08-18 Sat 06:11]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 06:11]
    In this lesson we figure out how to deal with updating the ticket quantity by deciding to delay ticket creation until publishing.
+   - Tests
+     - =ticket_quantit_is_required= in =EditConcertTest= =feature=
+     - =ticket_quantity_must_be_interger= in =EditConcertTest= =feature=
+     - =ticket_quantity_must_be_at_least_one= in =EditConcertTest= =feature=
 
 ** Updating the Other Tests
    In this lesson we walk through some local tests failures caused by our design change and get things back to green.
