@@ -923,8 +923,14 @@
    - Summary
      Pure HTML page not valuable to use TDD drove out.
 
-** Namespacing Our Test Suite
+** DONE Namespacing Our Test Suite
+   CLOSED: [2018-08-17 Fri 14:18]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 14:18]
    Before we get started with Laravel Dusk, let's update our test folder structure to match which ships with Laravel 5.4 to make it a little easier to integrate.
+
+   - Summary
+     - composer =psr-4= auto-loading
+     - Mac is Uppercase noncase.
 
 ** Getting Started with Laravel Dusk
    In this lesson, we install and configure =Laravel Dusk=, talk about some gotchas you might run into if you're not approaching it with the right mindset, and get a basic example browser test running.
