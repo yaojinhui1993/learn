@@ -868,8 +868,26 @@
         });
       #+END_SRC
 
-** Testing Mailable Contents
+** DONE Testing Mailable Contents
+   CLOSED: [2018-08-17 Fri 12:59]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 12:59]
    In this lesson, we come up with a way to render mailables as HTML so we can assert against their content.
+
+   - Tests
+     - =email_contains_a_link_to_the_order_confirmation_page= in =OrderConfirmationEmailTest= =unit=
+     - =email_has_a_subject= in =OrderConfirmationEmailTest= =unit=
+   - Summary
+     Render Email functions
+     #+BEGIN_SRC php
+       // Laravel 5.4
+       private function render($mailable)
+       {
+           $mailable->build();
+           return view($mailable->view, $mailable->buildViewData())->render();
+       }
+
+       // Laravel 5.5 contain the =render= function
+     #+END_SRC
 
 ** Cleanup and Demo
    In this lesson, we configure Mailtrap so we can test our order confirmation email flow in the browser.
