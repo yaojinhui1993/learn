@@ -954,8 +954,16 @@
 
 * Adding New Concerts
 
-** Preventing Guests from Adding Concerts
+** DONE Preventing Guests from Adding Concerts
+   CLOSED: [2018-08-17 Fri 14:54]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 14:54]
    In this lesson, we walk through some behind-scenes changes made since the last lesson and work on adding some basic authorization tests.
+
+   - Tests
+     - =promoters_can_view_the_add_concert_form= in =AddConcertTest= =feature=
+     - =guests_cannot_view_the_add_concert_form= in =AddConcertTest= =feature=
+   - Summary
+     use =auth= middleware.
 
 ** Adding a Valid Concert
    In this lesson we drive out the ability to add new concerts and make sure only promoters can access this endpoint.
