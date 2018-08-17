@@ -1004,8 +1004,13 @@
    - Summary
      - Laravel 5.4 =TrimNullMiddleware=
 
-** Reducing Noise with Form Factories
+** DONE Reducing Noise with Form Factories
+   CLOSED: [2018-08-17 Fri 16:08]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 16:08]
    In this lesson we identify a lot of duplication in our validation tests and use a technique similar to model factires to clean up the noise.
+
+   - Summary
+     - add =validParam($overrides = [])= method.
 
 ** Connecting Promoters to Concerts
    Up until now we've being operating under this assumption that we'd add concerts manually on a promoter's behalf.
