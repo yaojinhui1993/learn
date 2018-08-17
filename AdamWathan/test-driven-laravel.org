@@ -1098,8 +1098,15 @@
    - Summary
      - When test the test, create old data, pass new data, and assert the data is still keep old stae.
 
-** Restricting Updates to Unpublished Concerts
+** DONE Restricting Updates to Unpublished Concerts
+   CLOSED: [2018-08-18 Sat 06:01]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 06:01]
    In this lesson we make sure only unpublished concerts can be edited, prevent guest from editing concerts, and drive out an example validation rule.
+   - Tests
+     - =promoters_cannot_edit_published_concerts= in =EditConcertTest= =feature=
+     - =guests_cannot_edit_concerts= in =EditConcertTest= =feature=
+   - Summary
+     - SOP
 
 * Postponing Ticket Creation
 
