@@ -1021,9 +1021,14 @@
    - Summary
      - =Auth::user()->concerts()->create([])=, use relationship create concerts.
 
-** Autopublishing New Concerts
+** DONE Autopublishing New Concerts
+   CLOSED: [2018-08-17 Fri 16:42]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 16:42]
    In one of the earlist lessons in the course, we added some functionality to make sure that only published concerts were visible in the browser.
    Since we don't have ability to publish new concerts from the UI yet, let's at least make sure that new concerts are published by default until we get to that feature.
+
+   - Tests
+     - =concerts_can_be_published= in =ConcertTest= =unit=
 
 * Listing a Promoter's Concerts
 ** Asserting Against View Objects
