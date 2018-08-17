@@ -739,8 +739,13 @@
    - Summary
      Use tests drive out an object.
 
-** Leveraging Our Contract Tests
-   In this lesson, we use our updated contract tests to update the behavior of our StripePaymentGateway to keep it synchronized with our fake.
+** DONE Leveraging Our Contract Tests
+   CLOSED: [2018-08-17 Fri 09:11]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 09:11]
+   In this lesson, we use our updated contract tests to update the behavior of our =StripePaymentGateway= to keep it synchronized with our fake.
+
+   - Summary
+     - php7 parameter can be set by default const.
 
 ** Storing Charge Details with Orders
    In this lesson, we update our =OrderTest= to account for creating orders using =Charges= instead of plain amounts, and use that test to drive out the implementation in =order=.
