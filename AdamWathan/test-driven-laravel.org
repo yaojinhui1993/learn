@@ -912,9 +912,16 @@
    - Summary
      - =Auth::check()=, =Auth::user()->id=, =Auth::attempt()= Auth Facade method.
 
-** Should You TDD Simple Templates?
+** DONE Should You TDD Simple Templates?
+   CLOSED: [2018-08-17 Fri 14:09]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 14:09]
    In the last lesson we drove out the login endpoint, but we still don't have an actual login form.
    Is this something we should try to build with TDD, or is there a better approach?
+
+   - Tests
+     - =showing_the_login_form= in =PromoterLoginTest= =unit=
+   - Summary
+     Pure HTML page not valuable to use TDD drove out.
 
 ** Namespacing Our Test Suite
    Before we get started with Laravel Dusk, let's update our test folder structure to match which ships with Laravel 5.4 to make it a little easier to integrate.
