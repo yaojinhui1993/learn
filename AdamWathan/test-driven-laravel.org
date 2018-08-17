@@ -899,9 +899,18 @@
 
 * Logging in with Dusk
 
-** Testing the Login Endpoint
+** DONE Testing the Login Endpoint
+   CLOSED: [2018-08-17 Fri 13:57]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 13:57]
    The next thing we'd like to build is the ability for promoters to add new concerts, but before we can do that, we need to give them a way to log in to the application.
    In this lesson, we drive out our initial =/login= endpoint.
+
+   - Tests
+     - =logging_in_with_valid_credentials= in =PromoterLoginTest= =feature=
+     - =logging_in_with_invalid_credentials= in =PromoterLoginTest= =feature=
+     - =logging_in_with_an_account_that_does_not_exist= in =PromoterLoginTest= =feature=
+   - Summary
+     - =Auth::check()=, =Auth::user()->id=, =Auth::attempt()= Auth Facade method.
 
 ** Should You TDD Simple Templates?
    In the last lesson we drove out the login endpoint, but we still don't have an actual login form.
