@@ -73,3 +73,8 @@
 *** DONE 015. 通过 IP 获取到对应的地理位置信息——torann/geoip
     CLOSED: [2018-08-15 Wed 08:07]
     - State "DONE"       from "STARTED"    [2018-08-15 Wed 08:07]
+*** DONE 016. 二维码生成工具——simplesoftwareio/simple-qrcode
+    CLOSED: [2018-08-17 Fri 11:45]
+    - State "DONE"       from "STARTED"    [2018-08-17 Fri 11:45]
+    - Summary
+      - Laravel Stream Download
