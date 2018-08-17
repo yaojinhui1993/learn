@@ -1031,8 +1031,16 @@
      - =concerts_can_be_published= in =ConcertTest= =unit=
 
 * Listing a Promoter's Concerts
-** Asserting Against View Objects
-   In this lesson we start driving out tests for a concert index page. We also talk about an incredibly useful strategy for making assertions about views without dealting with HTML.
+** DONE Asserting Against View Objects
+   CLOSED: [2018-08-17 Fri 17:16]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 17:16]
+   In this lesson we start driving out tests for a concert index page. We also talk about an incredibly useful strategy for making assertions about views without dealing with HTML.
+
+   - Tests
+     - =guests_connot_view_a_promoters_concert_list= in =ViewConcertListTest= =feature=
+     - =promoters_can_view_a_list_of_their_concerts= in =ViewConcertListTest= =feature=
+   - Summary
+     - =$response->original= Illuminate return original data. If response is a view, it get the view object, and view =getData= method to get the pass through view data, such like =$response->original->getData()['concerts']=
 
 ** Avoiding Sort-Sensitive Tests
    In this lesson I outline a small sort-order related trap you can fall into fi you're not careful when asserting against lists of items, and talk about a stratey for avoiding it.
