@@ -889,8 +889,13 @@
        // Laravel 5.5 contain the =render= function
      #+END_SRC
 
-** Cleanup and Demo
+** DONE Cleanup and Demo
+   CLOSED: [2018-08-17 Fri 13:40]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 13:40]
    In this lesson, we configure Mailtrap so we can test our order confirmation email flow in the browser.
+
+   - Summary
+     - Move =Mail::fake()= in the =setUp= method
 
 * Logging in with Dusk
 
