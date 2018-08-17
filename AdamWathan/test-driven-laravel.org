@@ -827,9 +827,14 @@
    - Summary
      - In test ticket unique stage import the =Hashids= Library.
 
-** Dealing with Out of Sync Mock
+** DONE Dealing with Out of Sync Mock
+   CLOSED: [2018-08-17 Fri 11:20]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 11:20]
    Uh oh! One of our expectations is no longer in sync with the real implementation.
    In this lesson, we use an underappreciated Mockery feature to detect broken mockes, and get things working properly again.
+
+   - Summary
+     - =Mockery::getConfiguration()->allowMockeryNonExistentMethods(false)=, use when make some change in the interface.
 
 ** Writing It Together
    In this lesson, we bubble back up to our initial feature test and try to get it passing.
