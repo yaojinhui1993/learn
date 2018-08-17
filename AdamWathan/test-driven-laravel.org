@@ -803,9 +803,15 @@
    - Summary
      - Facade override =getMockClass=, when report the instantiate errors.
 
-** The Birthday Problem
+** DONE The Birthday Problem
+   CLOSED: [2018-08-17 Fri 10:50]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 10:50]
    In this lesson, we talk about the birthday problem and the implications it has own how we generate ticket codes.
    We also play with the Hashids library to get an understanding of how we could use it to encode ticket IDs.
+
+   - Summary
+     - Birthday Problem
+     - HashId Library.
 
 ** Intergrating Hashids
    In this lesson, we drive out our =HashidsTicketCodeGenerator=, making sure that ticket codes are generated in the format we expect.
