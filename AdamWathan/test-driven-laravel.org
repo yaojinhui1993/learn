@@ -747,8 +747,14 @@
    - Summary
      - php7 parameter can be set by default const.
 
-** Storing Charge Details with Orders
+** DONE Storing Charge Details with Orders
+   CLOSED: [2018-08-17 Fri 09:23]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 09:23]
    In this lesson, we update our =OrderTest= to account for creating orders using =Charges= instead of plain amounts, and use that test to drive out the implementation in =order=.
+   - Tests
+     - change =creating_an_order_from_tickets_email_and_amount= to =creating_an_order_from_tickets_email_and_charge= in =OrderTest= =unit=
+   - Summary
+     - Feature test should be do reaction during the refactor stage.
 
 ** Deleting More Stale Code
    In this lesson, we notice that changing how =orders= created reveals some lingering old design decisions that are triggering test failures. We work through removing the stale code, and updating any tests we need to keep to no longer rely on the code we want to remove.
