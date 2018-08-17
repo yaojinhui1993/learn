@@ -1052,8 +1052,25 @@
    - Summary
      - Mix other user concert with needed concerts list, so can avoid paginate errors.
 
-** Refactoring Assertions with Macros
-   In this lesson we work through using Laravel's macro feature to create more expressive custome assertions.
+** DONE Refactoring Assertions with Macros
+   CLOSED: [2018-08-17 Fri 17:49]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 17:49]
+   In this lesson we work through using Laravel's macro feature to create more expressive custom assertions.
+
+   - Summary
+     - If use  =Macroable= Trait, then it can dynamic create method. =TestResponse= use the trait.
+     - Macro =$response->original->getData()= to =$response->data()=
+       #+BEGIN_SRC php
+         TestResponse::macro('data', function ($key){
+             $this->original->getData()[$key]; // $this is bind to TestResponse, not the current content.
+         });
+       #+END_SRC
+     - Macro =assertContains=
+       #+BEGIN_SRC php
+         Collection::macro('assertContains', function ($value) {
+             Assert::assertTrue($this->contains($value), "Failed asserting that the collection contains the value ");
+         });
+       #+END_SRC
 
 * Upaditng Basic Concert Info
 
