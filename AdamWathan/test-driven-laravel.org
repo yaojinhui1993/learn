@@ -793,8 +793,15 @@
      - Mockery spy expect method with parameters
        - Mock::spy(Ticker::class)->shouldHaveReceived('claimedFor', ['order']);
 
-** Assigining Codes When Claiming Tickets
+** DONE Assigining Codes When Claiming Tickets
+   CLOSED: [2018-08-17 Fri 10:35]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 10:35]
    In this lesson, we add a new test for the new =claimFor= method in our =Ticket= class, and drive out them implementation.
+
+   - Tests
+     - =a_ticket_can_be_claimed_for_an_order= in =TicketTest= =unit=
+   - Summary
+     - Facade override =getMockClass=, when report the instantiate errors.
 
 ** The Birthday Problem
    In this lesson, we talk about the birthday problem and the implications it has own how we generate ticket codes.
