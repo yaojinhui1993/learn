@@ -941,8 +941,16 @@
      - Dusk use real database
      - Dusk visit =APP_URL= domain.
 
-** QA Testing the Login Flow
+** DONE QA Testing the Login Flow
+   CLOSED: [2018-08-17 Fri 14:37]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 14:37]
    In this lesson, we use Dusk to drive out a browser test for our login form to make sure we have regression coverage.
+
+   - Tests
+     - =logging_in_successful= in =PromoterLoginTest= =feature=
+     - =logging_in_with_invalid_credential= in =PromoterLoginTest= =feature=
+   - Summary
+     - Dusk is used in regression test to simulate when broken app.
 
 * Adding New Concerts
 
