@@ -1079,8 +1079,15 @@
    - State "DONE"       from "STARTED"    [2018-08-17 Fri 18:06]
    In this lesson, I walk through some simple tests I put together behind-the-scenes to give us a head start on updating concerts.
 
-** The First Update Test
+** DONE The First Update Test
+   CLOSED: [2018-08-18 Sat 05:30]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 05:30]
    In this lesson, we drive out the first test we need for editing concert details, and talk through a useful naming strategy to use when testing for attribute changes.
+   - Test
+     - =promoters_can_edit_their_own_unpublished_concerts= in =EditConcertTest= =unit=
+   - Summary
+     - When create data, name attribute with *old* prefix, and updated data with *new* prefix.
+     - =patch= every time when edit.
 
 ** Driving Out Basic Concept Updates
    In this lesson we implement the ability perform concert updates, and start working through some of the permissions checks we need to be concerned with.
