@@ -932,8 +932,14 @@
      - composer =psr-4= auto-loading
      - Mac is Uppercase noncase.
 
-** Getting Started with Laravel Dusk
+** DONE Getting Started with Laravel Dusk
+   CLOSED: [2018-08-17 Fri 14:27]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 14:27]
    In this lesson, we install and configure =Laravel Dusk=, talk about some gotchas you might run into if you're not approaching it with the right mindset, and get a basic example browser test running.
+
+   - Summary
+     - Dusk use real database
+     - Dusk visit =APP_URL= domain.
 
 ** QA Testing the Login Flow
    In this lesson, we use Dusk to drive out a browser test for our login form to make sure we have regression coverage.
