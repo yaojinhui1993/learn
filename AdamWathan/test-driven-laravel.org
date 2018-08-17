@@ -852,8 +852,21 @@
 
 * Emailing Order Confirmations
 
-**  Using a Fake to Intercept Email
+** DONE Using a Fake to Intercept Email
+   CLOSED: [2018-08-17 Fri 12:45]
+   - State "DONE"       from "STARTED"    [2018-08-17 Fri 12:45]
   In this lesson, we use Laravel's =Mail Fake= to test sending an order confirmation email whenever someone purchases tickets.
+
+  - Summary
+    - =Mail::fake()= and =Mail::assertSent()=
+    - =Mail::send()= send mail
+    - test Mail
+      #+BEGIN_SRC php
+        Mail::assertSent(OrderConfirmationEmail::class, function ($mail) use ($orderId){
+            reurn $mail->hasTo('john@example.com')
+                && $mail->orderId == $order->id;
+        });
+      #+END_SRC
 
 ** Testing Mailable Contents
    In this lesson, we come up with a way to render mailables as HTML so we can assert against their content.
