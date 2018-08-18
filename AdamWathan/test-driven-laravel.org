@@ -1134,8 +1134,12 @@
      - add method =oldAttributes($overrides = [])=
      - =assertArraySubset=
 
-** Creating Tickets at Time of Publish
+** DONE Creating Tickets at Time of Publish
+   CLOSED: [2018-08-18 Sat 14:57]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 14:57]
    In this lesson we drive out the ability to create tickets at time of publish through our =Concert= unit tests, all while keeping our feature tests passing.
+   - Summary
+     - Move =addTickets= from controller to =publish=
 
 ** Custom Factory Classes
    In this lesson we extract some repetitive complex factory setup into a custom =ConcertFactory= class.
