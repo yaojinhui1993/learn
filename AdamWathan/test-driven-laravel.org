@@ -1119,8 +1119,12 @@
      - =ticket_quantity_must_be_interger= in =EditConcertTest= =feature=
      - =ticket_quantity_must_be_at_least_one= in =EditConcertTest= =feature=
 
-** Updating the Other Tests
+** DONE Updating the Other Tests
+   CLOSED: [2018-08-18 Sat 14:37]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 14:37]
    In this lesson we walk through some local tests failures caused by our design change and get things back to green.
+   - Summary
+     - Move find concert before validation.
 
 ** Refactoring Away Some Test Duplication
    In this lesson we remove some repetitive setup and assertions by introducing a new test helper.
