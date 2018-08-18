@@ -1126,8 +1126,13 @@
    - Summary
      - Move find concert before validation.
 
-** Refactoring Away Some Test Duplication
+** DONE Refactoring Away Some Test Duplication
+   CLOSED: [2018-08-18 Sat 14:46]
+   - State "DONE"       from "STARTED"    [2018-08-18 Sat 14:46]
    In this lesson we remove some repetitive setup and assertions by introducing a new test helper.
+   - Summary
+     - add method =oldAttributes($overrides = [])=
+     - =assertArraySubset=
 
 ** Creating Tickets at Time of Publish
    In this lesson we drive out the ability to create tickets at time of publish through our =Concert= unit tests, all while keeping our feature tests passing.
