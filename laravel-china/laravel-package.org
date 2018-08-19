@@ -78,3 +78,6 @@
     - State "DONE"       from "STARTED"    [2018-08-17 Fri 11:45]
     - Summary
       - Laravel Stream Download
+*** DONE 017. 条形码生成工具——milon/barcode
+    CLOSED: [2018-08-20 Mon 06:56]
+    - State "DONE"       from "STARTED"    [2018-08-20 Mon 06:56]
