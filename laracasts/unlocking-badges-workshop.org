@@ -104,3 +104,21 @@
 
    - Summary
      use =enum= type in the database.
+** DONE Custom Collection Sorting With Lookup Tables
+   CLOSED: [2018-08-19 Sun 09:20]
+   - State "DONE"       from "STARTED"    [2018-08-19 Sun 09:20]
+   I'd like to sort all achievements from beginner to advanced. It sounds like we'll need custom sorting logic. Let's tackle that in this lesson by building a lookup table to translate each skill level to a respective number. Finally, we'll finish the lesson by discussing object responsibility and where logic like this should live.
+   - Tests
+     - =it_can_sort_achivements_according_to_skill_level= in =AchievementsTest= =unit=
+   - Summary
+     - Collection =sortBy= with closure
+       #+BEGIN_SRC php
+         $this->sortBy(function ($achievement) {
+             return [
+                 'beginner' => 1,
+                 'intermediate' => 2,
+                 'advanced' => 3
+             ][$achievement['level']];
+         });
+       #+END_SRC
+     - Encapsulate get achievement level =levelAsNumber()= method in =Achievement.php=
