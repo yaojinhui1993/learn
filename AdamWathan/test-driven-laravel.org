@@ -1150,8 +1150,12 @@
 
 * Publish Concert Drafts
 
-** Discoving a New Resource
+** DONE Discoving a New Resource
+   CLOSED: [2018-08-20 Mon 07:46]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 07:46]
    In this lesson we talk about three different approaches for exposing the ability to publish concerts through our applications endpoints.
+   - Summary
+     - use =PublishedConcertsController@store= to publish concert.
 
 ** Creating Published Concerts
    In this lesson we drive out the ability to publish concerts through our new =/published-concerts= resource.
