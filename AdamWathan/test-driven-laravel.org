@@ -1179,8 +1179,12 @@
    - Summary
      - When create concert, do not publish it by default.
 
-** Pushing Logic Out of the View
+** DONE Pushing Logic Out of the View
+   CLOSED: [2018-08-20 Mon 08:21]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 08:21]
    Our template is doing a little bit too much work. Let's figure out a way to extract some of that logic into a place that's easier to test.
+   - Summary
+     - Move view logic to controller
 
 ** More Custom Assertion Fun
    Some of our assertions are looking a little bit overwhelming. Let's create a new custom assertion to make our test a bit more expressive.
