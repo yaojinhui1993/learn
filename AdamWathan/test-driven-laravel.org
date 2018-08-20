@@ -1430,8 +1430,15 @@
    - Summary
      - Create a test, and let the test pass.
 
-** Viewing Used or Invalid Invitations
+** DONE Viewing Used or Invalid Invitations
+   CLOSED: [2018-08-20 Mon 17:12]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 17:12]
    In this lesson, we drive out what should happen when someone tries to view an invitation that has already been used, as well as inivation that doesn't exists.
+   - Tests
+     - =viewing_an_used_invitation= in =AcceptInvitationTest= =feature=
+     - =viewing_an_invitation_that_do_not_exist= in =AcceptInvitationTest= =feature=
+   - Summary
+     - =abort_if=
 
 ** Registering with a Valid Invitation
    In this lesson we drive out the form endpoint for registering with a valid invitation code.
