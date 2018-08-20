@@ -1506,7 +1506,9 @@
    - Summary
      - =http_build_query=
 
-** Exchanging Tokens
+** DONE Exchanging Tokens
+   CLOSED: [2018-08-20 Mon 21:14]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 21:14]
    In this lesson we handle the second half of the redirect flow; exchanging the temporary code Stripe gives us for a valid access token that we can use to make requests on behalf of a promoter.
 
 ** Unit Testing Middleware
