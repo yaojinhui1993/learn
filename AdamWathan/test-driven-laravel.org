@@ -1268,8 +1268,15 @@
 
 * Queuing Mass Attendee Emails
 
-** Storing Messages for Attendees
+** DONE Storing Messages for Attendees
+   CLOSED: [2018-08-20 Mon 11:23]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 11:23]
    In this lesson we add the ability to create a new message to be sent to all concert attendees.
+   - Tests
+     - =a_promoter_can_view_the_message_form_for_their_own_concert= in =MessageAttendeesTest= =feature=
+     - =a_promoter_cannot_view_the_message_form_for_another_concert= in =MessageAttendeesTest= =feature=
+     - =a_guest_cannot_view_the_message_form_for_any_concert= in =MessageAttendeesTest= =feature=
+     - =a_promoter_can_send_a_new_message= in =MessageAttendeesTest= =feature=
 
 ** Confirming That a Job Was Dispatched
    In this lesson, we update our "store attendee message" implementation to actually dispatch a background job for sending the message.
