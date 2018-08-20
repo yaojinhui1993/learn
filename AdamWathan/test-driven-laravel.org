@@ -1346,8 +1346,16 @@
      - Laravel =request('file')= get file instance
      - =assertFileEquals=
 
-** Validating Poster Images
+** DONE Validating Poster Images
+   CLOSED: [2018-08-20 Mon 15:09]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 15:09]
    In this lesson we add additional tests for validating the file type, dimensions, and aspect ratio of uploaded concert posters.
+   - Tests
+     - =poster_image_must_be_an_image= in =AddConcertTest= =unit=
+     - =poster_image_must_at_least_400px_wide= in =AddConcertTest= =unit=
+     - =poster_image_must_have_letter_aspect_ratio= in =AddConcertTest= =unit=
+   - Summary
+     - Validate wide =Rule::dimension()->minWidth()=
 
 ** Optional Files and the Null Object Pattern
    In this lesson we add a test to make sure that concert posters are optional, and come up with a clean implementation using the Null Object pattern.
