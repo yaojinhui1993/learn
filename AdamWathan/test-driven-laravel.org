@@ -1205,8 +1205,23 @@
 
 * Building the Sales Dashboard
 
-** Calculating Tickets Sold
+** DONE Calculating Tickets Sold
+   CLOSED: [2018-08-20 Mon 09:33]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 09:33]
    In this lesson walk through a few behind-the-scenes changes, then drive out a method for calculating tickets sold.
+   - Tests
+     - =a_promoter_can_view_the_orders_of_their_own_published_concerts= in =ViewPublishedConcertOrdersTest= =feature=
+     - =a_promoter_cannot_view_the_orders_of_unpublished_concerts= in =ViewPublishedConcertOrdersTest= =feature=
+     - =a_promoter_cannot_view_the_orders_of_another_published_concert= in =ViewPublishedConcertOrdersTest= =feature=
+     - =a_guest_cannot_view_the_orders_of_any_published_concert= in =ViewPublishedConcertOrdersTest= =feature=
+     - =tickets_sold_only_includes_tickets_associated_with_an_order= in =ConcertTest= =unit=
+   - Summary
+     - Add method =assertViewIs=
+       #+BEGIN_SRC php
+         TestResponse::macro('assertViewIs', function ($name) {
+             Assert::assertEquals($name, $this->original->name());
+         });
+       #+END_SRC
 
 ** Making the Progress Bar Work
    In this lesson we add some methods for calculating the percentage of ticket sold, and touch a neat tip for making assertions about float point numbers.
