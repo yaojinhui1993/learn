@@ -1157,8 +1157,16 @@
    - Summary
      - use =PublishedConcertsController@store= to publish concert.
 
-** Creating Published Concerts
+** DONE Creating Published Concerts
+   CLOSED: [2018-08-20 Mon 08:00]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 08:00]
    In this lesson we drive out the ability to publish concerts through our new =/published-concerts= resource.
+   - Tests
+     - =a_promoter_can_publish_their_own_concerts= in =PublishConcertTest= =feature=
+     - =a_concert_can_only_be_published_once= in =PublishConcertTest= =feature=
+   - Summary
+     - Expecting use =publish= method in =controller=, so assert the concert ticket remaining is correct number in database.
+     - =abort_if=
 
 ** Adding Concerts without Publishing
    In this lesson we update our existing "add concert" flow to not publish concerts immediately.
