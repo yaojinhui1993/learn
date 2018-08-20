@@ -1499,8 +1499,12 @@
   - Tests
     - =connecting_a_stripe_account_successfully= in =ConnectWithStripeTest= =unit=
 
-** Authorizing with Stripe
+** DONE Authorizing with Stripe
+   CLOSED: [2018-08-20 Mon 20:50]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 20:50]
    In this lesson we implement the first half of the Stripe Connect redirect flow, where we send promoters to Stripe to connect their account.
+   - Summary
+     - =http_build_query=
 
 ** Exchanging Tokens
    In this lesson we handle the second half of the redirect flow; exchanging the temporary code Stripe gives us for a valid access token that we can use to make requests on behalf of a promoter.
