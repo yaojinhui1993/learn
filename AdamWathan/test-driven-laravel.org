@@ -1381,8 +1381,15 @@
          // ...
          Event::assertDispatched(ConcertAdded::class, closure);
        #+END_SRC
-** Testing the Event Listener
-   In this lesson we drive out our SchedulePosterImageProcessing event listener with TDD.
+** DONE Testing the Event Listener
+   CLOSED: [2018-08-20 Mon 15:59]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 15:59]
+   In this lesson we drive out our =SchedulePosterImageProcessing= event listener with TDD.
+   - Tests
+     - =it_queues_a_job_to_process_a_poster_image_if_a_poster_image_is_present= in =SchedulePosterImageProcessingTest= =unit=
+     - =a_job_is_not_queued_if_a_poster_is_not_present= in =SchedulePosterImageProcessingTest= =unit=
+   - Summary
+     - =assertDispatched= vs =assertPushed=
 
 ** Resizing the Posted Image
    In this lesson we walk through how to test resizing images using the =Intervention Image= image processing library.
