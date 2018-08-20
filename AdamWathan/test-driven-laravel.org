@@ -1223,7 +1223,9 @@
          });
        #+END_SRC
 
-** STARTED Making the Progress Bar Work
+** DONE Making the Progress Bar Work
+   CLOSED: [2018-08-20 Mon 09:55]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 09:55]
    In this lesson we add some methods for calculating the percentage of ticket sold, and touch a neat tip for making assertions about float point numbers.
    - Tests
      - =total_tickets_includes_all_tickets= in =ConcertTest= =unit=
@@ -1231,8 +1233,14 @@
    - Summary
      - Donot put logic in the view, because we cannot test it.
 
-** Total Revenue and a Relationship Bug
+** DONE Total Revenue and a Relationship Bug
+   CLOSED: [2018-08-20 Mon 10:07]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 10:07]
    In this lesson we work on calculating the total revenue for a concert, but run into an intersting bug we need to tackle with our =$concert->order= relationship.
+   - Tests
+     - =calculating_the_revenue_in_dollars= in =ConcertTest= =unit=
+   - Summary
+     - Tickets and Orders are not belongsToMany relationship.
 
 
 * Listing Recent Orders
