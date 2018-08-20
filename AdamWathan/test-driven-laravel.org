@@ -1278,8 +1278,23 @@
      - =a_guest_cannot_view_the_message_form_for_any_concert= in =MessageAttendeesTest= =feature=
      - =a_promoter_can_send_a_new_message= in =MessageAttendeesTest= =feature=
 
-** Confirming That a Job Was Dispatched
+** DONE Confirming That a Job Was Dispatched
+   CLOSED: [2018-08-20 Mon 11:35]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 11:35]
    In this lesson, we update our "store attendee message" implementation to actually dispatch a background job for sending the message.
+   - Tests
+     - =a_promoter_cannot_send_a_new_message_for_other_concerts= in =MessagesAttendeesTest= =feature=
+     - =a_guest_cannot_send_a_new_message_for_any_concerts= in =MessagesAttendeesTest= =feature=
+   - Summary
+     - Queue assert
+       #+BEGIN_SRC php
+         Queue:fake();
+         // ...
+
+         Queue::assertPushed(SendAttendeeMessage::class, function ($job) use ($message) {
+             return $job->message->is($message);
+         });
+       #+END_SRC
 
 ** Unit Testting the Job
    In this lesson we drive out the implementation of the actual background job via a dedicated unit test.
