@@ -1311,8 +1311,12 @@
      - Queued email: =Mail::to($recipient)->queue(AttendeeMessageEmail())=
      - Chunked recipients.
 
-** Mailable Testing Refresher and Demo
+** DONE Mailable Testing Refresher and Demo
+   CLOSED: [2018-08-20 Mon 13:54]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 13:54]
    In this lesson we walk through a unit test for our new mailable and demo our new mass email feature.
+   - Tests
+     - =email_has_the_correct_subject_and_message= in =AttendeeMessageEmailTest= =unit=
 
 * Upgrading to Laravel 5.5
 
