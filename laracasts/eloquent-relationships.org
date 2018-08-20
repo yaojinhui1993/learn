@@ -1,0 +1,9 @@
+* Eloquent-Relationships
+Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that your recognize and understand six key relationship types. Let's review them all - one episode per relationship.
+
+** DONE One to One
+   CLOSED: [2018-08-21 Tue 06:40]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 06:40]
+    First up, we have "one-to-one" relationships. This is an easy one to picture in your head. What is one thing that a user might be associated with? What about a profile, or an address, or an avatar?
+    - Summary
+      - =DB::getQueryLog()= and =DB::enableQueryLog()=
