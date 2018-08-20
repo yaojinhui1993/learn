@@ -1421,8 +1421,14 @@
      - =assertViewIs= method
      - =withoudExceptionHandling= method
 
-** Viewing an Unused Inivation
+** DONE Viewing an Unused Invitation
+   CLOSED: [2018-08-20 Mon 17:01]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 17:00]
    In this lesson, we drive out the ability for a promoter to view their inivitation to join TicketBeast.
+   - Tests
+     - =viewing_an_unused_invitation= in =AcceptInvitationTest= =unit=
+   - Summary
+     - Create a test, and let the test pass.
 
 ** Viewing Used or Invalid Invitations
    In this lesson, we drive out what should happen when someone tries to view an invitation that has already been used, as well as inivation that doesn't exists.
