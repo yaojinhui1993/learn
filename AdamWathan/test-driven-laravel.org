@@ -1543,8 +1543,14 @@
    - Summary
      - Change use =bcrypt()= to direct password in factory, so that can speed up test.
 
-** Total Charges for a Specific Account
+** DONE Total Charges for a Specific Account
+   CLOSED: [2018-08-21 Tue 07:53]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 07:53]
    In this lesson we start working on sending payments directly to promoters by making sure we can verify which accounts received which payments.
+   - Tests
+     - =can_get_total_charges_for_a_specific_account= in =FakePaymentGatewayTest= =unit=
+   - Summary
+     - Add =destinationAccountId= in =PaymentGateway= inteface.
 
 ** Paying Promoters Directly
    In this lesson we make the necessary changes to our application code to make sure that when a payment is processed it's sent to the promoter's account instead of the application account.
