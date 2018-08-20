@@ -1536,8 +1536,12 @@
    - Summary
      - =Route::getRoutes()->getByName($route)->gatherMiddleware= get specified route middleware.
 
-** Updating Factories and a Speed Trick
+** DONE Updating Factories and a Speed Trick
+   CLOSED: [2018-08-21 Tue 07:34]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 07:34]
    In this lesson we check if our middleware has had any impact on the rest of our test suit, and walk through a quick trick that can dramatically speed up your test suit.
+   - Summary
+     - Change use =bcrypt()= to direct password in factory, so that can speed up test.
 
 ** Total Charges for a Specific Account
    In this lesson we start working on sending payments directly to promoters by making sure we can verify which accounts received which payments.
