@@ -1259,8 +1259,12 @@
    - Summary
      - Sublime =TextPastry=
 
-** Splitting Large Tests
+** DONE Splitting Large Tests
+   CLOSED: [2018-08-20 Mon 10:59]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 10:59]
    In this lesson we talk about when, why, and how to split up a large test into many.
+   - Tests
+     - =a_promoter_can_view_the_10_most_recent_orders_for_their_concert= in =ViewPublishedConcertOrdersTest= =feature=
 
 * Queuing Mass Attendee Emails
 
