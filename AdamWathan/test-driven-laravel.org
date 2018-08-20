@@ -1450,8 +1450,13 @@
      - =Hash::check()= check password
      - =assertAuthenticatedAs($user)=
 
-** Registering with an Invalid Invitation
+** DONE Registering with an Invalid Invitation
+   CLOSED: [2018-08-20 Mon 17:38]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 17:38]
    In this lesson we make sure that users can't register with invalid invitation codes.
+   - Tests
+     - =registering_with_an_used_inivation_code= in =AcceptInvitationTest= =unit=
+     - =registering_with_an_invitation_code_that_does_not_exist= in =AcceptInvitationTest= =unit=
 
 ** Validating Promoter Registation
    In this lesson we add some validation rules to our registeration flow.
