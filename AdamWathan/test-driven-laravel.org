@@ -1320,7 +1320,9 @@
 
 * Upgrading to Laravel 5.5
 
-** Upgrading to Laravel 5.5
+** DONE Upgrading to Laravel 5.5
+   CLOSED: [2018-08-20 Mon 14:22]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 14:22]
    In this lesson we use our test suit to guide us as we upgrade to Laravel 5.5.
 
 * Uploading Concert Posters
