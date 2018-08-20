@@ -1245,8 +1245,12 @@
 
 * Listing Recent Orders
 
-** Creating a Custom OrderFactory
+** DONE Creating a Custom OrderFactory
+   CLOSED: [2018-08-20 Mon 10:23]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 10:23]
    In this lesson we start working on making it possible for promoters to view a list of recent orders. When we hit a snag with some complex factory setup, we work on extracting a custom factory class to simplify our code.
+   - Summary
+     - Create order factory method =createForConcert=
 
 ** Asserting Against Sort Order
    In this lesson we add the assertions we need to verify that our recent orders are getting passed to the view in the right order, and discuss why asserting against view data makes this so much easier that in would be if we were asserting against HTML.
