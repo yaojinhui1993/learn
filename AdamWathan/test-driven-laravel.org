@@ -1338,8 +1338,13 @@
        #+BEGIN_SRC php
          Storage::fake('s3');
        #+END_SRC
-** Storing Files and Comparing Contents
+** DONE Storing Files and Comparing Contents
+   CLOSED: [2018-08-20 Mon 14:59]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 14:59]
    In this lesson we get our initial file upload test passing, and also talk about how to verify that the stored file contents match the uploaded file contents.
+   - Summary
+     - Laravel =request('file')= get file instance
+     - =assertFileEquals=
 
 ** Validating Poster Images
    In this lesson we add additional tests for validating the file type, dimensions, and aspect ratio of uploaded concert posters.
