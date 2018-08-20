@@ -1412,8 +1412,14 @@
 
 * Inviting Promoters and Accepting Inivitations
 
-** Upgrading Laravel and Deleting Some Code
+** DONE Upgrading Laravel and Deleting Some Code
+   CLOSED: [2018-08-20 Mon 16:40]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 16:40]
    Before we get started with the next feature, let's quickly upgrade to the latest Laravel patch release and take advantage of some new features that let us delete some of our custom helpers.
+   - Summary
+     - =from= method
+     - =assertViewIs= method
+     - =withoudExceptionHandling= method
 
 ** Viewing an Unused Inivation
    In this lesson, we drive out the ability for a promoter to view their inivitation to join TicketBeast.
