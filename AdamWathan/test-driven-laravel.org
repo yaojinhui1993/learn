@@ -1476,8 +1476,12 @@
    - Summary
      - =$this->artisan('my-command', [])= test Artisan Command.
 
-** Sending Promoters an Inivitation Email
+** DONE Sending Promoters an Invitation Email
+   CLOSED: [2018-08-20 Mon 20:04]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 20:04]
    In this lesson we enhance our custom command to also send an invitation email to the promoter being invited.
+   - Summary
+     - Encapsulate send email logic in the =Inivitation= model.
 
 ** Test-Driving the Email Contents
    In this lesson we make sure that the inivitation email cotains the correct invitation linke, and run through a quick demo of our finished feature.
