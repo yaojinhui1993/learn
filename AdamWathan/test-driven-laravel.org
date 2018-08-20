@@ -1303,8 +1303,13 @@
    - Tests
      - =it_sends_the_message_to_all_concert_attendees= in =SendAttendeeMessageTest= =unit=
 
-** Refactoring for Robustness
+** DONE Refactoring for Robustness
+   CLOSED: [2018-08-20 Mon 13:46]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 13:46]
    In this lesson we refactor the implementation of our background job to better handle large numbers of recipients.
+   - Summary
+     - Queued email: =Mail::to($recipient)->queue(AttendeeMessageEmail())=
+     - Chunked recipients.
 
 ** Mailable Testing Refresher and Demo
    In this lesson we walk through a unit test for our new mailable and demo our new mass email feature.
