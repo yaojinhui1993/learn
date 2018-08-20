@@ -1357,8 +1357,14 @@
    - Summary
      - Validate wide =Rule::dimension()->minWidth()=
 
-** Optional Files and the Null Object Pattern
+** DONE Optional Files and the Null Object Pattern
+   CLOSED: [2018-08-20 Mon 15:24]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 15:24]
    In this lesson we add a test to make sure that concert posters are optional, and come up with a clean implementation using the Null Object pattern.
+   - Tests
+     - =poster_image_is_optional= in =AddConcertTest= =unit=
+   - Summary
+     - Create =NullFile= file, used in =request('poster_image', new NullFile)=
 
 * Optimizing Poster Images
 
