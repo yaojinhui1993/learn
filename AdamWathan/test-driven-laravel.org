@@ -1520,9 +1520,13 @@
    - Summary
      - test driven out =middleware=.
 
-** Testing Callbacks with Invokables
+** DONE Testing Callbacks with Invokables
+   CLOSED: [2018-08-20 Mon 22:05]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 22:05]
    In this lesson we make sure our middleware doesn't block promoters who have already connected their Stripe accounts, covering an approach for testing their interfaces that accepts callbacks using invokables classes.
-
+   - Tests
+     - =users_with_a_stripe_account_can_continue= in =ForceStripeAccountTest= =unit=
+   
 ** Testing That Middleware is Applied
    In this lesson we discuss and implement a strategy for making sure that our new middleware is applied to the correct routes.
 
