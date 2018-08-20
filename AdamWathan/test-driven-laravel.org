@@ -1391,8 +1391,15 @@
    - Summary
      - =assertDispatched= vs =assertPushed=
 
-** Resizing the Posted Image
+** DONE Resizing the Posted Image
+   CLOSED: [2018-08-20 Mon 16:14]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 16:14]
    In this lesson we walk through how to test resizing images using the =Intervention Image= image processing library.
+   - Tests
+     - =it_resizes_the_poster_image_to_600px_width= in =ProcessPosterImageTest= =unit=
+   - Summary
+     - =__fixtures__= folder
+     - php method =getimagesizefromstring($image)=
 
 ** Optimizing the Image Size
    In this lesson we add an additional processing step to reduce the image size, and talk about how to test that the optimized image still looks like the original image.
