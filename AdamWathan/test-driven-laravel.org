@@ -1527,8 +1527,14 @@
    - Tests
      - =users_with_a_stripe_account_can_continue= in =ForceStripeAccountTest= =unit=
    
-** Testing That Middleware is Applied
+** DONE Testing That Middleware is Applied
+   CLOSED: [2018-08-21 Tue 07:28]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 07:28]
    In this lesson we discuss and implement a strategy for making sure that our new middleware is applied to the correct routes.
+   - Tests
+     - =middleware_is_applied_to_all_backstage_routes= in =ForceStripeAccountTest= =unit=
+   - Summary
+     - =Route::getRoutes()->getByName($route)->gatherMiddleware= get specified route middleware.
 
 ** Updating Factories and a Speed Trick
    In this lesson we check if our middleware has had any impact on the rest of our test suit, and walk through a quick trick that can dramatically speed up your test suit.
