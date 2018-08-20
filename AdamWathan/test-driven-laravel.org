@@ -1327,9 +1327,17 @@
 
 * Uploading Concert Posters
 
-** Faking Uploadings and File Systems.
+** DONE Faking Uploadings and File Systems.
+   CLOSED: [2018-08-20 Mon 14:43]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 14:43]
    In this lesson we write our first test for uploading concert images, and walk through how to attach files to requests in feature tests, as well as how to use Laravel's built-in file system fake to make assertions about file uploads.
-
+   - Tests
+     - =poster_image_is_uploaded_if_included= in =AddConcertTest= =Feature=
+   - Summary
+     - Fake s3
+       #+BEGIN_SRC php
+         Storage::fake('s3');
+       #+END_SRC
 ** Storing Files and Comparing Contents
    In this lesson we get our initial file upload test passing, and also talk about how to verify that the stored file contents match the uploaded file contents.
 
