@@ -1401,8 +1401,14 @@
      - =__fixtures__= folder
      - php method =getimagesizefromstring($image)=
 
-** Optimizing the Image Size
+** DONE Optimizing the Image Size
+   CLOSED: [2018-08-20 Mon 16:34]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 16:34]
    In this lesson we add an additional processing step to reduce the image size, and talk about how to test that the optimized image still looks like the original image.
+   - Tests
+     - =it_optimizes_the_poster_image= in =ProcessPosterImageTest= =unit=
+   - Summary
+     - Optimized image =limitColor(255)=
 
 * Inviting Promoters and Accepting Inivitations
 
