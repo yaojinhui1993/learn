@@ -1483,8 +1483,13 @@
    - Summary
      - Encapsulate send email logic in the =Inivitation= model.
 
-** Test-Driving the Email Contents
-   In this lesson we make sure that the inivitation email cotains the correct invitation linke, and run through a quick demo of our finished feature.
+** DONE Test-Driving the Email Contents
+   CLOSED: [2018-08-20 Mon 20:17]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 20:17]
+   In this lesson we make sure that the inivitation email contains the correct invitation link, and run through a quick demo of our finished feature.
+   - Tests
+     - =email_contains_a_link_to_accept_the_invitation= in =InvitationEmailTest= =unit=
+     - =email_contains_a_subject in =InvitationEmailTest= =unit=
 
 * Automating Payouts With Stripe Connect
 ** Getting Cozy with Stripe Connect
