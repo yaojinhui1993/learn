@@ -1186,8 +1186,22 @@
    - Summary
      - Move view logic to controller
 
-** More Custom Assertion Fun
+** DONE More Custom Assertion Fun
+   CLOSED: [2018-08-20 Mon 09:17]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 09:17]
    Some of our assertions are looking a little bit overwhelming. Let's create a new custom assertion to make our test a bit more expressive.
+   - Summary
+     - Add =assertEquals= collection macro method.
+       #+BEGIN_SRC php
+         Collection::macro('assertEquals', function ($items) {
+             Assert::equals($this->count(), $items->count());
+             $this->zip($items, function ($pair) {
+                 list($a, $b) = $pair;
+                 Assert::equals($a->is($b));
+             });
+         });
+       #+END_SRC
+     - Add =createUnPublished= method in =ConcertFactory=
 
 * Building the Sales Dashboard
 
