@@ -1296,8 +1296,12 @@
          });
        #+END_SRC
 
-** Unit Testting the Job
+** DONE Unit Testing the Job
+   CLOSED: [2018-08-20 Mon 12:42]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 12:42]
    In this lesson we drive out the implementation of the actual background job via a dedicated unit test.
+   - Tests
+     - =it_sends_the_message_to_all_concert_attendees= in =SendAttendeeMessageTest= =unit=
 
 ** Refactoring for Robustness
    In this lesson we refactor the implementation of our background job to better handle large numbers of recipients.
