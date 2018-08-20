@@ -1168,8 +1168,16 @@
      - Expecting use =publish= method in =controller=, so assert the concert ticket remaining is correct number in database.
      - =abort_if=
 
-** Adding Concerts without Publishing
+** DONE Adding Concerts without Publishing
+   CLOSED: [2018-08-20 Mon 08:11]
+   - State "DONE"       from "STARTED"    [2018-08-20 Mon 08:11]
    In this lesson we update our existing "add concert" flow to not publish concerts immediately.
+   - Tests
+     - =a_promoter_cannot_publish_other_concerts= in =PublishConcertTest= =feature=
+     - =a_guest_cannot_pubilsh_concerts= in =PublishConcertTest= =feature=
+     - =concerts_that_donot_exist_cannot_be_published= =PublishConcertTest= =feature=
+   - Summary
+     - When create concert, do not publish it by default.
 
 ** Pushing Logic Out of the View
    Our template is doing a little bit too much work. Let's figure out a way to extract some of that logic into a place that's easier to test.
