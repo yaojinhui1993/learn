@@ -1568,5 +1568,7 @@
    - Summary
      - Let real stripe payment gateway test pass.
 
-** It's Alive
+** DONE It's Alive
+   CLOSED: [2018-08-21 Tue 09:17]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 09:17]
    In the final lesson of Test-Driven Laravel, we do one last demo of the ticket purchasing process from inviting a promoter to receiving an order confirmation, and double check that everything is really working as expected via the Stripe dashboard.
