@@ -122,3 +122,7 @@
          });
        #+END_SRC
      - Encapsulate get achievement level =levelAsNumber()= method in =Achievement.php=
+** DONE That's a Wrap
+   CLOSED: [2018-08-22 Wed 06:28]
+   - State "DONE"       from "STARTED"    [2018-08-22 Wed 06:28]
+   Take a moment to think how much we've covered in this series. These techniques can be applied to any new component or feature that you're working on. I hope you've found a technique or two to throw into your toolbelt. Thanks for coming along!
