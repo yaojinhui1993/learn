@@ -1559,8 +1559,14 @@
    - Summary
      - After add =destinationAccountId=, let feature test pass.
 
-** Splitting Payments with Stripe
-   In this lesson we update our =StripePaymentGateway= to match our new payment gateway contract, and add an additional test to make sure that pyaments processed by Strip are split as expected between the application account and the promoter's account.
+** DONE Splitting Payments with Stripe
+   CLOSED: [2018-08-21 Tue 09:10]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 09:10]
+   In this lesson we update our =StripePaymentGateway= to match our new payment gateway contract, and add an additional test to make sure that payments processed by Strip are split as expected between the application account and the promoter's account.
+   - Tests
+     - =ninety_percent_of_the_payment_is_transfered_to_the_destination_account= in =StripePaymentGatewayTest= =unit=
+   - Summary
+     - Let real stripe payment gateway test pass.
 
 ** It's Alive
    In the final lesson of Test-Driven Laravel, we do one last demo of the ticket purchasing process from inviting a promoter to receiving an order confirmation, and double check that everything is really working as expected via the Stripe dashboard.
