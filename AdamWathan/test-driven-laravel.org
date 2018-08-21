@@ -1552,8 +1552,12 @@
    - Summary
      - Add =destinationAccountId= in =PaymentGateway= inteface.
 
-** Paying Promoters Directly
+** DONE Paying Promoters Directly
+   CLOSED: [2018-08-21 Tue 08:03]
+   - State "DONE"       from "STARTED"    [2018-08-21 Tue 08:03]
    In this lesson we make the necessary changes to our application code to make sure that when a payment is processed it's sent to the promoter's account instead of the application account.
+   - Summary
+     - After add =destinationAccountId=, let feature test pass.
 
 ** Splitting Payments with Stripe
    In this lesson we update our =StripePaymentGateway= to match our new payment gateway contract, and add an additional test to make sure that pyaments processed by Strip are split as expected between the application account and the promoter's account.
