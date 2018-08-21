@@ -1,4 +1,6 @@
-* Getting the Ball Rolling
+* DONE Getting the Ball Rolling
+  CLOSED: [2018-08-21 Tue 09:17]
+  - State "DONE"       from              [2018-08-21 Tue 09:17]
 ** DONE What Do We Build First
    CLOSED: [2018-08-13 Mon 16:53]
    - State "DONE"       from "STARTED"    [2018-08-13 Mon 16:53]
