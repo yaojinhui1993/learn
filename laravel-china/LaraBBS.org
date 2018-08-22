@@ -12,5 +12,16 @@
        - 重视「代码愉悦性」
      - ~LTS: Long Term Support~
 
+*** 构建页面
+**** 章节说明
+     整个网站的功能：
+     - 用户的注册登录
+     - 用户个人信息的更改
+     - 使用管理员权限删除用户
+     - 发布微博
+     - 关注用户
+     - 查看关注用户的微博动态
+**** 构建页面
+     - Create Project:  =composer create-project laravel/laravel sample --prefer-dist "5.5.*"=
 ** Laravel Intermediate Training
 ** Laravel Advanced Training
