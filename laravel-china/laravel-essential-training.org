@@ -12,7 +12,7 @@
      - ~LTS: Long Term Support~
 
 ** 构建页面
-** 章节说明
+*** 章节说明
      整个网站的功能：
      - 用户的注册登录
      - 用户个人信息的更改
@@ -20,5 +20,12 @@
      - 发布微博
      - 关注用户
      - 查看关注用户的微博动态
-**** 构建页面
-     - Create Project:  =composer create-project laravel/laravel sample --prefer-dist "5.5.*"=
+*** 构建页面
+     - Create Project:  ~composer create-project laravel/laravel sample --prefer-dist "5.5.*"~
+     - editorconfig
+*** 静态页面
+    - =git checkout master= change current branch to master
+    - =git checkout -b <new-branch>= create new branch
+    - =git merge <target-branch>= merge target branch to current branch
+    - =git branch -d <target-branch>= delete target branch
+    - =@yield('content')= and =@section('content') @endsection= pair.
