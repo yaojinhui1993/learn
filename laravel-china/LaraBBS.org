@@ -1,4 +1,16 @@
 * LaraBBS
 ** Laravel Essential Training
+*** 基础信息
+**** DONE Laravel and PHP
+     CLOSED: [2018-08-22 Wed 09:49]
+     - State "DONE"       from              [2018-08-22 Wed 09:49]
+     - ~PHP: Hypertext Preprocessor~, 「超文本预处理器」
+     - Principle
+       - 强调与注重敏捷开发
+       - 约定高于配置 (Conversation over configuration)
+       - DRY (Don't repeat yourself)
+       - 重视「代码愉悦性」
+     - ~LTS: Long Term Support~
+
 ** Laravel Intermediate Training
 ** Laravel Advanced Training
