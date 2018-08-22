@@ -1,7 +1,6 @@
-* LaraBBS
-** Laravel Essential Training
-*** 基础信息
-**** DONE Laravel and PHP
+* Laravel Essential Training
+** 基础信息
+*** DONE Laravel and PHP
      CLOSED: [2018-08-22 Wed 09:49]
      - State "DONE"       from              [2018-08-22 Wed 09:49]
      - ~PHP: Hypertext Preprocessor~, 「超文本预处理器」
@@ -12,8 +11,8 @@
        - 重视「代码愉悦性」
      - ~LTS: Long Term Support~
 
-*** 构建页面
-**** 章节说明
+** 构建页面
+** 章节说明
      整个网站的功能：
      - 用户的注册登录
      - 用户个人信息的更改
@@ -23,5 +22,3 @@
      - 查看关注用户的微博动态
 **** 构建页面
      - Create Project:  =composer create-project laravel/laravel sample --prefer-dist "5.5.*"=
-** Laravel Intermediate Training
-** Laravel Advanced Training
