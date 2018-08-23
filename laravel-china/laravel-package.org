@@ -84,3 +84,8 @@
 *** DONE 018. Excel 处理工具——maatwebsite/excel (2.1 版本)
     CLOSED: [2018-08-22 Wed 07:22]
     - State "DONE"       from "STARTED"    [2018-08-22 Wed 07:22]
+*** DONE 019. Excel 处理工具——maatwebsite/excel (3.0 版本)
+    CLOSED: [2018-08-24 Fri 07:56]
+    - State "DONE"       from "STARTED"    [2018-08-24 Fri 07:56]
+    - Summary
+      - =composer require maatwebsite/excel:^3.0 --update-with-dependencies=
