@@ -1,4 +1,6 @@
-* Laravel Essential Training
+* DONE Laravel Essential Training
+  CLOSED: [2018-08-23 Thu 10:09]
+  - State "DONE"       from              [2018-08-23 Thu 10:09]
 ** 基础信息
 *** DONE Laravel and PHP
      CLOSED: [2018-08-22 Wed 09:49]
@@ -29,3 +31,8 @@
     - =git merge <target-branch>= merge target branch to current branch
     - =git branch -d <target-branch>= delete target branch
     - =@yield('content')= and =@section('content') @endsection= pair.
+
+* Summary
+  - =allRelatedIds()= gett all related ids.
+  - 动态流
+  - =many to many=
