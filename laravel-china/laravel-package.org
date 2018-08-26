@@ -92,3 +92,6 @@
 *** DONE 020. Sitemap 生成工具——roumen/sitemap
     CLOSED: [2018-08-27 Mon 06:15]
     - State "DONE"       from "STARTED"    [2018-08-27 Mon 06:15]
+*** DONE 021. 统计访问次数——awssat/laravel-visits
+    CLOSED: [2018-08-27 Mon 06:36]
+    - State "DONE"       from "STARTED"    [2018-08-27 Mon 06:36]
