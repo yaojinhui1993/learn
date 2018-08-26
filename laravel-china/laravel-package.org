@@ -89,3 +89,6 @@
     - State "DONE"       from "STARTED"    [2018-08-24 Fri 07:56]
     - Summary
       - =composer require maatwebsite/excel:^3.0 --update-with-dependencies=
+*** DONE 020. Sitemap 生成工具——roumen/sitemap
+    CLOSED: [2018-08-27 Mon 06:15]
+    - State "DONE"       from "STARTED"    [2018-08-27 Mon 06:15]
