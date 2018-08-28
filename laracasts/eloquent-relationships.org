@@ -12,3 +12,7 @@ Eloquent make the process of interacting with your database tables as natural an
    CLOSED: [2018-08-24 Fri 11:00]
    - State "DONE"       from "STARTED"    [2018-08-24 Fri 11:00]
    Now that we have "one-to-one" relationships locked and labeled, let's move on to our next Eloquent relationship: "one-to-many". What might be an example of something a user would have many of? What about posts, or porjects, or tasks? You'll reach for this relationship constantly in your daily workflow.
+** DONE Many to Many
+   CLOSED: [2018-08-28 Tue 09:08]
+   - State "DONE"       from "STARTED"    [2018-08-28 Tue 09:08]
+   Many to many relationships are a bit more confusing to understand. Let's break it down by reviewing the common "posts" and "tags" relationships. A one-to-one or one-to-many relationship isn't quite right here. A post will never own a tag. It can be associated with one, sure, but it does'nt own the tag. The same is true in reverse. When we encounter such situations such as this, a "many-to-many" relationship is exactly what we need.
