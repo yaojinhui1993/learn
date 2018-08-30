@@ -95,3 +95,6 @@
 *** DONE 021. 统计访问次数——awssat/laravel-visits
     CLOSED: [2018-08-27 Mon 06:36]
     - State "DONE"       from "STARTED"    [2018-08-27 Mon 06:36]
+*** DONE 022. 模型关系图生成器 ——beyondcode/laravel-er-diagram-generator
+    CLOSED: [2018-08-31 Fri 07:59]
+    - State "DONE"       from "STARTED"    [2018-08-31 Fri 07:59]
