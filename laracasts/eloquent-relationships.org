@@ -16,3 +16,9 @@ Eloquent make the process of interacting with your database tables as natural an
    CLOSED: [2018-08-28 Tue 09:08]
    - State "DONE"       from "STARTED"    [2018-08-28 Tue 09:08]
    Many to many relationships are a bit more confusing to understand. Let's break it down by reviewing the common "posts" and "tags" relationships. A one-to-one or one-to-many relationship isn't quite right here. A post will never own a tag. It can be associated with one, sure, but it does'nt own the tag. The same is true in reverse. When we encounter such situations such as this, a "many-to-many" relationship is exactly what we need.
+** DONE Has Many Through
+   CLOSED: [2018-08-31 Fri 12:38]
+   - State "DONE"       from "STARTED"    [2018-08-31 Fri 12:38]
+   While not nearly as common, the =hasManyThrough= relationship, when necessary, can prove to be incredibly useful. This relationship type allows you to perform queries across long distance relationships.
+   - Summary
+     - =hasManyThrough= =hasMany= what table? =through= what table?
