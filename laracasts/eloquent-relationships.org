@@ -22,3 +22,8 @@ Eloquent make the process of interacting with your database tables as natural an
    While not nearly as common, the =hasManyThrough= relationship, when necessary, can prove to be incredibly useful. This relationship type allows you to perform queries across long distance relationships.
    - Summary
      - =hasManyThrough= =hasMany= what table? =through= what table?
+** DONE Polymorphic Relationships
+   CLOSED: [2018-09-04 Tue 05:48]
+   - State "DONE"       from "STARTED"    [2018-09-04 Tue 05:48]
+   We've made it to the scariest of Eloquent relations: polymorphic. Don't worry! As with most things, the word is scarier than the technique. A polymorphic relationship allows a model to belong to any number of models on a single association. Let's demonstrate this with a praticale example.
+   - =Videos=, =Series=, and =Collections=
