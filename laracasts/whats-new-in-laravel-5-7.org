@@ -1,0 +1,7 @@
+* What's New in Laravel 5.7
+
+** DONE Email Verification
+   CLOSED: [2018-09-05 Wed 13:45]
+   - State "DONE"       from "STARTED"    [2018-09-05 Wed 13:45]
+   First up, we have email verification support out of the box in Laravel 5.7. It's as simple as adding =implementents MustVerifyEmail= to your =user= class. Seriously.
+   - =MustVerifyEmail=
