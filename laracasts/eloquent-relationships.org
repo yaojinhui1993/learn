@@ -27,3 +27,7 @@ Eloquent make the process of interacting with your database tables as natural an
    - State "DONE"       from "STARTED"    [2018-09-04 Tue 05:48]
    We've made it to the scariest of Eloquent relations: polymorphic. Don't worry! As with most things, the word is scarier than the technique. A polymorphic relationship allows a model to belong to any number of models on a single association. Let's demonstrate this with a praticale example.
    - =Videos=, =Series=, and =Collections=
+** DONE Many to Many Polymorphic Relations
+   CLOSED: [2018-09-20 Thu 13:40]
+   - State "DONE"       from "STARTED"    [2018-09-20 Thu 13:40]
+   We've finaly made it to the most intimidating of Eloquent relationships: many to many polymorphic. Don't worry, it's far simpler to understand than you might initially think. In this lesson, we'll construct a standard many-to-many relationship: a user can "like" a post. Then, we'll throw a wrench into the mix. What if a user can also "like" a comment? How might we restructure our existing structure to allow for this?
