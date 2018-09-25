@@ -196,3 +196,5 @@ A good, high-level overview of how the Laravel work.
 
 * `SupportFacadeTest`
 * `SupportFacadeEventTest`
+
+## Contracts
