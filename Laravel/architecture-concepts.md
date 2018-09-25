@@ -181,3 +181,15 @@ A good, high-level overview of how the Laravel work.
 
     * Container factory
     * `makeWith` is an alias for `make` method
+
+## Service Provider
+
+## Read framework tests
+
+* `Illuminate\Tests\Container`
+
+* `FoundationApplicationTest`
+
+  * Service provider `bind` and `singleton` properties can be automatic resolve when it is registered.
+  * Deferred service don't run when instance set.
+  * Single provider can provide multiple deferred services
