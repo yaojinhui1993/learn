@@ -61,3 +61,42 @@
   * Router Pattern
   * `is_callable`
   * Route redirect
+
+* RoutingSortedMiddlewareTest
+
+* RoutingUrlGeneratorTest
+
+  * PECL delimiters
+  * `strtr()` method: translate characters or replace substrings.
+  * `testBasicGenerationWithRequestBaseUrlWithSubfolder`
+
+    * `array_replace()` method.
+    * `parse_url()` method.
+    * `basename()` method.
+    * `dirname()` method.
+    * `trim()` method. Second parameter are a range of characters that we want to be stripped
+
+  * `testBasicGenerationWithRequestBaseUrlWithSubfolderAndFileSuffix`
+  * `testBasicGenerationWithRequestBaseUrlWithFileSuffix`
+  * `testBasicGenerationWithPathFormatting`
+  * `testUrlFormattersShouldReceiveTargetRoute`
+  * `testBasicRouteGeneration`
+
+    * `http_build_query` and `Arr::query` method to build query string.
+
+  * `testFluentRouteNameDefinitions`
+  * `testControllerRoutesWithADefaultNamespace`
+  * `testControllerRoutesOutsideOfDefaultsNamespace`
+  * `testRoutableInterfaceRouting`
+  * `testroutableInterfaceRoutingWithSingleParameter`
+  * `testRoutesMaintainRequestScheme`
+  * `testHttpOnlyRoutes`
+  * `testRoutesWithDomains`
+  * `testRoutesWithDomainsAndPorts`
+  * `testRoutesWithDomainsStripsProtocols`
+  * `testHttpsRoutesWithDomains`
+  * `testRoutesWithDomainsThroughProxy`
+  * `testUrlGenerationForControllerRequestsPassingOfRequiredParameters`
+  * `testForceRootUrl` forceRoot and forceScheme
+  * `testPrevious`
+  * `testRouteNotDefined`
