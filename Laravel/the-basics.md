@@ -100,3 +100,29 @@
   * `testForceRootUrl` forceRoot and forceScheme
   * `testPrevious`
   * `testRouteNotDefined`
+
+## Middleware
+
+* `RoutingSortedMiddlewareTest`
+* `AuthorizeMiddlewareTest`
+
+  * `testSimpleAbilityUnauthorized`
+
+    1. In pipeline, parse the pipe string to get name and parameters.
+    2. And then the container resolve the name of middleware.
+    3. In route pipeline's `carry` method, catch the exception.
+
+  * `testSimpleAbilityAuthorized`
+  * `testSimpleAbilityWithStringParameter`
+  * `testSimpleAbilityWithStringParameterFromRouteParameter`
+
+    * `AbilityMiddleware` can get parameter from route parameter.
+
+  * `testModelTypeUnauthorized`
+  * `testModelTypeAuthorized`
+
+    * Router `bind` method: Add a new route parameter binder
+    * Router `binder` properties used in `SubstituteBindings` middleware to substitute the route bindings onto the route.
+
+  * `testModelAuthorized`
+  * `testModelInstanceAsParameter`
