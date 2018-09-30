@@ -174,3 +174,15 @@
   * `testItCanExceptWildCardPaths`
   * `testItCanExceptFullUrlPaths`
   * `testItCanExceptFullUrlWildcardsPaths`
+
+* `TransformsRequestTest` for `TransformsRequest` middleware
+
+  * `testLowerAgeAndAddBeer`
+
+    * Transform query and request's data to what we want.
+    * `$request->get()` method: use Symfony `get` method, less use in Laravel, Use `input` instead. Because it can't resolve `json` data.
+
+  * `testAjaxLowerAgeAndAddBeer`
+
+    * `$request->input()` method: retrieve an item from the request
+    * `data_get` method: get an item from an array or object using dot notation.
