@@ -104,7 +104,7 @@
 ## Middleware
 
 * `RoutingSortedMiddlewareTest`
-* `AuthorizeMiddlewareTest`
+* `AuthorizeMiddlewareTest` for `Authorize` middleware
 
   * `testSimpleAbilityUnauthorized`
 
@@ -127,7 +127,7 @@
   * `testModelAuthorized`
   * `testModelInstanceAsParameter`
 
-* `AuthenticateMiddlewareTest`
+* `AuthenticateMiddlewareTest` for `Authenticate` middleware
 
   * `testDefaultUnauthenticatedThrows`
 
@@ -146,3 +146,17 @@
   * `testMultipleDriversUnauthenticatedThrows`
   * `testMultipleDriversUnauthenticatedThrowsGuards`
   * `testMultipleDriversAuthenticatedUpdatesDefault`
+
+* `CacheTest` for `SetCacheHeaders` middleware
+
+  * `testDoNotSetHeaderWhenMethodNotCacheable`
+
+    * `SetCacheHeaders` resolve after got response instance.
+    * `s-maxage`, `max-age`
+
+  * `testDoNotSetHeaderWhenNoContent`
+  * `testAddHeaders`
+  * `testAddHeadersUsingArray`
+  * `testGenerateEtag`
+  * `testIsNotModified`
+  * `testInValidOption`
