@@ -167,3 +167,10 @@
   * `testQueuedCookieEncryption`
 
     * `CookieJar`
+
+* `VerifyCsrfTokenExceptTest` for `VerifyCsrfToken` middleware
+
+  * `testItCanExceptPaths`
+  * `testItCanExceptWildCardPaths`
+  * `testItCanExceptFullUrlPaths`
+  * `testItCanExceptFullUrlWildcardsPaths`
