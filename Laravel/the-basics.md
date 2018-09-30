@@ -126,3 +126,23 @@
 
   * `testModelAuthorized`
   * `testModelInstanceAsParameter`
+
+* `AuthenticateMiddlewareTest`
+
+  * `testDefaultUnauthenticatedThrows`
+
+    * AuthManager
+
+      * Custom creators: RequestGuard
+
+    * Guard
+    * Driver
+
+      * check
+
+  * `testDefaultUnauthenticatedThrowsWithGuards`
+  * `testDefaultAuthenticatedKeepsDefaultDriver`
+  * `testSecondaryAuthenticatedUpdatesDefaultDriver`
+  * `testMultipleDriversUnauthenticatedThrows`
+  * `testMultipleDriversUnauthenticatedThrowsGuards`
+  * `testMultipleDriversAuthenticatedUpdatesDefault`
