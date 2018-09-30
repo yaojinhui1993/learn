@@ -160,3 +160,10 @@
   * `testGenerateEtag`
   * `testIsNotModified`
   * `testInValidOption`
+
+* `EncryptCookiesTest` for `EncryptCookies` middleware and `AddQueuedCookiesToResponse`
+
+  * `testSetCookieEncryption`
+  * `testQueuedCookieEncryption`
+
+    * `CookieJar`
