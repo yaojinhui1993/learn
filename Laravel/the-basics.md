@@ -186,3 +186,6 @@
 
     * `$request->input()` method: retrieve an item from the request
     * `data_get` method: get an item from an array or object using dot notation.
+
+* CSRF Protection
+* Controllers
