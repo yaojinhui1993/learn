@@ -189,3 +189,87 @@
 
 * CSRF Protection
 * Controllers
+* Requests
+
+  * `HttpRequestTest`
+    * `testInstanceMethod`
+    * `testMethodMethod`
+    * `testRootMethod`: result likes `http://www.example.com`
+    * `testPathMethod`: result likes `foo/bar`
+    * `testDecodedPathMethod`
+
+      * `dataProvider` annotation in PHPUnit
+
+    * `testSegmentsProvider`
+    * `testUrlMethod`: result likes `http://www.example.com/foo/bar`
+    * `testFullUrlMethod`: result likes `http://www.example.com/foo/bar?a=b`
+
+      * `$request->fullUrl()`
+      * `$request->fullUrlWithQuery()`
+
+    * `testIsMethod`
+    * `testFullUrlIsMethod`
+    * `testRouteIsMethod`
+
+      * `$request->route('parameter')`: get parameter from the router
+
+    * `testAjaxMethod`
+
+      * Just set the header contains `X-Requested-With: XMLHttpRequest`, then the request is ajax request
+
+    * `testPJaxMethod`
+
+      * Set header `X-PJAX: true`
+
+    * testSecureMethod
+    * testUserAgentMethod
+
+      * Set header `User-Agent`
+
+    * testHasMethod: In an array using "dot" notation
+    * testHasAnyMethod
+    * testFilledMethod
+    * testFilledAnyMethod
+    * testArrayAccess
+    * testAllMethod
+    * testKeysMethod
+    * testOnlyMethod
+    * testExceptMethod
+    * testPostMethod
+    * testCookieMethod
+    * testHasCookieMethod
+    * testFileMethod
+    * testHasFileMethod
+    * testServerMethod
+    * testMergeMethod
+    * testReplaceMethod
+    * testOffsetUnsetMethod
+    * testHeaderMethod
+    * testJSONMethod
+    * testJSONEmulatingPHPBuiltInServer
+    * testPrefers
+    * testAllInputReturnsInputAndFiles
+    * testAllInputReturnsNestedInputAndFiles
+    * testAllInputReturnsInputAfterReplace
+    * testAllInputWithNumericKeysReturnsInputAfterReplace
+    * testInputWithEmptyFilename
+    * testMultipleFileUploadWithEmptyValue
+    * testOldMethodCallSession
+    * testFlushMethodCallsSession
+    * testExpectJson
+    * testFormatReturnsAcceptableFormat
+    * testFormatReturnsAcceptsJson
+    * testFormatReturnsAcceptsHtml
+    * testFormatReturnsAcceptsAll
+    * testFormatReturnsAcceptsMultiple
+    * testFormatReturnsAcceptsCharset
+    * testBadAcceptHeader
+    * testSessionMethod
+    * testUserResolverMakesUserAvailableAsMagicProperty
+    * testFingerprintMethod
+    * testFingerprintWithoutRoute
+    * testCreateFromBase
+    * testMagicMethods
+    * testHttpRequestFlashCallCallSessionFlashInputWithInputData
+    * testHttpRequestFlashOnlyCallsFlashWithProperParameters
+    * testHttpRequestFlashExceptCallsFlashWithProperPramaters
