@@ -276,6 +276,17 @@
   * testHttpRequestFlashOnlyCallsFlashWithProperParameters
   * testHttpRequestFlashExceptCallsFlashWithProperPramaters
 
+* `HttpMimeTest`
+
+  * testMimeTypeFromFilenameExistsTrue
+  * testMimeTypeFromFilenameExistsFalse
+  * testMimeTypeFromExtensionExistsTrue
+  * testMimeTypeFromExtensionExistsFalse
+  * testGetAllMimeTypes
+  * testSearchExtensionFromMimeType
+
+    * `array_search()` method.
+
 ## Responses
 
 * `HttpResponseTest`
