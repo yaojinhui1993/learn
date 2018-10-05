@@ -187,89 +187,111 @@
     * `$request->input()` method: retrieve an item from the request
     * `data_get` method: get an item from an array or object using dot notation.
 
-* CSRF Protection
-* Controllers
-* Requests
+## CSRF Protection
 
-  * `HttpRequestTest`
-    * `testInstanceMethod`
-    * `testMethodMethod`
-    * `testRootMethod`: result likes `http://www.example.com`
-    * `testPathMethod`: result likes `foo/bar`
-    * `testDecodedPathMethod`
+## Controllers
 
-      * `dataProvider` annotation in PHPUnit
+## Requests
 
-    * `testSegmentsProvider`
-    * `testUrlMethod`: result likes `http://www.example.com/foo/bar`
-    * `testFullUrlMethod`: result likes `http://www.example.com/foo/bar?a=b`
+* `HttpRequestTest`
+  * `testInstanceMethod`
+  * `testMethodMethod`
+  * `testRootMethod`: result likes `http://www.example.com`
+  * `testPathMethod`: result likes `foo/bar`
+  * `testDecodedPathMethod`
 
-      * `$request->fullUrl()`
-      * `$request->fullUrlWithQuery()`
+    * `dataProvider` annotation in PHPUnit
 
-    * `testIsMethod`
-    * `testFullUrlIsMethod`
-    * `testRouteIsMethod`
+  * `testSegmentsProvider`
+  * `testUrlMethod`: result likes `http://www.example.com/foo/bar`
+  * `testFullUrlMethod`: result likes `http://www.example.com/foo/bar?a=b`
 
-      * `$request->route('parameter')`: get parameter from the router
+    * `$request->fullUrl()`
+    * `$request->fullUrlWithQuery()`
 
-    * `testAjaxMethod`
+  * `testIsMethod`
+  * `testFullUrlIsMethod`
+  * `testRouteIsMethod`
 
-      * Just set the header contains `X-Requested-With: XMLHttpRequest`, then the request is ajax request
+    * `$request->route('parameter')`: get parameter from the router
 
-    * `testPJaxMethod`
+  * `testAjaxMethod`
 
-      * Set header `X-PJAX: true`
+    * Just set the header contains `X-Requested-With: XMLHttpRequest`, then the request is ajax request
 
-    * testSecureMethod
-    * testUserAgentMethod
+  * `testPJaxMethod`
 
-      * Set header `User-Agent`
+    * Set header `X-PJAX: true`
 
-    * testHasMethod: In an array using "dot" notation
-    * testHasAnyMethod
-    * testFilledMethod
-    * testFilledAnyMethod
-    * testArrayAccess
-    * testAllMethod
-    * testKeysMethod
-    * testOnlyMethod
-    * testExceptMethod
-    * testPostMethod
-    * testCookieMethod
-    * testHasCookieMethod
-    * testFileMethod
-    * testHasFileMethod
-    * testServerMethod
-    * testMergeMethod
-    * testReplaceMethod
-    * testOffsetUnsetMethod
-    * testHeaderMethod
-    * testJSONMethod
-    * testJSONEmulatingPHPBuiltInServer
-    * testPrefers
-    * testAllInputReturnsInputAndFiles
-    * testAllInputReturnsNestedInputAndFiles
-    * testAllInputReturnsInputAfterReplace
-    * testAllInputWithNumericKeysReturnsInputAfterReplace
-    * testInputWithEmptyFilename
-    * testMultipleFileUploadWithEmptyValue
-    * testOldMethodCallSession
-    * testFlushMethodCallsSession
-    * testExpectJson
-    * testFormatReturnsAcceptableFormat
-    * testFormatReturnsAcceptsJson
-    * testFormatReturnsAcceptsHtml
-    * testFormatReturnsAcceptsAll
-    * testFormatReturnsAcceptsMultiple
-    * testFormatReturnsAcceptsCharset
-    * testBadAcceptHeader
-    * testSessionMethod
-    * testUserResolverMakesUserAvailableAsMagicProperty
-    * testFingerprintMethod
-    * testFingerprintWithoutRoute
-    * testCreateFromBase
-    * testMagicMethods
-    * testHttpRequestFlashCallCallSessionFlashInputWithInputData
-    * testHttpRequestFlashOnlyCallsFlashWithProperParameters
-    * testHttpRequestFlashExceptCallsFlashWithProperPramaters
+  * testSecureMethod
+  * testUserAgentMethod
+
+    * Set header `User-Agent`
+
+  * testHasMethod: In an array using "dot" notation
+  * testHasAnyMethod
+  * testFilledMethod
+  * testFilledAnyMethod
+  * testArrayAccess
+  * testAllMethod
+  * testKeysMethod
+  * testOnlyMethod
+  * testExceptMethod
+  * testPostMethod
+  * testCookieMethod
+  * testHasCookieMethod
+  * testFileMethod
+  * testHasFileMethod
+  * testServerMethod
+  * testMergeMethod
+  * testReplaceMethod
+  * testOffsetUnsetMethod
+  * testHeaderMethod
+  * testJSONMethod
+  * testJSONEmulatingPHPBuiltInServer
+  * testPrefers
+  * testAllInputReturnsInputAndFiles
+  * testAllInputReturnsNestedInputAndFiles
+  * testAllInputReturnsInputAfterReplace
+  * testAllInputWithNumericKeysReturnsInputAfterReplace
+  * testInputWithEmptyFilename
+  * testMultipleFileUploadWithEmptyValue
+  * testOldMethodCallSession
+  * testFlushMethodCallsSession
+  * testExpectJson
+  * testFormatReturnsAcceptableFormat
+  * testFormatReturnsAcceptsJson
+  * testFormatReturnsAcceptsHtml
+  * testFormatReturnsAcceptsAll
+  * testFormatReturnsAcceptsMultiple
+  * testFormatReturnsAcceptsCharset
+  * testBadAcceptHeader
+  * testSessionMethod
+  * testUserResolverMakesUserAvailableAsMagicProperty
+  * testFingerprintMethod
+  * testFingerprintWithoutRoute
+  * testCreateFromBase
+  * testMagicMethods
+  * testHttpRequestFlashCallCallSessionFlashInputWithInputData
+  * testHttpRequestFlashOnlyCallsFlashWithProperParameters
+  * testHttpRequestFlashExceptCallsFlashWithProperPramaters
+
+## Responses
+
+* `HttpResponseTest`
+
+  * testJsonResponseAreConvertedAndHeadersAreSet
+  * testRenderablesAreRendered
+  * testHeader
+  * testWithCookie
+  * testGetOriginalContent
+  * testGetOriginalContentRetrievesTheFirstOriginalContent
+  * testSetAndRetrievesStatusCode
+  * testOnlyInputOnRedirect
+  * testExceptInputOnRRedirect
+  * testOnFlashingErrorOnRedirect
+  * testSettersAndGettersOnRequest
+  * testRedirectWithErrorsArrayConvertsToMessageBag
+  * testWithHeaders
+  * testMagicCall
+  * testMagicCallException
