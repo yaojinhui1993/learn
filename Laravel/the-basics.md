@@ -319,3 +319,17 @@
     * `json_last_error()` method
 
   * testGracefullyHandledSomeJsonErrorsWithPartialOutputError
+
+* `HttpRedirectResponseTest`
+
+  * testHeaderOnRedirect
+  * testWithOnRedirect
+  * testWithCookieOnRedirect
+  * testInputOnRedirect
+  * testOnlyInputOnRedirect
+  * testExceptInputOnRedirect
+  * testFlashingErrorOnRedirect
+  * testSettersGettersOnRequest
+  * testRedirectWithErrorsArrayConvertsToMessageBag
+  * testMagicCall
+  * testMagicCallException
