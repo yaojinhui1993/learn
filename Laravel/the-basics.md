@@ -287,6 +287,11 @@
 
     * `array_search()` method.
 
+* `HttpTestingFileFactoryTest`
+
+  * `testImagePng`
+  * `testImageJpeg`
+
 ## Responses
 
 * `HttpResponseTest`
