@@ -292,6 +292,10 @@
   * `testImagePng`
   * `testImageJpeg`
 
+* `HttpUploadedFileTest`
+
+  * testUploadedFileCanRetrieveContentsFromTextFile
+
 ## Responses
 
 * `HttpResponseTest`
