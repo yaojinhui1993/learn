@@ -295,3 +295,16 @@
   * testWithHeaders
   * testMagicCall
   * testMagicCallException
+
+* `HttpJsonResponseTest`
+
+  * testSetAndRetrieveData
+  * testGetOriginalContent
+  * testSetAndRetrieveOptions
+  * testSetAndRetrieveOptions
+  * testSetAndRetrieveStatusCode
+  * testInvalidArgumentExceptionOnJsonError
+
+    * `json_last_error()` method
+
+  * testGracefullyHandledSomeJsonErrorsWithPartialOutputError
