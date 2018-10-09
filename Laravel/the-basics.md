@@ -416,3 +416,7 @@
   * testName
   * testKeyExists
   * testRememberMethodCallsPutAndReturnsDefault
+
+* EncryptedSessionStoreTest
+
+  * testSessionIsProperlyEncrypted
