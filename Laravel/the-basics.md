@@ -296,6 +296,8 @@
 
   * testUploadedFileCanRetrieveContentsFromTextFile
 
+    * `fixtures`
+
 ## Responses
 
 * `HttpResponseTest`
@@ -342,3 +344,28 @@
   * testRedirectWithErrorsArrayConvertsToMessageBag
   * testMagicCall
   * testMagicCallException
+
+## Views
+
+* `ViewTest`
+
+  * testDataCanBeSetOnView
+  * testRenderedProperlyRendersView
+  * testRenderHandlingCallbacksReturnValues
+
+    * `is_null('') = false` and `is_null(null) = true`
+
+  * testRenderSectionsReturnEnvironmentsSections
+  * testSectionsAreNotFlushedWhenNotDoneRendering
+  * testViewNestBindsASubView
+  * testViewAcceptsArrayableImplementations
+  * testViewGettersSetters
+  * testViewArrayAccess
+  * testViewConstructedWithObjectData
+
+    * Object transform to array: `(array) $objectA`
+
+  * testBadMethod
+  * testViewGatherDataWithRenderable
+  * testViewRenderSections
+  * testWithErrors
