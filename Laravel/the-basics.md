@@ -384,3 +384,35 @@
   * test_signed_middleware
   * test_signed_middleware_with_invalid_url
   * test_signed_middleware_with_routable_middleware
+
+## HTTP Session
+
+* `SessionStoreTest`
+
+  * testSessionIsLoadedFromHandler
+  * testSessionMigration
+  * testSessionRegeneration
+  * testCantSetInvalidId
+  * testSessionInvalidate
+  * testSessionIsProperlySaved
+
+    * `push` and `put`: `push` is for array items, and `put` is for key / value pair.
+
+  * testOldInputFlashing
+  * testDataFlashing
+  * testDataFlashingNow
+  * testDataMergeNewFlashes
+  * testReflash
+  * testReflashWithNow
+  * testReplace
+  * testRemove
+  * testClear
+  * testIncrement
+  * testDecrement
+  * testHasOldInputWithoutKey
+  * testHandlerNeedsRequest
+  * testToken
+  * testRegenerateToken
+  * testName
+  * testKeyExists
+  * testRememberMethodCallsPutAndReturnsDefault
