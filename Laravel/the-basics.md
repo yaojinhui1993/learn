@@ -587,3 +587,10 @@
 * ValidationDimensionsRuleTest
 
   * testItCorrectlyFormatsAStringVersionOfTheRule
+
+* ValidationExistsRuleTest
+
+  * testItCorrectlyFormatsAStringVersionOfTheRule
+  * testItChoosesValidRecordsUsingWhereInRule
+  * testItChoosesValidRecordsUsingWhereNotInRule
+  * testItChoosesValidRecordsUsingWhereNotInAndWhereNotInTogether
