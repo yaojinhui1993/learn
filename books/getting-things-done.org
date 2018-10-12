@@ -175,9 +175,29 @@
      CLOSED: [2018-07-21 Sat 11:10]
 
      - State "DONE"       from "STARTED"    [2018-07-21 Sat 11:10]
-*** Getting Projects Creatively Under Way: The Five Phases of Project Planning
+*** STARTED Getting Projects Creatively Under Way: The Five Phases of Project Planning
+**** DONE Enhancing "Vertical" Focus
+     CLOSED: [2018-07-24 Tue 07:18]
 
-   
+
+     - State "DONE"       from "STARTED"    [2018-07-24 Tue 07:18]
+**** DONE The Natural Planning Model
+     CLOSED: [2018-07-24 Tue 07:22]
+
+
+     - State "DONE"       from "STARTED"    [2018-07-24 Tue 07:22]
+**** DONE A Simple Example: Planning Dinner Out
+     CLOSED: [2018-07-25 Wed 08:22]
+     - State "DONE"       from "STARTED"    [2018-07-25 Wed 08:22]
+**** DONE Natural Planning Is Not Necessarily Normal
+     CLOSED: [2018-07-27 Fri 20:20]
+     - State "DONE"       from "STARTED"    [2018-07-27 Fri 20:20]
+**** DONE The Unnatural Planning Model
+     CLOSED: [2018-07-27 Fri 20:55]
+
+     - State "DONE"       from "STARTED"    [2018-07-27 Fri 20:55]
+**** STARTED The Reactive Planning Model
+
 ** Practicing Strees-Free Productivity
 
 *** Getting Started: Setting Up the Time, Space, and Tools

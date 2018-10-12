@@ -594,3 +594,22 @@
   * testItChoosesValidRecordsUsingWhereInRule
   * testItChoosesValidRecordsUsingWhereNotInRule
   * testItChoosesValidRecordsUsingWhereNotInAndWhereNotInTogether
+
+* ValidationFactoryTest
+
+  * testMakeMethodCreatesValidValidator
+  * testValidateCallsValidateOnTheValidator
+  * testCustomResolverIsCalled
+  * testValidateMethodCanBeCalledPublicly
+
+* ValidationInRuleTest
+
+  * testItCorrectlyFormatsAStringVersionOfTheRule
+
+* ValidationNotInRuleTest
+
+  * testItCorrectlyFormatsAStringVersionOfTheRule
+
+* ValidationRequiredIfTest
+
+  * testItClosureReturnsFormatsAStringVersionOfTheRule
