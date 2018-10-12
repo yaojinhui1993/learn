@@ -613,3 +613,7 @@
 * ValidationRequiredIfTest
 
   * testItClosureReturnsFormatsAStringVersionOfTheRule
+
+* ValidationRuleTest
+
+  * testMacroable
