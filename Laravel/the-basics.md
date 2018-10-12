@@ -573,3 +573,8 @@
   * testValidateReturnsValidatedDataNestedRules
   * testValidateReturnsValidatedDataNestedChildRules
   * testValidateReturnsValidatedDataNestedArrayRules
+
+* `ValidationAddFailureTest`
+
+  * testAddFailureExists
+  * testAddFailureIsFunctional
