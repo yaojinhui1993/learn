@@ -579,7 +579,11 @@
   * testAddFailureExists
   * testAddFailureIsFunctional
 
-* testValidationDatabasePresenceVerifierTest
+* ValidationDatabasePresenceVerifierTest
 
   * testBasicCount
   * testBasicCountWithClosures
+
+* ValidationDimensionsRuleTest
+
+  * testItCorrectlyFormatsAStringVersionOfTheRule
