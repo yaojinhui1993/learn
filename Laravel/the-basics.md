@@ -578,3 +578,8 @@
 
   * testAddFailureExists
   * testAddFailureIsFunctional
+
+* testValidationDatabasePresenceVerifierTest
+
+  * testBasicCount
+  * testBasicCountWithClosures
