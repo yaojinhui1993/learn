@@ -420,3 +420,156 @@
 * EncryptedSessionStoreTest
 
   * testSessionIsProperlyEncrypted
+
+## Validation
+
+* `ValidationValidatorTest`
+
+  * testSometimesWorksOnNestedArrays
+
+    * Array destructor: since php 7.1
+
+  * testAfterCallbacksAreCalledWithValidatorInstance
+  * testSomeTimesWorksOnArrays
+  * testValidateThrowsOnFail
+  * testValidateDoesntThrowOnPass
+  * testHasFailedValidationRules
+  * testFailingOnce
+  * testHasNotFailedValidationRules
+  * testSometimesCanSkipRequireRules
+  * testInvalitableRulesReturnsValid
+  * testValidEmptyStringsAlwaysPasses
+  * testEmptyExistingAttributesAreValidated
+  * testNullable
+  * testNullableMakesNoDifferenceIfImplicitRuleExists
+  * testProperLanguageLineIsSet
+  * testCustomReplacersAreCalled
+  * testClassBasedCustomReplacers
+  * testNestedAttributesAreReplacedInDimensions
+  * testAttributeNamesAreReplaced
+  * testAttributeNamesAreReplacedInArrays
+  * testInputIsReplaced
+
+    * `is_scalar`
+
+  * testDisplayableValuesAreReplaced
+  * testDisplayableAttributesAreReplacedInCustomReplacers
+  * testCustomValidationLinesAreRespected
+  * testCustomValidationLinesAreRespectedWithAsterisks
+  * testValidationDotCustomDotAnythingCanBeTranslated
+  * testInlineValidationMessagesAreRespected
+  * testInlineValidationMessagesAreRespectedWithAsterisks
+  * testIfRulesAreSuccessfullyAdded
+  * testValidateArray
+  * testValidateFilled
+  * testValidationStopsAtFailedPresenceCheck
+  * testValidatePresent
+  * testValidateRequired
+  * testValidateRequiredWith
+  * testRequiredWithAll
+  * testValidateRequiredWithout
+  * testRequiredWithoutMultiple
+  * testRequiredWithoutAll
+  * testRequiredIf
+  * testRequiredUnless
+  * testFailedFileUploads
+  * testValidateInArray
+  * testValidConfirmed
+  * testValidSame
+  * testValidDifferent
+  * testGreaterThan
+  * testLessThan
+  * testGreaterThanOrEqual
+  * testLessThanOrEqual
+  * testValidateAccepted
+  * testValidateString
+  * testValidateJson
+  * testValidateBoolean
+  * testValidateBool
+  * testValidateNumeric
+  * testValidateInteger
+  * testValidateInt
+  * testValidateDigits
+  * testValidateSize
+  * testValidateBetween
+  * testValidateMin
+  * testValidateMax
+  * testProperMessagesAreReturnedForSizes
+  * testValidateGtPlaceHolderIsReplacedProperly
+  * testValidateLtPlaceHolderIsReplacedProperly
+  * testValidateGtePlaceHolderIsReplacedProperly
+  * testValidateLtePlaceHolderIsReplacedProperly
+  * testValidateIn
+  * testValidateNotIn
+  * testValidateDistinct
+  * testValidateUnique
+  * testValidateUniqueAndExistsSendsCorrectFieldNameToDBWithArrays
+  * testValidationExists
+  * testValidationExistsIsNotCalledUnnecessarialy
+  * testValidIP
+  * testValidEmail
+  * testValidUrlWithValidUrls
+  * testValidUrlWithInvalidUrls
+  * testValidateActiveUrl
+
+    * `dns_get_record()`
+
+  * testValidImage
+  * testValidImageDoesNotAllowPhpExtensionsOnImageMime
+  * testValidateImageDimensions
+  * testValidatePhpMimeTypes
+  * testValidateMime
+  * testValidateMimeEnforcesPhpCheck
+  * testValidateFile
+  * testEmptyRulesSkipped
+  * testAlternativeFormat
+  * testValidateAlpha
+  * testValidateAlphaNum
+  * testValidateAlphaDash
+  * testValidateTimezone
+  * testValidateRegex
+  * testValidateNotRegex
+  * testValidateDateAndFormat
+  * testDateEquals
+  * testDateEqualsRespectsCarbonTestNowWhenParameterIsRelative
+  * testBeforeAndAfter
+  * testBeforeAndAfterWithFormat
+  * testWeakBeforeAndAfter
+  * testCustomValidators
+  * testClassBasedCustomValidators
+  * testClassBasedCustomValidatorsUsingConventionalMethod
+  * testCustomImplicitValidators
+  * testCustomDependentValidators
+  * testExceptionThrownOnIncorrectParameterCount
+  * testValidateImplicitEachWithAsterisks
+  * testSometimesOnArraysImplicitRules
+  * testValidateImplicitEachWithAsterisksForRequiredNoneExistingKey
+  * testsParsingArrayKeysWithDot
+  * testCoveringEmptyKeys
+  * testImplicitEachWithAsterisksWithArrayValues
+  * testValidNestedArrayWithCommonParentChildKey
+  * testValidateNestedArrayWithNonNumericKeys
+  * testValidateImplicitEachWithAsterisksConfirmed
+  * testValidateImplicitEachWithAsterisksDifferent
+  * testValidateImplicitEachWithAsterisksSame
+  * testValidateImplicitEachWithAsterisksRequired
+  * testValidateImplicitEachWithAsterisksRequiredIf
+  * testValidateImplicitEachWithAsterisksRequiredUnless
+  * testValidateImplicitEachWithAsterisksRequiredWith
+  * testValidateImplicitEachWithAsterisksRequiredWithAll
+  * testValidateImplicitEachWithAsterisksRequiredWithout
+  * testValidateImplicitEachWithAsterisksRequiredWithoutAll
+  * testValidateImplicitEachWithAsterisksBeforeAndAfter
+  * testGetLeadingExplicitAttributePath
+  * testExtractDateFromPath
+  * testUsingSettersWithImplicitRules
+  * testInvalidMethod
+  * testValidMethod
+  * testMultipleFileUploads
+  * testFileUploads
+  * testCustomValidationObject
+  * testImplicitCustomValidationObjects
+  * testValidateReturnsValidatedData
+  * testValidateReturnsValidatedDataNestedRules
+  * testValidateReturnsValidatedDataNestedChildRules
+  * testValidateReturnsValidatedDataNestedArrayRules
