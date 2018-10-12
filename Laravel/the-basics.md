@@ -617,3 +617,7 @@
 * ValidationRuleTest
 
   * testMacroable
+
+* ValidationUniqueRuleTest
+
+  * testItCorrectlyFormatsAStringVersionOfTheRule
