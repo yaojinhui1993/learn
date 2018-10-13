@@ -621,3 +621,14 @@
 * ValidationUniqueRuleTest
 
   * testItCorrectlyFormatsAStringVersionOfTheRule
+
+## Error Handling
+
+* FoundationExceptionsHandlerTest
+
+  * testHandlerReportsExceptionAsContext
+  * testReturnsJsonWithStackTraceWhenAjaxRequestAndDebugTrue
+  * testResponseCustomResponseWhenExceptionImplementsResponsable
+  * testReturnsJsonWithoutStackTraceWhenAjaxRequestAndDebugFalseAndExceptionMessageIsMarked
+  * testReturnsJsonWithoutStackTraceWhenAjaxRequestAndDebugFalseAndHttpExceptionIsShown
+  * testReturnsJsonnWithoutStackTraceWhenAjaxRequestAndDebugFalseAndAccessDeniedHttpExceptionErrorIsShown
