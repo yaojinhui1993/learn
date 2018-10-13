@@ -632,3 +632,18 @@
   * testReturnsJsonWithoutStackTraceWhenAjaxRequestAndDebugFalseAndExceptionMessageIsMarked
   * testReturnsJsonWithoutStackTraceWhenAjaxRequestAndDebugFalseAndHttpExceptionIsShown
   * testReturnsJsonnWithoutStackTraceWhenAjaxRequestAndDebugFalseAndAccessDeniedHttpExceptionErrorIsShown
+
+## Logging
+
+* LogLoggerTest
+
+  * testMethodsPassErrorAdditionsToMonolog
+  * testLoggerFiresEventsDispatcher
+  * testListenShortcutFailsWithNoDispatcher
+  * testListenShortcut
+
+* LogManagerTest
+
+  * testLogManagerCachesLoggerInstances
+  * testLogManagerCreatesConfigureMonologHandler
+  * testLogManagerCreatesMonologHandlerWithConfiguredFormatter
