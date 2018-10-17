@@ -52,8 +52,57 @@
 
         - `NovaServiceProvider@gate` method define the gate who can visit the nova page.
 
-
 ## Resources
+
+### The Basics
+
+    - Defining Resources
+
+        - Command: `php artisan nova:resource <resource|Post>`
+
+    - Binding resource to model
+
+        - `public static $model="App\Post"`
+
+    - Registering Resources
+        Overriding `NovaServiceProvider@resouces`
+        The two ways:
+
+        1. `Nova::resourcesIn(<directory_path>)`
+        2. `Nova::resources(<array>)`
+
+    - Wether display the resource in sidebar
+
+        - `public static $displayInNavigation=<bool>`
+
+#### Question
+
+    - Where are Laravel service providers registered?
+
+        - `app` bootstrap some core providers: `EventServiceProvider`, `LogServiceProvider`, `RoutingServiceProvider`
+        - In `kernel` bootstrap with `bootstrappers`. In `bootstrappers` contain `RegisterProviders` that register all configured providers.
+        - The configured providers register sequence:
+
+            1. Provider name starts with `Illuminate\\`.
+            2. In packageManifest providers (composer).
+            3. Other providers in the `app.php` config file.
+
+
+    - `/nova` path how to render page?
+
+        - `Laravel/Nova/NovaCoreServiceProvider`
+        - `app/ServiceProvider/NovaServiceProvider`
+
+    - Why resource default display in sidebar?
+
+        - The resource default property `displayInNavigation=true`
+
+    - In page `/nova`, why the router-link props `to="/"`, and the vue only push the url to `/nova/` ?
+
+        - Because of the `base` properties in `$routers`, and the router base is set at `router/index.js`
+
+    - How to display the `helpCard.vue`?
+        - Because of the Vue router. When router link is active, then the link corresponds component will be render.
 
 ## Search
 
