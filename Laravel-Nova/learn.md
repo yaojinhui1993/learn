@@ -75,34 +75,76 @@
 
         - `public static $displayInNavigation=<bool>`
 
-#### Question
+#### Questions and Tips
 
-    - Where are Laravel service providers registered?
+- [x] where are Laravel service providers registered?
 
-        - `app` bootstrap some core providers: `EventServiceProvider`, `LogServiceProvider`, `RoutingServiceProvider`
-        - In `kernel` bootstrap with `bootstrappers`. In `bootstrappers` contain `RegisterProviders` that register all configured providers.
-        - The configured providers register sequence:
+  - `app` bootstrap some core providers: `EventServiceProvider`, `LogServiceProvider`, `RoutingServiceProvider`
+  - In `kernel` bootstrap with `bootstrappers`. In `bootstrappers` contain `RegisterProviders` that register all configured providers.
+  - The configured providers register sequence:
 
-            1. Provider name starts with `Illuminate\\`.
-            2. In packageManifest providers (composer).
-            3. Other providers in the `app.php` config file.
+    1. Provider name starts with `Illuminate\\`.
+    2. In packageManifest providers (composer).
+    3. Other providers in the `app.php` config file.
 
+- [x] `/nova` path how to render page?
 
-    - `/nova` path how to render page?
+  - `Laravel/Nova/NovaCoreServiceProvider`
+  - `app/ServiceProvider/NovaServiceProvider`
 
-        - `Laravel/Nova/NovaCoreServiceProvider`
-        - `app/ServiceProvider/NovaServiceProvider`
+- [x] Why resource default display in sidebar?
 
-    - Why resource default display in sidebar?
+  - The resource default property `displayInNavigation=true`
 
-        - The resource default property `displayInNavigation=true`
+  - In page `/nova`, why the router-link props `to="/"`, and the vue only push the url to `/nova/` ?
 
-    - In page `/nova`, why the router-link props `to="/"`, and the vue only push the url to `/nova/` ?
+    - Because of the `base` properties in `$routers`, and the router base is set at `router/index.js`
 
-        - Because of the `base` properties in `$routers`, and the router base is set at `router/index.js`
+- [X] How to display the `helpCard.vue`?
+  - Route to dashboard. Because of the Vue router. When router link is active, then the link corresponds component will be render.
+  - Send api and get the needed components resources and then Vue render the `help card`.
+  - The main relative components are in the list
 
-    - How to display the `helpCard.vue`?
-        - Because of the Vue router. When router link is active, then the link corresponds component will be render.
+    - `Dashboard.vue`
+    - `Cards.vue`
+    - `CardWrapper.vue`
+    - `HelpCard.vue`
+  - The main relative js file ar in the list
+    - `app.js`
+    - `Nova.js`
+    - `laravel-nova@HasCards` mixins
+    - `laravel-nova@CardSizes` methods
+- [X] Vue how to use mixin functions?
+  - The merge syntax likes `mixins: [myMixins]`
+  - Data object merge conflict: Component's data takes priority
+  - Hook functions merge conflict: Mixins hooks call before component hooks
+
+- [X] Where is `Nova.request()` method comes from?
+
+  In `Nova.js` file, it has the `request` method.
+
+- [X] What is the snippet means?
+
+  ```javascript
+  ;(function() {
+
+  }.call(window))
+  ```
+
+  The syntax likes jQuery
+
+- [X] When register the route `/nova-api/cards`, and what is it return?
+
+  - In `Laravel\Nova\NovaServiceProvider@registerRoutes` method, register the route.
+  - The route resolve in `DashCardController@index`.
+
+- [X] What is `<component />` tag in Vue?
+
+    Used for [dynamic component](https://vuejs.org/v2/guide/components.html#Dynamic-Components)
+
+- [X] When the `help` card is set in Nova instance in server?
+
+   When laravel application boot `App\Providers\NovaServiceProvider` provider
 
 ## Search
 
