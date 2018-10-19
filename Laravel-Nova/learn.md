@@ -71,7 +71,7 @@
         1. `Nova::resourcesIn(<directory_path>)`
         2. `Nova::resources(<array>)`
 
-    - Wether display the resource in sidebar
+    - Whether display the resource in sidebar
 
         - `public static $displayInNavigation=<bool>`
 
@@ -145,6 +145,26 @@
 - [X] When the `help` card is set in Nova instance in server?
 
    When laravel application boot `App\Providers\NovaServiceProvider` provider
+
+- [X] The `user` resource how to load?
+
+  - Server resolves route `nova/resources/users` in `Laravel\Nova\Http\Controllers\RouterController@show`
+  - And response the `nova::router` view page.
+  - then, Vue take the path and load the component: `ResourceIndex`.
+
+    - Does the VueRouter automatic take the path and show the corresponds component? Yes. This is the VueRouter responsibility
+    - Where set the `ResourceIndex` component props?
+        Because it passes props to the component by [Boolean mode](https://router.vuejs.org/guide/essentials/passing-props.html#boolean-mode)
+    - In `router.blade.php`, the `<loading></loading>` component when and how to work? We page loaded, and `Nova` instance is constructed.
+    - What is the `<loading-view></loading-view>` component functions? When page is loading, then show the`<loader></loader>` component. Else show the slot
+    - What is the `<loader></loader>` component functions? Just a loading SVG
+    - When `<create-resource-button></create-resource-button>` path is set? In `routes.js` defined the named route, and in the button set the route parameters.
+
+  - Component get the resource name
+  - Component use the name to get the resource, cards, lenses, actions, count, and filters.
+
+    - The method set the hook method `created` to async method, and await `getResources`, `getAuthorizationToRelate`, `getLenses`, `getActions`, `getFilters` methods to get data.
+    - `getResources` handled by `ResourceIndexController@handle` method. More detail at the bottom.
 
 ## Search
 
