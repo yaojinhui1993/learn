@@ -166,6 +166,23 @@
     - The method set the hook method `created` to async method, and await `getResources`, `getAuthorizationToRelate`, `getLenses`, `getActions`, `getFilters` methods to get data.
     - `getResources` handled by `ResourceIndexController@handle` method. More detail at the bottom.
 
+### Fields
+
+- [X] How display field in index page?
+  - Add the field in the resource model.
+  - When client request the resource api, then server resolved the correct format, and return.
+  - And client request the resource count.
+  - Then client render it.
+
+- [X] Server side how to get the property field for a specified resource?
+
+  - In `ResourceIndexController@handle` method, call resources `serializeForIndex` method
+  - Then call trait `ResolveFields@indexFields` method to get current resource fields
+
+- [X] What is the means of `this.$watch` in Vue?
+
+    Watch a expression or function if changed, then act some functions.
+
 ## Search
 
 ## Filters
