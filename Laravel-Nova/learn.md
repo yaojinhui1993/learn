@@ -185,7 +185,56 @@
 
 ## Search
 
+- [X] The global search how to work?
+
+  1. Every page load the `<global-search></global-search>` component
+  2. When user search something, request `nova-api/search` method to search.
+  3. Get the data, and search result and render.
+
+- [x] How does server do global search?
+
+  1. Filter the can global search resources
+  2. Loop the resources to search the resource searchable columns.
+  3. Format the response data.
+
+- [X] How does it integrates with Scout?
+
+  If the resource's model uses scout, them it does.
+
+- [X] What is elasticsearch?
+
+  Search Engine
+
+- [X] How to integrate elasticsearch with Laravel?
+
+  Install Laravel scout, and install elasticsearch extends package.
+
 ## Filters
+
+- [X] What is the `Filters`?
+
+  Filter data, scope index queries with custom conditions.
+
+- [X] How to make filters work?
+
+  1. Create a filter file: `php artisan nova:filter <FilterType>`
+  2. Implement  `apply` and `options` method in the create file.
+  3. Register the filter instance to the specified resource.
+
+- [X] How does client trigger send filter request?
+
+  - User select the filter items
+  - `<filter-selector></filter-selector>` component trigger change event
+  - The context listen the event, update the `filterParameter`
+  - The watcher see the `filterParameter` change, send request
+
+- [x] How does server filter the result?
+
+  - When build request quires, apply the filters.
+
+- [X] In `slot-scope`, child component can be use the parent component's methods?
+
+  Yes, this is why `slot-scope` comes in. When define slot, it can pass the slot anything dat to relevant its context, even function.
 
 ## Lenses
 
