@@ -303,4 +303,28 @@
 
 ## Metrics
 
+- [X] What is Metrics?
+
+  Metrics allow you to quickly gain insight on key business indicators or you application.
+  It offers three types built-in: `value`, `trend`, and `partition`.
+
+- [X] How to make metrics work?
+
+  1. Create the metrics file: `php artisan nova:metric <Filename>`
+  2. Implement the created file `calculate` method
+  3. Register the file in the resources `cards` attribute
+  4. Done.
+
+- [X] How does client work with metrics?
+
+  1. When component created, it load `HasCards` mixins, and will request the cards endpoint to get the resource cards.
+  2. Load the `cards` component, and `cards-wrapper` component, even than load the specific type metric component.
+  3. The specific type metric component get card data from server, and use `Chartist` package to render the chart.
+
+- [X] How does service response metrics data?
+
+  1. Server receive the request, resolve it and get the metric
+  2. Call the metric `calculate` method to get metric data from database.
+  3. Done.
+
 ## Customization
