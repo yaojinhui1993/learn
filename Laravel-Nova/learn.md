@@ -238,7 +238,68 @@
 
 ## Lenses
 
+- [x] What is lenses?
+
+  It can **fully** customize the underlying resource Eloquent query builder.
+  So, can select everything you want.
+
+- [X] How does lenses work?
+
+  1. Generate lenses file: `php artisan nova:lens <FileName>`
+  2. Finished `query` and `fields` methods in the created file.
+  3. Register the file in target resource.
+
+- [X] How does client work with lenses?
+
+  1. When page resource page, client will request the resource's lenses.
+  2. Client display the lenses in the dropdown component that contain a router-link to `lens` component
+  3. When user visit the router, Vue load the component.
+  4. The lens component request `/{resource}/lens/{lens}` to get lens
+  5. Show the data.
+
+- [X] How does server response the lens request?
+
+  1. Get current lens
+  2. Call the lens `query` method, and get the eloquent builder.
+  3. Get the data from database
+  4. Format data and response.
+
 ## Actions
+
+- [X] What is actions?
+
+  Nova actions allow you to perform custom tasks.
+
+- [X] How does client deal with actions?
+
+  When resource index page created, it will fetch the resource actions. If has actions, will display the actions.
+
+- [x] How does server work with actions request?
+
+  Server receive the request, get the resource actions, and return to client.
+
+- [x] How to make custom actions?
+
+  1. Create actions file: `php artisan nova:action <FileName>`
+  2. Implement the created file's `handle` method.
+  3. Register the file to resource in `actions` properties.
+  4. Done.
+
+- [x] What is action's `field` properties use?
+
+  Gather extra information from the user before dispatching an action.
+
+- [X] How to implement queue actions?
+
+  Just implement the `ShouldQueue` contracts.
+
+- [X] How to active `action log`?
+
+  Let the user eloquent model use `actionable` trait.
+
+- [x] What is `pivot actions` ?
+
+  In `belongsToMany` relationships, so that can operate on pivot/intermediate table records.
 
 ## Metrics
 
