@@ -328,3 +328,47 @@
   3. Done.
 
 ## Customization
+
+- [X] How to localize application?
+
+  Using Laravel Localization services.
+
+- [X] What is nova tools?
+
+  The items is been added  to the Nova sidebar for additional functionality.
+
+- [X] How does Nova load customize tools?
+
+  1. Create custom tools `php artisan nova:tool acme/price-tracker`
+  2. Build the tool functionality
+  3. Register the tool in nova application service provider.
+  4. Done
+
+- [X] How to load the Nova frontend assets?
+
+  1. In the tool service provider, register the assets to `Nova` instances
+  2. When page loaded, page will load all assets by using the `scripts` and `styles` endpoint.
+  3. Server resolve the endpoint, load assets and response with specified content type.
+  4. Done.
+
+- [X] How to customize cards?
+
+  1. Create the card: `php artisan nova:card acme/analytics`
+  2. Build the card functionality.
+  3. If card is used in resource, then register it in the resource, otherwise register the card to NovaApplicationServiceProvider
+  4. Use the card to resources.
+
+- [X] How to customize fields?
+
+  1. Create the field: `php artisan nova:field/acme/color-picker`
+  2. Because the field composer provider ColorPickerServiceProvider and listen `NovaService` event to register assets, so Laravel will automatic load the provider.
+  3. Use the field in resource index, detail, form page.
+  4. Done
+
+- [X] What is fields options?
+
+  Fields options are the configuration options. Can define it in field class, and then when use it, call the method, and component `field` props will have the cofiguration options.
+
+- [X] Is customization javascript require Vue too? If then, the Vue will load more than once.
+
+   Noop! The customization dependency require vue component, but not import it, so, the compiled assets do not include the vendor.
