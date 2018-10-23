@@ -142,7 +142,7 @@
 
     Used for [dynamic component](https://vuejs.org/v2/guide/components.html#Dynamic-Components)
 
-- [X] When the `help` card is set in Nova instance in server?
+- [X] When `help` card is set in Nova instance in server?
 
    When laravel application boot `App\Providers\NovaServiceProvider` provider
 
@@ -157,7 +157,7 @@
         Because it passes props to the component by [Boolean mode](https://router.vuejs.org/guide/essentials/passing-props.html#boolean-mode)
     - In `router.blade.php`, the `<loading></loading>` component when and how to work? We page loaded, and `Nova` instance is constructed.
     - What is the `<loading-view></loading-view>` component functions? When page is loading, then show the`<loader></loader>` component. Else show the slot
-    - What is the `<loader></loader>` component functions? Just a loading SVG
+    - Is `<loader></loader>` component a functions? Just a loading SVG
     - When `<create-resource-button></create-resource-button>` path is set? In `routes.js` defined the named route, and in the button set the route parameters.
 
   - Component get the resource name
@@ -168,8 +168,8 @@
 
 ### Fields
 
-- [X] How display field in index page?
-  - Add the field in the resource model.
+- [X] How to display field in index page?
+  - Add field in the resource model.
   - When client request the resource api, then server resolved the correct format, and return.
   - And client request the resource count.
   - Then client render it.
@@ -177,7 +177,7 @@
 - [X] Server side how to get the property field for a specified resource?
 
   - In `ResourceIndexController@handle` method, call resources `serializeForIndex` method
-  - Then call trait `ResolveFields@indexFields` method to get current resource fields
+  - Then call trait `ResolveFields@indexFields`'s method to get current resource fields
 
 - [X] What is the means of `this.$watch` in Vue?
 
@@ -193,8 +193,8 @@
 
 - [x] How does server do global search?
 
-  1. Filter the can global search resources
-  2. Loop the resources to search the resource searchable columns.
+  1. Get those can global search resources
+  2. Loop this resources to search the resource searchable columns.
   3. Format the response data.
 
 - [X] How does it integrates with Scout?
@@ -276,7 +276,7 @@
 
 - [x] How does server work with actions request?
 
-  Server receive the request, get the resource actions, and return to client.
+  Server receive the request, get the resource actions, and call the actions, then return result to client.
 
 - [x] How to make custom actions?
 
@@ -312,7 +312,7 @@
 
   1. Create the metrics file: `php artisan nova:metric <Filename>`
   2. Implement the created file `calculate` method
-  3. Register the file in the resources `cards` attribute
+  3. Register the file in resources `cards` attribute
   4. Done.
 
 - [X] How does client work with metrics?
@@ -372,3 +372,20 @@
 - [X] Is customization javascript require Vue too? If then, the Vue will load more than once.
 
    Noop! The customization dependency require vue component, but not import it, so, the compiled assets do not include the vendor.
+
+## Authorization
+
+- [X] How does Nova authorization work?
+
+  Use Laravel Policy.
+
+- [X] When does Nova use `Policy`?
+
+  When Nova load `nova::router` view.
+  It will call `Nova::availableResources` method, in the method filter authorized to view any and available for navigation resources.
+
+- [X] FormRequest vs Policy
+
+  Policy map a model in AuthServiceProvider, when check current user whether have permission to manipulate the given model.
+  FormRequest@authorize method do the same thing.
+  The is part of Laravel authorization system.
