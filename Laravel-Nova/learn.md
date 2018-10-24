@@ -389,3 +389,7 @@
   Policy map a model in AuthServiceProvider, when check current user whether have permission to manipulate the given model.
   FormRequest@authorize method do the same thing.
   The is part of Laravel authorization system.
+
+## Wrap up
+
+  Laravel-Nova is a spa application. It's built by Vue. So I think that I should stick in Vue community to code my program. Nova load by Laravel Blade, and get data from server through api. The authentication, resource, lenses, chart and so on are all gotten from api. Laravel pass global config to DOM window instance. That's all 😅.
