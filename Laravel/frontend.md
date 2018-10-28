@@ -36,3 +36,8 @@
 
 - testViewsMayBeRecompiledAndRendered
 - testViewsAreNotRecompiledIfTheyAreNotExpired
+
+### ViewEngineResolverTest
+
+- testResolverMaybeResolved
+- testResolverThrowsExceptionOnUnknownEngine
