@@ -19,3 +19,15 @@
 - testViewGatherDataWithRenderable
 - testViewRenderSections
 - testWithErrors
+
+### ViewBladeCompilerTest
+
+- testIsExpiredReturnsTrueIfCompiledFileDoesntExist
+- testCannotConstructWithBadCachePath
+- testIsExpiredReturnsTrueWhenModificationTimesWarrant
+- testCompiledPathIsProperlyCreated
+- testCompileCompilesFileAndReturnsContents
+- testCompileCompilesAndGetThePath
+- testCompileSetAndGetThePath
+- testCompileWithPathSetBefore
+- testRawTagsCanBeSetToLegacyValues
