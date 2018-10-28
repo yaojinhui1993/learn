@@ -31,3 +31,8 @@
 - testCompileSetAndGetThePath
 - testCompileWithPathSetBefore
 - testRawTagsCanBeSetToLegacyValues
+
+### ViewCompilerEngineTest
+
+- testViewsMayBeRecompiledAndRendered
+- testViewsAreNotRecompiledIfTheyAreNotExpired
