@@ -41,3 +41,9 @@
 
 - testResolverMaybeResolved
 - testResolverThrowsExceptionOnUnknownEngine
+
+### ViewFactoryTest
+
+- testMakeCreatesNewViewInstanceWithProperPathAndEngine
+- testExistsPassesAndFailsViews
+- testFirstCreatesNewViewInstanceWithProperPath
