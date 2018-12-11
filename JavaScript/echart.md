@@ -123,3 +123,32 @@ ECharts 能够从「全局」、「系列」、「数据」三个层次设置数
 2. 指定维度映射的规则：使用「series.encode」将 dataset 的维度映射到坐标轴、 tooltip、 label、visualMap 等。
 
 数据项: item。 维度： dimension
+
+### 在图表中加入交互组件
+
+交互组件包括：图例组件(legend), 标题组件(title), 视觉映射组件(visualMap), 数据区域缩放组件(dataZoom), 时间线组件(timeline)
+
+### 移动端自适应
+
+大部分「组件」和「系列」遵循两种定位方式：
+
+1. `left/right/top/bottom/width/height` 定位方式
+2. `center/radius` 定位方式
+
+ECharts 的外观狭长」型组件：legend, visualMap, dataZoom, timeline 等，提供了横向布局(horizontal) 和緃向布局(vertical)
+
+Media Query: 原子 option(baseOption), query 支持三个属性: `width` , `height`, `aspectRatio(长宽比)`
+
+### 数据的视觉映射
+
+数据可视化是 **数据** 到 **视觉元素** 的映射过程 (这个过程也可称为视觉编码，视觉元素也可称为视觉通道)。
+
+ECharts 的 visualMap 组件来提供通用的视觉映射。其可以使用的视觉元素有：图形类型(symbol)、图形大小(symbolSize)、颜色(color)、透明度(opacity)、颜色透明度(colorAlpha)、颜色明暗度(colorLightness)、颜色饱和度(colorSaturation)、色调(colorHue)。
+
+### ECharts 中的事件和行为
+
+ECharts 中事件分为两种类型：用户鼠标操作点击，或者 hover 图表的图形时触发的事件。另一种是用户在使用可以交互的组件后触发的行为事件。
+
+鼠标事件： `click`, `dblclick`, `mousedown`, `mousemove`, `mouseup`。
+
+可以使用 `myChart.dispatchAction` 触发图表行为。
