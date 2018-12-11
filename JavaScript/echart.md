@@ -61,3 +61,65 @@
 
 2. 需要导入的组件有哪些？
     `vue-echarts/components/ECharts`, `echarts/lib/chart/map`, `echarts/lib/chart/scatter`, `echarts/lib/components/geo`, `echarts/lib/components/tooltip`, `echarts/lib/components/legend`, `echarts/lib/components/title`
+
+## 整体学习 ECharts
+
+通过看官方文档，和实际操作，系统性的学习下 ECharts
+
+### 在 webpack 中使用 ECharts
+
+1. 全局引用 ECharts
+
+    `import echarts from echarts`
+
+2. 局部引用 ECharts
+
+    1. 引入 ECharts 主模块: `import echarts from 'ECharts/lib/echarts'`
+    2. 引入图: `import 'echarts/lib/chart/bar'`
+    3. 引件组件: `import 'echarts/lib/component/title'`
+
+### 个性化图表的样式
+
+ECharts 能够从「全局」、「系列」、「数据」三个层次设置数据图形的样式。
+
+`itemStyle` 可以设置一些通用的样式：阴影、透明度、颜色、边框颜色、边框宽度等。 「emphasis」属性是鼠标 hover 时的高亮样式。
+
+`backgroundColor` 设置全局的背景色。
+
+`textStyle` 设置文本的样式。
+
+`labelLine.lineStyle` 设置标签的视觉引导线样式。标签的视觉引导线在饼图中存在。
+
+`visualMap` 组件可以根据数据的数值显示每个图形的样式。
+
+### ECharts 中的样式简介
+
+颜色主题(Theme)：更改全局样式
+
+调用盘，可以设置全局的调色篇盘或着系列自己的调色盘。该调色盘设置的项会被自动的选择一种颜色。
+
+直接设置样式：在 itemStyle, lineStyle, areaStyle, label 等地方，设置图形元素的颜色、线宽、点的大小、标签的文字、标签的大小等。
+
+高亮的样式，通过 emphasis 直接设置，其结构与普通样式相同。
+
+`visualMap` 组件，能指定数据到颜色、图形尺寸的映射规则。
+
+### 异步数据加载和更新
+
+如何异步加载数据后，再显示 chart？
+
+1. 获取完数据之后，再通过 `setOption` 填入数据和配置项。
+2. 先设置其它样式，显示一个空的坐标系，然后获取数据后填入数据。需要注意的是, ECharts 在更新数据时，要通过 `series.name` 属性对应的相应的系列，所以推荐更新数据时加上系列的 name 值。可以通过 `myChart.showLoading()` 和 `myChart.hideLoading()` 属性来显示一个默认的加载动画。
+
+数据的动态更新：很简单，由于 ECharts 是数据驱动，所以只要实时的改变数据，并通过 `setOption` 填入数据， ECharts 就可以通过动画来表现两组数据的变化。
+
+### 使用 dataset 管理数据
+
+`dataset` 组件，用于单独的数据集声明。从而数据可以被单独的管理，被多个组件复用。并且可以基于数据，指定数据到视觉的映射。
+
+数据到图形的映射：
+
+1. 通过 `series.seriesLayoutBy` 属性指定 dataset 为 column 或 row。
+2. 指定维度映射的规则：使用「series.encode」将 dataset 的维度映射到坐标轴、 tooltip、 label、visualMap 等。
+
+数据项: item。 维度： dimension
